@@ -15,18 +15,20 @@ image:
 cssclasses:
 ---
 
+# The Startup CTO's Handbook
 
-
-# THE STARTUP CTO'S HANDBOOK
-
-## Contents
+> [!SOURCE] Sources:
+> - *https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md*
+> - https://docs.google.com/document/d/147KVarJdNQ2ZdmDHOSsd7W39anejRu2NfxEWCzwl0IU/edit?pli=1*
+> - *https://zachgoldberg.com/*
 
 ```table-of-contents
-style: nestedList
-minLevel: 2
-maxLevel: 10
-includeLinks: true
-debugInConsole: false
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
 ```
 
 ## Essential Skills And Best Practices For High Performing Engineering Teams
@@ -3596,3 +3598,20 @@ Zach Goldberg graduated from the University of Pennsylvania magna cum laude with
 Founded in 2021 by Bryna Haynes, WorldChangers Media is a boutique publishing company focused on Ideas for Impact. We know that great books change lives, topple outdated paradigms, and build movements. Our commitment is to deliver superior-quality transformational nonfiction by, and for, the next generation of thought leaders.
 
 Ready to write and publish your thought leadership book with us? Learn more at www.WorldChangers.Media.
+
+
+***
+
+## Appendix
+
+*Note created on [[2024-03-28]] and last modified on [[2024-03-28]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[The Startup CTOs Handbook]] AND -"CHANGELOG" AND -"04-RESOURCES/Books/The Startup CTOs Handbook"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
