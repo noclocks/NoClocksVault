@@ -8,6 +8,7 @@ tags:
   - Status/WIP
 aliases:
   - <% tp.file.title %>
+  - <% tp.file.title
 publish: true
 permalink:
 description:

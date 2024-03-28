@@ -42,8 +42,35 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "5c3d25078774818f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6d9d9199e7aa3899",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -109,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md"
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md"
               }
             }
           },
@@ -202,10 +229,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "00-INBOX/CRM Data Model.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+    "00-INBOX/CRM Data Model.md",
     "00-INBOX/_README.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
@@ -227,14 +256,12 @@
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Daily.md",
     "05-SYSTEM/Templates/Fragment Templates/Daily",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Agenda.md",
     "05-SYSTEM/Templates/Custom Templates/Template-Dictionary-Definition.md",
     "05-SYSTEM/Templates/Custom Templates/Template-Canvas.md",
     "05-SYSTEM/Templates/Custom Templates/Template-Readwise-File-Name.md",
-    "05-SYSTEM/Templates/Custom Templates/Template-Kanban.md",
     "05-SYSTEM/Templates/Fragment Templates/Default",
     "05-SYSTEM/Templates/Fragment Templates/Dataview",
     "05-SYSTEM/Templates/Custom Templates/Untitled",
