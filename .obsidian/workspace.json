@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md"
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md"
               }
             }
           },
@@ -229,8 +229,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Pwsh.md",
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Cmd.md",
+    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
+    "05-SYSTEM/Templates/Custom Templates/Excalidraw",
+    "05-SYSTEM/Templates/Custom Templates/Canvas",
+    "05-SYSTEM/Templates/Custom Templates/Todoist",
+    "05-SYSTEM/Templates/Custom Templates/Kanban",
+    "05-SYSTEM/Templates/Custom Templates/Readwise",
+    "05-SYSTEM/Templates/Custom Templates/Dictionary",
     "05-SYSTEM/Templates/Custom Templates/Git",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Custom Templates/Templater",
@@ -250,22 +260,12 @@
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Creation-Modification-Dates.md",
     "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Backlinks.md",
-    "05-SYSTEM/Templates/Fragment Templates/Other",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md",
-    "05-SYSTEM/Templates/Fragment Templates/Backmatter",
-    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Daily.md",
-    "05-SYSTEM/Templates/Fragment Templates/Daily",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Agenda.md",
-    "05-SYSTEM/Templates/Custom Templates/Template-Dictionary-Definition.md",
-    "05-SYSTEM/Templates/Custom Templates/Template-Canvas.md",
-    "05-SYSTEM/Templates/Fragment Templates/Default",
-    "05-SYSTEM/Templates/Custom Templates/Dataview",
-    "05-SYSTEM/Templates/Custom Templates/Readwise"
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Agenda.md"
   ]
 }
