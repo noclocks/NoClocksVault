@@ -62,8 +62,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Checklists/_README.md",
-                "mode": "preview",
+                "file": "04-RESOURCES/Definitions/_README.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Checklists/_README.md",
+                "file": "04-RESOURCES/Definitions/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Checklists/_README.md",
+                "file": "04-RESOURCES/Definitions/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Checklists/_README.md"
+                "file": "04-RESOURCES/Definitions/_README.md"
               }
             }
           },
@@ -232,6 +232,7 @@
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
     "04-RESOURCES/Checklists/Checklist - Website Audit.md",
+    "04-RESOURCES/Definitions/_README.md",
     "04-RESOURCES/Checklists/_README.md",
     "01-SLIPBOX/_README.md",
     "04-RESOURCES/Checklists",
@@ -265,7 +266,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Creation-Modification-Dates.md",
-    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Backlinks.md",
-    "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md"
+    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Backlinks.md"
   ]
 }
