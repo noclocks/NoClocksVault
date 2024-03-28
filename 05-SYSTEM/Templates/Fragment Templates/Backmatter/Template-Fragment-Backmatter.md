@@ -6,7 +6,7 @@
 
 ### Backlinks
 
-<% tp.file.include("[[Template-Fragment-Dataview-Backlinks]]") %>
+<% tp.file.include("[[Template-Dataview-Backlinks]]") %>
 
 ***
 

@@ -12,6 +12,6 @@
 
 <% tp.file.include("[[Template-Fragment-Callout-Readme-Number-of-Notes]]") %>
 
-<% tp.file.include("[[Template-Fragment-Dataview-Readme]]") %>
+<% tp.file.include("[[Template-Dataview-Readme]]") %>
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>

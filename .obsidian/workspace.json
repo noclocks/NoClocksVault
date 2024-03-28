@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md"
+                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md"
               }
             }
           },
@@ -229,11 +229,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6d9d9199e7aa3899",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
+    "05-SYSTEM/Templates/Custom Templates/Git",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+    "05-SYSTEM/Templates/Custom Templates/Templater",
+    "05-SYSTEM/Templates/Untitled",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "00-INBOX/CRM Data Model.md",
     "00-INBOX/_README.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
@@ -246,11 +249,11 @@
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Creation-Modification-Dates.md",
-    "05-SYSTEM/Templates/Fragment Templates/Dataview/Template-Fragment-Dataview-Backlinks.md",
+    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Backlinks.md",
     "05-SYSTEM/Templates/Fragment Templates/Other",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter",
-    "05-SYSTEM/Templates/Fragment Templates/Dataview/Template-Fragment-Dataview-Readme.md",
+    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
@@ -261,11 +264,8 @@
     "05-SYSTEM/Templates/Note Templates/Template-Note-Agenda.md",
     "05-SYSTEM/Templates/Custom Templates/Template-Dictionary-Definition.md",
     "05-SYSTEM/Templates/Custom Templates/Template-Canvas.md",
-    "05-SYSTEM/Templates/Custom Templates/Template-Readwise-File-Name.md",
     "05-SYSTEM/Templates/Fragment Templates/Default",
-    "05-SYSTEM/Templates/Fragment Templates/Dataview",
-    "05-SYSTEM/Templates/Custom Templates/Untitled",
-    "05-SYSTEM/Templates/Custom Templates/Readwise",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts"
+    "05-SYSTEM/Templates/Custom Templates/Dataview",
+    "05-SYSTEM/Templates/Custom Templates/Readwise"
   ]
 }
