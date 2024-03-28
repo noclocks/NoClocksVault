@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+                "file": "00-INBOX/_README.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,15 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
+                "file": "01-SLIPBOX/_README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
+                "file": "00-INBOX/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
+                "file": "00-INBOX/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md"
+                "file": "00-INBOX/_README.md"
               }
             }
           },
@@ -229,8 +228,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6d9d9199e7aa3899",
+  "active": "d14247cdd9df1492",
   "lastOpenFiles": [
+    "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
+    "01-SLIPBOX/_README.md",
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
     "src/templater/templater-sourceInputFile.js",
     "src/templater/SourceInputFile.js",
     "src/dataview/dataview-getWeather.js",
@@ -241,9 +246,7 @@
     "src/powershell/Export-Obsidian.ps1",
     "src/powershell/Setup-Vault.ps1",
     "src/powershell/Get-VaultWordCount.ps1",
-    "src/powershell/Setup-ObsidianVault.ps1",
     "src/templater/newNote.md",
-    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-CommonJS.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Pwsh.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
@@ -251,15 +254,11 @@
     "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
-    "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
     "00-INBOX/CRM Data Model.md",
     "00-INBOX/_README.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Footnotes.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Copyright.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Appendix.md",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Creation-Modification-Dates.md",
