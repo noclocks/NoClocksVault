@@ -1,0 +1,11 @@
+{
+  "pinned": [
+    "automatic-table-of-contents:insert-automatic-table-of-contents-docs",
+    "graph:open-local",
+    "app:reload",
+    "workspace:split-vertical",
+    "workspace:split-horizontal",
+    "workspace:edit-file-title",
+    "dataview:dataview-force-refresh-views"
+  ]
+}

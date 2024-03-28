@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "ca6d6a42a88c70ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "8de6eee275a33f25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d14247cdd9df1492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-INBOX/CRM Data Model.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "02684a234907effa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "22531c237d93149f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68ad4bf5c670c7f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "89350aac3c832a5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3d746a23fc320fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a0bdd84d4d471f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "462b635c9e843658",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 454.5
+  },
+  "right": {
+    "id": "c5c018d2e18907e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e60c5973a7fa3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54e5f44cd6ee3d94",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-INBOX/CRM Data Model.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89dda5c4961d32dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-INBOX/CRM Data Model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bf791d2cf6096c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "39f0bce7b159ff87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-INBOX/CRM Data Model.md"
+              }
+            }
+          },
+          {
+            "id": "eb6f27ccbd023569",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c703c8ee92c6a2ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37227383a9354fdf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "d14247cdd9df1492",
+  "lastOpenFiles": [
+    "00-INBOX/_README.md",
+    "00-INBOX/CRM Data Model.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Footnotes.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Copyright.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Appendix.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
+    "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Creation-Modification-Dates.md",
+    "05-SYSTEM/Templates/Fragment Templates/Dataview/Template-Fragment-Dataview-Backlinks.md",
+    "05-SYSTEM/Templates/Fragment Templates/Other",
+    "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter",
+    "05-SYSTEM/Templates/Fragment Templates/Dataview/Template-Fragment-Dataview-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Daily.md",
+    "05-SYSTEM/Templates/Fragment Templates/Daily",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Agenda.md",
+    "05-SYSTEM/Templates/Custom Templates/Template-Dictionary-Definition.md",
+    "05-SYSTEM/Templates/Custom Templates/Template-Canvas.md",
+    "05-SYSTEM/Templates/Custom Templates/Template-Readwise-File-Name.md",
+    "05-SYSTEM/Templates/Custom Templates/Template-Kanban.md",
+    "05-SYSTEM/Templates/Fragment Templates/Default",
+    "05-SYSTEM/Templates/Fragment Templates/Dataview",
+    "05-SYSTEM/Templates/Custom Templates/Template-Git-Commit-Message-Manual.md",
+    "05-SYSTEM/Templates/Custom Templates/Untitled",
+    "05-SYSTEM/Templates/Custom Templates/Readwise",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts"
+  ]
+}
