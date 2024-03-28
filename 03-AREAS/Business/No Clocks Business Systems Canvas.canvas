@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"33ba1396762a1671","x":-118,"y":-136,"width":250,"height":60,"type":"text","text":"NO CLOCKS, LLC"},
+		{"id":"637b585790eb2fb4","x":-424,"y":-9,"width":250,"height":60,"type":"text","text":"OPERATIONS"},
+		{"id":"3ea261af35a051ef","x":-213,"y":32,"width":250,"height":60,"type":"text","text":"FINANCE"},
+		{"id":"8cd0553430a6f2e5","x":14,"y":11,"width":250,"height":60,"type":"text","text":"LEGAL"},
+		{"id":"b596ad61b7c9367b","x":244,"y":-49,"width":250,"height":60,"type":"text","text":"MARKETING"},
+		{"id":"1d10e5305b9010e1","x":-605,"y":-57,"width":250,"height":60,"type":"text","text":"COMMUNITY"},
+		{"id":"9405944045401ac0","x":-357,"y":154,"width":250,"height":60,"type":"text","text":"ACCOUNTING"},
+		{"id":"d2902f82359d3a8f","x":-167,"y":154,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"180c95696c1073aa","fromNode":"33ba1396762a1671","fromSide":"bottom","toNode":"637b585790eb2fb4","toSide":"top"},
+		{"id":"945999db5711e4de","fromNode":"33ba1396762a1671","fromSide":"bottom","toNode":"3ea261af35a051ef","toSide":"top"},
+		{"id":"dcb3647069b02cdb","fromNode":"33ba1396762a1671","fromSide":"bottom","toNode":"8cd0553430a6f2e5","toSide":"top"},
+		{"id":"30a54b2864d34aed","fromNode":"33ba1396762a1671","fromSide":"bottom","toNode":"b596ad61b7c9367b","toSide":"top"},
+		{"id":"24e80d5641c1e3df","fromNode":"33ba1396762a1671","fromSide":"bottom","toNode":"1d10e5305b9010e1","toSide":"top"},
+		{"id":"b273f98506fd5cf8","fromNode":"3ea261af35a051ef","fromSide":"bottom","toNode":"9405944045401ac0","toSide":"top"},
+		{"id":"d07edc4adc4efce2","fromNode":"3ea261af35a051ef","fromSide":"bottom","toNode":"d2902f82359d3a8f","toSide":"top"}
+	]
+}

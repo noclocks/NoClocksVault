@@ -60,12 +60,14 @@
             "id": "6d9d9199e7aa3899",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
+                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -136,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md",
+                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md",
+                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md"
+                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas"
               }
             }
           },
@@ -231,8 +233,11 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "05-SYSTEM/Obsidian/Obsidian - Themes.md",
+    "03-AREAS/Business/No Clocks Business Plan Draft.md",
+    "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
+    "03-AREAS/Business/Untitled.md",
     "05-SYSTEM/Obsidian/Obsidian - Setup.md",
+    "05-SYSTEM/Obsidian/Obsidian - Themes.md",
     "05-SYSTEM/Obsidian/Obsidian - Community Plugins.md",
     "05-SYSTEM/Obsidian/Obsidian - Scripts.md",
     "05-SYSTEM/Obsidian/Obsidian - Folders.md",
@@ -255,9 +260,6 @@
     "04-RESOURCES/Definitions/Web Application Firewall (WAF).md",
     "04-RESOURCES/Definitions/Two-Factor Authentication (2FA).md",
     "04-RESOURCES/Definitions/Transport Layer Security (TLS).md",
-    "04-RESOURCES/Definitions/Top Level Domain (TLD).md",
-    "04-RESOURCES/Definitions/Third Normal Form (3NF).md",
-    "04-RESOURCES/Definitions/Secure Sockets Layer (SSL).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
     "src/templater/templater-sourceInputFile.js",
