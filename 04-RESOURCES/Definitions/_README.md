@@ -51,7 +51,7 @@ LIST FROM "04-RESOURCES/Definitions" AND -"CHANGELOG" AND -"04-RESOURCES/Definit
 
 ### Related
 
-- [[]]
+- [[Customer Relationship Management (CRM)]]
 
 ### Backlinks
 
