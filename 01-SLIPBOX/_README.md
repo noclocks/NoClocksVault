@@ -38,7 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages(`"${ dv.current().file.folder }"`).length`** individual notes in the `01-SLIPBOX` folder.
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `01-SLIPBOX` folder, including this note.
 
 ```dataview
 LIST FROM "01-SLIPBOX" AND -"CHANGELOG" AND -"01-SLIPBOX/_README"

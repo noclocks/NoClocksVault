@@ -38,7 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`** individual notes in the `00-INBOX` folder, including this note.
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`** individual notes in the `00-INBOX` folder, including this note.*
 
 ```dataview
 LIST FROM "00-INBOX" AND -"CHANGELOG" AND -"00-INBOX/_README"

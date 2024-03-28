@@ -62,14 +62,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-SLIPBOX/_README.md",
+                "file": "03-AREAS/Checklists/Checklist - Website Audit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-INBOX/_README.md",
+                "file": "03-AREAS/Checklists/Checklist - Website Audit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-INBOX/_README.md",
+                "file": "03-AREAS/Checklists/Checklist - Website Audit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-INBOX/_README.md"
+                "file": "03-AREAS/Checklists/Checklist - Website Audit.md"
               }
             }
           },
@@ -228,13 +229,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d14247cdd9df1492",
+  "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
-    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
     "01-SLIPBOX/_README.md",
+    "03-AREAS/Checklists/Checklist - Website Audit.md",
+    "03-AREAS/Checklists",
+    "00-INBOX/_README.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
+    "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
     "src/templater/templater-sourceInputFile.js",
     "src/templater/SourceInputFile.js",
@@ -245,7 +249,6 @@
     "src/powershell/Export-Vault.ps1",
     "src/powershell/Export-Obsidian.ps1",
     "src/powershell/Setup-Vault.ps1",
-    "src/powershell/Get-VaultWordCount.ps1",
     "src/templater/newNote.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-CommonJS.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Pwsh.md",
@@ -255,7 +258,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "00-INBOX/CRM Data Model.md",
-    "00-INBOX/_README.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Footnotes.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Copyright.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Appendix.md",
@@ -264,7 +266,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Creation-Modification-Dates.md",
     "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Backlinks.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md"
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md"
   ]
 }
