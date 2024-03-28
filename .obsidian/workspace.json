@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
+                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
+                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
+                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Books/Small Business Management in the 21st Century.md"
+                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md"
               }
             }
           },
@@ -231,9 +231,10 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "04-RESOURCES/Books/_README.md",
+    "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
     "04-RESOURCES/Definitions/_README.md",
     "04-RESOURCES/Books/The Startup CTOs Handbook.md",
-    "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists/Checklist - Website Audit.md",
     "04-RESOURCES/Checklists/_README.md",
@@ -265,7 +266,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Footnotes.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Copyright.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Appendix.md",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
-    "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md"
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md"
   ]
 }

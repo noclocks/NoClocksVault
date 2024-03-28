@@ -3,21 +3,19 @@ creation_date: 2024-03-05
 modification_date: 2024-03-05
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Book
+  - Topic/Business
+  - Status/Complete
 aliases:
   - The Startup CTOs Handbook
 publish: true
-permalink:
-description:
+permalink: resources/books/the-startup-ctos-handbook
+description: "Book note for the book: The Startup CTOs Handbook."
 image:
 cssclasses:
 ---
 
-- https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md
-- https://docs.google.com/document/d/147KVarJdNQ2ZdmDHOSsd7W39anejRu2NfxEWCzwl0IU/edit?pli=1
-- https://zachgoldberg.com/
+
 
 # THE STARTUP CTO'S HANDBOOK
 
