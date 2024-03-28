@@ -48,8 +48,10 @@ Conducting regular, comprehensive site audits is essential for maintaining an ef
 ### Search Engine Optimization (SEO)
 
 > [!NOTE] See Also:
-> 
-An SEO website audit examines the factors that impact your website’s visibility on search engine results pages (SERPs). It includes a detailed analysis of [on-page SEO](https://www.shopify.com/blog/on-page-seo) elements, such as meta tags (HTML code for search engines), meta descriptions (summary of web page), and keyword rankings, to ensure they align with [SEO best practices](https://www.shopify.com/blog/ecommerce-seo-best-practices). 
+> - [[Search Engine Optimization (SEO)]]
+> - [[Search Engine Results Page (SERP)]]
+
+An [[Search Engine Optimization (SEO)|SEO]] website audit examines the factors that impact your website’s visibility on [[search engine results pages (SERPs). It includes a detailed analysis of [on-page SEO](https://www.shopify.com/blog/on-page-seo) elements, such as meta tags (HTML code for search engines), meta descriptions (summary of web page), and keyword rankings, to ensure they align with [SEO best practices](https://www.shopify.com/blog/ecommerce-seo-best-practices). 
 
 An SEO audit extends to off-page factors, including backlink profiles (link connections pointing to your website) and social media presence. [Technical SEO](https://www.shopify.com/blog/technical-seo-audit) aspects like site speed and responsiveness on mobile devices are also scrutinized to guarantee optimal performance.
 
