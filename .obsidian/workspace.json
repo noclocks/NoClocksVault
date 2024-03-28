@@ -62,8 +62,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
-                "mode": "preview",
+                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
+                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
+                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md"
+                "file": "05-SYSTEM/Obsidian/Obsidian - Setup.md"
               }
             }
           },
@@ -231,8 +231,24 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "04-RESOURCES/Books/The Startup CTOs Handbook.md",
+    "05-SYSTEM/Obsidian/Obsidian - Themes.md",
+    "05-SYSTEM/Obsidian/Obsidian - Setup.md",
+    "05-SYSTEM/Obsidian/Obsidian - Community Plugins.md",
+    "05-SYSTEM/Obsidian/Obsidian - Scripts.md",
+    "05-SYSTEM/Obsidian/Obsidian - Folders.md",
+    "05-SYSTEM/Obsidian/Obsidian - CSS Snippets.md",
     "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
+    "04-RESOURCES/Checklists/Checklist - Important Legal Documents.md",
+    "04-RESOURCES/Checklists/List - Important Legal Documents.md",
+    "04-RESOURCES/Checklists/Checklist - Website Planning.md",
+    "04-RESOURCES/Checklists/Checklist - Website Maintenance.md",
+    "04-RESOURCES/Checklists/Checklist - Social Media Strategy.md",
+    "04-RESOURCES/Checklists/Checklist - LLC Legal Compliance.md",
+    "04-RESOURCES/Checklists/Checklist - Financial Statement Review.md",
+    "04-RESOURCES/Checklists/Checklist - Content Strategy Document.md",
+    "04-RESOURCES/Checklists/Checklist - Business Tax Planning.md",
+    "04-RESOURCES/Checklists/Checklist - Accounting.md",
+    "04-RESOURCES/Books/The Startup CTOs Handbook.md",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
     "04-RESOURCES/Definitions/Web Content Management (WCM).md",
@@ -242,22 +258,6 @@
     "04-RESOURCES/Definitions/Top Level Domain (TLD).md",
     "04-RESOURCES/Definitions/Third Normal Form (3NF).md",
     "04-RESOURCES/Definitions/Secure Sockets Layer (SSL).md",
-    "04-RESOURCES/Definitions/Secure File Transfer Protocol (SFTP).md",
-    "04-RESOURCES/Definitions/Second Normal Form (2NF).md",
-    "04-RESOURCES/Definitions/Search Engine Results Page (SERP).md",
-    "04-RESOURCES/Definitions/Personal Knowledge Management (PKM).md",
-    "04-RESOURCES/Definitions/Natural Language Understanding (NLU).md",
-    "04-RESOURCES/Definitions/Natural Language Processing (NLP).md",
-    "04-RESOURCES/Definitions/Local Area Network (LAN).md",
-    "04-RESOURCES/Definitions/Internet Security Research Group (ISRG).md",
-    "04-RESOURCES/Definitions/Internet of Things (IoT).md",
-    "04-RESOURCES/Definitions/Internet Engineering Task Force (IETF).md",
-    "04-RESOURCES/Definitions/Internet Corporation for Assigned Names and Numbers (ICANN).md",
-    "04-RESOURCES/Definitions/Internet Control Message Protocol (ICMP).md",
-    "04-RESOURCES/Definitions/Hyper Text Markup Language (HTML).md",
-    "04-RESOURCES/Definitions/Free and Open-Source Software (FOSS).md",
-    "04-RESOURCES/Definitions/Fourth Normal Form (4NF).md",
-    "04-RESOURCES/Definitions/File Transfer Protocol (FTP).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
     "src/templater/templater-sourceInputFile.js",
