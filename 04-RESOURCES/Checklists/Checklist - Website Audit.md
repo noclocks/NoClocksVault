@@ -51,7 +51,7 @@ Conducting regular, comprehensive site audits is essential for maintaining an ef
 > - [[Search Engine Optimization (SEO)]]
 > - [[Search Engine Results Page (SERP)]]
 
-An [[Search Engine Optimization (SEO)|SEO]] website audit examines the factors that impact your website’s visibility on [[search engine results pages (SERPs). It includes a detailed analysis of [on-page SEO](https://www.shopify.com/blog/on-page-seo) elements, such as meta tags (HTML code for search engines), meta descriptions (summary of web page), and keyword rankings, to ensure they align with [SEO best practices](https://www.shopify.com/blog/ecommerce-seo-best-practices). 
+An [[Search Engine Optimization (SEO)|SEO]] website audit examines the factors that impact your website’s visibility on [[Search Engine Results Page (SERP)]]s. It includes a detailed analysis of [on-page SEO](https://www.shopify.com/blog/on-page-seo) elements, such as meta tags ([[Hyper-Text Markup Language (HTML)|HTML]] code for search engines), meta descriptions (summary of web page), and keyword rankings, to ensure they align with [SEO best practices](https://www.shopify.com/blog/ecommerce-seo-best-practices). 
 
 An SEO audit extends to off-page factors, including backlink profiles (link connections pointing to your website) and social media presence. [Technical SEO](https://www.shopify.com/blog/technical-seo-audit) aspects like site speed and responsiveness on mobile devices are also scrutinized to guarantee optimal performance.
 
@@ -62,6 +62,9 @@ To facilitate this process, businesses can leverage [free SEO tools](https://ww
 An audit also requires an evaluation of core web vitals—[page speed](https://www.shopify.com/blog/site-speed-importance), responsiveness, and interactivity—and underlying website structure to ensure optimal performance. This audit element focuses on factors influencing search engine crawlers (automated web page indexers), user experience, and overall site functionality. 
 
 ### User Experience (UX) 
+
+> [!NOTE] See Also:
+> - [[User Experience (UX)]]
 
 During an audit, it’s essential to assess the quality of [user experience](https://www.shopify.com/blog/user-experience-design) on your website, analyzing aspects like navigation, page design, content presentation, and interactive features.
 
@@ -131,3 +134,19 @@ A site audit can take anywhere from a few hours to a few weeks, depending on the
 ### Why are site audits important?
 
 Site audits provide website owners and development teams valuable insights into their site’s performance. Audit reports can reveal technical issues and opportunities to improve content, user experience, and SEO efforts.
+
+***
+
+## Appendix
+
+*Note created on [[2024-03-28]] and last modified on [[2024-03-28]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[Checklist - Website Audit]] AND -"CHANGELOG" AND -"03-AREAS/Checklists/Checklist - Website Audit"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
