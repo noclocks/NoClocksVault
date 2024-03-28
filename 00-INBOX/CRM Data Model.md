@@ -5,19 +5,32 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Dev
-  - Status/NA
+  - Status/WIP
 aliases:
   - CRM Data Model
 publish: true
-permalink:
-description:
+permalink: inbox/crm-data-model
+description: "Demonstration data model for a CRM system."
 image:
 cssclasses:
 ---
 
-# Customer Relationship Management Data Model
+# Customer Relationship Management (CRM) Demo Data Model
 
-Here's a basic CRM data model schema in SQL:
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Overview
+
+> [!NOTE] About
+> This note demonstrates a basic [[Customer Relationship Management (CRM)]] [[data model]] schema in [[SQL]].
+
 
 ## Tables
 
@@ -146,3 +159,19 @@ COMMENT ON COLUMN Activities.description IS 'Description of the activity (option
 COMMENT ON COLUMN Activities.due_date IS 'Due date of the activity (optional)';
 COMMENT ON COLUMN Activities.completed IS 'Flag indicating completion status of the activity';
 ```
+
+***
+
+## Appendix
+
+*Note created on [[2024-03-28]] and last modified on [[2024-03-28]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[CRM Data Model]] AND -"CHANGELOG" AND -"00-INBOX/CRM Data Model"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024

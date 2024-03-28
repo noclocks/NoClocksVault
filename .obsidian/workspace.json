@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-INBOX/CRM Data Model.md",
+                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
                 "mode": "source",
                 "source": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-INBOX/CRM Data Model.md",
+                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-INBOX/CRM Data Model.md",
+                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-INBOX/CRM Data Model.md"
+                "file": "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md"
               }
             }
           },
@@ -202,10 +202,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d14247cdd9df1492",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
-    "00-INBOX/_README.md",
     "00-INBOX/CRM Data Model.md",
+    "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
+    "00-INBOX/_README.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Template-Fragment-Backmatter.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Footnotes.md",
@@ -236,7 +237,6 @@
     "05-SYSTEM/Templates/Custom Templates/Template-Kanban.md",
     "05-SYSTEM/Templates/Fragment Templates/Default",
     "05-SYSTEM/Templates/Fragment Templates/Dataview",
-    "05-SYSTEM/Templates/Custom Templates/Template-Git-Commit-Message-Manual.md",
     "05-SYSTEM/Templates/Custom Templates/Untitled",
     "05-SYSTEM/Templates/Custom Templates/Readwise",
     "05-SYSTEM/Templates/Fragment Templates/Callouts"
