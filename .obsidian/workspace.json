@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md"
+                "file": "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md"
               }
             }
           },
@@ -229,8 +229,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6d9d9199e7aa3899",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
+    "src/javascript",
+    "src/shell",
+    "src/python",
+    "src/powershell",
+    "src/dataview",
+    "src/templater",
+    "src",
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-CommonJS.md",
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Pwsh.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Cmd.md",
@@ -239,12 +248,7 @@
     "05-SYSTEM/Templates/Custom Templates/Canvas",
     "05-SYSTEM/Templates/Custom Templates/Todoist",
     "05-SYSTEM/Templates/Custom Templates/Kanban",
-    "05-SYSTEM/Templates/Custom Templates/Readwise",
-    "05-SYSTEM/Templates/Custom Templates/Dictionary",
-    "05-SYSTEM/Templates/Custom Templates/Git",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
-    "05-SYSTEM/Templates/Custom Templates/Templater",
-    "05-SYSTEM/Templates/Untitled",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
     "00-INBOX/CRM Data Model.md",
@@ -254,7 +258,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Footnotes.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Copyright.md",
     "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials/Template-Fragment-Appendix.md",
-    "05-SYSTEM/Templates/Fragment Templates/Backmatter/Partials",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
@@ -263,9 +266,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Daily.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Agenda.md"
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md"
   ]
 }
