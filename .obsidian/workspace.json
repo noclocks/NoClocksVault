@@ -229,25 +229,26 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "src/templater/templater-getDateAll.js",
+    "src/templater/getDateAll.js",
+    "src/templater/templater-newNote.js",
+    "src/templater/newNote.md",
+    "src/templater/newNote.templater.js",
+    "src/dataview/dataview-toc.js",
+    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
     "src/javascript",
     "src/shell",
     "src/python",
     "src/powershell",
     "src/dataview",
     "src/templater",
-    "src",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-CommonJS.md",
-    "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-UserScript-TOC.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Pwsh.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-New-Note.md",
     "05-SYSTEM/Templates/Custom Templates/Templater/Template-Templater-Execute-Cmd.md",
     "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
-    "05-SYSTEM/Templates/Custom Templates/Excalidraw",
-    "05-SYSTEM/Templates/Custom Templates/Canvas",
-    "05-SYSTEM/Templates/Custom Templates/Todoist",
-    "05-SYSTEM/Templates/Custom Templates/Kanban",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "04-RESOURCES/Definitions/Customer Relationship Management (CRM).md",
@@ -265,7 +266,6 @@
     "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Backlinks.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-DailyNote-Navigation.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md"
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md"
   ]
 }
