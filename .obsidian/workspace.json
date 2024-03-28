@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md",
+                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md",
+                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md",
+                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Books/The Startup CTOs Handbook.md"
+                "file": "04-RESOURCES/Cheatsheets/Cheatsheet - R.md"
               }
             }
           },
@@ -231,6 +231,9 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "04-RESOURCES/Books/The Startup CTOs Handbook.md",
+    "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
+    "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
     "04-RESOURCES/Definitions/Web Content Management (WCM).md",
     "04-RESOURCES/Definitions/Web Application Firewall (WAF).md",
@@ -255,8 +258,6 @@
     "04-RESOURCES/Definitions/Free and Open-Source Software (FOSS).md",
     "04-RESOURCES/Definitions/Fourth Normal Form (4NF).md",
     "04-RESOURCES/Definitions/File Transfer Protocol (FTP).md",
-    "04-RESOURCES/Definitions/Enterprise Content Management (ECM).md",
-    "04-RESOURCES/Definitions/Electronic Funds Transfer (EFT).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
     "src/templater/templater-sourceInputFile.js",
@@ -265,7 +266,6 @@
     "src/dataview/dataview-getNews.js",
     "src/dataview/getWeather.js",
     "src/dataview/getNews.js",
-    "src/powershell/Export-Vault.ps1",
-    "src/powershell/Export-Obsidian.ps1"
+    "src/powershell/Export-Vault.ps1"
   ]
 }
