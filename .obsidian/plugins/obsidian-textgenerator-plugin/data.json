@@ -4,7 +4,7 @@
   "models": {},
   "api_key": "",
   "encrypt_keys": false,
-  "selectedProvider": "Chat Anthropic (Langchain)",
+  "selectedProvider": "OpenAI Chat (Langchain)",
   "max_tokens": 500,
   "temperature": 0.7,
   "frequency_penalty": 0.5,
@@ -91,16 +91,18 @@
       "model": "whisper-1"
     },
     "OpenAI Chat (Langchain)": {
-      "basePath": "https://api.openai.com/v1"
+      "basePath": "https://api.openai.com/v1",
+      "api_key": ""
     },
     "Chat Anthropic (Langchain)": {
       "model": "claude-3-haiku-20240307",
       "api_key": "",
-      "basePath": "/v1/complete"
+      "basePath": "https://api.anthropic.com/v1"
     }
   },
   "LLMProviderOptionsKeysHashed": {
-    "Chat Anthropic (Langchain).api_key": "__@#key_prefix#@__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"
+    "Chat Anthropic (Langchain).api_key": "__@#key_prefix#@__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",
+    "OpenAI Chat (Langchain).api_key": "__@#key_prefix#@__sk-1Hp7ZeWrhEeEoXPc7UjTT3BlbkFJsgaVYfHRwD8IuNnTu30m"
   },
-  "api_key_encrypted": "__@#key_prefix#@__"
+  "api_key_encrypted": "__@#key_prefix#@__sk-1Hp7ZeWrhEeEoXPc7UjTT3BlbkFJsgaVYfHRwD8IuNnTu30m"
 }

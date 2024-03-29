@@ -38,3 +38,4 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Basic Structure
 
 
+structure of a typical python project
