@@ -92,7 +92,8 @@
     },
     "OpenAI Chat (Langchain)": {
       "basePath": "https://api.openai.com/v1",
-      "api_key": ""
+      "api_key": "",
+      "model": "gpt-4"
     },
     "Chat Anthropic (Langchain)": {
       "model": "claude-3-haiku-20240307",

@@ -230,13 +230,15 @@
       "publish:Publish changes...": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
+      "open-vscode:VSCode": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "open-vscode:VSCode": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "05-SYSTEM/TextGenerator/configs/llm",
+    "05-SYSTEM/TextGenerator/configs",
     "05-SYSTEM/Templates/Custom Templates/TextGenerator",
     "05-SYSTEM/TextGenerator",
     "textgenerator/configs/llm",
@@ -271,8 +273,6 @@
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
-    "src/templater/templater-sourceInputFile.js",
-    "src/templater/SourceInputFile.js",
-    "src/dataview/dataview-getWeather.js"
+    "src/templater/templater-sourceInputFile.js"
   ]
 }
