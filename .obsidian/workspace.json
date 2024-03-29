@@ -63,14 +63,12 @@
             "id": "6d9d9199e7aa3899",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
-                "viewState": {
-                  "x": -23.11534299119586,
-                  "y": -317.7179267141604,
-                  "zoom": -1.0985779845099066
-                }
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             }
           }
@@ -141,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/No Clocks Business Systems Canvas.canvas"
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md"
               }
             }
           },
@@ -236,8 +234,9 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "03-AREAS/Business/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
+    "00-INBOX/Various Issues with PowerShell Classes.md",
+    "03-AREAS/Business/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Untitled.md",
     "05-SYSTEM/Obsidian/Obsidian - Setup.md",
     "05-SYSTEM/Obsidian/Obsidian - Themes.md",
@@ -262,7 +261,6 @@
     "04-RESOURCES/Definitions/Web Content Management (WCM).md",
     "04-RESOURCES/Definitions/Web Application Firewall (WAF).md",
     "04-RESOURCES/Definitions/Two-Factor Authentication (2FA).md",
-    "04-RESOURCES/Definitions/Transport Layer Security (TLS).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
     "src/templater/templater-sourceInputFile.js",
