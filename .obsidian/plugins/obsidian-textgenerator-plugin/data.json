@@ -11,10 +11,10 @@
   "showStatusBar": true,
   "outputToBlockQuote": false,
   "freeCursorOnStreaming": false,
-  "allowJavascriptRun": false,
+  "allowJavascriptRun": true,
   "experiment": true,
-  "promptsPath": "05-SYSTEM/Templates/Custom/TextGenerator",
-  "textGenPath": "0",
+  "promptsPath": "05-SYSTEM/Templates/Custom Templates/TextGenerator",
+  "textGenPath": "05-SYSTEM/TextGenerator",
   "prefix": "\n\n",
   "tgSelectionLimiter": "^\\*\\*\\*",
   "stream": true,
@@ -53,26 +53,27 @@
     "reload": true
   },
   "advancedOptions": {
-    "generateTitleInstructEnabled": false,
+    "generateTitleInstructEnabled": true,
     "generateTitleInstruct": "Generate a title for the current document (do not use * \" \\ / < > : | ? .):\n{{substring content 0 255}}"
   },
   "autoSuggestOptions": {
     "customInstructEnabled": true,
     "customInstruct": "Continue the follwing text:\nTitle: {{title}}\n{{query}}",
-    "isEnabled": false,
-    "allowInNewLine": false,
+    "isEnabled": true,
+    "allowInNewLine": true,
     "delay": 300,
     "numberOfSuggestions": 5,
     "triggerPhrase": "  ",
     "stop": ".",
     "showStatus": true,
     "customProvider": false,
-    "inlineSuggestions": false,
-    "overrideTrigger": " "
+    "inlineSuggestions": true,
+    "overrideTrigger": " ",
+    "showInMarkdown": true
   },
   "slashSuggestOptions": {
-    "isEnabled": false,
-    "triggerPhrase": "/"
+    "isEnabled": true,
+    "triggerPhrase": "/txt"
   },
   "extractorsOptions": {
     "PDFExtractor": true,
