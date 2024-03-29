@@ -43,6 +43,19 @@ The need to compile classes at parse-time means the types required to define a c
 
 ## Classes with Modules
 
+**NEW**
+
+```powershell
+# Export Mdule Classes
+[psobject].Assembly.GetType("System.Management.Automation.TypeAccelerators")::Add("PSUtils", [PSUtils])
+```
+
+I add that at the bottom of my module where I have a PSUtils class defined, and now everything works just the way I've always wanted. Import-Module and #Requires -Modules work as-is, and my code that requires the class available at parse time also works. No more slow and limited "using module" needed!
+
+Obviously this is still just a workaround to missing functionality, but it seems to do everything I need in the meantime.
+
+***
+
 Currently, when classes are defined within a module the only mechanism to access them is via:
 
 ```powershell
