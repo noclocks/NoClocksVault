@@ -41,9 +41,23 @@ Instead, we compile PowerShell classes to dynamic assemblies and bake in calls t
 
 The need to compile classes at parse-time means the types required to define a class (in IL) must also be known at parse-time. The module-scoping issue means that a `using module` statement is required to import classes from modules, or by exporting class usage in PowerShell functions (classes having a sort of module-private behavior).
 
+## Classes with Modules
+
+Currently, when classes are defined within a module the only mechanism to access them is via:
+
+```powershell
+using module ModuleName
+[Foo]::new()
+Get-Module ModuleName
+```
+
+
+
 ## Improvements
 
 **Classes in Modules**
 
-- Inconsistent Behaviour
+- Inconsistent Behavior and Issues with Exporting
+- Reloading classes in nested modules not updated via `Import-Module`
+- `using module` statement
 - 
