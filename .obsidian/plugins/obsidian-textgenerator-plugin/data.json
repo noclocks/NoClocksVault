@@ -12,9 +12,9 @@
   "outputToBlockQuote": false,
   "freeCursorOnStreaming": false,
   "allowJavascriptRun": false,
-  "experiment": false,
-  "promptsPath": "textgenerator/templates",
-  "textGenPath": "textgenerator/",
+  "experiment": true,
+  "promptsPath": "05-SYSTEM/Templates/Custom/TextGenerator",
+  "textGenPath": "0",
   "prefix": "\n\n",
   "tgSelectionLimiter": "^\\*\\*\\*",
   "stream": true,
@@ -94,7 +94,8 @@
     },
     "Chat Anthropic (Langchain)": {
       "model": "claude-3-haiku-20240307",
-      "api_key": ""
+      "api_key": "",
+      "basePath": "/v1/complete"
     }
   },
   "LLMProviderOptionsKeysHashed": {
