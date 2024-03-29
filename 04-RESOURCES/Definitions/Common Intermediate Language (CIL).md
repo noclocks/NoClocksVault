@@ -27,4 +27,8 @@ cssclasses:
 
 **Common Intermediate Language (CIL)**, formerly called **Microsoft Intermediate Language** (**MSIL**) or **Intermediate Language** (**IL**) is the *intermediate language binary instruction set defined within the [[Common Language Infrastructure (CLI)]] specification.*
 
-CIL instructions are executed by a CIL-compatible runtime environment such as the [[Common Language Runtime]]. Languages which target the [[CLI]] compile to CIL. CIL is [object-oriented](https://en.wikipedia.org/wiki/Object-oriented), [stack-based](https://en.wikipedia.org/wiki/Stack_machine "Stack machine") [bytecode](https://en.wikipedia.org/wiki/Bytecode "Bytecode"). Runtimes typically [just-in-time](https://en.wikipedia.org/wiki/Just-in-time_compilation "Just-in-time compilation") compile CIL instructions into [native code](https://en.wikipedia.org/wiki/Native_code "Native code").
+CIL instructions are executed by a CIL-compatible runtime environment such as the [[Common Language Runtime]]. Languages which target the [[CLI]] compile to CIL. CIL is [[object-oriented]], [[stack-based]] [bytecode](https://en.wikipedia.org/wiki/Bytecode "Bytecode"). Runtimes typically [just-in-time](https://en.wikipedia.org/wiki/Just-in-time_compilation "Just-in-time compilation") compile CIL instructions into [native code](https://en.wikipedia.org/wiki/Native_code "Native code").
+
+CIL was originally known as Microsoft Intermediate Language (MSIL) during the beta releases of the [[.NET]] languages. Due to standardization of [[C#]] and the [[CLI]], the bytecode is now officially known as CIL. [[Windows Defender]] virus definitions continue to refer to binaries compiled with it as MSIL.
+
+## General Infor
