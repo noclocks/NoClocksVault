@@ -51,6 +51,14 @@ using module ModuleName
 Get-Module ModuleName
 ```
 
+or by adding the class where needed in-line via `Add-Type`:
+
+```powershell
+Add-Type
+```
+
+Classes cannot be exported as simply as other module members (i.e. public and private functions, cmdlets, variables, aliases, etc.).
+
 
 
 ## Improvements
