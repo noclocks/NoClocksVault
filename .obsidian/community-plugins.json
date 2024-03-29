@@ -4,5 +4,6 @@
   "templater-obsidian",
   "obsidian-git",
   "automatic-table-of-contents",
-  "obsidian-textgenerator-plugin"
+  "obsidian-textgenerator-plugin",
+  "open-vscode"
 ]
