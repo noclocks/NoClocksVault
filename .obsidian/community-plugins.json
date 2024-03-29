@@ -3,5 +3,6 @@
   "table-editor-obsidian",
   "templater-obsidian",
   "obsidian-git",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "obsidian-textgenerator-plugin"
 ]
