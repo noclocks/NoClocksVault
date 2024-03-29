@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md"
+                "file": "00-INBOX/Various Issues with PowerShell Classes.md"
               }
             }
           },
@@ -234,8 +234,8 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "04-RESOURCES/Definitions/Common Language Infrastructure (CLI).md",
     "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
+    "04-RESOURCES/Definitions/Common Language Infrastructure (CLI).md",
     "00-INBOX/Various Issues with PowerShell Classes.md",
     "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
     "03-AREAS/Business/No Clocks Business Plan Draft.md",

@@ -35,4 +35,4 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE]
 > [[PowerShell]] classes have been a finnicky feature of the language, and this not serves the purpose of identifying some of the primary issues and pain points with them.
 
-In [[PowerShell]], classes are implemented through compiling [[.NET]]
+In [[PowerShell]], classes are implemented through compiling [[.NET]] to the [[Common Intermediate Language (CIL)|Intermediate Language (IL)]] so that it can take advantage of the [[.NET Object Model]]. Not doing this would mean having to re-invent and maintain all [[object-oriented]] features available in [[.NET]] 
