@@ -234,8 +234,9 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "00-INBOX/Various Issues with PowerShell Classes.md",
+    "04-RESOURCES/Definitions/Common Language Infrastructure (CLI).md",
     "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
+    "00-INBOX/Various Issues with PowerShell Classes.md",
     "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
     "03-AREAS/Business/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Untitled.md",
@@ -261,7 +262,6 @@
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
     "04-RESOURCES/Definitions/Web Content Management (WCM).md",
     "04-RESOURCES/Definitions/Web Application Firewall (WAF).md",
-    "04-RESOURCES/Definitions/Two-Factor Authentication (2FA).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
     "src/templater/templater-sourceInputFile.js",
