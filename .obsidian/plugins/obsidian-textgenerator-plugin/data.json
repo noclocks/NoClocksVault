@@ -93,7 +93,7 @@
       "basePath": "https://api.openai.com/v1"
     },
     "Chat Anthropic (Langchain)": {
-      "model": "claude-3",
+      "model": "claude-3-haiku-20240307",
       "api_key": ""
     }
   },

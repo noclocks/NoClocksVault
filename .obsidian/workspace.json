@@ -229,11 +229,17 @@
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
       "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "open-vscode:VSCode": false
     }
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "textgenerator/configs/llm",
+    "textgenerator/configs",
+    "textgenerator",
     "00-INBOX/Various Issues with PowerShell Classes.md",
     "00-INBOX/Netscape Bookmarks File Format.md",
     "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
@@ -261,15 +267,12 @@
     "04-RESOURCES/Books/The Startup CTOs Handbook.md",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
-    "04-RESOURCES/Definitions/Web Content Management (WCM).md",
     "04-RESOURCES/Books",
     "04-RESOURCES/Checklists",
     "src/templater/templater-sourceInputFile.js",
     "src/templater/SourceInputFile.js",
     "src/dataview/dataview-getWeather.js",
     "src/dataview/dataview-getNews.js",
-    "src/dataview/getWeather.js",
-    "src/dataview/getNews.js",
-    "src/powershell/Export-Vault.ps1"
+    "src/dataview/getWeather.js"
   ]
 }
