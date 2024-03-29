@@ -35,4 +35,15 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE]
 > [[PowerShell]] classes have been a finnicky feature of the language, and this not serves the purpose of identifying some of the primary issues and pain points with them.
 
-In [[PowerShell]], classes are implemented through compiling [[.NET]] to the [[Common Intermediate Language (CIL)|Intermediate Language (IL)]] so that it can take advantage of the [[.NET Object Model]]. Not doing this would mean having to re-invent and maintain all [[object-oriented]] features available in [[.NET]] 
+In [[PowerShell]], classes are implemented through compiling [[.NET]] to the [[Common Intermediate Language (CIL)|Intermediate Language (IL)]] so that it can take advantage of the [[.NET Object Model]]. Not doing this would mean having to re-invent and maintain all [[object-oriented]] features available in [[.NET]] and paying a high runtime overhead on shimming compatibility with the [[.NET]] object model (e.g. faking inheritance from [[.NET]] classes).
+
+Instead, we compile PowerShell classes to dynamic assemblies and bake in calls to PowerShell in the generated IL. To do this at runtime would mean either breaking dynamic- and module-scoped behaviors in classes, or emitting a new dynamic assembly every time we hit a class definition (and since PowerShell's highest compilation unit is the script-block, and script-blocks are permitted in for-loops, the performance penalty here could be extreme). (I'm still a bit hazy on the details about the mechanisms here, especially in terms of why caching is made impossible by module scope or in comparison to `Add-Type`.
+
+The need to compile classes at parse-time means the types required to define a class (in IL) must also be known at parse-time. The module-scoping issue means that a `using module` statement is required to import classes from modules, or by exporting class usage in PowerShell functions (classes having a sort of module-private behavior).
+
+## Improvements
+
+**Classes in Modules**
+
+- Inconsistent Behaviour
+- 
