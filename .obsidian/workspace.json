@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
+                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
+                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-INBOX/Various Issues with PowerShell Classes.md",
+                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-INBOX/Various Issues with PowerShell Classes.md"
+                "file": "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md"
               }
             }
           },
@@ -234,8 +234,9 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
-    "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
     "00-INBOX/Various Issues with PowerShell Classes.md",
+    "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
+    "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
     "03-AREAS/Business/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Untitled.md",
     "05-SYSTEM/Obsidian/Obsidian - Setup.md",

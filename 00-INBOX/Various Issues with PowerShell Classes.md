@@ -33,4 +33,6 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE]
-> [[PowerShell]] classes have been a finnicky area 
+> [[PowerShell]] classes have been a finnicky feature of the language, and this not serves the purpose of identifying some of the primary issues and pain points with them.
+
+In [[PowerShell]], classes are implemented through compiling [[.NET]]
