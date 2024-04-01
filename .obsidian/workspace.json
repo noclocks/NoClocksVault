@@ -73,38 +73,12 @@
             }
           },
           {
-            "id": "54126cfee83d597e",
+            "id": "db1128e2bcb28014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "284ce6fcac78ad2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7251f79514b3e765",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
+                "file": "03-AREAS/Business/Checklists/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -178,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+                "file": "03-AREAS/Business/Checklists/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+                "file": "03-AREAS/Business/Checklists/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md"
+                "file": "03-AREAS/Business/Checklists/Untitled.md"
               }
             }
           },
@@ -274,14 +248,16 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "54126cfee83d597e",
+  "active": "db1128e2bcb28014",
   "lastOpenFiles": [
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "03-AREAS/Business/Checklists/Untitled.md",
     "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
-    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Business Plan/No Clocks Principles.md",
     "00-INBOX/_README.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
@@ -300,8 +276,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter.md",
     "03-AREAS/Business/Checklists/Checklist - Financial Statement Review.md",
     "03-AREAS/Business/Checklists/Checklist - Content Strategy Document.md",
-    "03-AREAS/Business/Checklists/Checklist - Business Tax Planning.md",
-    "03-AREAS/Business/Checklists/Checklist - Accounting.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",

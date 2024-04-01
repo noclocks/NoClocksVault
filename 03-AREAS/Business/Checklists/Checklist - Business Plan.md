@@ -16,9 +16,6 @@ image:
 cssclasses:
 ---
 
-
-
-
 # Business Plan Checklist
 
 ```table-of-contents
