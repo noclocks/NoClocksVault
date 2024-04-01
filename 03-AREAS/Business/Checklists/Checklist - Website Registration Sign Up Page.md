@@ -7,8 +7,8 @@ tags:
   - Topic/NA
   - Status/WIP
 aliases:
-  - Checklist - Business Documents
-  - Business Documents Checklist
+  - Checklist - Website Registration Sign Up Page
+  - Website Registration Sign Up Page Checklist
 publish: true
 permalink:
 description:
@@ -16,7 +16,7 @@ image:
 cssclasses:
 ---
 
-# Business Documents Checklist
+# Website Registration Sign Up Page Checklist
 
 ```table-of-contents
 title: Contents 
@@ -41,22 +41,9 @@ graph LR
 
 ## Checklist
 
-- [ ] Articles of Organization
-- [ ] Operating Agreement
-- [ ] Certificate of Existence
-- [ ] Employer Identification Number (EIN)
-- [ ] D&B (DUNS) Number
-- [ ] Insurance Policy
-- [ ] Annual Filing
-- [ ] Registered Agent
-- [ ] Business Plan
-- [ ] Licenses and Permits
-- [ ] Charities
-- [ ] Accounting
-- [ ] Bank Accounts
-	- [ ] Primary Checking
-    - [ ] Savings (Taxes)
-- [ ] Line of Credit
+### Step 1
+
+## Conclusion
 
 ***
 
@@ -67,7 +54,7 @@ graph LR
 ### Backlinks
 
 ```dataview
-LIST FROM [[Checklist - Business Documents]] AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/Checklist - Business Documents"
+LIST FROM [[Checklist - Website Registration Sign Up Page]] AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page"
 ```
 
 ***

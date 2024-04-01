@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Business Documents.md"
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Login Page.md"
               }
             }
           },
@@ -237,6 +237,9 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
+    "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Strategy/Startup One-Pager.md",
     "03-AREAS/Business/Strategy/No Clocks One-Page Strategy.md",
@@ -260,9 +263,6 @@
     "03-AREAS/Business/Finance/Financial Statements.md",
     "03-AREAS/Business/Finance/Taxes.md",
     "03-AREAS/Business/Finance/E-Commerce.md",
-    "03-AREAS/Business/Finance/Accounting.md",
-    "03-AREAS/Business/About/No Clocks Services.md",
-    "03-AREAS/Business/About/No Clocks Mission.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
