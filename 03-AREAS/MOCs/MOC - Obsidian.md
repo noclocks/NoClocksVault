@@ -38,11 +38,11 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Obsidian").length`**  individual notes with the `#Topic/Obsidian` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/Obsidian" or "#Topic/PKM" or "#Topic/Meta").length`**  individual notes with one of the tags: `#Topic/Obsidian`, `#Topic/PKM`, or `#Topic/Meta`, including this note.*
 
 ```dataview
 LIST
-FROM #Topic/Obsidian
+FROM #Topic/Obsidian OR #Topic/Meta OR #Topic/PKM
 AND -"CHANGELOG"
 AND -"03-AREAS/MOCs/MOC - Obsidian"
 ```

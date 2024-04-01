@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Obsidian.md",
+                "file": "03-AREAS/MOCs/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Obsidian.md",
+                "file": "03-AREAS/MOCs/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Obsidian.md",
+                "file": "03-AREAS/MOCs/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Obsidian.md"
+                "file": "03-AREAS/MOCs/Untitled.md"
               }
             }
           },
@@ -316,8 +316,12 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "03-AREAS/MOCs/MOC - Finance.md",
+    "03-AREAS/MOCs/MOC - Glossary.md",
+    "03-AREAS/MOCs/Untitled.md",
+    "03-AREAS/MOCs/MOC - Tools.md",
+    "03-AREAS/MOCs/MOC - Technology.md",
     "03-AREAS/MOCs/MOC - Obsidian.md",
+    "03-AREAS/MOCs/MOC - Finance.md",
     "03-AREAS/MOCs/MOC - Development.md",
     "03-AREAS/MOCs/MOC - Business.md",
     "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
@@ -338,10 +342,6 @@
     "05-SYSTEM/Templates/Note Templates/Template-Note-Monthly.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Definition.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-MOC.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
-    "03-AREAS/MOCs/_README.md",
     "03-AREAS/Business/Marketing/Design/Brand",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
