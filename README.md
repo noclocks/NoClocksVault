@@ -62,16 +62,13 @@ Some notes:
 - [[Obsidian - Setup]]
 - [[Obsidian - Folders]]
 - [[Obsidian - Scripts]]
-- [[]]
-- [[]]
-  * [Publish Workflow](2-Areas/Meta/Publish%20Workflow.md) *(MkDocs version only, not Obsidian Publish)*
-  * [How I Take Notes](2-Areas/Meta/How%20I%20Take%20Notes.md)
-  * [Vault Setup](2-Areas/Meta/Vault%20Setup.md)
-  * [Structure](2-Areas/Meta/Structure.md)
+- [[Obsidian - Themes]]
+- [[Obsidian - CSS Snippets]]
+- [[Obsidian - Community Plugins]]
 
-The [Changelog](Changelog.md) is also a good *Meta* resource.
+The [Changelog](CHANGELOG.md) is also a good *Meta* resource.
 
-*Launch this vault directly via the **Obsidian URI Schema**: `obsidian://open?vault=knowledge-vault`.*
+*Launch this vault directly via the **Obsidian URI Schema**: `obsidian://open?vault=NoClocksVault`.*
 
 ## Roadmap
 
@@ -89,15 +86,17 @@ The [Changelog](Changelog.md) is also a good *Meta* resource.
 
 *Check out the various [GitHub Actions] utilized to enable this entire process.*
 
-### Structure: Maps of Content
+### Maps of Content
 
-If this vault serves as my version of [a second brain](0-Slipbox/Building%20a%20Second%20Brain.md), then *Maps of Content* or *MOC's* are the underlying [synapse](3-Resources/Dictionary/Synapse.md)'s connecting the neurotransmitters of the brain together to form a complex, structured system.
+If this vault serves as my version of [a second brain](), then *Maps of Content* or *MOC's* are the underlying mechanism for navigating and connecting the knowledge contained within the vault  to form a complex, structured system.
 
-In other words MOC's serve as structural, index notes that list related [Atomic Notes](0-Slipbox/Atomic%20Notes.md) in a single location.
+In other words MOC's serve as structural, index notes that list related [Atomic Notes]() in a single location.
 
-Utilize *Maps of Content* (MOCs) to navigate the vault efficiently:
+Utilize *Maps of Content* (MOCs) to navigate the vault efficiently.
 
 Some Maps of Content to consider are:
+
+- []
 
 ## Content
 
