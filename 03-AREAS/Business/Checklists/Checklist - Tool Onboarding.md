@@ -36,8 +36,21 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```mermaid
 graph LR
-  tool[Tool Onboar]
+  tool[Tool Onboarding]
+  goals[Define Goals and Objectives]
+  pain[Recognize Current Pain Points]
+  features[Identify Key Features and Capabilities]
+  eval[Evaluate Integration and Compatibility]
+  roles[Define Roles and Responsibilities]
+  training[Develop Training Plan]
+  implementation[Define the Implementation Plan]
+  comms[Communicate and Collaborate]
+  monitor[Monitor and Measure]
+  review[Review and Improve]
+
+  tool -->goals
 ```
+
 
 ## Checklist
 
