@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Tools/Tool - OpenAI.md",
+                "file": "03-AREAS/Tools/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Tools/Tool - OpenAI.md",
+                "file": "03-AREAS/Tools/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Tools/Tool - OpenAI.md",
+                "file": "03-AREAS/Tools/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Tools/Tool - OpenAI.md"
+                "file": "03-AREAS/Tools/Untitled.md"
               }
             }
           },
@@ -316,8 +316,16 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "03-AREAS/Tools/Tool - ChatGPT.md",
+    "03-AREAS/Tools/Tool - PowerShell.md",
+    "03-AREAS/Tools/Untitled.md",
+    "03-AREAS/Tools/Tool - LangGraph.md",
+    "03-AREAS/Tools/Tool - Langserve.md",
+    "03-AREAS/Tools/Tool - Langsmith.md",
+    "03-AREAS/Tools/Tool - Langchain.md",
+    "03-AREAS/Tools/Tool - Google Gemini.md",
+    "03-AREAS/Tools/Tool - Claude.ai.md",
     "03-AREAS/Tools/Tool - OpenAI.md",
+    "03-AREAS/Tools/Tool - ChatGPT.md",
     "04-RESOURCES/Cheatsheets/_README.md",
     "04-RESOURCES/Contacts/_README.md",
     "05-SYSTEM/Templates/_README.md",
@@ -339,19 +347,11 @@
     "05-SYSTEM/Obsidian/Obsidian - Core Plugins.md",
     "05-SYSTEM/Obsidian/Obsidian - Settings - Appearance.md",
     "05-SYSTEM/Obsidian/Obsidian - Settings.md",
-    "03-AREAS/Code/Python/_README.md",
     "03-AREAS/Content",
     "03-AREAS/Ideas",
     "03-AREAS/Code/CSharp",
     "03-AREAS/Code/HTML",
     "03-AREAS/Code/CSS",
-    "03-AREAS/Code/_README.md",
-    "03-AREAS/Development/_README.md",
-    "03-AREAS/Journal/_README.md",
-    "03-AREAS/MOCs/MOC - R.md",
-    "03-AREAS/MOCs/MOC - Checklists.md",
-    "03-AREAS/MOCs/MOC - Guides.md",
-    "03-AREAS/MOCs/MOC - Projects.md",
     "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }

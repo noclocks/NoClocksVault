@@ -26,7 +26,8 @@ cssclasses:
 
 *Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
 
-- []
+- [[Tool - ChatGPT|ChatGPT]]
+- [[MOC - Artificial Intelligence|Artificial Intelligence]]
 
 ### Backlinks
 
