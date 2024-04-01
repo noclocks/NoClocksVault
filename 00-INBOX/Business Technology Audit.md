@@ -27,5 +27,16 @@ What tools are part of your tech stack?
 
 Common types of tools, include, but are not limited to:
 
-- **Marketing**
-- **Content Mangement System (CMS)
+- Marketing Tools
+- Sales Tools
+- 
+
+- **[[03-AREAS/Business/Marketing/_README|Marketing]]**
+- **[[Content Management System (CMS)]]**
+- **Email** and [[Communications]]
+- **[[Search Engine Optimization (SEO)]]**
+- [[Data Analytics]] and [[Business Intelligence (BI)]]
+- [[Advertising]] Management
+- [[03-AREAS/Business/Marketing/Social Media/_README|Social Media]] Management
+- [[Chatbot]] Automation
+- 
