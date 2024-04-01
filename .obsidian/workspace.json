@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md"
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Planning.md"
               }
             }
           },
@@ -237,6 +237,15 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
+    "03-AREAS/Business/Checklists/Checklist - Website Pages.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Maintenance.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
+    "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
+    "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
+    "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
+    "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
+    "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
     "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
     "03-AREAS/Business/Checklists/Checklist - Important Legal Documents.md",
     "03-AREAS/Business/Checklists/Checklist - Frontend Development.md",
@@ -246,23 +255,14 @@
     "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Checklists/Checklist - Accounting.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Pages.md",
     "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
     "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
     "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Strategy/Startup One-Pager.md",
     "03-AREAS/Business/Strategy/No Clocks One-Page Strategy.md",
     "03-AREAS/Business/About/No Clocks Founders Bio.md",
     "03-AREAS/Business/Legal/No Clocks Founders Agreement.md",
     "03-AREAS/Business/Strategy/No Clocks Capability Statement.md",
-    "03-AREAS/Business/Strategy/_README.md",
-    "03-AREAS/Business/Operations/Ops - Product.md",
-    "03-AREAS/Business/Operations/Ops - Infrastructure.md",
-    "03-AREAS/Business/Operations/Ops - Development.md",
-    "03-AREAS/Business/Marketing/Design/Pitch Deck.md",
-    "03-AREAS/Business/Marketing/Design/Logo Design.md",
-    "03-AREAS/Business/Marketing/Design/Logo Guidelines.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",

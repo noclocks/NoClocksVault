@@ -4,7 +4,10 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
-  - Topic/NA
+  - Topic/Business
+  - Topic/Productivity
+  - Topic/PKM
+  - Topic/ProjectManagement
   - Status/WIP
 aliases:
   - Checklist - Project Inception

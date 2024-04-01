@@ -44,11 +44,11 @@ graph LR
 
 - [ ] Verify LLC Registration with Secretary of State
 - [ ] Check Operating Agreement and Amendments
-- [ ] Ensure Annual Reports are up-to-date
+- [ ] Ensure Annual Reports are Up-to-Date
 - [ ] Confirm Payment of State Franchise Taxes
 - [ ] Check Business Licenses and Permits
-- [ ] Updated Business Licenses
-- [ ] Ensure All Insurance Policies Up-to-Date
+- [ ] Update Business Licenses
+- [ ] Ensure All Insurance Policies are Up-to-Date
 - [ ] Verify Company Record Books are Up-to-Date
 - [ ] Check Federal, State, and Local Tax Filings
 - [ ] Maintain Registered Agent
@@ -57,8 +57,6 @@ graph LR
 - [ ] Ensure Debts and Financial Obligations are Met
 - [ ] Monitor LLC Public Image and Reputation
 - [ ] Review Key Personnel and Ownership
-
-
 
 ### Verify LLC Registration with State
 
