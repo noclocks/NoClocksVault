@@ -142,3 +142,21 @@ As advocates of open source development and outreach, we actively contribute to 
 ***
 
 [^1]: [Information Technology Market Size, Share, Analysis, Forecast Report 2033 (thebusinessresearchcompany.com)](https://www.thebusinessresearchcompany.com/report/information-technology-global-market-report)
+
+***
+
+## Appendix
+
+*Note created on [[2024-03-28]] and last modified on [[2024-04-01]].*
+
+### Backlinks
+
+- [[MOC - Business]]
+
+```dataview
+LIST FROM [[No Clocks Business Plan Draft]] AND -"CHANGELOG" AND -"03-AREAS/Business/Strategy/No Clocks Business Plan Draft"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024

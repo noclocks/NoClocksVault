@@ -36,7 +36,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"#Topic/Business"').length`**  individual notes with the `#Topic/Business` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/Business").length`**  individual notes with the `#Topic/Business` tag, including this note.*
 
 ```dataview
 LIST

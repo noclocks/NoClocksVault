@@ -3608,6 +3608,8 @@ Ready to write and publish your thought leadership book with us? Learn more at w
 
 ### Backlinks
 
+- [[MOC - Business]]
+
 ```dataview
 LIST FROM [[The Startup CTOs Handbook]] AND -"CHANGELOG" AND -"04-RESOURCES/Books/The Startup CTOs Handbook"
 ```

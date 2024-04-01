@@ -48,3 +48,20 @@ Today we’ve been able to eliminate many of the registration scenarios by detec
 
 Eliminating process is not always possible, but if we continually ask questions about the workflows and guidance, and ask the teams using these systems to provide feedback and suggestions, hopefully we’ll test the edges and eliminate where possible.
 
+***
+
+## Appendix
+
+*Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
+
+### Backlinks
+
+- [[MOC - Business]]
+
+```dataview
+LIST FROM [[No Clocks Principles]] AND -"CHANGELOG" AND -"03-AREAS/Business/Strategy/No Clocks Principles"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024

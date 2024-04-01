@@ -27,6 +27,8 @@ cssclasses:
 
 ### Backlinks
 
+- [[MOC - Business]]
+
 ```dataview
 LIST FROM [[Small Business Management in the 21st Century]] AND -"CHANGELOG" AND -"04-RESOURCES/Books/Small Business Management in the 21st Century"
 ```
