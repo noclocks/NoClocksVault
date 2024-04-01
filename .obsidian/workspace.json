@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-INBOX/Netscape Bookmarks File Format.md",
+                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-INBOX/Netscape Bookmarks File Format.md",
+                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-INBOX/Netscape Bookmarks File Format.md",
+                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-INBOX/Netscape Bookmarks File Format.md"
+                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md"
               }
             }
           },
@@ -237,6 +237,9 @@
   },
   "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "00-INBOX/Netscape Bookmarks File Format.md",
+    "03-AREAS/Business/Business Plan/No Clocks Principles.md",
+    "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
     "05-SYSTEM/Templates/Custom Templates/TextGenerator",
@@ -245,11 +248,10 @@
     "textgenerator/configs",
     "textgenerator",
     "00-INBOX/Various Issues with PowerShell Classes.md",
-    "00-INBOX/Netscape Bookmarks File Format.md",
     "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
     "04-RESOURCES/Definitions/Common Language Infrastructure (CLI).md",
-    "03-AREAS/Business/No Clocks Business Systems Canvas.canvas",
-    "03-AREAS/Business/No Clocks Business Plan Draft.md",
+    "03-AREAS/Business/Business Plan/No Clocks Business Systems Canvas.canvas",
+    "03-AREAS/Business/Business Plan/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Untitled.md",
     "05-SYSTEM/Obsidian/Obsidian - Setup.md",
     "05-SYSTEM/Obsidian/Obsidian - Themes.md",
@@ -271,8 +273,6 @@
     "04-RESOURCES/Books/The Startup CTOs Handbook.md",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
-    "04-RESOURCES/Books",
-    "04-RESOURCES/Checklists",
-    "src/templater/templater-sourceInputFile.js"
+    "04-RESOURCES/Books"
   ]
 }
