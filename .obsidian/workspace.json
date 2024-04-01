@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Agendas/_README.md",
+                "file": "03-AREAS/Tools/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Agendas/_README.md",
+                "file": "03-AREAS/Tools/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Agendas/_README.md",
+                "file": "03-AREAS/Tools/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Agendas/_README.md"
+                "file": "03-AREAS/Tools/Untitled.md"
               }
             }
           },
@@ -316,8 +316,17 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "03-AREAS/Tools/_README.md",
+    "03-AREAS/Tools/Tool - Python Pandas.md",
+    "03-AREAS/Tools/Untitled.md",
+    "03-AREAS/Tools/Tool - Python Poetry.md",
+    "03-AREAS/Tools/Tool - Pester.md",
+    "03-AREAS/Tools/Tool - Biome.md",
+    "03-AREAS/Tools/Tool - Prettier.md",
+    "03-AREAS/Tools/Tool - PNPM.md",
+    "03-AREAS/Tools/Tool - ESLint.md",
+    "02-PROJECTS/Internal/Website/_README.md",
     "03-AREAS/Agendas/_README.md",
+    "03-AREAS/Tools/_README.md",
     "03-AREAS/Agendas",
     "03-AREAS/Tools/Tool - Square.md",
     "03-AREAS/Tools/Tool - Stripe.md",
@@ -334,15 +343,6 @@
     "03-AREAS/Tools/Tool - s-search CLI.md",
     "03-AREAS/Tools/Tool - rembg CLI.md",
     "03-AREAS/Tools/Tool - PowerShell.md",
-    "03-AREAS/Tools/Tool - LangGraph.md",
-    "03-AREAS/Tools/Tool - Langserve.md",
-    "03-AREAS/Tools/Tool - Langsmith.md",
-    "03-AREAS/Tools/Tool - Langchain.md",
-    "03-AREAS/Tools/Tool - Google Gemini.md",
-    "03-AREAS/Tools/Tool - Claude.ai.md",
-    "03-AREAS/Tools/Tool - OpenAI.md",
-    "03-AREAS/Tools/Tool - ChatGPT.md",
-    "04-RESOURCES/Cheatsheets/_README.md",
     "04-RESOURCES/Contacts",
     "05-SYSTEM/Assets/Styles",
     "05-SYSTEM/Assets/Icons",
