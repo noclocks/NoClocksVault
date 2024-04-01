@@ -136,9 +136,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "cf464e23a569d7f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-MOC.md",
+                "file": "03-AREAS/MOCs/MOC - Business.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-MOC.md",
+                "file": "03-AREAS/MOCs/MOC - Business.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-MOC.md"
+                "file": "03-AREAS/MOCs/MOC - Business.md"
               }
             }
           },
@@ -300,11 +313,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "08b5c57d121e697e",
+  "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
-    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-MOC.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
+    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-MOC.md",
+    "05-SYSTEM/Templates/Custom Templates/Dataview/Template-Dataview-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-Number-of-Notes.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
@@ -327,7 +341,6 @@
     "03-AREAS/Business/Finance/Pricing Strategy.md",
     "00-INBOX/_README.md",
     "03-AREAS/Business/Finance/Tax Deductions.md",
-    "03-AREAS/Business/Finance/Financial Systems.md",
     "03-AREAS/Business/Marketing/Design/Brand",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
