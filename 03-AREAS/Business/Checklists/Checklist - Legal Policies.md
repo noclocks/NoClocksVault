@@ -4,7 +4,8 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
-  - Topic/NA
+  - Topic/Business
+  - Topic/Business/Legal
   - Status/WIP
 aliases:
   - Checklist - Legal Policies
