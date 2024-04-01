@@ -34,7 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Diagram
 
-*Below is a graph representing the structure of the b*
+*Below is a graph representing the structure of the business plan:*
 
 ```mermaid
 graph LR

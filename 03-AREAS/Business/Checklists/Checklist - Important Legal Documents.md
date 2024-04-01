@@ -3,11 +3,12 @@ creation_date: 2024-03-05
 modification_date: 2024-03-05
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Checklist
+  - Topic/Business
+  - Status/WIP
 aliases:
-  - List - Important Legal Documents
+  - Checklist - Important Legal Documents
+  - Legal Documents Checklist
 publish: true
 permalink:
 description:
@@ -15,19 +16,18 @@ image:
 cssclasses:
 ---
 
-# Important Legal Documents List
-
-## Contents
+# Important Legal Documents Checklist
 
 ```table-of-contents
-style: nestedList
-minLevel: 2
-maxLevel: 10
-includeLinks: true
-debugInConsole: false
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
 ```
 
-## List
+## Checklist
 
 ### Create List of All Documents
 
@@ -35,6 +35,7 @@ This task involves creating a comprehensive list of all the legal documents that
 
 Some common documents are:
 
+- [ ] Terms of Ser
 Next, each document should have a "Document Type".
 
 - Identification
