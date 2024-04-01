@@ -60,33 +60,20 @@
             }
           },
           {
-            "id": "77c1deba317bb01e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "db1128e2bcb28014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Legal Policies.md"
+                "file": "03-AREAS/Business/Checklists/Checklist - Business Plan.md"
               }
             }
           },
@@ -248,22 +235,22 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "db1128e2bcb28014",
+  "active": "6d9d9199e7aa3899",
   "lastOpenFiles": [
+    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
     "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
     "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
-    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Business Plan/No Clocks Principles.md",
     "00-INBOX/_README.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",

@@ -34,6 +34,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Diagram
 
+*Below is a basic demonstration of our website's "legal policies" routes:*
+
 ```mermaid
 graph LR
   web[Website]
@@ -42,11 +44,17 @@ graph LR
   cookie[Cookie Consent]
 
   web --"`/terms`"-->terms
+  web --"`/privacy`"-->privacy
+  web --"`/cookies`"-->cookie
 ```
 
 ## Checklist
 
-### Step 1
+### Terms of Service
+
+### Privacy Policy
+
+### Cookie Consent
 
 ## Conclusion
 

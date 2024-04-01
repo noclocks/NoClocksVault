@@ -36,6 +36,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```mermaid
 graph LR
+  execsumm[Executive Summary]
   
 ```
 
