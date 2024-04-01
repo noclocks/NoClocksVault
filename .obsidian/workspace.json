@@ -141,12 +141,17 @@
             "id": "bfb9290be8f5e6a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled (Un).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -212,6 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,6 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +256,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md"
+              }
             }
           },
           {
@@ -304,8 +313,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "bfb9290be8f5e6a0",
+  "active": "80e2b7e870294e56",
   "lastOpenFiles": [
+    "Untitled (Un).md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
@@ -340,7 +350,6 @@
     "05-SYSTEM/Obsidian/Obsidian - Themes.md",
     "05-SYSTEM/Obsidian/Obsidian - Community Plugins.md",
     "05-SYSTEM/Obsidian/Obsidian - Scripts.md",
-    "05-SYSTEM/Obsidian/Obsidian - Folders.md",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Books"
   ]
