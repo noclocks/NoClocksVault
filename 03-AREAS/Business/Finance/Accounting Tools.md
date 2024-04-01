@@ -20,5 +20,5 @@ cssclasses:
 
 # Accounting Tools
 
-- [[Quickbooks]]
-- [[Wave]]
+- [[Tool - Quickbooks (Accounting)|Quickbooks]]
+- [[Tool - Wave (Accounting)|Wave]]

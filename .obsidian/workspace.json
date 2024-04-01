@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Tools/Tool - Quickbooks.md",
-                "mode": "source",
+                "file": "03-AREAS/Business/Finance/Business Expense Categories.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Tools/Tool - Quickbooks.md",
+                "file": "03-AREAS/Business/Finance/Business Expense Categories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Tools/Tool - Quickbooks.md",
+                "file": "03-AREAS/Business/Finance/Business Expense Categories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Tools/Tool - Quickbooks.md"
+                "file": "03-AREAS/Business/Finance/Business Expense Categories.md"
               }
             }
           },
@@ -237,8 +237,10 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
-    "03-AREAS/Business/Finance/Accounting/Accounting Tools.md",
-    "03-AREAS/Tools/Tool - Quickbooks.md",
+    "03-AREAS/Business/Finance/Accounting Tools.md",
+    "03-AREAS/Business/Finance/Business Expense Categories.md",
+    "03-AREAS/Tools/Tool - Quickbooks (Accounting).md",
+    "03-AREAS/Tools/Tool - Wave (Accounting).md",
     "03-AREAS/Business/Finance/Accounting.md",
     "03-AREAS/Business/Marketing/Design/Static Assets.md",
     "03-AREAS/Business/Marketing/Design/Brand/Brand Fonts.md",
@@ -262,8 +264,6 @@
     "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
     "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
     "03-AREAS/Business/Checklists/Checklist - Important Legal Documents.md",
-    "03-AREAS/Business/Checklists/Checklist - Frontend Development.md",
-    "03-AREAS/Business/Checklists/Checklist - Financial Statement Review.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
