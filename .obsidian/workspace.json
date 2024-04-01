@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - R.md",
+                "file": "03-AREAS/Code/Python/_README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - R.md",
+                "file": "03-AREAS/Code/Python/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - R.md",
+                "file": "03-AREAS/Code/Python/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - R.md"
+                "file": "03-AREAS/Code/Python/_README.md"
               }
             }
           },
@@ -314,10 +314,25 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "5f6d77e4b1639872",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
-    "03-AREAS/MOCs/MOC - Checklists.md",
+    "03-AREAS/Code/Untitled",
+    "03-AREAS/Code/HTML",
+    "03-AREAS/Code/CSS",
+    "03-AREAS/Code/CMD",
+    "03-AREAS/Code/Docker",
+    "03-AREAS/Code/PowerQuery",
+    "03-AREAS/Code/VBA",
+    "03-AREAS/Code/Registry",
+    "03-AREAS/Code/Azure",
+    "03-AREAS/Code/React",
+    "03-AREAS/Code/JavaScript",
+    "03-AREAS/Code/_README.md",
+    "03-AREAS/Code/Python/_README.md",
+    "03-AREAS/Development/_README.md",
+    "03-AREAS/Journal/_README.md",
     "03-AREAS/MOCs/MOC - R.md",
+    "03-AREAS/MOCs/MOC - Checklists.md",
     "03-AREAS/MOCs/MOC - Guides.md",
     "03-AREAS/MOCs/MOC - Projects.md",
     "03-AREAS/MOCs/MOC - Inbox.md",
@@ -337,21 +352,6 @@
     "03-AREAS/MOCs/MOC - Technology.md",
     "03-AREAS/MOCs/MOC - Obsidian.md",
     "03-AREAS/MOCs/MOC - Finance.md",
-    "03-AREAS/MOCs/MOC - Development.md",
-    "03-AREAS/MOCs/MOC - Business.md",
-    "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
-    "03-AREAS/Business/Strategy/No Clocks Principles.md",
-    "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
-    "03-AREAS/Business/Marketing/Design/Brand",
-    "03-AREAS/Business/About",
-    "03-AREAS/Business/Marketing/Design",
-    "03-AREAS/Business/Strategy",
-    "05-SYSTEM/TextGenerator/configs/llm",
-    "05-SYSTEM/TextGenerator/configs",
-    "05-SYSTEM/Templates/Custom Templates/TextGenerator",
-    "05-SYSTEM/TextGenerator",
-    "textgenerator/configs/llm",
-    "textgenerator/configs",
     "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }
