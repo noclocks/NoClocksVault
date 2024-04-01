@@ -71,9 +71,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "f20aa7883284f041",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +184,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md"
-              }
+              "state": {}
             }
           },
           {
@@ -235,10 +239,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "6d9d9199e7aa3899",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
-    "00-INBOX/Netscape Bookmarks File Format.md",
     "03-AREAS/Business/Business Plan/No Clocks Principles.md",
+    "00-INBOX/Netscape Bookmarks File Format.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
@@ -260,16 +264,16 @@
     "05-SYSTEM/Obsidian/Obsidian - Folders.md",
     "05-SYSTEM/Obsidian/Obsidian - CSS Snippets.md",
     "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
-    "04-RESOURCES/Checklists/Checklist - Important Legal Documents.md",
+    "03-AREAS/Business/Checklists/Checklist - Important Legal Documents.md",
     "04-RESOURCES/Checklists/List - Important Legal Documents.md",
-    "04-RESOURCES/Checklists/Checklist - Website Planning.md",
-    "04-RESOURCES/Checklists/Checklist - Website Maintenance.md",
-    "04-RESOURCES/Checklists/Checklist - Social Media Strategy.md",
-    "04-RESOURCES/Checklists/Checklist - LLC Legal Compliance.md",
-    "04-RESOURCES/Checklists/Checklist - Financial Statement Review.md",
-    "04-RESOURCES/Checklists/Checklist - Content Strategy Document.md",
-    "04-RESOURCES/Checklists/Checklist - Business Tax Planning.md",
-    "04-RESOURCES/Checklists/Checklist - Accounting.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Maintenance.md",
+    "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
+    "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
+    "03-AREAS/Business/Checklists/Checklist - Financial Statement Review.md",
+    "03-AREAS/Business/Checklists/Checklist - Content Strategy Document.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Tax Planning.md",
+    "03-AREAS/Business/Checklists/Checklist - Accounting.md",
     "04-RESOURCES/Books/The Startup CTOs Handbook.md",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
