@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Project Inception.md"
+                "file": "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md"
               }
             }
           },
@@ -224,8 +224,9 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
-    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
+    "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
+    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "00-INBOX/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Important Legal Documents.md",
     "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
@@ -249,7 +250,6 @@
     "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
     "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter.md",
-    "03-AREAS/Business/Checklists/Checklist - Financial Statement Review.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",

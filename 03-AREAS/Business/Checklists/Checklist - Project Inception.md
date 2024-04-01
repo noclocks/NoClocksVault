@@ -67,6 +67,54 @@ graph LR
 
 - [ ] Create and setup a dedicated, private cloud storage folder on Google Drive and share with all (internal) team members.
 
+- Cloud Storage
+- Files/Folders Structure
+- Client Contacts
+- GitHub Project (Board)
+- Slack Channel
+- Mailing List
+- Time Tracking
+- Project Management
+- Task Management
+- Communication Plan
+- Meetings Schedule
+- Project Kickoff Meeting
+- Spreadsheet with all project details, contacts, roles, etc.
+- Project Charter
+- Shared Calendar
+
+- GitHub
+- Slack Channel and App Integrations and Canvas
+- Google Drive
+- Google Docs
+- Google Sheets
+- Google Calendar
+- Todoist
+- Project Dedicated Documentation Site via GitHub Pages (`docs.noclocks.dev/<projectName>`)
+- CI/CD via GitHub Actions
+- Time Tracking via __________
+- Exception and Error Tracking via __________
+
+### Logistics
+
+#### Project Management and Communication
+
+- [ ] Set up cloud storage for the project: Google Drive, Dropbox, etc.
+
+- [ ] Create a comprehensive list of client stakeholders and their contact information.
+  - [ ] Add contacts to company address book tagged with "Client".
+  - [ ] Create a *mailing list* for the client contacts that forwards email to all members of the project team. Clients 
+        can simply CC this email address ensuring that communications are never lost.
+
+- [ ] Create a [GitHub Project Board](https://github.com/noclocks/projects) for the project.
+  - [ ] Add all team members to the project board.
+  - [ ] Share link to project board with client stakeholders.
+
+- [ ] Create a Slack channel for the client and project.
+  - [ ] Prefix client channel with `client-`
+  - [ ] Prefix the project channel name with `proj-`
+  - [ ] Add all internal team and client stakeholders to the channels.
+  - [ ] Copy client channel's email address and add to contacts for easy email forwarding to the slack channel.
 
 
 ## Conclusion
