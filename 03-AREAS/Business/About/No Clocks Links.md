@@ -34,8 +34,11 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - **Domain**: https://noclocks.dev
 - **Emails**:
-	- **Jimmy**: [jimmy.briggs@noclocks.dev](mailto:jimmy.briggs@noclocks.)
+	- **Jimmy**: mailto:jimmy.briggs@noclocks.dev
+	- **Patrick**: mailto:patrick.howard@noclocks.dev
 - **GitHub**: https://github.com/noclocks
 - **LinkedIn**: https://linkedin.com/company/noclocks
 - **Twitter** (X): https://twitter.com/noclocksdev
-- **Hashnode** (Blog): https://hashnode.com/noclocks and https://blog.noclocks.dev
+- **HashNode** (Blog): https://hashnode.com/noclocks and https://blog.noclocks.dev
+- **Medium**
+- **Dev.to**

@@ -23,6 +23,10 @@ cssclasses:
 
 ## Overview
 
+A *digital technology audit* is a *comprehensive examination of an organization's online presence, assets, and activities across various digital channels.* It involves assessing the performance, effectiveness, and alignment of digital strategies with business goals. 
+
+A digital audit typically encompasses areas such as:
+
 What tools are part of your tech stack?
 
 Common types of tools, include, but are not limited to:
