@@ -125,12 +125,12 @@
             }
           },
           {
-            "id": "80e2b7e870294e56",
+            "id": "284ce6fcac78ad2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md"
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md"
               }
             }
           },
@@ -300,14 +300,18 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "54126cfee83d597e",
+  "active": "77c1deba317bb01e",
   "lastOpenFiles": [
-    "Untitled (Un).md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
-    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
+    "Untitled (Un).md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
     "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
@@ -333,10 +337,6 @@
     "03-AREAS/Business/Business Plan/No Clocks Business Systems Canvas.canvas",
     "03-AREAS/Business/Business Plan/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Untitled.md",
-    "05-SYSTEM/Obsidian/Obsidian - Setup.md",
-    "05-SYSTEM/Obsidian/Obsidian - Themes.md",
-    "05-SYSTEM/Obsidian/Obsidian - Community Plugins.md",
-    "05-SYSTEM/Obsidian/Obsidian - Scripts.md",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Books"
   ]

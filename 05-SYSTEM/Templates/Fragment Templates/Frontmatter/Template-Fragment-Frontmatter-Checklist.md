@@ -16,10 +16,4 @@ image:
 cssclasses:
 ---
 
-# <% <% (tp.file.title).replace("Checklist - ", "") + " Checklist" %>
 
-<% tp.file.include("[[Template-Fragment-TOC]]") %>
-
-## Overview
-
-<% tp.file.include("[[Template-Fragment-]])
