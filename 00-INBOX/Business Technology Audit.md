@@ -29,6 +29,7 @@ Common types of tools, include, but are not limited to:
 
 - Marketing Tools
 - Sales Tools
+- Service Tools
 - 
 
 - **[[03-AREAS/Business/Marketing/_README|Marketing]]**
