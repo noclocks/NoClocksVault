@@ -35,7 +35,24 @@ This task involves creating a comprehensive list of all the legal documents that
 
 Some common documents are:
 
-- [ ] Terms of Ser
+- [ ] Terms of Service
+- [ ] Privacy Policy
+- [ ] Cookie Consent Policy
+- [ ] Cookie Consent Banner
+- [ ] Return and Refund Policy
+- [ ] Shipping Policy
+- [ ] End User License Agreement (EULA)
+- [ ] Data Subject Access Request (DSAR) Policy/Form
+- [ ] Acceptable Use Policy
+
+Others:
+
+- [ ] Payment Policy
+- [ ] Cancellation Policy
+- [ ] Disclaimer
+
+### Document Type Association
+
 Next, each document should have a "Document Type".
 
 - Identification
@@ -49,10 +66,25 @@ Next, each document should have a "Document Type".
 - Liability
 - Lawsuit
 
-#### Document Checklist
+### Document Checklist
 
 - [ ] Check if document is available
 - [ ] Make a copy of the document
 - [ ] Secure storage for original document
 - [ ] Create a digital backup of the document
 
+***
+
+## Appendix
+
+*Note created on [[2024-03-05]] and last modified on [[2024-04-01]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[Checklist - Important Legal Documents]] AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/Checklist - Important Legal Documents"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
