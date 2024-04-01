@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Business.md",
-                "mode": "preview",
+                "file": "03-AREAS/MOCs/MOC - Obsidian.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Business.md",
+                "file": "03-AREAS/MOCs/MOC - Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Business.md",
+                "file": "03-AREAS/MOCs/MOC - Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/MOCs/MOC - Business.md"
+                "file": "03-AREAS/MOCs/MOC - Obsidian.md"
               }
             }
           },
@@ -273,7 +273,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "c703c8ee92c6a2ea",
@@ -315,8 +316,11 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
+    "03-AREAS/MOCs/MOC - Finance.md",
+    "03-AREAS/MOCs/MOC - Obsidian.md",
+    "03-AREAS/MOCs/MOC - Development.md",
     "03-AREAS/MOCs/MOC - Business.md",
+    "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
     "03-AREAS/Business/Strategy/No Clocks Principles.md",
     "04-RESOURCES/Books/Small Business Management in the 21st Century.md",
     "04-RESOURCES/Books/The Startup CTOs Handbook.md",
@@ -338,9 +342,6 @@
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
     "03-AREAS/MOCs/_README.md",
-    "05-SYSTEM/Obsidian/_README.md",
-    "README.md",
-    "03-AREAS/Tools/_README.md",
     "03-AREAS/Business/Marketing/Design/Brand",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
