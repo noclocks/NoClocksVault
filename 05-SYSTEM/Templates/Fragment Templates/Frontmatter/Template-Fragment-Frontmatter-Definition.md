@@ -8,7 +8,7 @@ tags:
   - Status/WIP
 aliases:
   - <% tp.file.title %>
-  
+  - <% (tp.file.title).replace("\(([^)]+)\)", "") %>"
 publish: true
 permalink:
 description:
