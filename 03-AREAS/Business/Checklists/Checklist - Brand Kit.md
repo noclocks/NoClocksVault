@@ -43,8 +43,6 @@ graph LR
 
 ## Checklist
 
-^4df37b
-
 - [ ] Logo
 - [ ] Color Palette
 - [ ] Typography
@@ -54,7 +52,7 @@ graph LR
 - [ ] Guidelines
 - [ ] Examples & Inspiration
 
-^checklist
+^brandkit-checklist
 
 ## Conclusion
 

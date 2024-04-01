@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
+                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
+                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Brand Kit.md"
+                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md"
               }
             }
           },
@@ -235,10 +235,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "18ee9f4f4242e015",
+  "active": "f20aa7883284f041",
   "lastOpenFiles": [
-    "03-AREAS/Business/Marketing/Design/Brand Kit.md",
     "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
+    "03-AREAS/Business/Marketing/Design/Brand Kit.md",
     "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "03-AREAS/Business/Checklists/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
