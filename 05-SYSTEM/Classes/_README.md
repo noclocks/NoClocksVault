@@ -7,8 +7,8 @@ tags:
   - Topic/Meta
   - Status/Ongoing
 aliases:
-  - Assets
-  - Assets Readme
+  - Classes
+  - Classes Readme
 publish: true
 permalink:
 description:
@@ -18,7 +18,7 @@ cssclasses:
 ---
 
 
-# Assets
+# Classes
 
 ```table-of-contents
 title: Contents 
@@ -32,24 +32,15 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `05-SYSTEM/Assets` directory.
-
-## Asset Types
-
-- [[Banners]]
-- [[Fonts]]
-- [[Icons]]
-- [[Images]]
-- [[PDFs]]
-- [[Styles]]
+> This note serves as an index for all notes under the `05-SYSTEM/Classes` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `05-SYSTEM/Assets` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `05-SYSTEM/Classes` folder, including this note.*
 
 ```dataview
-LIST FROM "05-SYSTEM/Assets" AND -"CHANGELOG" AND -"05-SYSTEM/Assets/_README"
+LIST FROM "05-SYSTEM/Classes" AND -"CHANGELOG" AND -"05-SYSTEM/Classes/_README"
 ```
 
 ***
@@ -61,7 +52,7 @@ LIST FROM "05-SYSTEM/Assets" AND -"CHANGELOG" AND -"05-SYSTEM/Assets/_README"
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"05-SYSTEM/Assets/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"05-SYSTEM/Classes/_README"
 ```
 
 ***

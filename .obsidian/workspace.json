@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Assets/_README.md",
+                "file": "04-RESOURCES/Cheatsheets/_README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Assets/_README.md",
+                "file": "04-RESOURCES/Cheatsheets/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Assets/_README.md",
+                "file": "04-RESOURCES/Cheatsheets/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Assets/_README.md"
+                "file": "04-RESOURCES/Cheatsheets/_README.md"
               }
             }
           },
@@ -314,10 +314,16 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "5f6d77e4b1639872",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
-    "05-SYSTEM/Obsidian/Obsidian - Templates Strategy.md",
+    "04-RESOURCES/Contacts/_README.md",
+    "04-RESOURCES/Cheatsheets/_README.md",
+    "05-SYSTEM/Templates/_README.md",
+    "04-RESOURCES/Contacts",
+    "05-SYSTEM/Lookups/_README.md",
+    "05-SYSTEM/Classes/_README.md",
     "05-SYSTEM/Assets/_README.md",
+    "05-SYSTEM/Obsidian/Obsidian - Templates Strategy.md",
     "05-SYSTEM/Assets/Styles",
     "05-SYSTEM/Assets/Icons",
     "05-SYSTEM/Assets/Fonts",
@@ -337,7 +343,6 @@
     "03-AREAS/Code/CSharp",
     "03-AREAS/Code/HTML",
     "03-AREAS/Code/CSS",
-    "03-AREAS/Code/CMD",
     "03-AREAS/Code/_README.md",
     "03-AREAS/Development/_README.md",
     "03-AREAS/Journal/_README.md",
@@ -347,11 +352,6 @@
     "03-AREAS/MOCs/MOC - Projects.md",
     "03-AREAS/MOCs/MOC - Inbox.md",
     "03-AREAS/MOCs/MOC - Artificial Intelligence.md",
-    "03-AREAS/MOCs/MOC - JavaScript.md",
-    "03-AREAS/MOCs/MOC - Databases.md",
-    "03-AREAS/MOCs/MOC - Productivity.md",
-    "03-AREAS/MOCs/MOC - PKM.md",
-    "03-AREAS/MOCs/MOC - Cloud.md",
     "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }
