@@ -46,7 +46,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[03-AREAS/Business/Legal/_README|Legal]]
 - [[03-AREAS/Business/Marketing/_README|Marketing]]
 - [[03-AREAS/Business/Operations/_README|Operations]]
-- [[03-AREAS/Business/Marketing/Sales/_README|Sales]]
+- [[03-AREAS/Business/Finance/Sales/_README|Sales]]
 - [[03-AREAS/Business/Marketing/Social Media/_README|Social Media]]
 
 ## Notes

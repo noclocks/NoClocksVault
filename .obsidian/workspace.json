@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Brand Kit.md",
+                "file": "03-AREAS/Business/Operations/Ops - Product.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Brand Kit.md",
+                "file": "03-AREAS/Business/Operations/Ops - Product.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Brand Kit.md",
+                "file": "03-AREAS/Business/Operations/Ops - Product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Brand Kit.md"
+                "file": "03-AREAS/Business/Operations/Ops - Product.md"
               }
             }
           },
@@ -237,8 +237,18 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
+    "03-AREAS/Business/Operations/Ops - Infrastructure.md",
+    "03-AREAS/Business/Operations/Ops - Product.md",
+    "03-AREAS/Business/Operations/Ops - Development.md",
+    "03-AREAS/Business/Marketing/Design/Pitch Deck.md",
+    "03-AREAS/Business/Marketing/Design/Logo Design.md",
+    "03-AREAS/Business/Marketing/Design/Logo Guidelines.md",
+    "03-AREAS/Business/About/Elevator Pitch.md",
+    "03-AREAS/Business/Marketing/Design/Digital Asset Management.md",
+    "03-AREAS/Business/Marketing/Design/Brand Vision.md",
+    "03-AREAS/Business/Marketing/Design/Brand Board.md",
+    "03-AREAS/Business/Marketing/Design/Brand Kit.md",
     "03-AREAS/Business/Marketing/Marketing Plan.md",
-    "03-AREAS/Business/Marketing/Brand Kit.md",
     "03-AREAS/Business/Finance/Insurance Policies.md",
     "03-AREAS/Business/Finance/Financial Statements.md",
     "03-AREAS/Business/Finance/Taxes.md",
@@ -248,23 +258,13 @@
     "03-AREAS/Business/About/No Clocks Mission.md",
     "03-AREAS/Business/About/No Clocks Team.md",
     "03-AREAS/Business/About/_README.md",
-    "03-AREAS/Business/Design/_README.md",
+    "03-AREAS/Business/Marketing/Design/_README.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/_README.md",
-    "03-AREAS/Business/Design",
+    "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Finance/Accounting/_README.md",
     "03-AREAS/Business/Finance/Accounts/_README.md",
     "03-AREAS/Business/Business Plan/_README.md",
-    "03-AREAS/Business/Checklists/_README.md",
-    "03-AREAS/Business/Marketing/Community/_README.md",
-    "03-AREAS/Business/Finance/_README.md",
-    "03-AREAS/Business/Finance/Insurance/_README.md",
-    "03-AREAS/Business/Legal/_README.md",
-    "03-AREAS/Business/Marketing/_README.md",
-    "03-AREAS/Business/Operations/_README.md",
-    "03-AREAS/Business/Marketing/Sales/_README.md",
-    "03-AREAS/Business/Marketing/Social Media/_README.md",
-    "00-INBOX/_README.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
