@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Inspiration.md",
+                "file": "05-SYSTEM/Assets/_README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Inspiration.md",
+                "file": "05-SYSTEM/Assets/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Inspiration.md",
+                "file": "05-SYSTEM/Assets/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Obsidian/Obsidian - Inspiration.md"
+                "file": "05-SYSTEM/Assets/_README.md"
               }
             }
           },
@@ -316,8 +316,18 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "05-SYSTEM/Obsidian/Obsidian - Settings - Hotkeys.md",
+    "05-SYSTEM/Obsidian/Obsidian - Templates Strategy.md",
+    "05-SYSTEM/Assets/_README.md",
+    "05-SYSTEM/Assets/Styles",
+    "05-SYSTEM/Assets/Icons",
+    "05-SYSTEM/Assets/Fonts",
+    "05-SYSTEM/Assets/Banners",
+    "05-SYSTEM/Obsidian/Obsidian - Folders.md",
+    "05-SYSTEM/Obsidian/Obsidian - Folder Strategy.md",
+    "05-SYSTEM/Obsidian/Obsidian - Taxonomy.md",
+    "05-SYSTEM/Obsidian/Obsidian - Tagging Strategy.md",
     "05-SYSTEM/Obsidian/Obsidian - Inspiration.md",
+    "05-SYSTEM/Obsidian/Obsidian - Settings - Hotkeys.md",
     "05-SYSTEM/Obsidian/Obsidian - Core Plugins.md",
     "05-SYSTEM/Obsidian/Obsidian - Settings - Appearance.md",
     "05-SYSTEM/Obsidian/Obsidian - Settings.md",
@@ -328,10 +338,6 @@
     "03-AREAS/Code/HTML",
     "03-AREAS/Code/CSS",
     "03-AREAS/Code/CMD",
-    "03-AREAS/Code/Docker",
-    "03-AREAS/Code/PowerQuery",
-    "03-AREAS/Code/VBA",
-    "03-AREAS/Code/Registry",
     "03-AREAS/Code/_README.md",
     "03-AREAS/Development/_README.md",
     "03-AREAS/Journal/_README.md",
@@ -346,12 +352,6 @@
     "03-AREAS/MOCs/MOC - Productivity.md",
     "03-AREAS/MOCs/MOC - PKM.md",
     "03-AREAS/MOCs/MOC - Cloud.md",
-    "03-AREAS/MOCs/MOC - Python.md",
-    "03-AREAS/MOCs/MOC - React.md",
-    "03-AREAS/MOCs/MOC - Web Development.md",
-    "03-AREAS/MOCs/MOC - APIs.md",
-    "03-AREAS/MOCs/MOC - PowerShell.md",
-    "03-AREAS/MOCs/MOC - Glossary.md",
     "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }
