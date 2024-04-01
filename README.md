@@ -96,7 +96,7 @@ Utilize *Maps of Content* (MOCs) to navigate the vault efficiently.
 
 Some Maps of Content to consider are:
 
-- []
+- 
 
 ## Content
 

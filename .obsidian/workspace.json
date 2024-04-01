@@ -78,7 +78,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Obsidian/_README.md",
+                "file": "03-AREAS/MOCs/MOC - Business.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2cad0cf19002d155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f46aea099f3893b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -152,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md"
               }
             }
           },
@@ -248,11 +274,19 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "15182ee2456ce5c4",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
-    "03-AREAS/Tools/_README.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-MOC.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
+    "03-AREAS/MOCs/MOC - Business.md",
+    "03-AREAS/MOCs/_README.md",
     "05-SYSTEM/Obsidian/_README.md",
     "README.md",
+    "03-AREAS/Tools/_README.md",
     "03-AREAS/Business/Finance/Financial Strategy Guide.md",
     "03-AREAS/Business/Finance/Pricing Strategy.md",
     "00-INBOX/_README.md",
@@ -268,15 +302,7 @@
     "03-AREAS/Business/Finance/Accounting Tools.md",
     "03-AREAS/Tools/Tool - Wave (Accounting).md",
     "03-AREAS/Business/Finance/Accounting.md",
-    "03-AREAS/Business/Marketing/Design/Static Assets.md",
-    "03-AREAS/Business/Marketing/Design/Brand/Brand Fonts.md",
-    "03-AREAS/Business/Marketing/Design/Brand/Brand Logos.md",
-    "03-AREAS/Business/Marketing/Design/Brand/_README.md",
-    "03-AREAS/Business/Marketing/Design/Brand/Brand Colors.md",
     "03-AREAS/Business/Marketing/Design/Brand",
-    "03-AREAS/Business/Marketing/Design/Brand/Brand Kit.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
-    "03-AREAS/Business/Checklists/_README.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
