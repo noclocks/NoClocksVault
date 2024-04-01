@@ -36,8 +36,23 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```mermaid
 graph LR
+  busplan[Business Plan]
   execsumm[Executive Summary]
-  
+  product[Product]
+  customers[Customers]
+  company[Company Description]
+  mission[Mission Statement]
+  legal[Legal Structure]
+  market[Market Research]
+  industry[Industry]
+  advantages[Company Advantages]
+  competencies[Core Competensies]
+  value[Unique Value Proposition]
+  innovation[Innovation and Collaboration]
+  ethical[Ethical and Sustainable Approach]
+
+
+
 ```
 
 ## Checklist
