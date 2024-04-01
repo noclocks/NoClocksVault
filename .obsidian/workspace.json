@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Finance/Tax Deductions.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Finance/Tax Deductions.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Finance/Tax Deductions.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Finance/Tax Deductions.md"
+                "file": "README.md"
               }
             }
           },
@@ -250,8 +250,8 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "03-AREAS/Business/Finance/Financial Systems.md",
     "03-AREAS/Business/Finance/Tax Deductions.md",
+    "03-AREAS/Business/Finance/Financial Systems.md",
     "03-AREAS/Business/Finance/Startup Costs List.md",
     "03-AREAS/Business/Finance/Sales Tools.md",
     "03-AREAS/Tools/Tool - Relay (Bank).md",
