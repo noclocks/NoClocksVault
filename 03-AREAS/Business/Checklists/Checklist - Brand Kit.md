@@ -43,6 +43,8 @@ graph LR
 
 ## Checklist
 
+^4df37b
+
 - [ ] Logo
 - [ ] Color Palette
 - [ ] Typography
@@ -51,6 +53,8 @@ graph LR
 - [ ] Templates & Layouts
 - [ ] Guidelines
 - [ ] Examples & Inspiration
+
+^checklist
 
 ## Conclusion
 

@@ -35,5 +35,5 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ^0f249e
 
-![[Checklist - Brand Kit#^6fc0a0]]
+![[Checklist - Brand Kit#^4df37b]]
 
