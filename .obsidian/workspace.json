@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "03-AREAS/Business/Finance/Pricing Strategy.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -71,9 +71,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "5f6d77e4b1639872",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-AREAS/Business/Finance/Startup Costs List.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Finance/Pricing Strategy.md",
+                "file": "03-AREAS/Business/Finance/Startup Costs List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Finance/Pricing Strategy.md",
+                "file": "03-AREAS/Business/Finance/Startup Costs List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Finance/Pricing Strategy.md"
+                "file": "03-AREAS/Business/Finance/Startup Costs List.md"
               }
             }
           },
@@ -235,14 +248,18 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "f20aa7883284f041",
+  "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "03-AREAS/Business/Finance/Funding.md",
+    "03-AREAS/Business/Finance/Sales Tools.md",
+    "03-AREAS/Business/Finance/Startup Costs List.md",
+    "03-AREAS/Tools/Tool - Relay (Bank).md",
+    "03-AREAS/Tools/Tool - Quickbooks (Accounting).md",
+    "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
     "03-AREAS/Business/Finance/Pricing Strategy.md",
+    "03-AREAS/Business/Finance/Funding.md",
     "03-AREAS/Business/Finance/Financial Strategy Guide.md",
     "03-AREAS/Business/Finance/Business Expense Categories.md",
     "03-AREAS/Business/Finance/Accounting Tools.md",
-    "03-AREAS/Tools/Tool - Quickbooks (Accounting).md",
     "03-AREAS/Tools/Tool - Wave (Accounting).md",
     "03-AREAS/Business/Finance/Accounting.md",
     "03-AREAS/Business/Marketing/Design/Static Assets.md",
@@ -252,7 +269,6 @@
     "03-AREAS/Business/Marketing/Design/Brand/Brand Colors.md",
     "03-AREAS/Business/Marketing/Design/Brand",
     "03-AREAS/Business/Marketing/Design/Brand/Brand Kit.md",
-    "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
     "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "03-AREAS/Business/Checklists/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
@@ -261,9 +277,6 @@
     "03-AREAS/Business/Checklists/Checklist - Website Maintenance.md",
     "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
     "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
-    "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
-    "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
-    "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
