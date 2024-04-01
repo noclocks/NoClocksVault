@@ -8,8 +8,8 @@ tags:
   - Topic/Dev/WebDev
   - Status/WIP
 aliases:
-  - Checklist - Website Pages
-  - Website Pages Checklist
+  - Checklist - Frontend Development
+  - Frontend Development Checklist
 publish: true
 permalink:
 description:
@@ -17,7 +17,7 @@ image:
 cssclasses:
 ---
 
-# Website Pages Checklist
+# Frontend Development Checklist
 
 ```table-of-contents
 title: Contents 
@@ -42,49 +42,7 @@ graph LR
 
 ## Checklist
 
-### Base Pages
 
-- [ ] Home/Landing Page
-- [ ] About Page
-- [ ] Team Page
-- [ ] FAQ Page
-- [ ] Contact Page
-
-### Other Pages
-
-- [ ] Press
-- [ ] Brand
-- [ ] Sitemap
-
-
-### Authentication Pages
-
-- [ ] Login Page
-- [ ] Sign Up/Register Page
-- [ ] Password Reset Page
-- [ ] User Account Profile Page
-
-### Legal Pages
-
-- [ ] Privacy Policy
-- [ ] Terms of Service
-- [ ] Cookie Policy
-
-### Error Pages
-
-- [ ] 404 (Not Found) Page
-- [ ] 500 (Server Error) Page
-- [ ] Maintenance Page
-
-### Product and Services Pages
-
-- [ ] Pricing
-- [ ] Cart
-
-### Blog Pages
-
-- [ ] Blog
-- [ ] Blog Post
 
 ***
 
@@ -95,7 +53,7 @@ graph LR
 ### Backlinks
 
 ```dataview
-LIST FROM [[Checklist - Website Pages]] AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/Checklist - Website Pages"
+LIST FROM [[Checklist - Frontend Development]] AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/Checklist - Frontend Development"
 ```
 
 ***

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Website Pages.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Frontend Development.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Website Pages.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Frontend Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Website Pages.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Frontend Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Website Pages.md"
+                "file": "03-AREAS/Business/Checklists/Checklist - Frontend Development.md"
               }
             }
           },
@@ -237,8 +237,9 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
-    "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
     "03-AREAS/Business/Checklists/Checklist - Website Pages.md",
+    "03-AREAS/Business/Checklists/Checklist - Frontend Development.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
     "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
     "03-AREAS/Business/Checklists/Checklist - Website Login Page.md",
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
@@ -262,7 +263,6 @@
     "03-AREAS/Business/Marketing/Design/Brand Kit.md",
     "03-AREAS/Business/Marketing/Marketing Plan.md",
     "03-AREAS/Business/Finance/Insurance Policies.md",
-    "03-AREAS/Business/Finance/Financial Statements.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
