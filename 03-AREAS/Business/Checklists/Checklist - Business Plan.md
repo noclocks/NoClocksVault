@@ -35,7 +35,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Diagram
 
 ```mermaid
-graph LR
+graph TB
   busplan[Business Plan]
   execsumm[Executive Summary]
   product[Product]
@@ -51,8 +51,23 @@ graph LR
   innovation[Innovation and Collaboration]
   ethical[Ethical and Sustainable Approach]
 
+busplan --> execsumm
 
+execsumm --> product
+execsumm --> customers
 
+busplan --> company
+
+company --> mission
+company --> legal
+company --> market
+
+busplan --> market
+
+market --> industry
+market --> advantages --> competencies
+market --> value --> innovation
+market --> value --> ethical
 ```
 
 ## Checklist
