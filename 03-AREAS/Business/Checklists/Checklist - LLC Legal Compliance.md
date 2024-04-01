@@ -3,9 +3,10 @@ creation_date: 2024-03-05
 modification_date: 2024-03-05
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Checklist
+  - Topic/Business
+  - Topic/Legal
+  - Status/WIP
 aliases:
   - Checklist - LLC Legal Compliance
 publish: true

@@ -5,6 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Business
+  - Topic/Legal
   - Status/WIP
 aliases:
   - Checklist - Important Legal Documents
