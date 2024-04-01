@@ -76,12 +76,69 @@
             "id": "f20aa7883284f041",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "18ee9f4f4242e015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "77c1deba317bb01e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54126cfee83d597e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "80e2b7e870294e56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -147,6 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +243,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md"
+              }
             }
           },
           {
@@ -239,8 +300,21 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "80e2b7e870294e56",
   "lastOpenFiles": [
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
+    "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
+    "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
+    "03-AREAS/Business/Checklists/Checklist - Important Legal Documents.md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter.md",
+    "03-AREAS/Business/Checklists/Checklist - Financial Statement Review.md",
+    "03-AREAS/Business/Checklists/Checklist - Content Strategy Document.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Tax Planning.md",
+    "03-AREAS/Business/Checklists/Checklist - Accounting.md",
     "03-AREAS/Business/Business Plan/No Clocks Principles.md",
     "00-INBOX/Netscape Bookmarks File Format.md",
     "03-AREAS/Business/Business Plan",
@@ -263,20 +337,7 @@
     "05-SYSTEM/Obsidian/Obsidian - Scripts.md",
     "05-SYSTEM/Obsidian/Obsidian - Folders.md",
     "05-SYSTEM/Obsidian/Obsidian - CSS Snippets.md",
-    "04-RESOURCES/Cheatsheets/Cheatsheet - R.md",
-    "03-AREAS/Business/Checklists/Checklist - Important Legal Documents.md",
-    "04-RESOURCES/Checklists/List - Important Legal Documents.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Planning.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Maintenance.md",
-    "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
-    "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
-    "03-AREAS/Business/Checklists/Checklist - Financial Statement Review.md",
-    "03-AREAS/Business/Checklists/Checklist - Content Strategy Document.md",
-    "03-AREAS/Business/Checklists/Checklist - Business Tax Planning.md",
-    "03-AREAS/Business/Checklists/Checklist - Accounting.md",
-    "04-RESOURCES/Books/The Startup CTOs Handbook.md",
     "04-RESOURCES/Cheatsheets",
-    "04-RESOURCES/Definitions/Wireless Local Area Network (WLAN).md",
     "04-RESOURCES/Books"
   ]
 }
