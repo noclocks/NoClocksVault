@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Business
-  - Status/WIP
+  - Status/Complete
 aliases:
   - Checklist - Tool Onboarding
   - Tool Onboarding Checklist
@@ -35,7 +35,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Diagram
 
 ```mermaid
-graph LR
+graph TB
   tool[Tool Onboarding]
   goals[Define Goals and Objectives]
   pain[Recognize Current Pain Points]
@@ -48,7 +48,7 @@ graph LR
   monitor[Monitor and Measure]
   review[Review and Improve]
 
-  tool -->goals
+  tool --> goals --> pain --> features --> eval --> roles --> training --> implementation --> comms --> monitor --> review
 ```
 
 
@@ -118,6 +118,10 @@ Onboarding a new tool is a complex process that requires careful planning, commu
 ## Appendix
 
 *Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
+
+### See Also
+
+- 
 
 ### Backlinks
 

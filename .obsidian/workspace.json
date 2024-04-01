@@ -58,9 +58,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "15182ee2456ce5c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-AREAS/Tools/_README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
+                "file": "03-AREAS/Tools/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
+                "file": "03-AREAS/Tools/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md"
+                "file": "03-AREAS/Tools/_README.md"
               }
             }
           },
@@ -222,10 +235,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "f20aa7883284f041",
+  "active": "15182ee2456ce5c4",
   "lastOpenFiles": [
-    "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
     "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
+    "03-AREAS/Tools/_README.md",
+    "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
     "03-AREAS/Business/Checklists/Checklist - Project Inception.md",
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "00-INBOX/_README.md",
@@ -249,7 +263,6 @@
     "Untitled (Un).md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
     "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
-    "03-AREAS/Business/Checklists/Checklist - LLC Legal Compliance.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
