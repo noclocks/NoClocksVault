@@ -34,29 +34,24 @@ cssclasses:
 
 ***
 
-
 ## Welcome
 
-Welcome to the Knowledge Vault for [No Clocks, LLC]().
+Welcome to the Knowledge Vault for [No Clocks, LLC](https://github.com/noclocks).
 
-Inside is a wealth of knowledge curated over years of pursuing and widening out knowledge across the technology sector.
+Inside is a wealth of knowledge curated over our tenure as a business while pursuing and widening our knowledge across the technology sector.
 
-The vault is structured loosely as a *[Zettelkasten]()*, or a collection of interlinked *[Atomic Notes]()* about
-anything that has resonated with our work and was deemed worth of including.
+The vault is structured loosely as a *[Zettelkasten](https://zettelkasten.de/overview/#the-introduction-to-the-zettelkasten-method)*, or a collection of interlinked *[Atomic Notes](https://zettelkasten.de/posts/create-zettel-from-reading-notes/)* about anything that has resonated with our work and was deemed worthy of including.
 
-Consider this a *Digital Garden*. It is a garden that needs to be maintained and cared for overtime to produce fruitful outcomes.
+Consider this a *[Digital Garden]()*. It is a garden that needs to be maintained and cared for overtime to produce fruitful outcomes.
 
-## Contents
-
-* [Welcome](README.md#welcome)
-* [Roadmap](README.md#roadmap)
-* [About](README.md#about)
-  * [Publishing Setup](README.md#publishing-setup)
-  * [Structure: Maps of Content](README.md#structure-maps-of-content)
-* [Content](README.md#content)
-  * [Code Snippets](README.md#code-snippets)
-  * [Lists](README.md#lists)
-  * [Tools](README.md#tools)
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
 
 ## Roadmap
 
