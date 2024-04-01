@@ -53,16 +53,17 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-## Roadmap
-
-- [ ] TODO
-
 ## About
 
-Check out the `Meta/` Folder for details about this Vault and its setup:
+Check out the [`05-SYSTEM/Obsidian`](./05-SYSTEM/Obsidian/) Folder for details about this Obsidian Vault and its setup.
 
-* *Meta*
-  * [About](2-Areas/Meta/About.md)
+Some notes:
+
+- [[Obsidian - Setup]]
+- [[Obsidian - Folders]]
+- [[Obsidian - Scripts]]
+- [[]]
+- [[]]
   * [Publish Workflow](2-Areas/Meta/Publish%20Workflow.md) *(MkDocs version only, not Obsidian Publish)*
   * [How I Take Notes](2-Areas/Meta/How%20I%20Take%20Notes.md)
   * [Vault Setup](2-Areas/Meta/Vault%20Setup.md)
@@ -71,6 +72,11 @@ Check out the `Meta/` Folder for details about this Vault and its setup:
 The [Changelog](Changelog.md) is also a good *Meta* resource.
 
 *Launch this vault directly via the **Obsidian URI Schema**: `obsidian://open?vault=knowledge-vault`.*
+
+## Roadmap
+
+- [ ] TODO
+
 
 ### Publishing Setup
 

@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Tools/_README.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "05-SYSTEM/Obsidian/_README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,13 +248,14 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "5f6d77e4b1639872",
+  "active": "15182ee2456ce5c4",
   "lastOpenFiles": [
+    "03-AREAS/Tools/_README.md",
+    "05-SYSTEM/Obsidian/_README.md",
+    "README.md",
     "03-AREAS/Business/Finance/Financial Strategy Guide.md",
     "03-AREAS/Business/Finance/Pricing Strategy.md",
     "00-INBOX/_README.md",
-    "03-AREAS/Tools/_README.md",
-    "README.md",
     "03-AREAS/Business/Finance/Tax Deductions.md",
     "03-AREAS/Business/Finance/Financial Systems.md",
     "03-AREAS/Business/Finance/Startup Costs List.md",
@@ -276,7 +277,6 @@
     "03-AREAS/Business/Marketing/Design/Brand/Brand Kit.md",
     "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "03-AREAS/Business/Checklists/_README.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
