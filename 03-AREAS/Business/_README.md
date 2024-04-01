@@ -36,7 +36,18 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Folders
 
-- [[]]
+- [[03-AREAS/Business/Finance/Accounting/_README|Accounting]]
+- [[03-AREAS/Business/Accounts/_README|Accounts]]
+- [[03-AREAS/Business/Business Plan/_README|Business Plan]]
+- [[03-AREAS/Business/Checklists/_README|Checklists]]
+- [[03-AREAS/Business/Community/_README|Community]]
+- [[03-AREAS/Business/Finance/_README|Finance]]
+- [[03-AREAS/Business/Insurance/_README|Insurance]]
+- [[03-AREAS/Business/Legal/_README|Legal]]
+- [[03-AREAS/Business/Marketing/_README|Marketing]]
+- [[03-AREAS/Business/Operations/_README|Operations]]
+- [[03-AREAS/Business/Sales/_README|Sales]]
+- [[03-AREAS/Business/Social Media/_README|Social Media]]
 
 ## Notes
 

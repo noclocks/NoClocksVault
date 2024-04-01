@@ -7,8 +7,8 @@ tags:
   - Topic/Meta
   - Status/Ongoing
 aliases:
-  - Marketing
-  - Marketing Readme
+  - Social Media
+  - Social Media Readme
 publish: true
 permalink:
 description:
@@ -18,7 +18,7 @@ cssclasses:
 ---
 
 
-# Marketing
+# Social Media
 
 ```table-of-contents
 title: Contents 
@@ -32,15 +32,15 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `03-AREAS/Business/Marketing` directory.
+> This note serves as an index for all notes under the `03-AREAS/Business/Social Media` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `03-AREAS/Business/Marketing` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `03-AREAS/Business/Social Media` folder, including this note.*
 
 ```dataview
-LIST FROM "03-AREAS/Business/Marketing" AND -"CHANGELOG" AND -"03-AREAS/Business/Marketing/_README"
+LIST FROM "03-AREAS/Business/Social Media" AND -"CHANGELOG" AND -"03-AREAS/Business/Social Media/_README"
 ```
 
 ***
@@ -52,7 +52,7 @@ LIST FROM "03-AREAS/Business/Marketing" AND -"CHANGELOG" AND -"03-AREAS/Business
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/Business/Marketing/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/Business/Social Media/_README"
 ```
 
 ***
