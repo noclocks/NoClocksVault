@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "02684a234907effa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "22531c237d93149f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5c3d25078774818f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "6d9d9199e7aa3899",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Business Plan/No Clocks Principles.md",
+                "file": "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -130,7 +91,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7251f79514b3e765",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -138,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md"
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md"
               }
             }
           },
@@ -300,16 +274,20 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "5c3d25078774818f",
+  "active": "54126cfee83d597e",
   "lastOpenFiles": [
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
-    "03-AREAS/Business/Business Plan/No Clocks Principles.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "03-AREAS/Business/Checklists/Checklist - Business Plan.md",
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
-    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "03-AREAS/Business/Business Plan/No Clocks Principles.md",
+    "00-INBOX/_README.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
+    "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
@@ -324,7 +302,6 @@
     "03-AREAS/Business/Checklists/Checklist - Content Strategy Document.md",
     "03-AREAS/Business/Checklists/Checklist - Business Tax Planning.md",
     "03-AREAS/Business/Checklists/Checklist - Accounting.md",
-    "00-INBOX/Netscape Bookmarks File Format.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
@@ -333,9 +310,6 @@
     "textgenerator/configs/llm",
     "textgenerator/configs",
     "textgenerator",
-    "00-INBOX/Various Issues with PowerShell Classes.md",
-    "04-RESOURCES/Definitions/Common Intermediate Language (CIL).md",
-    "04-RESOURCES/Definitions/Common Language Infrastructure (CLI).md",
     "03-AREAS/Business/Business Plan/No Clocks Business Systems Canvas.canvas",
     "04-RESOURCES/Cheatsheets",
     "04-RESOURCES/Books"
