@@ -3,7 +3,7 @@ creation_date: 2024-04-01
 modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-	- Type/Checklist
+  - Type/Checklist
   - Topic/Dev
   - Topic/Dev/WebDev
   - Status/WIP
