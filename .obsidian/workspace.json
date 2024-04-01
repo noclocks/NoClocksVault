@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
+                "file": "03-AREAS/Business/Social Media/_README 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Tools/_README.md",
+                "file": "03-AREAS/Business/Social Media/_README 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Tools/_README.md",
+                "file": "03-AREAS/Business/Social Media/_README 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Tools/_README.md"
+                "file": "03-AREAS/Business/Social Media/_README 1.md"
               }
             }
           },
@@ -235,8 +235,21 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "15182ee2456ce5c4",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
+    "03-AREAS/Business/Sales/_README.md",
+    "03-AREAS/Business/Social Media/_README 1.md",
+    "03-AREAS/Business/Operations/_README.md",
+    "03-AREAS/Business/Marketing/_README.md",
+    "03-AREAS/Business/Legal/_README.md",
+    "03-AREAS/Business/Insurance/_README.md",
+    "03-AREAS/Business/Finance/_README.md",
+    "03-AREAS/Business/Community/_README.md",
+    "03-AREAS/Business/Checklists/_README.md",
+    "03-AREAS/Business/Business Plan/_README.md",
+    "03-AREAS/Business/Accounts/_README.md",
+    "03-AREAS/Business/Accounting/_README.md",
+    "03-AREAS/Business/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
     "03-AREAS/Tools/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
@@ -250,19 +263,6 @@
     "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Sources.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
-    "03-AREAS/Business/Business Plan/No Clocks Principles.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Readme.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title.md",
-    "Untitled (Un).md",
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
-    "03-AREAS/Business/Checklists/Checklist - Social Media Strategy.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
