@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Operations/Ops - Product.md",
+                "file": "03-AREAS/Business/Strategy/Startup One-Pager.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Operations/Ops - Product.md",
+                "file": "03-AREAS/Business/Strategy/Startup One-Pager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Operations/Ops - Product.md",
+                "file": "03-AREAS/Business/Strategy/Startup One-Pager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Operations/Ops - Product.md"
+                "file": "03-AREAS/Business/Strategy/Startup One-Pager.md"
               }
             }
           },
@@ -237,8 +237,14 @@
   },
   "active": "f20aa7883284f041",
   "lastOpenFiles": [
-    "03-AREAS/Business/Operations/Ops - Infrastructure.md",
+    "03-AREAS/Business/Strategy/No Clocks One-Page Strategy.md",
+    "03-AREAS/Business/Strategy/Startup One-Pager.md",
+    "03-AREAS/Business/About/No Clocks Founders Bio.md",
+    "03-AREAS/Business/Legal/No Clocks Founders Agreement.md",
+    "03-AREAS/Business/Strategy/No Clocks Capability Statement.md",
+    "03-AREAS/Business/Strategy/_README.md",
     "03-AREAS/Business/Operations/Ops - Product.md",
+    "03-AREAS/Business/Operations/Ops - Infrastructure.md",
     "03-AREAS/Business/Operations/Ops - Development.md",
     "03-AREAS/Business/Marketing/Design/Pitch Deck.md",
     "03-AREAS/Business/Marketing/Design/Logo Design.md",
@@ -257,15 +263,9 @@
     "03-AREAS/Business/About/No Clocks Services.md",
     "03-AREAS/Business/About/No Clocks Mission.md",
     "03-AREAS/Business/About/No Clocks Team.md",
-    "03-AREAS/Business/About/_README.md",
-    "03-AREAS/Business/Marketing/Design/_README.md",
     "03-AREAS/Business/About",
-    "03-AREAS/Business/_README.md",
     "03-AREAS/Business/Marketing/Design",
-    "03-AREAS/Business/Finance/Accounting/_README.md",
-    "03-AREAS/Business/Finance/Accounts/_README.md",
-    "03-AREAS/Business/Business Plan/_README.md",
-    "03-AREAS/Business/Business Plan",
+    "03-AREAS/Business/Strategy",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
     "05-SYSTEM/Templates/Custom Templates/TextGenerator",
@@ -273,6 +273,6 @@
     "textgenerator/configs/llm",
     "textgenerator/configs",
     "textgenerator",
-    "03-AREAS/Business/Business Plan/No Clocks Business Systems Canvas.canvas"
+    "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }

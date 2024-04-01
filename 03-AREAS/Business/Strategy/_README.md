@@ -7,8 +7,10 @@ tags:
   - Topic/Meta
   - Status/Ongoing
 aliases:
-  - Business Plan
-  - Business Plan Readme
+  - Strategy
+  - Strategy Readme
+  - Business Strategy
+  - Business Strategy Readme
 publish: true
 permalink:
 description:
@@ -18,7 +20,7 @@ cssclasses:
 ---
 
 
-# Business Plan
+# Strategy
 
 ```table-of-contents
 title: Contents 
@@ -32,15 +34,15 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `03-AREAS/Business/Business Plan` directory.
+> This note serves as an index for all notes under the `03-AREAS/Business/Strategy` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `03-AREAS/Business/Business Plan` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `03-AREAS/Business/Strategy` folder, including this note.*
 
 ```dataview
-LIST FROM "03-AREAS/Business/Business Plan" AND -"CHANGELOG" AND -"03-AREAS/Business/Business Plan/_README"
+LIST FROM "03-AREAS/Business/Strategy" AND -"CHANGELOG" AND -"03-AREAS/Business/Strategy/_README"
 ```
 
 ***
@@ -52,7 +54,7 @@ LIST FROM "03-AREAS/Business/Business Plan" AND -"CHANGELOG" AND -"03-AREAS/Busi
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/Business/Business Plan/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/Business/Strategy/_README"
 ```
 
 ***
