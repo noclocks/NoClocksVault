@@ -8,9 +8,18 @@ tags:
   - Status/WIP
 aliases:
   - <% tp.file.title %>
+  - <% (tp.file.title).replace("Checklist - ", "") + " Checklist" %>
 publish: true
 permalink:
 description:
 image:
 cssclasses:
 ---
+
+# <% <% (tp.file.title).replace("Checklist - ", "") + " Checklist" %>
+
+<% tp.file.include("[[Template-Fragment-TOC]]") %>
+
+## Overview
+
+<% tp.file.include("[[Template-Fragment-]])

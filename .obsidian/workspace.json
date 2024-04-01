@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -204,6 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,6 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled (Un).md"
+                "file": "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md"
               }
             }
           },
@@ -298,10 +300,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "54126cfee83d597e",
   "lastOpenFiles": [
-    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "Untitled (Un).md",
+    "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Definition.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Readme.md",
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
