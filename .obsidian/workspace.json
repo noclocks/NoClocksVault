@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md",
+                "file": "03-AREAS/Business/Marketing/Design/Brand/Brand Logos.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md",
+                "file": "03-AREAS/Business/Marketing/Design/Brand/Brand Logos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md",
+                "file": "03-AREAS/Business/Marketing/Design/Brand/Brand Logos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/Marketing/Design/Brand Kit.md"
+                "file": "03-AREAS/Business/Marketing/Design/Brand/Brand Logos.md"
               }
             }
           },
@@ -235,10 +235,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "f20aa7883284f041",
+  "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
+    "03-AREAS/Business/Marketing/Design/Brand/_README.md",
+    "03-AREAS/Business/Marketing/Design/Brand/Brand Colors.md",
+    "03-AREAS/Business/Marketing/Design/Brand",
+    "03-AREAS/Business/Marketing/Design/Brand/Brand Kit.md",
     "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
-    "03-AREAS/Business/Marketing/Design/Brand Kit.md",
     "03-AREAS/Business/Checklists/Checklist - Website Audit.md",
     "03-AREAS/Business/Checklists/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Website Registration Sign Up Page.md",
@@ -261,8 +264,6 @@
     "03-AREAS/Business/Checklists/Checklist - Business Documents.md",
     "03-AREAS/Business/Checklists/Checklist - Accounting.md",
     "03-AREAS/Business/Strategy/No Clocks Business Plan Draft.md",
-    "03-AREAS/Business/Strategy/Startup One-Pager.md",
-    "03-AREAS/Business/Strategy/No Clocks One-Page Strategy.md",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
     "03-AREAS/Business/Strategy",
@@ -272,7 +273,6 @@
     "05-SYSTEM/TextGenerator",
     "textgenerator/configs/llm",
     "textgenerator/configs",
-    "textgenerator",
     "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }
