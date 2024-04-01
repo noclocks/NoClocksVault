@@ -27,6 +27,14 @@ A *digital technology audit* is a *comprehensive examination of an organization'
 
 A digital audit typically encompasses areas such as:
 
+- **Website:** Evaluating the functionality, user experience, design, content, and search engine optimization (SEO) of the organization’s website.
+- **Social Media:** Analyzing the presence, engagement, content quality, and effectiveness of the organization’s social media profiles and activities on platforms like Facebook, Twitter, Instagram, LinkedIn, etc.
+- **Content:** Reviewing the quality, relevance, consistency, and performance of digital content, including blog posts, articles, videos, infographics, etc.
+- **SEO**: Assessing the organization’s visibility and ranking on search engines, analyzing keywords, backlinks, on-page optimization, and overall SEO strategy.
+- **Online Advertising:** Examining the effectiveness and ROI of digital advertising campaigns across platforms such as Google Ads, Facebook Ads, LinkedIn Ads, etc.
+- **Email Marketing:** Reviewing the performance, engagement metrics, deliverability, and relevance of email marketing campaigns and subscriber lists.
+- **Analytics:** Using data from various sources like website analytics, social media insights, and marketing automation platforms to measure key performance indicators (KPIs) and derive actionable insights.
+
 What tools are part of your tech stack?
 
 Common types of tools, include, but are not limited to:
