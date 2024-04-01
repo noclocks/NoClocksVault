@@ -34,14 +34,17 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Diagram
 
+*Below is a graph representing the structure of the b*
+
 ```mermaid
-graph TB
+graph LR
   busplan[Business Plan]
   execsumm[Executive Summary]
   product[Product]
   customers[Customers]
   company[Company Description]
   mission[Mission Statement]
+  team[Team]
   legal[Legal Structure]
   market[Market Research]
   industry[Industry]
@@ -52,22 +55,24 @@ graph TB
   ethical[Ethical and Sustainable Approach]
 
 busplan --> execsumm
+busplan --> company
+busplan --> market
 
 execsumm --> product
 execsumm --> customers
 
-busplan --> company
-
 company --> mission
 company --> legal
-company --> market
-
-busplan --> market
+company --> team
 
 market --> industry
-market --> advantages --> competencies
-market --> value --> innovation
-market --> value --> ethical
+
+market --> advantages
+advantages --> competencies
+
+market --> value
+value --> innovation
+value --> ethical
 ```
 
 ## Checklist
