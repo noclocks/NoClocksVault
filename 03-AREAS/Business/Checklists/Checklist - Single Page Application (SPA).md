@@ -61,7 +61,18 @@ graph LR
 
 ### Performance
 
-### 
+### Pages
+
+- [ ] Home/Landing Page
+- [ ] About Page
+- [ ] Contact Page
+
+### Other Pages
+
+- [ ] 404 Page
+- [ ] Maintenance Page
+
+
 ***
 
 ## Appendix
