@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Business/_README.md",
+                "file": "03-AREAS/Business/Design/_README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Business/_README.md",
+                "file": "03-AREAS/Business/Design/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Business/_README.md",
+                "file": "03-AREAS/Business/Design/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Business/_README.md"
+                "file": "03-AREAS/Business/Design/_README.md"
               }
             }
           },
@@ -237,20 +237,22 @@
   },
   "active": "a3d746a23fc320fc",
   "lastOpenFiles": [
+    "03-AREAS/Business/_README.md",
+    "03-AREAS/Business/Design/_README.md",
+    "03-AREAS/Business/Design",
     "03-AREAS/Business/Finance/Accounting/_README.md",
-    "03-AREAS/Business/Accounts/_README.md",
+    "03-AREAS/Business/Finance/Accounts/_README.md",
     "03-AREAS/Business/Business Plan/_README.md",
     "03-AREAS/Business/Checklists/_README.md",
-    "03-AREAS/Business/Community/_README.md",
+    "03-AREAS/Business/Marketing/Community/_README.md",
     "03-AREAS/Business/Finance/_README.md",
-    "03-AREAS/Business/Insurance/_README.md",
+    "03-AREAS/Business/Finance/Insurance/_README.md",
     "03-AREAS/Business/Legal/_README.md",
     "03-AREAS/Business/Marketing/_README.md",
     "03-AREAS/Business/Operations/_README.md",
-    "03-AREAS/Business/Sales/_README.md",
-    "03-AREAS/Business/Social Media/_README.md",
+    "03-AREAS/Business/Marketing/Sales/_README.md",
+    "03-AREAS/Business/Marketing/Social Media/_README.md",
     "00-INBOX/_README.md",
-    "03-AREAS/Business/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Tool Onboarding.md",
     "03-AREAS/Tools/_README.md",
     "03-AREAS/Business/Checklists/Checklist - Single Page Application (SPA).md",
@@ -262,7 +264,6 @@
     "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
     "03-AREAS/Business/Checklists/Checklist - Legal Policies.md",
     "05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Checklist.md",
     "03-AREAS/Business/Business Plan",
     "05-SYSTEM/TextGenerator/configs/llm",
     "05-SYSTEM/TextGenerator/configs",
@@ -272,7 +273,6 @@
     "textgenerator/configs",
     "textgenerator",
     "03-AREAS/Business/Business Plan/No Clocks Business Systems Canvas.canvas",
-    "04-RESOURCES/Cheatsheets",
-    "04-RESOURCES/Books"
+    "04-RESOURCES/Cheatsheets"
   ]
 }
