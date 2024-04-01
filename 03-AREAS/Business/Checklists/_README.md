@@ -32,15 +32,15 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `04-RESOURCES/Checklists` directory.
+> This note serves as an index for all notes under the `03-AREAS/Business/Checklists` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `04-RESOURCES/Checklists` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `03-AREAS/Business/Checklists` folder, including this note.*
 
 ```dataview
-LIST FROM "04-RESOURCES/Checklists" AND -"CHANGELOG" AND -"04-RESOURCES/Checklists/_README"
+LIST FROM "03-AREAS/Business/Checklists" AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/_README"
 ```
 
 ***
@@ -52,7 +52,7 @@ LIST FROM "04-RESOURCES/Checklists" AND -"CHANGELOG" AND -"04-RESOURCES/Checklis
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Checklists/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/Business/Checklists/_README"
 ```
 
 ***
