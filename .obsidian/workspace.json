@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/_README.md",
+                "file": "03-AREAS/Tools/Tool - OpenAI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/_README.md",
+                "file": "03-AREAS/Tools/Tool - OpenAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/_README.md",
+                "file": "03-AREAS/Tools/Tool - OpenAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-RESOURCES/Cheatsheets/_README.md"
+                "file": "03-AREAS/Tools/Tool - OpenAI.md"
               }
             }
           },
@@ -314,10 +314,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
-    "04-RESOURCES/Contacts/_README.md",
+    "03-AREAS/Tools/Tool - ChatGPT.md",
+    "03-AREAS/Tools/Tool - OpenAI.md",
     "04-RESOURCES/Cheatsheets/_README.md",
+    "04-RESOURCES/Contacts/_README.md",
     "05-SYSTEM/Templates/_README.md",
     "04-RESOURCES/Contacts",
     "05-SYSTEM/Lookups/_README.md",
@@ -350,8 +352,6 @@
     "03-AREAS/MOCs/MOC - Checklists.md",
     "03-AREAS/MOCs/MOC - Guides.md",
     "03-AREAS/MOCs/MOC - Projects.md",
-    "03-AREAS/MOCs/MOC - Inbox.md",
-    "03-AREAS/MOCs/MOC - Artificial Intelligence.md",
     "03-AREAS/Business/Strategy/No Clocks Business Systems Canvas.canvas"
   ]
 }
