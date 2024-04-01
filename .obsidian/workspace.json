@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md"
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md"
               }
             }
           },
@@ -274,14 +274,20 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "a3d746a23fc320fc",
+  "active": "f46aea099f3893b6",
   "lastOpenFiles": [
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-About.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Quarterly.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Project.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Monthly.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Definition.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Untitled.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
     "03-AREAS/MOCs/MOC - Business.md",
     "03-AREAS/MOCs/_README.md",
     "05-SYSTEM/Obsidian/_README.md",
@@ -296,12 +302,6 @@
     "03-AREAS/Business/Finance/Sales Tools.md",
     "03-AREAS/Tools/Tool - Relay (Bank).md",
     "03-AREAS/Tools/Tool - Quickbooks (Accounting).md",
-    "03-AREAS/Business/Checklists/Checklist - Brand Kit.md",
-    "03-AREAS/Business/Finance/Funding.md",
-    "03-AREAS/Business/Finance/Business Expense Categories.md",
-    "03-AREAS/Business/Finance/Accounting Tools.md",
-    "03-AREAS/Tools/Tool - Wave (Accounting).md",
-    "03-AREAS/Business/Finance/Accounting.md",
     "03-AREAS/Business/Marketing/Design/Brand",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
