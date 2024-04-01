@@ -110,9 +110,35 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3e629300b3de3736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-Number-of-Notes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "08b5c57d121e697e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-Number-of-Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-Number-of-Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md"
+                "file": "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-Number-of-Notes.md"
               }
             }
           },
@@ -274,18 +300,21 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "f46aea099f3893b6",
+  "active": "3e629300b3de3736",
   "lastOpenFiles": [
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-Number-of-Notes.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-Number-of-Notes.md",
     "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-MOC-About.md",
+    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
+    "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
+    "05-SYSTEM/Templates/Fragment Templates/Callouts/Template-Fragment-Callout-Readme-About.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Readme.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Quarterly.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Project.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Monthly.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Definition.md",
-    "05-SYSTEM/Templates/Note Templates/Template-Note-MOC.md",
     "05-SYSTEM/Templates/Note Templates/Template-Note-Checklist.md",
     "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-Definition.md",
-    "05-SYSTEM/Templates/Fragment Templates/Title/Template-Fragment-Title-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-MOC.md",
     "05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter-Checklist.md",
     "03-AREAS/MOCs/MOC - Business.md",
@@ -299,9 +328,6 @@
     "03-AREAS/Business/Finance/Tax Deductions.md",
     "03-AREAS/Business/Finance/Financial Systems.md",
     "03-AREAS/Business/Finance/Startup Costs List.md",
-    "03-AREAS/Business/Finance/Sales Tools.md",
-    "03-AREAS/Tools/Tool - Relay (Bank).md",
-    "03-AREAS/Tools/Tool - Quickbooks (Accounting).md",
     "03-AREAS/Business/Marketing/Design/Brand",
     "03-AREAS/Business/About",
     "03-AREAS/Business/Marketing/Design",
