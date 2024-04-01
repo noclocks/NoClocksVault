@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-AREAS/Tools/Untitled.md",
+                "file": "03-AREAS/Tools/Tool - Shopify.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-AREAS/Tools/Untitled.md",
+                "file": "03-AREAS/Tools/Tool - Shopify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-AREAS/Tools/Untitled.md",
+                "file": "03-AREAS/Tools/Tool - Shopify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-AREAS/Tools/Untitled.md"
+                "file": "03-AREAS/Tools/Tool - Shopify.md"
               }
             }
           },
@@ -316,8 +316,21 @@
   },
   "active": "5f6d77e4b1639872",
   "lastOpenFiles": [
+    "03-AREAS/Tools/Tool - Micrsoft Teams.md",
+    "03-AREAS/Tools/Tool - Shopify.md",
+    "03-AREAS/Tools/Tool - TLDV.md",
+    "03-AREAS/Tools/Tool - WSL.md",
+    "03-AREAS/Tools/Tool - Neovim.md",
+    "03-AREAS/Tools/Tool - pgAdmin4.md",
+    "03-AREAS/Tools/Tool - Typora.md",
+    "03-AREAS/Tools/Tool - VSCode.md",
+    "03-AREAS/Tools/Tool - GitHub CLI.md",
+    "03-AREAS/Tools/Tool - GitHub.md",
+    "03-AREAS/Tools/Tool - Git.md",
+    "03-AREAS/Tools/Tool - DBDocs.md",
+    "03-AREAS/Tools/Tool - DBML.md",
+    "03-AREAS/Tools/Tool - DBDiagram.md",
     "03-AREAS/Tools/Tool - Python Pandas.md",
-    "03-AREAS/Tools/Untitled.md",
     "03-AREAS/Tools/Tool - Python Poetry.md",
     "03-AREAS/Tools/Tool - Pester.md",
     "03-AREAS/Tools/Tool - Biome.md",
@@ -330,19 +343,6 @@
     "03-AREAS/Agendas",
     "03-AREAS/Tools/Tool - Square.md",
     "03-AREAS/Tools/Tool - Stripe.md",
-    "03-AREAS/Tools/Tool - Microsoft Office.md",
-    "03-AREAS/Tools/Tool - Slack.md",
-    "03-AREAS/Tools/Tool - Sentry.md",
-    "03-AREAS/Tools/Tool - Rollbar.md",
-    "03-AREAS/Tools/Tool v0.md",
-    "03-AREAS/Tools/Tool - pre.dev.md",
-    "03-AREAS/Tools/Tool - Mailgun.md",
-    "03-AREAS/Tools/Tool - Mailchimp.md",
-    "03-AREAS/Tools/Tool - Domain Digger.md",
-    "03-AREAS/Tools/Tool - Cal.com.md",
-    "03-AREAS/Tools/Tool - s-search CLI.md",
-    "03-AREAS/Tools/Tool - rembg CLI.md",
-    "03-AREAS/Tools/Tool - PowerShell.md",
     "04-RESOURCES/Contacts",
     "05-SYSTEM/Assets/Styles",
     "05-SYSTEM/Assets/Icons",
