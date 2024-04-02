@@ -1,8 +1,6 @@
-
-.obsidian/workspace.json
-
-
-
-
 # Ignore Smart Connections folder
 .smart-connections
+.obsidian/todoist-token
+
+
+.obsidian/__temp/
