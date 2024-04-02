@@ -3,9 +3,7 @@ creation_date: 2024-04-02
 modification_date: 2024-04-02
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 cssclasses:
-  - embed
 ---
-
 
 # Test Embeds
 
