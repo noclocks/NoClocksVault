@@ -48,7 +48,14 @@ graph LR
 	- [ ] [Choose a jurisdiction](https://foreveryfounder.com/incorporation#block-9d3ddbdb41b34c159a109e8cedca1ff1)
 	- [ ] [Incorporate online](https://foreveryfounder.com/incorporation#block-86e8b620b3e14d80b41ff1a716a1b418) - Choose your name, registered, agent, get an EIN
 	- [ ] [Create a virtual business phone number and mailbox](https://foreveryfounder.com/incorporation#block-6effaddcff7848198d8bbe99ad1ef68c)
-- [ ] **[Open a Dedicated Business Bank Account and Credit Card]**
+- [ ] **[Open a Dedicated Business Bank Account and Credit Card](https://foreveryfounder.com/money-management)**
+	- You should have a dedicated business bank account and credit card, to separate personal from business expenses. If you do not you will run the risk of overpaying taxes, adding thousands of dollars of additional bookkeeping expenses, and waste your valuable time as a founder.
+- [ ] Register with Secretary of State
+	- [ ] Acquire a *Registered Agent* Lawyer to represent your company with the state
+	- [ ] Submit your Articles of Organization
+	- [ ] Submit your Operating Agreement
+	- [ ] Recieve Certificate of Existence
+	- A certificate of good standing is a legal document that confirms that your business is compliant with state regulations. In California for example, a certificate of good standing is known as a certificate of status.
 
 ## Conclusion
 
