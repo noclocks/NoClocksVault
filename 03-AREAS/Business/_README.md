@@ -36,18 +36,18 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Folders
 
-- [[03-AREAS/Business/Finance/Accounting/_README|Accounting]]
-- [[03-AREAS/Business/Finance/Accounts/_README|Accounts]]
-- [[03-AREAS/Business/Strategy/_README|Business Plan]]
-- [[03-AREAS/Business/Checklists/_README|Checklists]]
-- [[03-AREAS/Business/Marketing/Community/_README|Community]]
-- [[03-AREAS/Business/Finance/_README|Finance]]
-- [[03-AREAS/Business/Finance/Insurance/_README|Insurance]]
-- [[03-AREAS/Business/Legal/_README|Legal]]
-- [[03-AREAS/Business/Marketing/_README|Marketing]]
-- [[03-AREAS/Business/Operations/_README|Operations]]
-- [[03-AREAS/Business/Finance/Sales/_README|Sales]]
-- [[03-AREAS/Business/Marketing/Social Media/_README|Social Media]]
+- [[03-AREAS/Finance/Accounting/_README|Accounting]]
+- [[03-AREAS/Finance/Accounts/_README|Accounts]]
+- [[03-AREAS/Strategy/_README|Business Plan]]
+- [[03-AREAS/Checklists/_README|Checklists]]
+- [[03-AREAS/Marketing/Community/_README|Community]]
+- [[03-AREAS/Finance/_README|Finance]]
+- [[03-AREAS/Finance/Insurance/_README|Insurance]]
+- [[03-AREAS/Legal/_README|Legal]]
+- [[03-AREAS/Marketing/_README|Marketing]]
+- [[03-AREAS/Operations/_README|Operations]]
+- [[03-AREAS/Finance/Sales/_README|Sales]]
+- [[03-AREAS/Marketing/Social Media/_README|Social Media]]
 
 ## Notes
 

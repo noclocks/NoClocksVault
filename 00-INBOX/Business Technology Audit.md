@@ -44,12 +44,12 @@ Common types of tools, include, but are not limited to:
 - Service Tools
 - 
 
-- **[[03-AREAS/Business/Marketing/_README|Marketing]]**
+- **[[03-AREAS/Marketing/_README|Marketing]]**
 - **[[Content Management System (CMS)]]**
 - **Email** and [[Communications]]
 - **[[Search Engine Optimization (SEO)]]**
 - [[Data Analytics]] and [[Business Intelligence (BI)]]
 - [[Advertising]] Management
-- [[03-AREAS/Business/Marketing/Social Media/_README|Social Media]] Management
+- [[03-AREAS/Marketing/Social Media/_README|Social Media]] Management
 - [[Chatbot]] Automation
 - 
