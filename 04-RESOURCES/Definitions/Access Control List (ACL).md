@@ -3,11 +3,12 @@ creation_date: 2024-03-21
 modification_date: 2024-03-21
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Definition
+  - Topic/Dev
+  - Status/WIP
 aliases:
-  - Access Control List (ACL)
+  - Access Control List
+  - ACL
 publish: true
 permalink:
 description:

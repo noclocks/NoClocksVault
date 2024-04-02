@@ -3,11 +3,12 @@ creation_date: 2024-03-21
 modification_date: 2024-03-21
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Definition
+  - Topic/Dev
+  - Status/WIP
 aliases:
-  - Abstract Data Type (ADT)
+  - Abstract Data Type
+  - ADT
 publish: true
 permalink:
 description:

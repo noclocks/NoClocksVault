@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Dev
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Status/Complete
 aliases:
   - Checklist - Website Audit

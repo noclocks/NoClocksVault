@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Definition
   - Topic/Dev
-  - Topic/Dev/Frontend
+  - Topic/Dev/Web
   - Status/Complete
 aliases:
   - CDN
