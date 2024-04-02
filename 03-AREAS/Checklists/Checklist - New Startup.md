@@ -54,9 +54,10 @@ graph LR
 	- [ ] Acquire a *Registered Agent* Lawyer to represent your company with the state
 	- [ ] Submit your Articles of Organization
 	- [ ] Submit your Operating Agreement
-	- [ ] Recieve Certificate of Existence
-	- A certificate of good standing is a legal document that confirms that your business is compliant with state regulations. In California for example, a certificate of good standing is known as a certificate of status.
-
+	- [ ] Receive Certificate of Existence
+- [ ] Setup [[Accounting]], [[Taxes]], and [[03-AREAS/Finance/_README|Finance]] Software Tech Stack:
+	- Every company in the US has to file taxes every year, regardless of whether or not they generated any revenue. The longer you wait, the most time consuming and expensive it is to clean up later - every dollar movement, from day one.
+- 
 ## Conclusion
 
 ***
