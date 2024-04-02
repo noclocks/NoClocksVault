@@ -43,7 +43,12 @@ graph LR
 
 ### The Basics
 
-- [ ] 
+- [ ] **[Incorporate](https://foreveryfounder.com/incorporation)**
+	- [ ] [Choose a business structure](https://foreveryfounder.com/incorporation#block-ce91b565dae748f5ad1f4aabcba4aa3b) - Recommended Delaware C-Corp if you are going to raise funding
+	- [ ] [Choose a jurisdiction](https://foreveryfounder.com/incorporation#block-9d3ddbdb41b34c159a109e8cedca1ff1)
+	- [ ] [Incorporate online](https://foreveryfounder.com/incorporation#block-86e8b620b3e14d80b41ff1a716a1b418) - Choose your name, registered, agent, get an EIN
+	- [ ] [Create a virtual business phone number and mailbox](https://foreveryfounder.com/incorporation#block-6effaddcff7848198d8bbe99ad1ef68c)
+- [ ] **[Open a Dedicated Business Bank Account and Credit Card]**
 
 ## Conclusion
 
