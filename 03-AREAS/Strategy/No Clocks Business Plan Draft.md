@@ -3,9 +3,11 @@ creation_date: 2024-03-28
 modification_date: 2024-03-28
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/Business
+  - Type/Draft
+  - Type/Plan
+  - Type/Document
   - Topic/Business
-  - Status/WIP
+  - Status/Review
 aliases:
   - No Clocks Business Plan Draft
   - No Clocks Business Plan

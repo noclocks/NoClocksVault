@@ -331,7 +331,7 @@ The biggest contributor to cultivating high-quality middle management is, of cou
 * Build a culture of continuous learning.
 
   * For example, encourage your managers to set up an internal management-focused book club.
-  * Share insights you're learning yourself with the management team regularly, and have them do the same with their teams. If you're using a company chat tool, a dedicated channel for #management-insights or similar is a great place for this kind of dialog.
+  * Share insights you're learning yourself with the management team regularly, and have them do the same with their teams. If you're using a company chat tool, a dedicated channel for `#management-insights` or similar is a great place for this kind of dialog.
 
 * Establish a high bar for coaching and management.
 
