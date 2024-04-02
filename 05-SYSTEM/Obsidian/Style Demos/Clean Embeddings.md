@@ -2,6 +2,16 @@
 creation_date: 2024-04-02
 modification_date: 2024-04-02
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+tags:
+  - Type/NA
+  - Topic/NA
+  - Status/NA
+aliases:
+  - Clean Embeddings
+publish: true
+permalink:
+description:
+image:
 cssclasses:
   - embed
 ---
@@ -13,6 +23,6 @@ cssclasses:
 - Use `cssclass: embed` in YAML frontmatter to enable "clean" embedding.
 
 ![[Test Quote]]
-![[Lorem Ipsum]]
+![[Blindtext - Lorem Ipsum]]
 
-## Document Continued...
+## Document continued here
