@@ -3,7 +3,7 @@
 .obsidian/todoist-token
 
 # Ignore Vault Stats
-.vault-stats
+.obsidian/vault-stats.json
 
 # Ignore Smart Connections
 .smart-connections
