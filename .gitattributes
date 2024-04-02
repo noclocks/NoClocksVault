@@ -1,0 +1,52 @@
+# linguist - ignore HTML, JS, and Rich Text Format
+*.html  linguist-vendored
+*.js    linguist-vendored
+*.rtf   linguist-vendored
+*.tex   linguist-vendored
+*.bib   linguist-vendored
+
+# Allow Markdown
+*.md linguist-detectable
+*.md linguist-language=Markdown
+
+# Allow R Markdown
+*.Rmd linguist-detectable
+*.Rmd linguist-language=RMarkdown
+
+# Allow Quarto
+*.qmd linguist-detectable
+*.qmd linguist-language=Quarto
+
+# Allow Python
+*.py linguist-detectable
+*.py linguist-language=Python
+
+# Allow PowerShell
+*.ps1 linguist-detectable
+*.ps1 linguist-language=PowerShell
+
+# Allow Shell
+*.sh linguist-detectable
+*.sh linguist-language=Shell
+
+# Allow Batch
+*.bat linguist-detectable
+*.bat linguist-language=Batch
+
+# Allow SQL
+*.sql linguist-detectable
+*.sql linguist-language=SQL
+
+# Allow Docker
+Dockerfile linguist-detectable
+docker-compose.yml linguist-detectable
+compose.yml linguist-detectable
+Dockerfile linguist-language=Docker
+
+# Allow YAML
+*.yml linguist-detectable
+*.yml linguist-language=YAML
+
+# Allow JSON
+*.json linguist-detectable
+*.json linguist-language=JSON
