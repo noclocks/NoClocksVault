@@ -1,31 +1,5 @@
 {
-  "cSpell.words": [
-    "ANSEL",
-    "cmds",
-    "dataframe",
-    "DISKPART",
-    "dropna",
-    "fopen",
-    "forcast",
-    "MSVCRT",
-    "Nview",
-    "NVPCF",
-    "openai",
-    "Optimus",
-    "pythonmisc",
-    "redownloading",
-    "RESCAN",
-    "temproary",
-    "ujjwal",
-    "VDISK",
-    "xlclass",
-    "xlcomponent",
-    "xlform",
-    "xlmodule"
-  ],
-  "obsidian-code.vaultName": "JimsVault",
-  "obsidianmd.excludedDirectories": [],
-  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.productIconTheme": "material-product-icons"
+  "obsidianmd.vaultPath": "X:/obsidian/NoClocksVault",
+  "obsidian-code.vaultName": "NoClocksVault",
+  "obsidianmd.excludedDirectories": []
 }
