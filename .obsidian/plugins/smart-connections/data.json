@@ -1,7 +1,7 @@
 {
   "chat_folder": "smart chat",
   "smart_notes_embed_model": "TaylorAI/bge-micro-v2",
-  "smart_blocks_embed_model": "None",
+  "smart_blocks_embed_model": "TaylorAI/bge-micro-v2",
   "smart_connections_folder": "05-SYSTEM/SmartConnections",
   "smart_connections_folder_last": "05-SYSTEM/SmartConnections",
   "system_prompts_folder": "smart prompts",
