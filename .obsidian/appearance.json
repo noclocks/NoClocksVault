@@ -4,6 +4,9 @@
     "supercharged-links-gen",
     "embed",
     "readme",
-    "clean-embeds"
-  ]
+    "clean-embeds",
+    "home",
+    "tables"
+  ],
+  "cssTheme": "GitHub Theme"
 }
