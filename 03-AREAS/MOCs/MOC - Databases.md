@@ -4,7 +4,7 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
-  - Topic/NA
+  - Topic/Dev/Data
   - Status/Ongoing
 aliases:
   - MOC - Databases
@@ -37,11 +37,6 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages("#Topic/Databases").length`**  individual notes with the `#Topic/Databases` tag, including this note.*
-
-```dataview
-TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
-FROM #Topic/Dev/Data OR ""
-```
 
 ```dataview
 LIST

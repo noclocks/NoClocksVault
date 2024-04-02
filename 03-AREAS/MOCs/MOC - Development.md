@@ -36,7 +36,14 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Dev").length`**  individual notes with the `#Topic/Dev` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/Dev").length - 1`**  individual notes with the `#Topic/Dev` tag, excluding this note:*
+
+```dataview
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM #Topic/Dev 
+WHERE file.name != this.file.name
+SORT file.name asc
+```
 
 ```dataview
 LIST
