@@ -29,4 +29,9 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-## Ove
+## Overview
+
+- [[Obsidian]]
+- [[Obsidian - Community Plugins]]
+	- [[Smart Connections]]
+	- [[Text Generator]]

@@ -5,5 +5,7 @@
   "obsidian-git",
   "automatic-table-of-contents",
   "obsidian-textgenerator-plugin",
-  "open-vscode"
+  "open-vscode",
+  "obsidian-excalidraw-plugin",
+  "smart-connections"
 ]
