@@ -27,5 +27,8 @@
   "obsidian-textgenerator-plugin",
   "obsidian-imgur-plugin",
   "embed-code-file",
-  "obsidian-file-info-plugin"
+  "obsidian-file-info-plugin",
+  "automatic-table-of-contents",
+  "buttons",
+  "nldates-obsidian"
 ]
