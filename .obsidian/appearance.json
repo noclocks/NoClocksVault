@@ -3,6 +3,7 @@
   "enabledCssSnippets": [
     "supercharged-links-gen",
     "embed",
-    "readme"
+    "readme",
+    "clean-embeds"
   ]
 }
