@@ -41,12 +41,12 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Artificial Intelligence").length`**  individual notes with the `#Topic/Artificial Intelligence` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/AI").length`**  individual notes with the `#Topic/AI` tag, including this note.*
 
 
 ```dataview
 TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
-FROM #Topic/Dev 
+FROM #Topic/AI
 WHERE file.name != this.file.name
 SORT file.name asc
 ```
