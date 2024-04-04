@@ -6,7 +6,8 @@
     "readme",
     "clean-embeds",
     "home",
-    "tables"
+    "tables",
+    "tool"
   ],
   "cssTheme": "GitHub Theme"
 }
