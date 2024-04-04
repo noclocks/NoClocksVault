@@ -6,10 +6,12 @@ tags:
   - Type/MOC
   - Topic/API
   - Topic/Dev
+  - Topic/Dev/WebDev
   - Status/Ongoing
 aliases:
   - MOC - APIs
   - APIs Map of Content
+  - APIs MOC
 publish: true
 permalink:
 description:
@@ -37,12 +39,12 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/NA").length`**  individual notes with the `#Topic/NA` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/API").length`**  individual notes with the `#Topic/API` tag, including this note.*
 
 
 ```dataview
 TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
-FROM #Topic/NA
+FROM #Topic/API
 WHERE file.name != this.file.name
 SORT file.name asc
 ```

@@ -1,6 +1,6 @@
 ---
 creation_date: 2024-04-01
-modification_date: 2024-04-01
+modification_date: 2024-04-04
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
@@ -9,6 +9,7 @@ tags:
 aliases:
   - MOC - Tools
   - Tools Map of Content
+  - Tools MOC
 publish: true
 permalink:
 description:
@@ -36,20 +37,21 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Tools").length`**  individual notes with the `#Topic/Tools` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Type/Tool").length`**  individual notes with the `#Type/Tool` tag, including this note.*
+
 
 ```dataview
-LIST
-FROM #Topic/Tools
-AND -"CHANGELOG"
-AND -"03-AREAS/MOCs/MOC - Tools"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM #Type/Tool
+WHERE file.name != this.file.name
+SORT file.name asc
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
+*Note created on [[2024-04-01]] and last modified on [[2024-04-04]].*
 
 ### Backlinks
 
