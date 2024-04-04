@@ -1,10 +1,11 @@
 ---
 creation_date: 2024-04-01
-modification_date: 2024-04-01
+modification_date: 2024-04-04
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
-  - Topic/NA
+  - Topic/API
+  - Topic/Dev
   - Status/Ongoing
 aliases:
   - MOC - APIs
@@ -36,20 +37,21 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/APIs").length`**  individual notes with the `#Topic/APIs` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/NA").length`**  individual notes with the `#Topic/NA` tag, including this note.*
+
 
 ```dataview
-LIST
-FROM #Topic/APIs
-AND -"CHANGELOG"
-AND -"03-AREAS/MOCs/MOC - APIs"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM #Topic/NA
+WHERE file.name != this.file.name
+SORT file.name asc
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
+*Note created on [[2024-04-01]] and last modified on [[2024-04-04]].*
 
 ### Backlinks
 
