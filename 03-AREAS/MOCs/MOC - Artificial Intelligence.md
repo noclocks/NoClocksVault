@@ -51,6 +51,13 @@ WHERE file.name != this.file.name
 SORT file.name asc
 ```
 
+```dataview
+LIST
+FROM #Topic/AI
+AND -"CHANGELOG"
+AND -"03-AREAS/MOCs/MOC - Artificial Intelligence"
+```
+
 ***
 
 ## Appendix
