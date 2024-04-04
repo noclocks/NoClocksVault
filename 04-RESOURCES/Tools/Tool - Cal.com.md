@@ -12,12 +12,11 @@ aliases:
 publish: true
 permalink:
 description:
-image: https://i.imgur.com/pAi7tZ6.png
+image: https://i.imgur.com/juVMJnf.png
 cssclasses:
   - tool
 ---
 
-![]()
 
 # Cal.com
 
