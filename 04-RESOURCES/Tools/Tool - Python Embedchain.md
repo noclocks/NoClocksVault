@@ -33,7 +33,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *https://github.com/embedchain/embedchain*
 
 ***
 
