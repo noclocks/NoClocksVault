@@ -36,14 +36,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Prompting Libraries
 
--   [Chainlit](https://docs.chainlit.io/overview): A [[Python]] library for making chatbot interfaces.
--   [Embedchain](https://github.com/embedchain/embedchain): A Python library for managing and syncing unstructured data with LLMs.
+-   [Chainlit](https://docs.chainlit.io/overview): A [[Python]] library for making chatbot interfaces. - See [[Tool - Python Chainlit|Chainlit]]
+-   [Embedchain](https://github.com/embedchain/embedchain): A [[Python]] library for managing and syncing unstructured data with [[LLM]]s. - See [[Tool - Python Embedchain|Embedchain]]
 -   [FLAML (A Fast Library for Automated Machine Learning & Tuning)](https://microsoft.github.io/FLAML/docs/Getting-Started/): A Python library for automating selection of models, hyperparameters, and other tunable choices.
 -   [Guardrails.ai](https://shreyar.github.io/guardrails/): A Python library for validating outputs and retrying failures. Still in alpha, so expect sharp edges and bugs.
 -   [Guidance](https://github.com/microsoft/guidance): A handy looking Python library from Microsoft that uses Handlebars templating to interleave generation, prompting, and logical control.
 -   [Haystack](https://github.com/deepset-ai/haystack): Open-source LLM orchestration framework to build customizable, production-ready LLM applications in Python.
 -   [HoneyHive](https://honeyhive.ai/): An enterprise platform to evaluate, debug, and monitor LLM apps.
--   [LangChain](https://github.com/hwchase17/langchain): A popular Python/JavaScript library for chaining sequences of language model prompts.
+-   [LangChain](https://github.com/hwchase17/langchain): A popular [[Python]]/[[JavaScript]] library for chaining sequences of language model prompts. - See [[Tool - Python Langchain|Langchain]]
 -   [LiteLLM](https://github.com/BerriAI/litellm): A minimal Python library for calling LLM APIs with a consistent format.
 -   [LlamaIndex](https://github.com/jerryjliu/llama_index): A Python library for augmenting LLM apps with data.
 -   [LMQL](https://lmql.ai/): A programming language for LLM interaction with support for typed prompting, control flow, constraints, and tools.
@@ -60,7 +60,9 @@ debugInConsole: false # Print debug info in Obsidian console
 -   [Weights & Biases](https://wandb.ai/site/solutions/llmops): A paid product for tracking model training and prompt engineering experiments.
 -   [YiVal](https://github.com/YiVal/YiVal): An open-source GenAI-Ops tool for tuning and evaluating prompts, retrieval configurations, and model parameters using customizable datasets, evaluation methods, and evolution strategies.
 
-## [Prompting guides](https://cookbook.openai.com/articles/related_resources#prompting-guides)
+### Prompting Guides
+
+*See [Prompting guides](https://cookbook.openai.com/articles/related_resources#prompting-guides).*
 
 -   [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering): Brex's introduction to language models and prompt engineering.
 -   [learnprompting.org](https://learnprompting.org/): An introductory course to prompt engineering.
@@ -69,7 +71,9 @@ debugInConsole: false # Print debug info in Obsidian console
 -   [promptingguide.ai](https://www.promptingguide.ai/): A prompt engineering guide that demonstrates many techniques.
 -   [Xavi Amatriain's Prompt Engineering 101 Introduction to Prompt Engineering](https://amatriain.net/blog/PromptEngineering) and [202 Advanced Prompt Engineering](https://amatriain.net/blog/prompt201): A basic but opinionated introduction to prompt engineering and a follow up collection with many advanced methods starting with CoT.
 
-## [Video courses](https://cookbook.openai.com/articles/related_resources#video-courses)
+### Online Courses Video
+
+*See [Video Courses](https://cookbook.openai.com/articles/related_resources#video-courses)*
 
 -   [Andrew Ng's DeepLearning.AI](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/): A short course on prompt engineering for developers.
 -   [Andrej Karpathy's Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY): A detailed dive into the machine learning underlying GPT.
@@ -77,7 +81,9 @@ debugInConsole: false # Print debug info in Obsidian console
 -   [Scrimba course about Assistants API](https://scrimba.com/learn/openaiassistants): A 30-minute interactive course about the Assistants API.
 -   [LinkedIn course: Introduction to Prompt Engineering: How to talk to the AIs](https://www.linkedin.com/learning/prompt-engineering-how-to-talk-to-the-ais/talking-to-the-ais?u=0): Short video introduction to prompt engineering
 
-## [Papers on advanced prompting to improve reasoning](https://cookbook.openai.com/articles/related_resources#papers-on-advanced-prompting-to-improve-reasoning)
+### Online Papers
+
+*See [Papers on advanced prompting to improve reasoning](https://cookbook.openai.com/articles/related_resources#papers-on-advanced-prompting-to-improve-reasoning)*
 
 -   [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022)](https://arxiv.org/abs/2201.11903): Using few-shot prompts to ask models to think step by step improves their reasoning. PaLM's score on math word problems (GSM8K) rises from 18% to 57%.
 -   [Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)](https://arxiv.org/abs/2203.11171): Taking votes from multiple outputs improves accuracy even more. Voting across 40 outputs raises PaLM's score on math word problems further, from 57% to 74%, and `code-davinci-002`'s from 60% to 78%.
