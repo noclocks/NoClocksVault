@@ -46,7 +46,8 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[03-AREAS/Code/Python/_README|Python Code Snippets]]
 - [[04-RESOURCES/Tools/_README|Tools]]
 - [[Tool - OpenAI|OpenAI]]
-- [[Tool - ]]
+- [[Tool - Python Streamlit|Streamlit]]
+- [[Tool - Python Langchain|Langchain]]
 
 ```dataview
 LIST FROM [[Tool - Python Chainlit]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - Python Chainlit"
