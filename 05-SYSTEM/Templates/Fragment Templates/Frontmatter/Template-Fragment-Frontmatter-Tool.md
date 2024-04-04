@@ -8,10 +8,11 @@ tags:
   - Status/WIP
 aliases:
   - <% tp.file.title %>
-  - <% (tp.file.title).replace("MOC - ", "") + " Map of Content" %>
+  - <% ((tp.file.title).replace("Tool - ", "").replace("Python ", "") %>
 publish: true
 permalink:
 description:
 image:
 cssclasses:
+  - tool
 ---
