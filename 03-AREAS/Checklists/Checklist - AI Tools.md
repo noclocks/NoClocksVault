@@ -108,6 +108,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Backlinks
 
+- [[MOC - Artificial Intelligence|AI Map of Content]]
+- [[Tool - Langchain]]
+- [[MOC - Python|Python]]
+- [[Tool - Python Chainlit|Chainlit]]
+- [[Tool - OpenAI|OpenAI]]
+
 ```dataview
 LIST FROM [[Checklist - AI Tools]] AND -"CHANGELOG" AND -"03-AREAS/Checklists/Checklist - AI Tools"
 ```
