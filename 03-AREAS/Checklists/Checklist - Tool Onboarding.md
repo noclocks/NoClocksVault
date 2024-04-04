@@ -121,7 +121,7 @@ Onboarding a new tool is a complex process that requires careful planning, commu
 
 ### See Also
 
-- [[03-AREAS/Tools/_README|Tools]]
+- [[04-RESOURCES/Tools/_README|Tools]]
 
 ### Backlinks
 
