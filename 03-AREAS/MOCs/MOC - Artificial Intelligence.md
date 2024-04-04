@@ -41,11 +41,11 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Artificial Intelligence").length`**  individual notes with the `#Topic/Artificial Intelligence` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Topic/AI").length`**  individual notes with the `#Topic/Artificial Intelligence` tag, including this note.*
 
 ```dataview
-LIST
-FROM "#Topic/AI"
+TABLE
+FROM #Topic/AI
 AND -"CHANGELOG"
 AND -"03-AREAS/MOCs/MOC - Artificial Intelligence"
 ```
