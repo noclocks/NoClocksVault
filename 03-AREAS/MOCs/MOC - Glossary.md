@@ -1,6 +1,6 @@
 ---
 creation_date: 2024-04-01
-modification_date: 2024-04-01
+modification_date: 2024-04-04
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
@@ -9,6 +9,9 @@ tags:
 aliases:
   - MOC - Glossary
   - Glossary Map of Content
+  - Glossary MOC
+  - Dictionary MOC
+  - Definitions MOC
 publish: true
 permalink:
 description:
@@ -49,7 +52,7 @@ AND -"03-AREAS/MOCs/MOC - Glossary"
 
 ## Appendix
 
-*Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
+*Note created on [[2024-04-01]] and last modified on [[2024-04-04]].*
 
 ### Backlinks
 

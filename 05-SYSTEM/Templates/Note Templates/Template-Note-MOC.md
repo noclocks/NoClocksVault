@@ -12,6 +12,6 @@
 
 <% tp.file.include("[[Template-Fragment-Callout-MOC-Number-of-Notes]]") %>
 
-<% tp.file.include("[[Template-Dataview-MOC-List]]") %>
+<% tp.file.include("[[Template-Dataview-MOC-Table]]") %>
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
