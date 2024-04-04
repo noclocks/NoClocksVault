@@ -4,11 +4,12 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
-  - Topic/Proj
+  - Topic/ProjectManagement
   - Status/Ongoing
 aliases:
   - MOC - Projects
   - Projects Map of Content
+  - Projects MOC
 publish: true
 permalink:
 description:
@@ -36,11 +37,11 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Projects").length`**  individual notes with the `#Topic/Projects` tag, including this note.*
+> *Currently, there are **`$= dv.pages("#Type/Project").length`**  individual notes with the `#Type/Project` tag, including this note.*
 
 ```dataview
 LIST
-FROM #Topic/Projects
+FROM #Type/Project
 AND -"CHANGELOG"
 AND -"03-AREAS/MOCs/MOC - Projects"
 ```

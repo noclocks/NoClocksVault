@@ -1,6 +1,7 @@
+
 ```dataview
-LIST
-FROM #Topic/<% (tp.file.title).replace("MOC - ", "") %>
-AND -"CHANGELOG"
-AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM #Topic/Dev 
+WHERE file.name != this.file.name
+SORT file.name asc
 ```
