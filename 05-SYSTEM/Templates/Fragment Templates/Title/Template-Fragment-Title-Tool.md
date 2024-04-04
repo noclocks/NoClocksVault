@@ -1,1 +1,1 @@
-# <% ((tp.file.title).replace("Tool - ", "").replace("Python ", "") %>
+# <% ((tp.file.title).replace("Tool - ", "")).replace("Python ", "") %>

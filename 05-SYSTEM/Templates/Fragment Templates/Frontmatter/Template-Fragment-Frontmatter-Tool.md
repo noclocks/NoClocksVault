@@ -8,7 +8,7 @@ tags:
   - Status/WIP
 aliases:
   - <% tp.file.title %>
-  - <% ((tp.file.title).replace("Tool - ", "").replace("Python ", "") %>
+  - <% ((tp.file.title).replace("Tool - ", "")).replace("Python ", "") %>
 publish: true
 permalink:
 description:
