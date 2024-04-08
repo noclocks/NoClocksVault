@@ -82,7 +82,7 @@ graph TB
 - Setup Project GitHub Code Repository
 - Setup Project Google Drive Shared Project Folder
 - Setup Project Email List (Mailgroup)
-
+- Setup Project Slack Channel
 
 ### Initialize Project Systems
 
