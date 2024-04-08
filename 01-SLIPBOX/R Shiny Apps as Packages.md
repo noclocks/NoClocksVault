@@ -155,6 +155,7 @@ These resources are for general package development within the R ecosystem.
 
 
 ### Shiny Modules
+
 - <https://shiny.rstudio.com/articles/modules.html>
 
 
