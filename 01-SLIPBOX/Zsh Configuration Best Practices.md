@@ -89,6 +89,36 @@ done
 Add this to user's `.zshrc`:
 
 ```bash
+config=${XDG_CONFIG_HOME:-$HOME/.config}
+zshconfig=$config/zsh
 
+for file in $zshconfig/zshrc.d/**/*(.N)
+do 
+    [ -x "$file" ] &&  . "$file"
+done
+```
+
+Add this to user's `.zlogin`:
+
+```bash
+config=${XDG_CONFIG_HOME:-$HOME/.config}
+zshconfig=$config/zsh
+
+for file in $zshconfig/zlogin.d/**/*(.N)
+do 
+    [ -x "$file" ] &&  . "$file"
+done
+```
+
+Add this to user's `.zlogout`:
+
+```bash
+config=${XDG_CONFIG_HOME:-$HOME/.config}
+zshconfig=$config/zsh
+
+for file in $zshconfig/zlogout.d/**/*(.N)
+do 
+    [ -x "$file" ] &&  . "$file"
+done
 ```
 
