@@ -139,3 +139,23 @@ ${ZDOTDIR:-$HOME}/.zlogin
 ${ZDOTDIR:-$HOME}/.zlogout
 ```
 
+[[Zsh]] System Directory Paths:
+
+```plaintext
+/etc/zshenv.d/
+/etc/zprofile.d/
+/etc/zshrc.d/
+/etc/zlogin.d/
+/etc/zlogout.d/
+```
+
+[[Zsh]] User Directory Paths:
+
+```plaintext
+${XDG_CONFIG_HOME:-$HOME/.config}/zshenv.d/
+${XDG_CONFIG_HOME:-$HOME/.config}/zprofile.d/
+${XDG_CONFIG_HOME:-$HOME/.config}/zshrc.d/
+${XDG_CONFIG_HOME:-$HOME/.config}/zlogin.d/
+${XDG_CONFIG_HOME:-$HOME/.config}/zlogout.d/
+```
+
