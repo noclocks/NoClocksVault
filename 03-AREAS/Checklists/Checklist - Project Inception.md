@@ -47,14 +47,17 @@ These are things we always do or at least understand why we aren't.
 graph TB
   subgraph init["Initialization"]
     stakeholders["Curate Comprehensive List of Stakeholders and Contact Details"]
-    
+    mailinglist["Create Mailing List for Project Team"]
+    contacts["Add Client Contacts to CRM"]
+    emailfilter["Create an Email Filter"]
+    slackchannel["Create a Slack Channel"]    
   end
   
 ```
 
 ## Checklist
 
-### Initial Contacts
+### Initialize Project Systems
 
 - [ ] Create a comprehensive list of client stakeholders and their contact information.
 - [ ] Create mailing list for the client contacts that forwards email to all members of the project team.
