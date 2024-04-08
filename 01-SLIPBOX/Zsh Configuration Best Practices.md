@@ -44,6 +44,9 @@ Program Environment Variable Conventions:
 ## Scripts
 
 ```bash
+# clone
+git clone https://github.com/noclocks/noclocks_zshconfig
+
 # set config home
 config=${XDG_CONFIG_HOME:-$HOME/.config}
 zshconfig=$config/zsh
@@ -53,10 +56,39 @@ mkdir -p $zshconfig $zshconfig/{zshenv.d,zprofile.d,zshrc.d,zlogin.d,zlogout.d}
 
 # copy/setup files
 cp -R noclocks-zshconfig/zshenv.d/* $zshconfig/zshenv.d
-cp -R noclocks-zsh-config/zprofile.d/* $config/zprofile.d
-cp -R sixarm-zsh-config/zshrc.d/* $config/zshrc.d
-cp -R sixarm-zsh-config/zlogin.d/* $config/zlogin.d
-cp -R sixarm-zsh-config/zlogout.d/* $config/zlogout.d
+cp -R noclocks-zshconfig/zprofile.d/* $config/zprofile.d
+cp -R noclocks-zshconfig/zshrc.d/* $config/zshrc.d
+cp -R noclocks-zshconfig/zlogin.d/* $config/zlogin.d
+cp -R noclocks-zshconfig/zlogout.d/* $config/zlogout.d
+```
+
+Add this to the user's `.zshenv`:
+
+```bash
+config=${XDG_CONFIG_HOME:-$HOME/.config}
+zshconfig=$config/zsh
+
+for file in $zshconfig/zshenv.d/**/*(.N)
+do 
+    [ -x "$file" ] &&  . "$file"
+done
+```
+
+Add this to user's `.zprofile`:
+
+```bash
+config=${XDG_CONFIG_HOME:-$HOME/.config}
+zshconfig=$config/zsh
+
+for file in $zshconfig/zprofile.d/**/*(.N)
+do 
+    [ -x "$file" ] &&  . "$file"
+done
+```
+
+Add this to user's `.zshrc`:
+
+```bash
 
 ```
 
