@@ -29,6 +29,13 @@ debugInConsole: false # Print debug info in Obsidian console
 - `.aws`: [[AWS CLI]] Configuration and Credentials ([[Amazon Web Services (AWS)]])
 - `.azure`: [[Microsoft Azure CLI]] Configuration and Credentials ([[Microsoft Azure]])
 - `.docker`: [[Docker]] Configuration Files
+- `.minikube`
+- `.rest-client`
+- `.pyenv`
+- `.vscode` and `.vscode-insiders`
+- `.config/scoop`
+- `.bin`
+- `.kube`
 - `.gem`
 
 
