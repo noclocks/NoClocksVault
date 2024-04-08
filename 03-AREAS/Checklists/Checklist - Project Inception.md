@@ -52,7 +52,12 @@ This guidebook is a checklist of items that we find extremely helpful, and somet
 
 These are things we always do or at least understand why we aren't.
 
-## 
+## Systems
+
+- [[Communication System]]
+- [[Research System]]
+- [[Tech Stack]]
+- [[Integrations]]
 
 ## Diagram
 
@@ -69,6 +74,14 @@ graph TB
 ```
 
 ## Checklist
+
+- Onboard Client
+- Draft Project Plan
+- Draft Project GSA Contract
+- Setup Project Design Assets (Project Logo, Client Logos, Fonts, Images, etc.)
+- Setup Project GitHub Code Repository
+- Setup Project Google Drive Shared Project Folder
+- Setup Project Email List (Mailgroup)
 
 
 ### Initialize Project Systems
