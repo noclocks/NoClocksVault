@@ -41,5 +41,22 @@ Program Environment Variable Conventions:
 
 (`$SEARCHER`, `$CLIPPER`, `$DATER`, `$JUMPER` are other optional program environment variables).
 
+## Scripts
 
+```bash
+# set config home
+config=${XDG_CONFIG_HOME:-$HOME/.config}
+zshconfig=$config/zsh
+
+# make directories
+mkdir -p $zshconfig $zshconfig/{zshenv.d,zprofile.d,zshrc.d,zlogin.d,zlogout.d}
+
+# copy/setup files
+cp -R noclocks-zshconfig/zshenv.d/* $zshconfig/zshenv.d
+cp -R noclocks-zsh-config/zprofile.d/* $config/zprofile.d
+cp -R sixarm-zsh-config/zshrc.d/* $config/zshrc.d
+cp -R sixarm-zsh-config/zlogin.d/* $config/zlogin.d
+cp -R sixarm-zsh-config/zlogout.d/* $config/zlogout.d
+
+```
 
