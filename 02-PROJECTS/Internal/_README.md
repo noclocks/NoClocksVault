@@ -1,15 +1,14 @@
 ---
-creation_date: 2024-03-17
-modification_date: 2024-03-17
+creation_date: 2024-04-08
+modification_date: 2024-04-08
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Readme
   - Topic/Meta
   - Status/Ongoing
 aliases:
-  - Projects
-  - Projects Folder
-  - Projects Readme
+  - Internal
+  - Internal Readme
 publish: true
 permalink:
 description:
@@ -19,7 +18,7 @@ cssclasses:
 ---
 
 
-# Projects
+# Internal
 
 ```table-of-contents
 title: Contents 
@@ -33,27 +32,27 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `02-PROJECTS` directory.
+> This note serves as an index for all notes under the `02-PROJECTS/Internal` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `02-PROJECTS` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `02-PROJECTS/Internal` folder, including this note.*
 
 ```dataview
-LIST FROM "02-PROJECTS" AND -"CHANGELOG" AND -"02-PROJECTS/_README"
+LIST FROM "02-PROJECTS/Internal" AND -"CHANGELOG" AND -"02-PROJECTS/Internal/_README"
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-03-17]] and last modified on [[2024-03-17]].*
+*Note created on [[2024-04-08]] and last modified on [[2024-04-08]].*
 
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"02-PROJECTS/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"02-PROJECTS/Internal/_README"
 ```
 
 ***
