@@ -14,9 +14,9 @@ tags:
 aliases:
   - Zsh Startup Files
 publish: true
-permalink:
-description:
-image:
+permalink: 
+description: 
+image: 
 cssclasses:
 ---
 
@@ -38,9 +38,17 @@ debugInConsole: false # Print debug info in Obsidian console
 
 There are **five** primary startup files for [[Z Shell (Zsh)]]:
 
-1. `.zshenv`: 
-2. `.zprofile`:
-3. `.zshrc`:
-4. `.zlogin`:
-5. `.zlogout`:
+1. `.zshenv`: [[Zsh]] Environment Configuration
+2. `.zprofile`: [[Zsh]] Profile Configuration
+3. `.zshrc`: [[Zsh]] Interactive Shell Configuration
+4. `.zlogin`: [[Zsh]] Login Configuration
+5. `.zlogout`: [[Zsh]] Logout Configuration
 
+### `.zshenv` - Zsh Environment Configuration
+
+`.zshenv` is sources on *all invocations of the shell, unless the `-f` option flag is set.*
+
+What to Include:
+
+- Setup command search path
+- Other 
