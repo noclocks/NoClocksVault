@@ -33,4 +33,13 @@ Alias Conventions:
 
 - For an alias that is intended to launch a program, we use a convention of trying probable locations for the tool. For example, for the alias `firefox`, we look in order in `/opt` (e.g. typical for our custom installs), then on the path, then in the typical macOS location.
 
-Environment 
+Program Environment Variable Conventions:
+
+- `$EDITOR`: Set the default Editor for editing text files (i.e. `vim`, `nano`, `vi`, `code`, etc.)
+- `$PAGER`: Set the default Pager to display text files (i.e. `more`, `less`, etc.)
+- `$BROWSER`: Set the default Web Browser
+
+(`$SEARCHER`, `$CLIPPER`, `$DATER`, `$JUMPER` are other optional program environment variables).
+
+
+
