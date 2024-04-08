@@ -29,7 +29,7 @@ cssclasses:
 > - [[Project Documentation Naming Conventions in Software Development]]
 > - [[Managing Projects with GTD]]
 > - [[How to Ship Consistent Side Projects]]
-> - [[]]
+> - [[Creating a Project Initiation CustomGPT]]
 > - [[NPM - Project Initialization Script]]
 
 ```table-of-contents
