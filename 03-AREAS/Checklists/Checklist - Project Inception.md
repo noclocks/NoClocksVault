@@ -68,7 +68,11 @@ graph TB
 
 ## Checklist
 
-- [[C]]
+- [[Communication System]]
+- [[Research System]]
+- [[Tech Stack]]
+- [[Integrations]]
+- 
 
 ### Initialize Project Systems
 
