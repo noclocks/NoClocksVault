@@ -44,7 +44,11 @@ These are things we always do or at least understand why we aren't.
 ## Diagram
 
 ```mermaid
-graph LR
+graph TB
+  subgraph init["Initialization"]
+    stakeholders["Curate Comprehensive List of Stakeholders and Contact Details"]
+    
+  end
   
 ```
 
