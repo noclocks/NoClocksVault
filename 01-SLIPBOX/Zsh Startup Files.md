@@ -88,4 +88,35 @@ What to Include:
 
 `.zlogin` is similar to `.zprofile`, except sourced after `.zshrc`.
 
-### `z`
+### `.zlogout` - Zsh Logout Configuration
+
+`.zlogout` is sourced when a login shell exits.
+
+## Extras
+
+- `.zsh-update`
+- `.zshrc-e`
+
+## File Paths
+
+Default System Files:
+
+```plaintext
+/etc/zshenv
+/etc/sprofile
+/etc/zshrc
+/etc/zlogin
+/etc/zlogout
+```
+
+Default User Files:
+
+```plaintext
+$HOME/.zshenv
+$HOME/.zprofile
+$HOME/.zshrc
+$HOME/.zlogin
+$HOME/.zlogout
+```
+
+When using `ZDOTFIR`
