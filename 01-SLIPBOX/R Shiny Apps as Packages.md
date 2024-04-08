@@ -28,4 +28,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
+> [!NOTE]
+> Creating [[R Shiny]] web applications as [[R]] packages comes with a variety of benefits that can enhance the development, distribution, and maintenance of the web application and the [[Software Development Life Cycle (SDLC)]].
 
+Below is a list of the key advantages of creating [[R Shiny]] apps as R Packages:
+
+1. **Modular D
