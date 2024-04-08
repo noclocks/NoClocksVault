@@ -21,6 +21,17 @@ cssclasses:
 
 # Project Inception Checklist
 
+> [!NOTE] See Also:
+> - [[MOC - Projects]]
+> - [[Checklist - Project Completion]]
+> - [[Taming Chaotic Projects]]
+> - [[Project Management Pipeline]]
+> - [[Project Documentation Naming Conventions in Software Development]]
+> - [[Managing Projects with GTD]]
+> - [[How to Ship Consistent Side Projects]]
+> - [[]]
+> - [[NPM - Project Initialization Script]]
+
 ```table-of-contents
 title: Contents 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
