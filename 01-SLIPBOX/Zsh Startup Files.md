@@ -119,4 +119,23 @@ $HOME/.zlogin
 $HOME/.zlogout
 ```
 
-When using `ZDOTFIR`
+When using [[XDG]]:
+
+```plaintext
+$HOME/zsh/.zshenv
+$XDG_CONFIG_HOME/zsh/.zprofile
+$XDG_CONFIG_HOME/zsh/.zshrc
+$XDG_CONFIG_HOME/zsh/.zlogin
+$XDG_CONFIG_HOME/zsh/.zlogout
+```
+
+When using `ZDOTDIR`:
+
+```plaintext
+${ZDOTDIR:-$HOME}/.zshenv
+${ZDOTDIR:-$HOME}/.zprofile
+${ZDOTDIR:-$HOME}/.zshrc
+${ZDOTDIR:-$HOME}/.zlogin
+${ZDOTDIR:-$HOME}/.zlogout
+```
+
