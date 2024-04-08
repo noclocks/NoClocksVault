@@ -50,5 +50,19 @@ There are **five** primary startup files for [[Z Shell (Zsh)]]:
 
 What to Include:
 
-- Setup command search path
-- Other 
+- Command Search Path
+- Environment Variable Exports
+- Commands for setting up aliases and functions that are needed for other scripts
+
+What to Exclude:
+
+- Commands the product output
+- Anything that assumes the shell is attached to a [[TTY]]
+
+### `.zprofile` - Zsh Profile Configuration
+
+`.zprofile` is sourced in all login shells. It is meant to serve as an alternative to `zlogin` for `ksh`.
+
+What to Include:
+
+- Commands that should b
