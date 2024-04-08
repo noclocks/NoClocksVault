@@ -52,6 +52,8 @@ This guidebook is a checklist of items that we find extremely helpful, and somet
 
 These are things we always do or at least understand why we aren't.
 
+## 
+
 ## Diagram
 
 ```mermaid
@@ -68,11 +70,6 @@ graph TB
 
 ## Checklist
 
-- [[Communication System]]
-- [[Research System]]
-- [[Tech Stack]]
-- [[Integrations]]
-- 
 
 ### Initialize Project Systems
 
