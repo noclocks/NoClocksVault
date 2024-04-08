@@ -65,4 +65,27 @@ What to Exclude:
 
 What to Include:
 
-- Commands that should b
+- Commands that should be executed only in login shells
+- As a general rule, it should not change the shell environment at all.
+- As a general rule, set the terminal type then run a series of external commands e.g. fortune, msgs, etc.
+
+What to Exclude:
+
+- Alias Definitions
+- Function Definitions
+- Options
+- Environment Variable Settings
+
+### `.zshrc` - Zsh Interactive Shell Configuration
+
+`zshrc` is sourced in interactive shells.
+
+What to Include:
+
+- Commands to setup aliases, functions, options, key bindings, etc.
+
+### `.zlogin` - Zsh Login Configuration
+
+`.zlogin` is similar to `.zprofile`, except sourced after `.zshrc`.
+
+### `z`
