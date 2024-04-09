@@ -15,7 +15,4 @@ description: "Agenda Note for Meeting held on <% tp.file.creation_date("YYYY-MM-
 image:
 cssclasses:
   - agenda
-agenda_metadata:
-  
-  
 ---
