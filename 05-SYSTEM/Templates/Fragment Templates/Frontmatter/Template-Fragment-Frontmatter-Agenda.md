@@ -8,10 +8,11 @@ tags:
   - Status/WIP
 aliases:
   - <% tp.file.title %>
-  - <% ((tp.file.title).replace("Agenda - ", "")).replace(" - <% tp.file.creation_date) + " Map of Content" %>
+  - <% (tp.file.title).replace("Agenda - ", "") %>
 publish: true
 permalink:
-description:
+description: "Agenda Note for Meeting held on <% tp.file.creation_date("YYYY-MM-DD") %>."
 image:
 cssclasses:
+  - agenda
 ---

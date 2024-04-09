@@ -1,6 +1,6 @@
-<% tp.file.include("[[Template-Fragment-Frontmatter-Checklist]]") %>
+<% tp.file.include("[[Template-Fragment-Frontmatter-Agenda]]") %>
 
-<% tp.file.include("[[Template-Fragment-Title-Checklist]]") %>
+<% tp.file.include("[[Template-Fragment-Title-Agenda]]") %>
 
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 
