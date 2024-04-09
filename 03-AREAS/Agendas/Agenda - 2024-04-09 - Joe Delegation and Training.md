@@ -40,23 +40,20 @@ cssclasses:
 
 ## Video
 
-This meeting used 
+This meeting used [[Tool - Slack|Slack]] Huddles as the communication medium.
 
 ## Agenda
+
+Topics:
+- Delegation
+- Training
+
 
 
 ## Questions
 
 
 ## Notes
-
-
-## Next Actions
-
-
-## References
-
-
 
 Assigning meaningful administrative tasks to your intern can be a great way to integrate them into your startup's culture and processes, while also providing them with a comprehensive understanding of how your company operates. This will not only help them gain valuable work experience but also ensure their contributions are beneficial to your company. Here are some recommendations for admin type work you can assign to your intern:
 
@@ -98,3 +95,12 @@ Assigning meaningful administrative tasks to your intern can be a great way to i
 - **Training Coordination:** Coordinate or research training programs, workshops, or courses that could benefit the team. This could also include setting up a schedule for the intern’s own tech training.
 
 Assigning these tasks not only provides your intern with a broad overview of the administrative and operational aspects of running a startup but also directly contributes to the efficiency and organization of your company. Make sure to provide clear instructions and the necessary resources for each task, and check in regularly to offer guidance and feedback.
+
+
+## Next Actions
+
+
+## References
+
+
+
