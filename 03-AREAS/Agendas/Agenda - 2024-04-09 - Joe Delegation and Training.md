@@ -7,17 +7,27 @@ tags:
   - Topic/Business
   - Status/WIP
 aliases:
-  - Agenda - 2024-04-09 - Joe Delegation and Training
+  - Agenda - Joe Delegation and Training
   - Joe Delegation and Training
   - Joe Delegation and Training - Agenda
 publish: true
 permalink:
-description: "Agenda Note for Meeting held on 2024-04-09."
+description: "Agenda Note for Meeting held on 2024-04-09 for Joe delegatation and training."
 image:
 cssclasses:
   - agenda
 ---
 
+# Joe Delegation and Training Agenda 
+
+> [!example] **Agenda Metadata**:
+> - Date:: [[2024-04-09]]
+> - Organizer:: "Jimmy Briggs <jimmy.briggs@jimbrig.com>"
+> - Description:: "Agenda Note for Meeting held on 2024-04-09 for Joe delegation and training."
+
+## Overview
+
+> [!INFO]
 
 Assigning meaningful administrative tasks to your intern can be a great way to integrate them into your startup's culture and processes, while also providing them with a comprehensive understanding of how your company operates. This will not only help them gain valuable work experience but also ensure their contributions are beneficial to your company. Here are some recommendations for admin type work you can assign to your intern:
 
