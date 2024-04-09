@@ -1,4 +1,8 @@
 > [!example] **Agenda Metadata**:
-> - Date::
-> - Organizer: " "
-> - Description:: " "
+> - Date:: <% tp.file.creation_date() %>
+> - Organizer: <% tp.frontmatter.author %>
+> - Description:: <% tp.frontmatter.description %>
+
+
+
+
