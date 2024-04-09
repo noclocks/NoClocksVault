@@ -28,6 +28,35 @@ cssclasses:
 ## Overview
 
 > [!INFO]
+> This agenda has two primary goals:
+> 1. Decide on and plan out administrative tasks for Joe to work on.
+> 2. Plan and Create a Training System.
+
+## Team
+
+- [[Jimmy Briggs]]
+- [[Patrick Howard]]
+- [[Joe Sullivan]]
+
+## Video
+
+This meeting used 
+
+## Agenda
+
+
+## Questions
+
+
+## Notes
+
+
+## Next Actions
+
+
+## References
+
+
 
 Assigning meaningful administrative tasks to your intern can be a great way to integrate them into your startup's culture and processes, while also providing them with a comprehensive understanding of how your company operates. This will not only help them gain valuable work experience but also ensure their contributions are beneficial to your company. Here are some recommendations for admin type work you can assign to your intern:
 
