@@ -45,5 +45,58 @@ Traditional [[autonomous]] agents operated with limited knowledge, often confine
 ## The Anatomy of an Agent
 
 > [!NOTE]
-> Diving deep into the core of an LLM-based AI agent, we find it’s structured much like a human, with distinct components akin to personality, memory, thought process, and abilities. Let’s break these down:
+> Diving deep into the core of an LLM-based AI agent, we find it’s structured much like a human, with distinct components akin to personality, memory, thought process, and abilities. Let’s break these down.
+
+Anatomy of an Agent from the Agent Landscape Survey:
+
+![](https://i.imgur.com/DywBVZp.png)
+
+### Profile
+
+Humans naturally adapt our mindset based on the tasks we're tackling, whether it's writing, cooking, or playing sports. Similarly, agents can be conditioned or "profiled" to specialize in specific tasks.
+
+The profile of an agent is it's personality, mindset, and high-level instructions. Research indicates that merely informing an agent that it's an expert in a certain domain can boost its performance.
+
+|**Potential Applications of Profiling**|**Description**|
+|---|---|
+|**Prompt Engineering**|Tailoring agent prompts for better results.|
+|**Memory Adjustments**|Modifying how an agent recalls or prioritizes information.|
+|**Action Selection**|Influencing the set of actions an agent might consider.|
+|**Driving Mechanism**|Potentially tweaking the underlying large language model (LLM) that powers the agent.|
+
+#### Example Agent Profile: Weather Expert
+
+- **Profile Name:** Weather Specialist
+- **Purpose:** Provide detailed and accurate weather information.
+- **Preferred Memory Sources:** Meteorological databases, recent weather news, and scientific journals.
+- **Action Set:** Fetching weather data, analyzing weather patterns, and providing forecasts.
+- **Base Model Tweaks:** Prioritize meteorological terminology and understanding.
+
+### Memory
+
+Just as our memories shape our decisions, reactions, and identities, an agent's memory is the cornerstone of its identity and capabilities. Memory is fundamental for an agent to learn and adapt. At a high level, agents possess two core types of memories: long-term and short-term.
+
+||**Long-Term Memory**|**Short-Term (Working) Memory**|
+|---|---|---|
+|**Purpose**|Serves as the agent's foundational knowledge base.|Handles recent or transient memories, much like our recollection of events from the past few days.|
+|**What it Stores**|Historical data and interactions that have taken place over extended periods.|Immediate experiences and interactions.|
+|**Role**|Guides the agent's core behaviors and understanding, acting as a vast reservoir of accumulated knowledge.|Essential for real-time tasks and decision-making. Not all these memories transition into long-term storage.|
+
+### Planning
+
+Planning is essential for agents to systematically tackle challenges, mirroring how humans break down complex problems into smaller tasks.
+
+#### **1. What is Planning?**
+
+- **Concept:** It's the agent's strategy for problem-solving, ensuring solutions are both comprehensive and systematic.
+- **Human Analogy:** Just like humans split challenges into smaller, more manageable tasks, agents adopt a similar methodical approach.
+
+#### **2. Key Planning Strategies**
+
+|**Strategy**|**Description**|
+|---|---|
+|**Planning with Feedback**|An adaptive approach where agents refine their strategy based on outcomes, similar to iterative design processes.|
+|**Planning without Feedback**|The agent acts as a strategist, using only its existing knowledge. It's like playing chess, anticipating challenges and planning several moves ahead.|
+
+### Action
 
