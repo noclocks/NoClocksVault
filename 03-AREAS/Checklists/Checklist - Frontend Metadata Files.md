@@ -160,6 +160,51 @@ export default function Icon() {
 > - You can generate multiple icons in the same file using [`generateImageMetadata`](https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata).
 > - You cannot generate a `favicon` icon. Use [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon) or a [favicon.ico](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#favicon) file instead.
 
+##### Props
+
+The default export function receives the following props:
+
+- **[`params` (optional)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#params-optional)**
+
+An object containing the [dynamic route parameters](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) object from the root segment down to the segment `icon` or `apple-icon` is co-located in.
+
+- `app/shop/[slug]/icon.tsx`:
+
+```typescript
+export default function Icon({ params }: { params: { slug: string } }) {
+  // ...
+}
+```
+
+| Route                           | URL         | `params`                  |
+| ------------------------------- | ----------- | ------------------------- |
+| `app/shop/icon.js`              | `/shop`     | `undefined`               |
+| `app/shop/[slug]/icon.js`       | `/shop/1`   | `{ slug: '1' }`           |
+| `app/shop/[tag]/[item]/icon.js` | `/shop/1/2` | `{ tag: '1', item: '2' }` |
+| `app/shop/[...slug]/icon.js`    | `/shop/1/2` | `{ slug: ['1', '2'] }`    |
+
+##### Returns
+
+The default export function should return a `Blob` | `ArrayBuffer` | `TypedArray` | `DataView` | `ReadableStream` | `Response`.
+
+> [!TIP]
+> **Good to know**: `ImageResponse` satisfies this return type.
+
+- [Config exports](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#config-exports)
+
+You can optionally configure the icon's metadata by exporting `size` and `contentType` variables from the `icon` or `apple-icon` route.
+
+| Option | Type |
+| --- | --- |
+| [`size`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#size) | `{ width: number; height: number }` |
+| [`contentType`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#contenttype) | `string` - [image MIME type](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/MIME_types#image_types) |
+
+#### [`size`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#size)
+
+icon.tsx | apple-icon.tsx
+
+TypeScript
+
 ### Manifest.json
 
 ### Robots.txt
