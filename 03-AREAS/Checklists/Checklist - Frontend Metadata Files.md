@@ -45,6 +45,8 @@ graph LR
 
 ### Favicon, Icon, and Apple Icon
 
+#### Method
+
 > [!NOTE]
 > The `favicon`, `icon`, or `apple-icon` file conventions allow you to set icons for your application.
 > 
@@ -62,7 +64,29 @@ graph LR
 <link rel="icon" href="/favicon.ico" sizes="any" />
 ```
 
-- [ ] Add an `icon.{ico|jpg|jpeg|png|svg}`
+- [ ] Add an `icon.{ico|jpg|jpeg|png|svg}` image file.
+
+```html
+<link
+  rel="icon"
+  href="/icon?<generated>"
+  type="image/<generated>"
+  sizes="<generated>"
+/>
+```
+
+- [ ] Add an `apple-icon.{jpg|jpeg|png}`.
+
+```html
+<link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>"/>
+```
+
+> [!TIP]
+> - You can set multiple icons by adding a number suffix to the file name. For example, `icon1.png`, `icon2.png`, etc. Numbered files will sort lexically.
+> - Favicons can only be set in the root `/app` segment. If you need more granularity, you can use [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon).
+> - The appropriate `<link>` tags and attributes such as `rel`, `href`, `type`, and `sizes` are determined by the icon type and metadata of the evaluated file.
+> 	- For example, a 32 by 32px `.png` file will have `type="image/png"` and `sizes="32x32"` attributes.
+> - `sizes="any"` is added to `favicon.ico` output to [avoid a browser bug](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) where an `.ico` icon is favored over `.svg`.
 
 ### Manifest.json
 
