@@ -45,6 +45,25 @@ graph LR
 
 ### Favicon, Icon, and Apple Icon
 
+> [!NOTE]
+> The `favicon`, `icon`, or `apple-icon` file conventions allow you to set icons for your application.
+> 
+> They are useful for adding app icons that appear in places like web browser tabs, phone home screens, and search engine results.
+
+| File convention                                              | Supported file types                    | Valid locations |
+| ------------------------------------------------------------ | --------------------------------------- | --------------- |
+| [`favicon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#favicon) | `.ico`                                  | `app/`          |
+| [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon) | `.ico`, `.jpg`, `.jpeg`, `.png`, `.svg` | `app/**/*`      |
+| [`apple-icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#apple-icon) | `.jpg`, `.jpeg`, `.png`                 | `app/**/*`      |
+
+- [ ] Add a `favicon.ico` image file to the root `/app` route segment.
+
+```html
+<link rel="icon" href="/favicon.ico" sizes="any" />
+```
+
+- [ ] Add an `icon.{ico|jpg|jpeg|png|svg}`
+
 ### Manifest.json
 
 ### Robots.txt
