@@ -274,7 +274,40 @@ There are two ways to set Open Graph and Twitter images:
 - [Using image files (.jpg, .png, .gif)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#image-files-jpg-png-gif)
 - [Using code to generate images (.js, .ts, .tsx)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#generate-images-using-code-js-ts-tsx)
 
+#### Image files (.jpg, .png, .gif)
+
+Use an image file to set a route segment's shared image by placing an `opengraph-image` or `twitter-image` image file in the segment.
+
+Next.js will evaluate the file and automatically add the appropriate tags to your app's `<head>` element.
+
+| File convention                                              | Supported file types            |
+| ------------------------------------------------------------ | ------------------------------- |
+| [`opengraph-image`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#opengraph-image) | `.jpg`, `.jpeg`, `.png`, `.gif` |
+| [`twitter-image`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#twitter-image) | `.jpg`, `.jpeg`, `.png`, `.gif` |
+| [`opengraph-image.alt`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#opengraph-imagealttxt) | `.txt`                          |
+| [`twitter-image.alt`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#twitter-imagealttxt) | `.txt`                          |
+
+
+##### opengraph-image
+
+Add an `opengraph-image.(jpg|jpeg|png|gif)` image file to any route segment.
+
+```html
+<meta property="og:image" content="<generated>" />
+<meta property="og:image:type" content="<generated>" />
+<meta property="og:image:width" content="<generated>" />
+<meta property="og:image:height" content="<generated>" />
+```
+
+##### twitter-image
+
+Add a `twitter-image.(jpg|jpeg|png|gif)` image file to any route segment.
+
+
+
 ### Robots.txt
+
+- [ ] Add or generate a `robots.txt` file that matches the [Robots Exclusion Standard](https://en.wikipedia.org/wiki/Robots.txt#Standard) in the **root** of `app` directory to tell search engine crawlers which URLs they can access on your site.
 
 ### Sitemap.xml
 
