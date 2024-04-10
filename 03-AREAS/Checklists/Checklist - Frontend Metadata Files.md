@@ -220,13 +220,65 @@ export default function Icon() {}
 > [!NOTE]
 > **See Also**: https://developer.mozilla.org/en-US/docs/Web/Manifest
 
-- [ ] Add or generate a `manifest.json` or `manifest.webmanifest` file that follows the [Web]
+- [ ] Add or generate a `manifest.json` or `manifest.webmanifest` file that follows the [Web Manifest Specification](https://developer.mozilla.org/en-US/docs/Web/Manifest) in the *root of the `app` directory* to provide information about the web application for the browser.
+
+- Example Static Manifest File:
+
+```json
+{
+  "name": "My Next.js Application",
+  "short_name": "Next.js App",
+  "description": "An application built with Next.js",
+  "start_url": "/"
+  // ...
+}
+```
+
+- [ ] Generate `manifest.ts` file that returns a [Manifest Object](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#manifest-object):
+
+```typescript
+import { MetadataRoute } from 'next'
+ 
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'Next.js App',
+    short_name: 'Next.js App',
+    description: 'Next.js App',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#fff',
+    theme_color: '#fff',
+    icons: [
+      {
+        src: '/favicon.ico',
+        sizes: 'any',
+        type: 'image/x-icon',
+      },
+    ],
+  }
+}
+```
+
+#### Manifest Object
+
+The manifest object contains an extensive list of options that may be updated due to new web standards. For information on all the current options, refer to the `MetadataRoute.Manifest` type in your code editor if using [TypeScript](https://nextjs.org/docs/app/building-your-application/configuring/typescript#typescript-plugin) or see the [MDN](https://developer.mozilla.org/docs/Web/Manifest) docs.
+
+### Open Graph and Twitter
+
+The `opengraph-image` and `twitter-image` file conventions allow you to set Open Graph and Twitter images for a route segment.
+
+They are useful for setting the images that appear on social networks and messaging apps when a user shares a link to your site.
+
+There are two ways to set Open Graph and Twitter images:
+
+- [Using image files (.jpg, .png, .gif)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#image-files-jpg-png-gif)
+- [Using code to generate images (.js, .ts, .tsx)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#generate-images-using-code-js-ts-tsx)
 
 ### Robots.txt
 
 ### Sitemap.xml
 
-### Open Graph and Twitter
+
 
 ### 
 
