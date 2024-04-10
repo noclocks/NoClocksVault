@@ -17,3 +17,20 @@
 
 ## Type
 
+> Summarize the type of work, ideally in one paragraph.
+> Include the most-relevant language, such as "This is a work for hire as described by U.S. California Law."
+
+## Payment
+
+> Summarize the payment for the work, in one paragraph.
+> Include the most-relevant budget requirements, payment schedule, transfer methods, etc.
+> If you prefer to provide more information about the payment, then add an appendix section "Payment".
+
+## Purpose
+
+### Objectives
+
+### Performance
+
+### Factors
+
