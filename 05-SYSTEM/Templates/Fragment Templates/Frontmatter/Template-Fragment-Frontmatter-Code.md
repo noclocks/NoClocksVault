@@ -4,13 +4,10 @@ modification_date: <% tp.file.last_modified_date("YYYY-MM-DD") %>
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Code
-  - Type/Code/Cmd
   - Topic/Dev
-  - Topic/Dev/Windows
-  - Topic/Dev/Cmd
   - Status/WIP
 aliases:
-  - <% (tp.file.title).replace("Cmd - ", "") %>
+  - <% tp.file.title %>
 publish: true
 permalink:
 description:
