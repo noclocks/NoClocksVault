@@ -24,7 +24,15 @@ I am reaching out to see if you can help me with your feedback with regard to yo
 
 I am seeking feedback because {{ Reason }}.
 
-If you want some prompts to help guide your feedb
+If you want some prompts to help guide your feedback, here are some:
+
+- "In my experience with you, your strengths are ..."
+- "Your challenged and opportunities for improvement are ..."
+- "If there is one improvement that you make that can make a significant difference to our company and clients over the next six months, what would that be?"
+
+Feedback is east and fast:
+- You can reply to this email with your feedback
+- If you prefer to provide anonymous feedback, you may do so using this link
 
 ***
 
