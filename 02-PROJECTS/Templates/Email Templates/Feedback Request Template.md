@@ -32,7 +32,39 @@ If you want some prompts to help guide your feedback, here are some:
 
 Feedback is east and fast:
 - You can reply to this email with your feedback
-- If you prefer to provide anonymous feedback, you may do so using this link
+- If you prefer to provide anonymous feedback, you may do so using this link: 
+- If you would like to provide feedback in person, or by phone or video, that's great too; let me know when's good for us to get together.
+
+Your feedback is welcome and appreciated!
+
+Thanks,
+No Clocks Team
+
+## Markdown
+
+```markdown
+Hello {{ Name }},
+
+I am reaching out to see if you can help me with your feedback with regard to your experience with {{ Product }}.
+
+I am seeking feedback because {{ Reason }}.
+
+If you want some prompts to help guide your feedback, here are some:
+
+- "In my experience with you, your strengths are ..."
+- "Your challenged and opportunities for improvement are ..."
+- "If there is one improvement that you make that can make a significant difference to our company and clients over the next six months, what would that be?"
+
+Feedback is east and fast:
+- You can reply to this email with your feedback
+- If you prefer to provide anonymous feedback, you may do so using this link: 
+- If you would like to provide feedback in person, or by phone or video, that's great too; let me know when's good for us to get together.
+
+Your feedback is welcome and appreciated!
+
+Thanks,
+No Clocks Team
+```
 
 ***
 
