@@ -199,13 +199,28 @@ You can optionally configure the icon's metadata by exporting `size` and `conten
 | [`size`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#size) | `{ width: number; height: number }` |
 | [`contentType`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#contenttype) | `string` - [image MIME type](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/MIME_types#image_types) |
 
-#### [`size`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#size)
+- [`size`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#size)
 
-icon.tsx | apple-icon.tsx
+- `icon.tsx` | `apple-icon.tsx`:
 
-TypeScript
+```typescript
+export const size = { width: 32, height: 32 }
+ 
+export default function Icon() {}
+```
+
+- `<head>` output:
+
+```html
+<link rel="icon" sizes="32x32" />
+```
 
 ### Manifest.json
+
+> [!NOTE]
+> **See Also**: https://developer.mozilla.org/en-US/docs/Web/Manifest
+
+- [ ] Add or generate a `manifest.json` or `manifest.webmanifest` file that follows the [Web]
 
 ### Robots.txt
 
