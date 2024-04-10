@@ -45,7 +45,7 @@ graph LR
 
 ### Favicon, Icon, and Apple Icon
 
-#### Method
+#### Image File Method
 
 > [!NOTE]
 > The `favicon`, `icon`, or `apple-icon` file conventions allow you to set icons for your application.
@@ -87,6 +87,78 @@ graph LR
 > - The appropriate `<link>` tags and attributes such as `rel`, `href`, `type`, and `sizes` are determined by the icon type and metadata of the evaluated file.
 > 	- For example, a 32 by 32px `.png` file will have `type="image/png"` and `sizes="32x32"` attributes.
 > - `sizes="any"` is added to `favicon.ico` output to [avoid a browser bug](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) where an `.ico` icon is favored over `.svg`.
+
+
+#### Generate via Code Method
+
+> [!NOTE]
+> In addition to using [literal image files](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#image-files-ico-jpg-png), you can programmatically **generate** icons using code.
+
+Generate an app icon by creating an `icon` or `apple-icon` route that default exports a function.
+
+| File convention | Supported file types  |
+| --------------- | --------------------- |
+| `icon`          | `.js`, `.ts`, `.tsx`  |
+| `apple-icon`    | `.js`, `.ts`, `.tsx`/ |
+
+
+The easiest way to generate an icon is to use the [`ImageResponse`](https://nextjs.org/docs/app/api-reference/functions/image-response) API from `next/og`.
+
+- `app/icon.tsx`:
+
+```typescript
+import { ImageResponse } from 'next/og'
+ 
+// Route segment config
+export const runtime = 'edge'
+ 
+// Image metadata
+export const size = {
+  width: 32,
+  height: 32,
+}
+export const contentType = 'image/png'
+ 
+// Image generation
+export default function Icon() {
+  return new ImageResponse(
+    (
+      // ImageResponse JSX element
+      <div
+        style={{
+          fontSize: 24,
+          background: 'black',
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'white',
+        }}
+      >
+        A
+      </div>
+    ),
+    // ImageResponse options
+    {
+      // For convenience, we can re-use the exported icons size metadata
+      // config to also set the ImageResponse's width and height.
+      ...size,
+    }
+  )
+}
+```
+
+- `<head>` output:
+
+```html
+<link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" />
+```
+
+> [!TIP]
+> - By default, generated icons are [**statically optimized**](https://nextjs.org/docs/app/building-your-application/rendering/server-components#static-rendering-default) (generated at build time and cached) unless they use [dynamic functions](https://nextjs.org/docs/app/building-your-application/rendering/server-components#server-rendering-strategies#dynamic-functions) or un-cached data.
+> - You can generate multiple icons in the same file using [`generateImageMetadata`](https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata).
+> - You cannot generate a `favicon` icon. Use [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon) or a [favicon.ico](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#favicon) file instead.
 
 ### Manifest.json
 
