@@ -125,8 +125,25 @@ Think of it as the diplomatic envoy that ensures smooth conversations between ag
 
 In an ecosystem where every developer might have their unique approach to crafting agents, the Agent Protocol acts as a unifying bridge. It’s akin to a standardized plug fitting into any socket or a universal translator decoding myriad languages.
 
-## AutoGPT Forge: A Peek Inside the LLM Agent Template
+***
 
-Now we understand the architecture of an agent lets look inside the Forge. It’s a well-organized template, meticulously architected to cater to the needs of agent developers.
+## Appendix
 
-#### Forge’s Project Structure: A Bird’s-Eye View
+*Note created on [[2024-04-10]] and last modified on [[2024-04-10]].*
+
+- [[MOC - Artificial Intelligence|Artificial Intelligence MOC]]
+- [[MOC - Technology|Technology Map of Content]]
+- [[MOC - Development|Development Map of Content]]
+- [[Tool - ChatGPT|ChatGPT]]
+- [[Checklist - AI Tools|AI Tools]]
+- [[Tool - OpenAI|OpenAI]]
+
+### Backlinks
+
+```dataview
+LIST FROM [[Anatomy of AI LLM-Based Agents]] AND -"CHANGELOG" AND -"00-INBOX/Anatomy of AI LLM-Based Agents"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
