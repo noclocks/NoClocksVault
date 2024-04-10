@@ -41,7 +41,8 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note serves as an index for all notes under the `03-AREAS/Code/CMD` directory.
 
-- [[Cmd - Add or Review Adm]]
+- [[Cmd - Add or Review Administrator Account Password]]
+- 
 
 ## Notes
 
