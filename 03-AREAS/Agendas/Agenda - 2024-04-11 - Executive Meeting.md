@@ -55,6 +55,7 @@ debugInConsole: false # Print debug info in Obsidian console
 	- [[Google Ads]]
 	- [[Google Merchant Center]]
 	- [[Google Analytics]]
+	- [[Google Tag Manager]]
 	- [[Google Search Console]]
 	- [[Google Knowledge Graph]]
 - [[Shopify]]
