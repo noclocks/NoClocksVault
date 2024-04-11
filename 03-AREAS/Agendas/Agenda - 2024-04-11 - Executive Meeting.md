@@ -51,12 +51,14 @@ debugInConsole: false # Print debug info in Obsidian console
 	- 2023 [[Taxes]]
 		- Setup [[QuickBooks]]
 - [[Google]] [[Marketing]] Accounts:
+	- [[No Clocks Google My Business Profile|Google My Business Profile]]
 	- [[Google Ads]]
+	- [[Google Merchant Center]]
+	- [[Google Analytics]]
 	- [[Google Search Console]]
-	- [[No Clocks Google My Business Profile]]
-	- [[Google ]]
+	- [[Google Knowledge Graph]]
 - [[Shopify]]
-- 
+- [[]]
 
 ## Questions
 
