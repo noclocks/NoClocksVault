@@ -55,7 +55,8 @@ debugInConsole: false # Print debug info in Obsidian console
 	- [[Google Search Console]]
 	- [[No Clocks Google My Business Profile]]
 	- [[Google ]]
-
+- [[Shopify]]
+- 
 
 ## Questions
 
