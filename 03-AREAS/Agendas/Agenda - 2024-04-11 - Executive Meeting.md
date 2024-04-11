@@ -42,6 +42,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Topics of Discussion
 
+#### Client Work
+
+- [[Bastien Law]]
+	- Call
+	- Domain
+	- Latest updates
+- 
+
 #### Finances
 
 - [[03-AREAS/Finance/_README|Finance]]:
@@ -67,10 +75,16 @@ debugInConsole: false # Print debug info in Obsidian console
 
 #### Project Management, Planning, and Document Management
 
-- Default Contract Template
-- Project Planning Templates
-- Statement of Work Template
+- Templates:
+	- (Quarto)
+	- Default Contract Template
+	- Project Planning Templates
+	- Statement of Work Template
+- Initiation SOP/Checklist:
+	- [[Checklist - Project Inception]]
+	- Drive, GitHub, Todoist, Emais, Contacts, Slack
 - 
+ 
 
 ## Questions
 
