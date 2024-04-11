@@ -33,7 +33,34 @@ Generative models play a crucial role in the field of unsupervised learning, whe
 - **Autoregressive Models:** Autoregressive models model the probability distribution of a sequence of data by making assumptions about the conditional probability of each data point given its predecessors. Examples include PixelCNN and WaveNet for image and audio generation, respectively.
 - **Normalizing Flows:** Normalizing flows are a family of generative models that use invertible transformations to map data from a simple distribution to a more complex distribution. These transformations can be composed to generate complex data samples.
 - **Generative Moment Matching Networks (GMMNs):** GMMNs use moment matching to match the moments of the generated distribution to the moments of the real data distribution. They have been used for various tasks, including image generation and data synthesis.
-- Boltzmann Machines: Boltzmann Machines are a type of energy-based model that learns to capture the distribution of the data in terms of energy levels. They can be used for both generative and discriminative tasks.
-    
+- **Boltzmann Machines:** Boltzmann Machines are a type of energy-based model that learns to capture the distribution of the data in terms of energy levels. They can be used for both generative and discriminative tasks.
+
+## Conclusion
 
 Generative models have a wide range of applications, including image synthesis, text generation, style transfer, and data augmentation for training machine learning models. They are also employed in areas like art generation, video prediction, and drug discovery. However, training generative models can be challenging, and evaluating the quality of generated samples is an ongoing area of research. The field of generative models continues to advance rapidly, with new architectures and techniques constantly emerging to improve the fidelity and diversity of generated samples.
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-10]] and last modified on [[2024-04-10]].*
+
+- [[MOC - Artificial Intelligence|Artificial Intelligence MOC]]
+- [[MOC - Technology|Technology Map of Content]]
+- [[MOC - Development|Development Map of Content]]
+- [[Tool - ChatGPT|ChatGPT]]
+- [[Checklist - AI Tools|AI Tools]]
+- [[Tool - OpenAI|OpenAI]]
+- [[Anatomy of AI LLM-Based Agents]]
+- [[Tool - Langchain]]
+- [[Chatbot]]
+
+### Backlinks
+
+```dataview
+LIST FROM [[Generative Models]] AND -"CHANGELOG" AND -"00-INBOX/Generative Models"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
