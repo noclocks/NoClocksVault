@@ -40,7 +40,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Agenda
 
-### Topics
+### Topics of Discussion
+
+#### Finances
 
 - [[03-AREAS/Finance/_README|Finance]]:
 	- Accounts Review
@@ -50,6 +52,9 @@ debugInConsole: false # Print debug info in Obsidian console
 	- [[Duns & Broadstreet (D&B)]]
 	- 2023 [[Taxes]]
 		- Setup [[QuickBooks]]
+
+#### Marketing Strategy and Accounts 
+
 - [[Google]] [[Marketing]] Accounts:
 	- [[No Clocks Google My Business Profile|Google My Business Profile]]
 	- [[Google Ads]]
@@ -59,7 +64,12 @@ debugInConsole: false # Print debug info in Obsidian console
 	- [[Google Search Console]]
 	- [[Google Knowledge Graph]]
 - [[Shopify]]
-- Contract, Project Plans, Statement of Work, etc. Templates
+
+#### Project Management, Planning, and Document Management
+
+- Default Contract Template
+- Project Planning Templates
+- Statement of Work Template
 - 
 
 ## Questions
