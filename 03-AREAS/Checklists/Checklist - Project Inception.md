@@ -75,14 +75,14 @@ graph TB
 
 ## Checklist
 
-- Onboard Client
-- Draft Project Plan
-- Draft Project GSA Contract
-- Setup Project Design Assets (Project Logo, Client Logos, Fonts, Images, etc.)
-- Setup Project GitHub Code Repository
-- Setup Project Google Drive Shared Project Folder
-- Setup Project Email List (Mailgroup)
-- Setup Project Slack Channel
+- [ ] Onboard Client
+- [ ] Draft Project Plan
+- [ ] Draft Project GSA Contract
+- [ ] Setup Project Design Assets (Project Logo, Client Logos, Fonts, Images, etc.)
+- [ ] Setup Project GitHub Code Repository
+- [ ] Setup Project Google Drive Shared Project Folder
+- [ ] Setup Project Email List (Mailing Group)
+- [ ] Setup Project Slack Channel (`client-...`)
 
 ### Initialize Project Systems
 

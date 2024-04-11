@@ -38,7 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - [ ] When does the project need to be finished? What is driving that?
 - [ ] Who are the main contacts for this project and what are their roles?
 - [ ] Who will be responsible for maintaining the website and how much time do they have for it?
-- [ ] What are the objectives for your site? (e.g. increase traffic, improve sales rate, reduce time earching for information)
+- [ ] What are the objectives for your site? (e.g. increase traffic, improve sales rate, reduce time searching for information)
 - [ ] How will we know if this project has been a success? (e.g. 20% increase in sales, 20% increase in traffic)
 - [ ] What are three aspects of your current site that work well and why are they successful?
 - [ ] What are your top three frustrations with your current website and why is that?
