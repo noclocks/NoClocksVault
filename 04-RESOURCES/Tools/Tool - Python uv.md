@@ -115,6 +115,8 @@ uv's `pip-install` and `pip-compile` commands support many of the same comma
 
 - [[MOC - Python|Python Map of Content]]
 - [[Python Code Snippets]]
+- [[Comparison of Python Package Managers]]
+- [[Master List of Package Managers]]
 
 - [[Tool - Python]]
 - [[Tool - Python pip]]
