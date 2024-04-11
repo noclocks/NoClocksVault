@@ -18,7 +18,7 @@ cssclasses:
 # Chatbot
 
 > [!SOURCE] Sources:
-> - **
+> - *https://github.com/SixArm/ai-starter-guide/blob/main/topics/chatbot/full.md*
 
 ## Overview
 
@@ -59,7 +59,7 @@ Chatbots have become increasingly popular in various industries and applications
 - [[Checklist - AI Tools|AI Tools]]
 - [[Tool - OpenAI|OpenAI]]
 - [[Anatomy of AI LLM-Based Agents]]
-- [[Tool - Lan]]
+- [[Tool - Langchain]]
 
 ### Backlinks
 
