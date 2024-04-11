@@ -58,7 +58,8 @@ debugInConsole: false # Print debug info in Obsidian console
 	- [[Google Search Console]]
 	- [[Google Knowledge Graph]]
 - [[Shopify]]
-- [[]]
+- Contract, Project Plans, Statement of Work, etc. Templates
+- 
 
 ## Questions
 
