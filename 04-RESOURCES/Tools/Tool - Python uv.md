@@ -10,7 +10,7 @@ tags:
 aliases:
   - Tool - Python uv
   - uv
-  - uv Python Packa
+  - uv Python Package Manager
 publish: true
 permalink:
 description:
@@ -20,7 +20,11 @@ cssclasses:
 ---
 
 
-# uv
+# uv - Python Package Manager
+
+> [!SOURCE] Sources:
+> - *[astral-sh/uv: An extremely fast Python package installer and resolver, written in Rust. (github.com)](https://github.com/astral-sh/uv)*
+> - *[uv: Python packaging in Rust (astral.sh)](https://astral.sh/blog/uv)*
 
 ```table-of-contents
 title: Contents 
@@ -33,8 +37,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!SOURCE] Sources:
-> - **
+> [!NOTE]
+
+
 
 ***
 
