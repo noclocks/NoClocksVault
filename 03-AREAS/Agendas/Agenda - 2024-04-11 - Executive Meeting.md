@@ -46,7 +46,15 @@ debugInConsole: false # Print debug info in Obsidian console
 	- Accounts Review
 	- Setup Budget
 	- Personal Account Expenses
-	- 
+	- Load Feasibility
+	- [[Duns & Broadstreet (D&B)]]
+	- 2023 [[Taxes]]
+		- Setup [[QuickBooks]]
+- [[Google]] [[Marketing]] Accounts:
+	- [[Google Ads]]
+	- [[Google Search Console]]
+	- [[No Clocks Google My Business Profile]]
+	- [[Google ]]
 
 
 ## Questions
