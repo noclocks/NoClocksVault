@@ -35,22 +35,29 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - **
 
-- [[Tool - Python Flask-WTF]]
-- [[Tool - Python Flask-SQLAlchemy]]
-- [[Tool - Python Flask-Login]]
-- [[Tool - Python Flask-Mail]]
-- [[Tool - Python Flask-DB]]
-- [[Tool - Python Flask-Security]]
-- [[Tool - Python Flask-CORS]]
-- [[Tool - Python Flask-Caching]]
-- [[Tool - Python Flask-RESTful]]
-- [[Tool - Python Flask-RESTX]]
-- [[Tool - Python Flask-Admin]]
-- [[Tool - Python Flask-DebugToolbar]]
-- [[Tool - Python Flask-MonitoringDashboard]]
+- [[Tool - Python Flask-WTF|Flask-WTF]]
+- [[Tool - Python Flask-SQLAlchemy|Flask-SQLAlchemy]]
+- [[Tool - Python Flask-Login|Flask-Login]]
+- [[Tool - Python Flask-Mail|Flask-Mail]]
+- [[Tool - Python Flask-DB|Flask-DB]]
+- [[Tool - Python Flask-Security|Flask-Security]]
+- [[Tool - Python Flask-CORS|Flask-CORS]]
+- [[Tool - Python Flask-Caching|Flask-Caching]]
+- [[Tool - Python Flask-RESTful|Flask-RESTful]]
+- [[Tool - Python Flask-RESTX|Flask-RESTX]]
+- [[Tool - Python Flask-Admin|Flask-Admin]]
+- [[Tool - Python Flask-DebugToolbar|Flask-DebugToolbar]]
+- [[Tool - Python Flask-MonitoringDashboard|Flask-MonitoringDashboard]]
 - 
 
 ## Code
+
+### Flask-CORS
+
+> [!SOURCE] Sources:
+> - *https://github.com/corydolphin/flask-cors*
+
+[[Cross-Origin Resource Sharing (CORS)]] allows the use of cross-origin [[Asynchronous JavaScript and XML (AJAX)]] for your web applications. This super simple to use extension enables CORS across your site in just a few lines. Here’s all you’ll need to do to enable CORS with [this extension](https://github.com/corydolphin/flask-cors):
 
 ```python
 
