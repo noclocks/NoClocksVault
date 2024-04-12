@@ -1,6 +1,6 @@
-<% tp.file.include("[[Template-Fragment-Frontmatter-Code-JS]]") %>
+<% tp.file.include("[[Template-Fragment-Frontmatter-Code-HTML]]") %>
 
-<% tp.file.include("[[Template-Fragment-Title-Code-JS]]") %>
+<% tp.file.include("[[Template-Fragment-Title-Code-HTML]]") %>
 
 <% tp.file.include("[[Template-Fragment-Callout-Sources]]") %>
 
@@ -10,7 +10,7 @@
 
 ## Code Snippet
 
-```javascript
+```html
 
 ```
 
@@ -20,11 +20,10 @@
 
 ## See Also
 
-- [[MOC - JavaScript|JavaScript Map of Content]]
-- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
+- [[04-RESOURCES/Code/HTML/_README|HTML Code]]
 - [[Hyper Text Markup Language (HTML)]]
 - [[Cascading Style Sheets (CSS)]]
-- [[Tool - React.js|React.js]]
-- [[Tool - JS - Next.js|Next.js]]
+- [[MOC - JavaScript|JavaScript Map of Content]]
+
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
