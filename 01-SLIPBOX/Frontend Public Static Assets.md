@@ -17,6 +17,11 @@ cssclasses:
 
 ## Robots.txt
 
+```plaintext
+User-agent: *
+Disallow: /
+```
+
 ## Sitemap.xml
 
 ## Web Manifest
