@@ -2,28 +2,29 @@
 
 <% tp.file.include("[[Template-Fragment-Title]]") %>
 
-
-
-## 
-
 <% tp.file.include("[[Template-Fragment-Callout-Sources]]") %>
 
-## Code Snippet
+## Context
 
-```html
 
-```
+## Motivation
 
-## Details
 
-<% tp.file.include("[[Template-Fragment-Callout-About]]") %>
+## Decision
+
+
+## Alternatives
+
+
+## Consequences
+
+
+## Affected Projects
+
 
 ## See Also
 
-- [[04-RESOURCES/Code/HTML/_README|HTML Code]]
-- [[Hyper Text Markup Language (HTML)]]
-- [[Cascading Style Sheets (CSS)]]
-- [[MOC - JavaScript|JavaScript Map of Content]]
-
+- [[Architectural Decision Record (ADR)]]
+- [[Decision Record (DR)]]
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
