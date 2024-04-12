@@ -90,8 +90,71 @@ It helps maintain proper citation formatting and semantics.
 </blockquote>
 ```
 
-## `<details>` and `<summary`
+## `<details>` and `<summary>`
 
+> [!NOTE] See Also:
+> [[HTML - Collapsible Content Blocks]]
+
+When you want to include collapsible content on your web page, then you can use the `<details>` and `<summary>` tags.
+
+The `<details>` tag creates a container for hidden content, while the `<summary>` tag provides a clickable label to toggle the visibility of that content.
+
+```html
+<details>
+  <summary>Click to expand</summary>
+  <p>This content can be expanded or collapsed.</p>
+</details>
+```
+
+## `<fieldset>` and `<legend>`
+
+The `<fieldset>` tag is used to group related elements in a form and the `<legend>` tag is used with `<fieldset>` to define a title for the `<fieldset>` tag.
+
+This is useful for creating more efficient and accessible forms.
+
+```html
+<form>
+   <fieldset>
+      <legend>Personal details</legend>
+      <label for="firstname">First name:</label>
+      <input type="text" id="firstname" name="firstname" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <label for="contact">Contact:</label>
+      <input type="text" id="contact" name="contact" />
+      <input type="button" value="Submit" />
+   </fieldset>
+</form>
+```
+
+## `<mark>`
+
+The `<mark>` tag is used to highlight text on your web pages.
+
+When you need to emphasize or highlight certain text, then you can use the `<mark>` tag. It applies a background color to the marked text and makes it stand out.
+
+```html
+<p>This is a <mark>highlighted text</mark> within a paragraph.</p>
+```
+
+## `<optgroup>`
+
+The `<optgroup>` tag is used to group related options in a `<select>` HTML tag. This can be used when you are working with large dropdown menus or a long list of options.
+
+```html
+<select>
+   <optgroup label="Fruits">
+      <option>Apple</option>
+      <option>Banana</option>
+      <option>Mango</option>
+   </optgroup>
+   <optgroup label="Vegetables">
+      <option>Tomato</option>
+      <option>Broccoli</option>
+      <option>Carrot</option>
+   </optgroup>
+</select>
+```
 
 ## See Also
 
