@@ -12,7 +12,7 @@ tags:
   - Topic/React
   - Status/WIP
 aliases:
-  - JavaScript TS - constants.ts Code
+  - constants.ts
 publish: true
 permalink:
 description:
@@ -21,7 +21,7 @@ cssclasses:
   - code
 ---
 
-# TS - constants.ts
+# constants.ts
 
 > [!SOURCE] Sources:
 > - **
@@ -37,15 +37,28 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!example] **Code Snippet Metadata**:
-> - Date:: [[2024-04-12]]
-> - Source: **
-> - Language: [[MOC - JavaScript|JavaScript]]
-> - Description:: ""
 
-## Code Snippet
+## Code Snippets
 
-```javascript
+### Expense Types
+
+### Intervals
+
+### Currencies
+
+### Order Status
+
+### Roles and Permissions
+
+### Time Zones
+
+### Utility
+
+
+
+
+
+```typescript
 
 ```
 
