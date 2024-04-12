@@ -45,14 +45,29 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippet
 
-```javascript
+> [!WARNING]
+> This feature is available only in [secure contexts](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts) (HTTPS), in some or all supporting browsers.
 
+```javascript
+cookieStore.getAll().then(console.log)
 ```
+
+The API also has functions to manage cookies:
+
+- `[cookieStore.delete](https://developer.mozilla.org/en-US/docs/Web/API/CookieStore/delete)`: to delete a cookie,
+- `[cookieStore.get](https://developer.mozilla.org/en-US/docs/Web/API/CookieStore/get)`: to get info on a single cookie,
+- `[cookieStore.set](https://developer.mozilla.org/en-US/docs/Web/API/CookieStore/set)`: to set a single cookie's info.
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+In the past, developers used `document.cookie` to get cookie information. But it has its limits, like not showing the domain, path, or expiration details.
+
+![](https://i.imgur.com/RcBkYmm.png)
+
+However, developers could use dev tools for more details. Now, the [Cookie Store API](https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API) gives access to those detailed cookie attributes, just like dev tools. But it can’t reach cookies with the `HttpOnly` attribute.
+
+![](https://i.imgur.com/NvmQ9GI.png)
+
 
 ## See Also
 
