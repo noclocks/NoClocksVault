@@ -53,7 +53,8 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[HTML - Accept Specific File Types]]
 - [[HTML - Optimized Video Loading]]
 - [[HTML - Tag Attributes to Know About]]
-- [[HTML - ]]
+- [[HTML - Hidden Gem Tags]]
+- [[HTML - Input Types and Attributes]]
 
 ## Notes
 
