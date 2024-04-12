@@ -64,5 +64,13 @@ You can create defaults in your organization or personal account for the followi
 
 1. Create new *pubic* GitHub Repository named `.github`
 2. In the repository add community health files:
-	- `.github/ISSUE_TEMPLATE/`
+	- `.github/CODE_OF_CONDUCT.md`
+	- `.github/CONTRIBUTING.md`
+	- `.github/FUNDING.yml`
+	- `.github/GOVERNANCE.md`
+	- `.github/ISSUE_TEMPLATE/*`:
+		- `config.yml`
+		- `bug.yml`
+		- `feature.yml`
+	- `.github`
 

@@ -36,6 +36,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Configuration
 
+> [!NO]
+
+```yaml
+
+```
+
 ### Feature
 
 ### Bug
