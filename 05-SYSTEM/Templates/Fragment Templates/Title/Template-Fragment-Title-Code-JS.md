@@ -1,1 +1,1 @@
-# <% (tp.file.title).replace("JS - ", "") %>
+# <% (tp.file.title).replace("JS - ", "JavaScript ") %>

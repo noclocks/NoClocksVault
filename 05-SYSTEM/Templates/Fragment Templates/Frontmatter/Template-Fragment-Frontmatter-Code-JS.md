@@ -10,7 +10,7 @@ tags:
   - Topic/JavaScript
   - Status/WIP
 aliases:
-  - <% (tp.file.title).replace("JS - ", "") %>
+  - JavaScript <% (tp.file.title).replace("JS - ", "") %> Code
 publish: true
 permalink:
 description:

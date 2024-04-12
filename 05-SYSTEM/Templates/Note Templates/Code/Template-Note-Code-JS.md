@@ -1,6 +1,6 @@
 <% tp.file.include("[[Template-Fragment-Frontmatter-Code-JS]]") %>
 
-<% tp.file.include("[[Template-Fragment-Title-Code]]") %>
+<% tp.file.include("[[Template-Fragment-Title-Code-JS]]") %>
 
 <% tp.file.include("[[Template-Fragment-Callout-Sources]]") %>
 

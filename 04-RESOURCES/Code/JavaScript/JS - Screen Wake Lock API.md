@@ -10,7 +10,7 @@ tags:
   - Topic/JavaScript
   - Status/WIP
 aliases:
-  - JavaScript Screen Wake Lock API
+  - JavaScript Screen Wake Lock API Code
 publish: true
 permalink:
 description:
@@ -19,10 +19,12 @@ cssclasses:
   - code
 ---
 
-# JS - Screen Wake Lock API
+# JavaScript Screen Wake Lock API
 
 > [!SOURCE] Sources:
+> - *[Screen Wake Lock API - Web APIs | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Wake_Lock_API)*
 > - **
+> - *[14 Lesser-Known but Incredibly Useful Web APIs You Should Know About | by Nebula Nomad | Mar, 2024 | JavaScript in Plain English](https://javascript.plainenglish.io/14-lesser-known-but-incredibly-useful-web-apis-you-should-know-about-91ba92ea8cf4)*
 
 ```table-of-contents
 title: Contents 
