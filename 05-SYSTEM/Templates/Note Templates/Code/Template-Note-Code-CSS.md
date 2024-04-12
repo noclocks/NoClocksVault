@@ -2,11 +2,11 @@
 
 <% tp.file.include("[[Template-Fragment-Title-Code-CSS]]") %>
 
-<% tp.file.include("[[Template-Fragment-Callout-Sources]]") %>
-
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 
 ## Overview
+
+<% tp.file.include("[[Template-Fragment-Callout-Sources]]") %>
 
 ## Code Snippet
 
