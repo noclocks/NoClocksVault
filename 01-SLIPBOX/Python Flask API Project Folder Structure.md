@@ -51,13 +51,27 @@ debugInConsole: false # Print debug info in Obsidian console
 │      ├───exts.py
 │      └───utils.py
 │   
+├───
 ├───tests/
 │   └───api/
-	   ├───__init__.py
-	   └───test_user.py
-	├───__init__.py
-	├───conftest.py
-	└───factory.py
+│	   ├───__init__.py
+│	   └───test_user.py
+│	├───__init__.py
+│	├───conftest.py
+│	└───factory.py
+│
+│───.gitignore
+│───.gitattributes
+│───.editorconfig
+│───Dockerfile
+│───compose.yml
+│───CHANGELOG.md
+│───README.md
+│───alembic.ini
+│───poetry.lock
+│───pyproject.toml
+│───requirements.txt
+│───ruff.toml
 ```
 
 ## Application Entrypoint
