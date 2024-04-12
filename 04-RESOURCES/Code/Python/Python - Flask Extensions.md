@@ -49,7 +49,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Tool - Python Flask-DebugToolbar|Flask-DebugToolbar]]
 - [[Tool - Python Flask-MonitoringDashboard|Flask-MonitoringDashboard]]
 - [[Tool - Python Flask-SocketIO]]
-- 
+- [[Tool - Python Flask-Limiter]]
 
 ## Code
 
@@ -136,8 +136,43 @@ def create_app(config: dict = None) -> Flask:
 One of the best ways to increase the performance of your webserver is to cache the data. [Flask-Caching](https://github.com/pallets-eco/flask-caching) introduces a super easy way to cache your views and pages based on route, and it also has built in support for a few different cache backends. Here’s how easily you could cache the results of a (static) Flask route for 50 seconds using Flask-Caching:
 
 ```python
+@app.route('/')
+@cache.cached(timeout=50)
+def index():
+    return render_template('index.html')
+```
+
+### Flask-Limiter
+
+This extension brings easy rate-limiting to your applications using application-wide limits and route-based limits using simple decorators. [Flask-Limiter](https://github.com/alisaifee/flask-limiter) can be configured to use any of the many supported backends to store rate-limiting data. Here’s how you could rate limit a Flask route with a one-line decorator:
+
+```python
+@app.route("/")
+@limiter.limit("1 per minute")
+def index():
+    return render_template('index.html')
+```
+
+### Flask-Dance
+
+[Flask-Dance](https://github.com/singingwolfboy/flask-dance) is an extension that allows your users to login to your application using any of the extension’s supported OAuth providers, including Facebook, Google, Twitter, Discord, and many others. You can also create custom configurations to use a custom OAuth provider, though that will take a little more setup time. This extension is a little bit more complex than those above, but much less headache than trying to configure OAuth yourself.
+
+```python
 
 ```
+
+### Flask2Postman
+
+Postman is a very popular platform for building and testing APIs. One of the most common use cases for Postman is for testing the individual routes and endpoints in a web application. The [Flask2Postman](https://github.com/numberly/flask2postman) extension will automatically generate a Postman collection with test cases for each of the Flask routes in a given program. These generated test cases will include your docstring descriptions, routes, and HTTP method types.
+
+### Flask-S3
+
+Amazon’s Simple Storage Service (S3) is one of the most common object storage services in use. This Flask extension will serve static assets directly from your S3 storage, reducing or eliminating the need for large, expensive cache. Rather than pulling files from the server’s filesystem, [Flask-S3](https://github.com/e-dard/flask-s3) overrides Flask’s url_for() function to pull files directly from your S3 storage.
+
+### Flask-Headers
+
+
+
 
 ### Flask-WTF
 
