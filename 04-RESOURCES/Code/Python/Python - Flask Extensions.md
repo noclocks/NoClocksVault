@@ -60,7 +60,22 @@ debugInConsole: false # Print debug info in Obsidian console
 [[Cross-Origin Resource Sharing (CORS)]] allows the use of cross-origin [[Asynchronous JavaScript and XML (AJAX)]] for your web applications. This super simple to use extension enables CORS across your site in just a few lines. Here’s all you’ll need to do to enable CORS with [this extension](https://github.com/corydolphin/flask-cors):
 
 ```python
+from flask import Flask
+from flask_cors import CORS
 
+app = Flask(__name__)
+CORS(app)
+```
+
+or using [[Flask application factory pattern]]:
+
+```python
+from flask import Flask
+from flask_cors import CORS
+
+def create_app():
+    """Application Factory"""
+    
 ```
 
 ## Details
