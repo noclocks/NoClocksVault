@@ -10,7 +10,7 @@ tags:
   - Topic/Python
   - Status/WIP
 aliases:
-  - Python <% (tp.file.title).replace("Python - ", "") %> Code
+  - <% (tp.file.title).replace("Python - ", "") %> Python Code
 publish: true
 permalink:
 description:

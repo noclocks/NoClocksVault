@@ -3,22 +3,23 @@ creation_date: 2024-04-12
 modification_date: 2024-04-12
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/Tool
-  - Topic/NA
+  - Type/Code
+  - Type/Code/Python
+  - Topic/Dev
+  - Topic/Dev/Python
+  - Topic/Python
   - Status/WIP
 aliases:
-  - Python - Flask Extensions
-  - - Flask Extensions
+  - Flask Extensions Python Code
 publish: true
 permalink:
 description:
 image:
 cssclasses:
-  - tool
+  - code
 ---
 
-
-# - Flask Extensions
+# Flask Extensions Python Code
 
 ```table-of-contents
 title: Contents 
@@ -33,6 +34,29 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!SOURCE] Sources:
 > - **
+
+- [[Tool - Python Flask-WTF]]
+- [[Tool - Python Flask-SQLAlchemy]]
+- [[Tool]]
+
+## Code
+
+```python
+
+```
+
+## Details
+
+> [!NOTE] About
+> This note is about ...
+
+## See Also
+
+- [[MOC - Python|Python Map of Content]]
+- [[04-RESOURCES/Code/Python/_README|Python Code]]
+- [[Tool - Python]]
+- [[Tool - Python Flask]]
+
 
 ***
 

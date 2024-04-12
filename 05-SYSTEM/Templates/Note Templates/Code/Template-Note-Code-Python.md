@@ -1,6 +1,6 @@
-<% tp.file.include("[[Template-Fragment-Frontmatter-Code-HTML]]") %>
+<% tp.file.include("[[Template-Fragment-Frontmatter-Code-Python]]") %>
 
-<% tp.file.include("[[Template-Fragment-Title-Code-HTML]]") %>
+<% tp.file.include("[[Template-Fragment-Title-Code-Python]]") %>
 
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 
@@ -8,9 +8,9 @@
 
 <% tp.file.include("[[Template-Fragment-Callout-Sources]]") %>
 
-## Code Snippet
+## Code
 
-```html
+```python
 
 ```
 
@@ -20,10 +20,10 @@
 
 ## See Also
 
-- [[04-RESOURCES/Code/HTML/_README|HTML Code]]
-- [[Hyper Text Markup Language (HTML)]]
-- [[Cascading Style Sheets (CSS)]]
-- [[MOC - JavaScript|JavaScript Map of Content]]
+- [[MOC - Python|Python Map of Content]]
+- [[04-RESOURCES/Code/Python/_README|Python Code]]
+- [[Tool - Python]]
+- [[Tool - Python Flask]]
 
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
