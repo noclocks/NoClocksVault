@@ -36,19 +36,18 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note is about hidden gem [[Hyper Text Markup Language (HTML)|HTML]] tags.
-
-- `<abbr>`
-- `<base>`
-- `<cite>`
-- `<details>` and `<summary>`
-- `<fieldset>` and `<legend>`
-- `<mark>`
-- `<optgroup>`
+> This note is about hidden gem [[Hyper Text Markup Language (HTML)|HTML]] tags:
+> - `<abbr>`
+> - `<base>`
+> - `<cite>`
+> - `<details>` and `<summary>`
+> - `<fieldset>` and `<legend>`
+> - `<mark>`
+> - `<optgroup>`
 
 ## `<abbr>`
 
-The `<abbr>` HTML tag represents an abbreviation or acronym of a phrase or longer word.
+The `<abbr>` [[Hyper Text Markup Language (HTML)|HTML]] tag represents an abbreviation or acronym of a phrase or longer word.
 
 This tag helps improve accessibility and user understanding by providing an explanation when a user hovers over it.
 
@@ -58,8 +57,40 @@ This tag helps improve accessibility and user understanding by providing an expl
 </p>
 ```
 
-## Details
 
+## `<base>`
+
+The `<base>` [[Hyper Text Markup Language (HTML)|HTML]] tag defines the base [[Uniform Resource Locator (URL)]] for all relative URLs in a web page.
+
+This is handy when you want to create a shared starting point for all relative URLs on a web page, making it easier to navigate and load resources.
+
+```html
+<head>
+   <base href="https://shefali.dev" target="_blank" />
+</head>
+<body>
+   <a href="/blog">Blogs</a>
+   <a href="/get-in-touch">Contact</a>
+</body>
+```
+
+> [!WARNING]
+> There can be only one single `<base>` tag in the document and it should be inside the `<head>` tag.
+
+## `<cite>`
+
+The `<cite>` HTML tag is used to specify the title of a creative work such as quoted content, books, websites, paintings, etc.
+
+It helps maintain proper citation formatting and semantics.
+
+```html
+<blockquote>
+   <p>Life is what happens when you're busy making other plans.</p>
+   <cite>John Lennon</cite>
+</blockquote>
+```
+
+## `<details>` and `<summary`
 
 
 ## See Also
