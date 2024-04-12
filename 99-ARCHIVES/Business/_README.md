@@ -39,7 +39,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[03-AREAS/Finance/Accounting/_README|Accounting]]
 - [[03-AREAS/Finance/Accounts/_README|Accounts]]
 - [[03-AREAS/Strategy/_README|Business Plan]]
-- [[03-AREAS/Checklists/_README|Checklists]]
+- [[04-RESOURCES/Checklists/_README|Checklists]]
 - [[03-AREAS/Marketing/Community/_README|Community]]
 - [[03-AREAS/Finance/_README|Finance]]
 - [[03-AREAS/Finance/Insurance/_README|Insurance]]

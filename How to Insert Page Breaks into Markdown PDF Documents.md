@@ -1,0 +1,29 @@
+---
+creation_date: 2024-04-12
+modification_date: 2024-04-12
+author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+tags:
+  - Type/Note
+  - Topic/Dev
+  - Status/Complete
+aliases:
+  - How to Insert Page Breaks into Markdown PDF Documents
+publish: true
+permalink:
+description:
+image:
+cssclasses:
+---
+
+# Insert Page Breaks into Markdown for PDF
+
+> [!SOURCE] Sources:
+> - *[Insert Page Breaks into your Documents - Markdown Monster Documentation (west-wind.com)](https://markdownmonster.west-wind.com/docs/_5ne1ccv4t.htm)*
+
+If you're generating output for PDF or printing, you may need to generate Page breaks in your documents. Markdown doesn't direct support for Page Breaks but you can use HTML to force a page break using the following markup:
+
+```html
+<div style="page-break-afte
+```
+
+

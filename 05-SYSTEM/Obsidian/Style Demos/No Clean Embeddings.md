@@ -10,7 +10,7 @@ cssclasses:
 - Enable `embed` styles under *Settings → Appearance → CSS snippets*.
 - Use `cssclass: embed` in YAML frontmatter to enable "clean" embedding.
 
-![[Test Quote]]
-![[Lorem Ipsum]]
+![[05-SYSTEM/Obsidian/Style Demos/assets/Test Quote]]
+![[05-SYSTEM/Obsidian/Style Demos/assets/Lorem Ipsum]]
 
 ## Document Continued...

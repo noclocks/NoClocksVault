@@ -43,7 +43,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 - [[MOC - Python|Python MOC]]
-- [[03-AREAS/Code/Python/_README|Python Code Snippets]]
+- [[04-RESOURCES/Code/Python/_README|Python Code Snippets]]
 - [[04-RESOURCES/Tools/_README|Tools]]
 - [[Tool - OpenAI|OpenAI]]
 - [[Tool - Python Streamlit|Streamlit]]
