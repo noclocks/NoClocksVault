@@ -3,12 +3,11 @@ creation_date: 2024-04-12
 modification_date: 2024-04-12
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/Note
-  - Topic/GitHub
-  - Topic/Dev
-  - Status/WIP
+  - Type/NA
+  - Topic/NA
+  - Status/NA
 aliases:
-  - GitHub Issue Pull Request and Discussion Templates
+  - GitHub Community Health Files
 publish: true
 permalink:
 description:
@@ -16,7 +15,7 @@ image:
 cssclasses:
 ---
 
-# GitHub Issue, Pull Request, and Discussion Templates
+# GitHub Community Health Files
 
 > [!SOURCE] Sources:
 > - **
@@ -32,14 +31,3 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-## Issue Templates
-
-### Configuration
-
-### Feature
-
-### Bug
-
-### Documentation
-
-### Other
