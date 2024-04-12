@@ -41,7 +41,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/JavaScript` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/JavaScript` folder, excluding this note.*
 
 ```dataview
 LIST FROM "04-RESOURCES/Code/JavaScript" AND -"CHANGELOG" AND -"04-RESOURCES/Code/JavaScript/_README"

@@ -19,7 +19,10 @@ cssclasses:
   - code
 ---
 
-# JavaScript Screen Wake Lock API
+# JS - Screen Wake Lock API
+
+> [!SOURCE] Sources:
+> - **
 
 ```table-of-contents
 title: Contents 
@@ -45,6 +48,18 @@ debugInConsole: false # Print debug info in Obsidian console
 ```
 
 ## Details
+
+> [!NOTE] About
+> This note is about ...
+
+## See Also
+
+- [[MOC - JavaScript|JavaScript Map of Content]]
+- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
+- [[Hyper Text Markup Language (HTML)]]
+- [[Cascading Style Sheets (CSS)]]
+- [[Tool - React.js|React.js]]
+- [[Tool - JS - Next.js|Next.js]]
 
 ***
 
