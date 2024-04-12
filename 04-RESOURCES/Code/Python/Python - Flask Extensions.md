@@ -37,7 +37,18 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - [[Tool - Python Flask-WTF]]
 - [[Tool - Python Flask-SQLAlchemy]]
-- [[Tool]]
+- [[Tool - Python Flask-Login]]
+- [[Tool - Python Flask-Mail]]
+- [[Tool - Python Flask-DB]]
+- [[Tool - Python Flask-Security]]
+- [[Tool - Python Flask-CORS]]
+- [[Tool - Python Flask-Caching]]
+- [[Tool - Python Flask-RESTful]]
+- [[Tool - Python Flask-RESTX]]
+- [[Tool - Python Flask-Admin]]
+- [[Tool - Python Flask-DebugToolbar]]
+- [[Tool - Python Flask-MonitoringDashboard]]
+- 
 
 ## Code
 
