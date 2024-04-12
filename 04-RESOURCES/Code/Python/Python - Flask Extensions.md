@@ -171,7 +171,17 @@ Amazon’s Simple Storage Service (S3) is one of the most common object storage 
 
 ### Flask-Headers
 
+```python
+pip install flask-headers
+```
 
+```python
+@app.route("/")
+@headers({'Cache-Control':'public, max-age=30'})
+def cacheable():
+    return '''<h1>Hello Flask-Headers!</h1> Checkout my documentation
+on <a href="https://github.com/wcdolphin/flask-headers">Github</a>'''
+```
 
 
 ### Flask-WTF
