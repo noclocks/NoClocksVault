@@ -54,9 +54,13 @@ EXIT_CODE_INVALID=128
 
 ### Input Output Helpers
 
-- `out()`:
-- `err()`:
-- `die()`:
+- `out()`: Prints output message to stdout using `printf` for consistency across systems.
+- `err()`: Prints error messages to stderr, using `printf` for better control over formatting.
+- `die()`: Prints an error message to stderr and exits with a specified error code.
+- `big()`: Prints a large banner to stdout, formatted for clear visibility and human readability.
+- `log()`: Logs a message with a datestamp, unique random ID, hostname, and process ID.
+- `zid()`: Generates a 32-bit secure random lowercase hexadecimal identifier.
+- `ask()`: Prompts the user for input and returns a trimmed string.
 
 <details><summary>View Input Output Helper Functions Script</summary><p>
 
@@ -88,4 +92,12 @@ zid() {
 ask() {
         read x ; echo "$x" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//'
 }
+```
+
+</p></details>
+
+### Date-Time Helpers
+
+```shell
+
 ```
