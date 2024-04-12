@@ -82,10 +82,10 @@ password = app_admin
 echo = true
 ```
 
-results in the following models in `src/app/infra/`
+results in the following models in `src/app/infra/config/models.py`:
 
 ```python
-# src/app/infrastructure/config/models.py
+# src/app/infra/config/models.py
 from dataclasses import dataclass
 
 @dataclass
@@ -120,4 +120,71 @@ class DatabaseConfig:
 class Config:
     app_config: AppConfig
     db_config: DatabaseConfig
+```
+
+as well as the following parser in `src/app/infra/config/parser.py`:
+
+```python
+# src/app/infra/config/parsers.py
+import configparser
+import os
+
+from src.app.infra.config.models import (
+    AppConfig,
+    Config,
+    DatabaseConfig,
+)
+
+
+DEFAULT_CONFIG_PATH: str = "./config/local.ini"
+
+
+def load_config(path: str | None = None) -> Config:
+    if path is None:
+        path = os.getenv("CONFIG_PATH", DEFAULT_CONFIG_PATH)
+
+    parser = configparser.ConfigParser()
+    parser.read(path)
+
+    application_data, database_data = parser["application"], parser["database"]
+
+    application_config = AppConfig(
+        debug=application_data.getboolean("debug"),
+        major_version=application_data.getint("major_version"),
+        minor_version=application_data.getint("minor_version"),
+        patch_version=application_data.getint("patch_version"),
+    )
+    database_config = DatabaseConfig(
+        host=database_data.get("host"),
+        port=database_data.getint("port"),
+        database=database_data.get("database"),
+        user=database_data.get("user"),
+        password=database_data.get("password"),
+        echo=database_data.getboolean("echo"),
+    )
+
+    return Config(application_config, database_config)
+```
+
+To configure logging in `src/app/infra/log/main.py`:
+
+```python
+# src/app/infra/log/main.py
+import logging
+
+from src.app.infra.config.models import AppConfig
+from src.app.infra.log.formatters import MainConsoleFormatter
+
+
+DEFAULT_LOGGING_LEVEL: int = logging.INFO
+
+
+def configure_logging(config: AppConfig) -> None:
+    logging_level: int = logging.DEBUG if config.debug else DEFAULT_LOGGING_LEVEL
+
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging_level)
+    console_handler.setFormatter(MainConsoleFormatter())
+
+    logging.basicConfig(handlers=[console_handler], level=logging_level)
 ```
