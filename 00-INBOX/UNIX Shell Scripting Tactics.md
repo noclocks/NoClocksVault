@@ -9,10 +9,6 @@
 <details><summary>View Error Code Declarations Script</summary><p>
 
 ```shell
-# UNIX Shell Script Kit
-#
-# A Collection of Utility Functions and Constants
-
 # ------------------------------------------------
 # EXIT CODES
 # ------------------------------------------------
@@ -58,3 +54,38 @@ EXIT_CODE_INVALID=128
 
 ### Input Output Helpers
 
+- `out()`:
+- `err()`:
+- `die()`:
+
+<details><summary>View Input Output Helper Functions Script</summary><p>
+
+```shell
+out() {
+        printf %s\\n "$*"
+}
+
+err() {
+        >&2 printf %s\\n "$*"
+}
+
+die() {
+       n="$1" ; shift ; >&2 printf %s\\n "$*" ; exit "$n"
+}
+
+big() {
+        printf \\n###\\n#\\n#\ %s\\n#\\n###\\n\\n "$*"
+}
+
+log() {
+        printf '%s %s %s %s\n' "$( now )" "$( zid )" "$( hostname )" $$ "$*"
+}
+
+zid() {
+        hexdump -n 16 -v -e '16/1 "%02x" "\n"' /dev/random
+}
+
+ask() {
+        read x ; echo "$x" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//'
+}
+```
