@@ -25,7 +25,7 @@ cssclasses:
 
 ## Context
 
-[[TypeScript]] offers ...
+[[Frontend TypeScript]] offers ...
 
 ## Motivation
 
@@ -50,7 +50,7 @@ Use TypeScript and `tsx`.
 ## Alternatives
 
 - `JSX`
-- `Flow` is a strong alternative to [[TypeScript]].
+- `Flow` is a strong alternative to [[Frontend TypeScript]].
 
 ## Consequences
 
