@@ -55,7 +55,29 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Flask-SocketIO
 
-[[Tool - SocketIO is a popular real-time event-driven library for web applications. Normally, Flask supports standard HTTP communication between the server and clients, but this library allows you to write SocketIO events in a Flask-like syntax. [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) supports the use of both standard HTTP routes and SocketIO events on the same server in a really simple way:
+[[Tool - SocketIO|SocketIO]] is a popular real-time event-driven library for web applications. Normally, [[Tool - Python Flask|Flask]] supports standard [[HTTP]] communication between the server and clients, but this library allows you to write [[Tool - SocketIO|SocketIO]] events in a [[Tool - Python Flask|Flask]]-like syntax. [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) supports the use of both standard HTTP routes and SocketIO events on the same server in a really simple way.
+
+Installation:
+
+```python
+# pip
+pip install Flask-SocketIO
+
+# poetry
+poetry install Flask-SocketIO
+```
+
+Basic Usage:
+
+```python
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@socketio.on('event name')
+def socketio_event(message):
+    emit('response', {'message': 'Hello, world'})
+```
 
 ### Flask-CORS
 
@@ -107,6 +129,14 @@ def create_app(config: dict = None) -> Flask:
     app.register_blueprint(routes.bp)
 
     return app
+```
+
+### Flask-Caching
+
+One of the best ways to increase the performance of your webserver is to cache the data. [Flask-Caching](https://github.com/pallets-eco/flask-caching) introduces a super easy way to cache your views and pages based on route, and it also has built in support for a few different cache backends. Here’s how easily you could cache the results of a (static) Flask route for 50 seconds using Flask-Caching:
+
+```python
+
 ```
 
 ### Flask-WTF
