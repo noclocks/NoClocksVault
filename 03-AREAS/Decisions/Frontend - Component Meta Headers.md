@@ -6,6 +6,9 @@
     myArg: { defaultValue: 'Click Me!' },
   }}
   parameters = {{
-  a}}
-  
+    actions: {
+      handles: ['mouseover', 'click']
+    },
+  }}
+/>  
 ```
