@@ -27,7 +27,60 @@ cssclasses:
 
 ## Styles
 
+- Example: `fallback-errorpage.css`:
+
+```css
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  gap: 16px;
+  height: 68px;
+  background: white;
+  border-bottom: 1px solid rgb(232,233,235);
+}
+
+.content {
+  text-align: center;
+  padding: 32px 16px;
+  color: #323334;
+}
+
+.content img {
+  max-width: min(100%, 600px);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 16px;
+}
+
+.social-links a {
+  color: #323334;
+  text-decoration: underline;
+}
+
+.social-links a:hover {
+  color: #DC5F7D;
+}
+
+h1 {
+  font-size: 40px;
+  color: #141415;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+```
+
 ## Scripts
+
+- Example: `custom.js`:
 
 ## Animations
 
@@ -44,10 +97,10 @@ cssclasses:
 ```plaintext
 ├─public/assets/fonts/
 ├───CustomFont/
-    ├───Inter-Black.woff
-    ├───Inter-BlackItalic.woff
-    ├───Inter-Bold.woff
-    ├───Inter-BoldItalic.woff
+    ├───CustomFont.eot
+    ├───CustomFont.svg
+    ├───CustomFont.ttf
+    └───CustomFont.woff
 ```
 
 
@@ -71,7 +124,10 @@ cssclasses:
 
 ## Icons
 
-## HTML Indices
+## HTML
+
+- Example: `maintenance.html`
+- Example: ``
 
 
 
