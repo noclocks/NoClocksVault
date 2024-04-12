@@ -37,20 +37,22 @@ debugInConsole: false # Print debug info in Obsidian console
 │   ├───config.testing.ini
 │   ├───config.production.ini
 │   └───config.development.ini
+│   
 ├───src/
-│   ├───controllers/
-│   ├───infra/
-│   ├───middlewares/
-│   ├───models/
-│   ├───routes/
-│   ├───schemas/
-│   ├───__init__.py
-│   ├───__main__.py
-│   ├───app.py
-│   ├───defaults
-│   └───instances
-├───contexts
-│   └───meta
+│   └──app/
+│      ├──────controllers/
+│      ├───infra/
+│      ├───middlewares/
+│      ├───models/
+│      ├───routes/
+│      ├───schemas/
+│      ├───__init__.py
+│      ├───__main__.py
+│      ├───exts.py
+│      └───utils.py
+│   
+├───tests/
+│   └───
 ```
 
 ## Application Entrypoint
