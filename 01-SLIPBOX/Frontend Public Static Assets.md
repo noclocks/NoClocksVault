@@ -38,22 +38,35 @@ cssclasses:
 
 - Stored as `.eot`, `.svg`, `.woff`, and `.woff2` files in the `public/assets/fonts/<FontName>/` folders.
 - Bold, Italic, Regular, Semi-Bold, etc.
+
+- Example Custom Font:
+
+```plaintext
+├─public/assets/fonts/
+├───CustomFont/
+    ├───Inter-Black.woff
+    ├───Inter-BlackItalic.woff
+    ├───Inter-Bold.woff
+    ├───Inter-BoldItalic.woff
+```
+
+
 - Example: `Inter` Font:
 
 ```plaintext
-public/assets/fonts/
+├─public/assets/fonts/
 ├───Inter/
-│   ├───Inter-Black.woff
-│   ├───Inter-BlackItalic.woff
-│   ├───Inter-Bold.woff
-│   ├───Inter-BoldItalic.woff
-│   ├───Inter-ExtraBold.woff
-│   ├───Inter-Italic.woff
-│   ├───Inter-Medium.woff
-│   ├───Inter-MediumItalic.woff
-│   ├───Inter-Regular
-│   └───instances
-├───contexts
+    ├───Inter-Black.woff
+    ├───Inter-BlackItalic.woff
+    ├───Inter-Bold.woff
+    ├───Inter-BoldItalic.woff
+    ├───Inter-ExtraBold.woff
+    ├───Inter-Italic.woff
+    ├───Inter-Medium.woff
+    ├───Inter-MediumItalic.woff
+    ├───Inter-Regular.woff
+    ├───Inter-SemiBold.woff
+    └───Inter-SemiBoldItalic.woff
 ```
 
 ## Icons
