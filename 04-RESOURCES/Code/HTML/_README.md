@@ -43,6 +43,16 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[HTML - Subscript and Superscript]]
 - [[HTML - Download Links]]
 - [[HTML - Define Base URL for Relative Links]]
+- [[HTML - Control Image Loading]]
+- [[HTML - Managing Translation Features]]
+- [[HTML - Set Minimum and Maximum Input Length]]
+- [[HTML - Enable Content Editing]]
+- [[HTML - Control Spell Checking]]
+- [[HTML - Ensure Accessibility]]
+- [[HTML - Define Target Behavior for Links]]
+- [[HTML - Accept Specific File Types]]
+- [[HTML - Optimized Video Loading]]
+- [[HTML - Tag Attributes to Know About]]
 - [[HTML - ]]
 
 ## Notes
