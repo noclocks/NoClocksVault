@@ -30,6 +30,11 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
+
+```plaintext
+
+```
+
 ## Application Entrypoint
 
 - `src/app/__main__.py`:
@@ -287,5 +292,122 @@ class User(CreatedUpdatedAtMixin):
 with base model configuration and mixin:
 
 ```python
+# src/app/models/base.py
+import datetime
 
+from sqlalchemy import func, MetaData
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, registry
+
+
+convention = {
+    "ix": "ix_%(column_0_label)s",  # INDEX
+    "uq": "uq_%(table_name)s_%(column_0_N_name)s",  # UNIQUE
+    "ck": "ck_%(table_name)s_%(constraint_name)s",  # CHECK
+    "fk": "fk_%(table_name)s_%(column_0_N_name)s_%(referred_table_name)s",  # FOREIGN KEY
+    "pk": "pk_%(table_name)s",  # PRIMARY KEY
+}
+
+mapper_registry = registry(metadata=MetaData(naming_convention=convention))
+
+
+class BaseModel(DeclarativeBase):
+    registry = mapper_registry
+    metadata = mapper_registry.metadata
+
+
+class CreatedUpdatedAtMixin(BaseModel):
+    """
+    A model mixin that adds `created_at` and `updated_at` timestamp fields
+    """
+    __abstract__ = True
+
+    created_at: Mapped[datetime.datetime] = mapped_column(
+        nullable=False,
+        server_default=func.now()
+    )
+    updated_at: Mapped[datetime.datetime] = mapped_column(
+        nullable=False,
+        server_default=func.now(),
+        onupdate=func.now(),
+    )
+```
+
+### Views Example
+
+```python
+# src/app/routes/user.py
+from flask import Blueprint, g
+
+from src.app.controllers.users import UserController
+
+user_blueprint = Blueprint("user", __name__, url_prefix="/users")
+
+
+@user_blueprint.route("/")
+def list_users():
+    session = g.session
+    users_list = UserController(session).list_users()
+    return [user.model_dump(mode="json") for user in users_list]
+```
+
+To avoid global variables, we should register blueprints like that (in package `__init__.py` module)
+
+```python
+# src/app/routes/__init__.py
+from flask import Flask
+
+from .user import user_blueprint
+
+
+def register(app: Flask) -> None:
+    app.register_blueprint(user_blueprint)
+```
+
+### Controller Example:
+
+```python
+# src/app/controllers/user.py
+from pydantic import TypeAdapter
+from sqlalchemy import select
+
+from src.app.models.user import User as UserModel
+from src.app.schemas.user import User as UserSchema
+
+from .base import Controller
+
+
+class UserController(Controller[UserModel]):
+
+    # some operations with the user
+    def list_users(self) -> list[UserSchema]:
+        stmt = select(UserModel)
+        result = self.session.scalars(stmt.order_by(UserModel.id)).fetchall()
+        return TypeAdapter(list[UserSchema]).validate_python(result)
+```
+
+with such generic Controller (just to reduce code duplication):
+
+```python
+# src/app/controllers/base.py
+from typing import Generic, TypeVar
+
+from sqlalchemy.orm.session import Session
+
+from src.app.models.base import BaseModel
+
+
+Model = TypeVar("Model", bound=BaseModel)
+
+
+class Controller(Generic[Model]):
+
+    def __init__(self, session: Session):
+        self.session = session
+        self.model: type[Model] = type(Model)
+
+    # some base operations
+    # Note: controller needs to also provide de(serialization),
+    # or it can be imported from the separate layer
+    def get(self, pk: int) -> Model:
+        return self.session.get(self.model, pk)
 ```
