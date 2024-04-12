@@ -23,7 +23,11 @@ cssclasses:
 If you're generating output for PDF or printing, you may need to generate Page breaks in your documents. Markdown doesn't direct support for Page Breaks but you can use HTML to force a page break using the following markup:
 
 ```html
-<div style="page-break-afte
+<div style="page-break-after: always"></div>
 ```
+
+Since Markdown supports embedded [[Hyper Text Markup Language (HTML)|HTML]] rendering, this forces a page break into a printed or PDF document.
+
+- See [[Espanso Setup and Configuration]] for details on the custom `:mdpagebreak` text-expansion snippet to use with [[Tool - Espanso|Espanso]]
 
 
