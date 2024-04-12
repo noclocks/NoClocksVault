@@ -39,10 +39,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippets
 
-### Events
+### Events and Properties
+
+- `src/lib/analytics/events.ts`:
 
 ```typescript
-// 
+// src/lib/analytics/events.ts
 export const enum AnalyticsEvent {
   CONTRIBUTION_STARTED = 'Contribution Started',
   CONTRIBUTION_DETAILS_STEP_COMPLETED = 'Contribution Details Step Completed',
@@ -63,14 +65,35 @@ export const enum AnalyticsEvent {
 };
 ```
 
+- `src/lib/analytics/properties.ts`:
+
+```typescript
+// src/lib/analytics/properties.ts
+export const enum AnalyticsProperty {
+  CONTRIBUTION_STEP = 'contributionStep',
+  CONTRIBUTION_HAS_PLATFORM_TIP = 'contributionHasPlatformTip',
+  CONTRIBUTION_PLATFORM_TIP_PERCENTAGE = 'contributionPlatformTipPercentage',
+  CONTRIBUTION_IS_NEW_PLATFORM_TIP = 'contributionIsNewPlatformTip',
+};
+```
+
 ### Google Analytics
+
+```typescript
+// lib/analytics/google.ts
+export const enum {
+
+};
+```
 
 ### Plausible
 
+- `src/lib/analytics/plausible.ts`
+
 ```typescript
-# plausible.ts
+// src/lib/analytics/plausible.ts
 
-
+export const enum 
 ```
 
 ## Details
