@@ -126,8 +126,11 @@ p {
 
 ## HTML
 
-- Example: `maintenance.html`
-- Example: ``
+- Examples:
+	- `login.html`
+	- `maintenance.html`
+	- `404.html`
+	- `500.html`
 
 
 
