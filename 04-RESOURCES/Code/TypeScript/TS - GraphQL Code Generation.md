@@ -1,0 +1,3 @@
+```typescript
+// scripts/config/
+```
