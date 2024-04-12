@@ -48,9 +48,14 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Tool - Python Flask-Admin|Flask-Admin]]
 - [[Tool - Python Flask-DebugToolbar|Flask-DebugToolbar]]
 - [[Tool - Python Flask-MonitoringDashboard|Flask-MonitoringDashboard]]
+- [[Tool - Python Flask-SocketIO]]
 - 
 
 ## Code
+
+### Flask-SocketIO
+
+[[Tool - SocketIO is a popular real-time event-driven library for web applications. Normally, Flask supports standard HTTP communication between the server and clients, but this library allows you to write SocketIO events in a Flask-like syntax. [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) supports the use of both standard HTTP routes and SocketIO events on the same server in a really simple way:
 
 ### Flask-CORS
 
@@ -58,6 +63,18 @@ debugInConsole: false # Print debug info in Obsidian console
 > - *https://github.com/corydolphin/flask-cors*
 
 [[Cross-Origin Resource Sharing (CORS)]] allows the use of cross-origin [[Asynchronous JavaScript and XML (AJAX)]] for your web applications. This super simple to use extension enables CORS across your site in just a few lines. Here’s all you’ll need to do to enable CORS with [this extension](https://github.com/corydolphin/flask-cors):
+
+Installation:
+
+```python
+# pip
+pip install Flask-CORS
+
+# poetry
+poetry install Flask-CORS
+```
+
+Basic Usage:
 
 ```python
 from flask import Flask
@@ -67,21 +84,32 @@ app = Flask(__name__)
 CORS(app)
 ```
 
-or using [[Flask application factory pattern]]:
+Advanced Usage (using [[Flask application factory pattern]]):
 
 ```python
 from flask import Flask
 from flask_cors import CORS
 
-def create_app():
-    """Application Factory"""
+
+def create_app(config: dict = None) -> Flask:
+    """Application Factory for the Flask app.
     
+    :param config: Configuration for the Flask app.
+    :type config: dict
+    
+    :return: Flask app.    
+    """
+    
+    app = Flask(__name__)
+    CORS(app)
+
+    from . import routes
+    app.register_blueprint(routes.bp)
+
+    return app
 ```
 
-## Details
-
-> [!NOTE] About
-> This note is about ...
+### Flask-WTF
 
 ## See Also
 
