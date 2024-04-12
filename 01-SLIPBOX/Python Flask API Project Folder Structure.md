@@ -38,6 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 │   ├───config.production.ini
 │   └───config.development.ini
 │   
+├───docs/
 ├───src/
 │   └──app/
 │      ├───controllers/
@@ -51,7 +52,6 @@ debugInConsole: false # Print debug info in Obsidian console
 │      ├───exts.py
 │      └───utils.py
 │   
-├───
 ├───tests/
 │   └───api/
 │	   ├───__init__.py
