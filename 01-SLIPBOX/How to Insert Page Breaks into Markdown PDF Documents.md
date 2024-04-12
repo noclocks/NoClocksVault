@@ -28,6 +28,25 @@ If you're generating output for PDF or printing, you may need to generate Page b
 
 Since Markdown supports embedded [[Hyper Text Markup Language (HTML)|HTML]] rendering, this forces a page break into a printed or PDF document.
 
-- See [[Espanso Setup and Configuration]] for details on the custom `:mdpagebreak` text-expansion snippet to use with [[Tool - Espanso|Espanso]]
+- See [[Espanso Setup and Configuration]] for details on the custom `:mdpagebreak` text-expansion snippet to use with [[Tool - Espanso|Espanso]]:
+
+```yaml
+
+```
 
 
+***
+
+## Appendix
+
+*Note created on [[2024-04-12]] and last modified on [[2024-04-12]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[How to Insert Page Breaks into Markdown PDF Documents]] AND -"CHANGELOG" AND -"//How to Insert Page Breaks into Markdown PDF Documents"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
