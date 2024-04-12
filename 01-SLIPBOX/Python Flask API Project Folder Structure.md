@@ -188,3 +188,104 @@ def configure_logging(config: AppConfig) -> None:
 
     logging.basicConfig(handlers=[console_handler], level=logging_level)
 ```
+
+with the following formatter in `src/app/infra/log/formatters.py`:
+
+```python
+# src/app/infra/log/formatters.py
+import logging
+
+
+class MainConsoleFormatter(logging.Formatter):
+    GREY = "\x1b[38;20m"
+    GREEN = "\x1b[32;20m"
+    YELLOW = "\x1b[33;20m"
+    RED = "\x1b[31;20m"
+    RESET = "\x1b[0m"
+    FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+
+    FORMATS = {
+        logging.DEBUG: GREY + FORMAT + RESET,
+        logging.INFO: GREEN + FORMAT + RESET,
+        logging.WARNING: YELLOW + FORMAT + RESET,
+        logging.ERROR: RED + FORMAT + RESET,
+        logging.CRITICAL: RED + FORMAT + RESET,
+    }
+
+    def format(self, record):
+        log_fmt = self.FORMATS.get(record.levelno)
+        formatter = logging.Formatter(log_fmt)
+        return formatter.format(record)
+```
+
+And, finally we have database package that holds migrations and [[alembic]] config with the `session_maker` factory:
+
+```python
+# src/app/infra/database/session.py  
+from sqlalchemy import create_engine  
+from sqlalchemy.orm.session import sessionmaker  
+  
+  
+def create_session_maker(database_url: str) -> sessionmaker:  
+    engine = create_engine(  
+        database_url,  
+        echo=True,  
+        pool_size=15,  
+        max_overflow=15,  
+        connect_args={  
+            "connect_timeout": 5,  
+        },  
+    )  
+    return sessionmaker(engine, autoflush=False, expire_on_commit=False)
+```
+
+So, this part of the application will be almost similar for any design pattern. Let’s move to the one of the most popular and easy one.
+
+## Model View Controller (MVC)
+
+[MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) is a well-known software design pattern. Its main advantage is its simplicity; it is intuitive even for beginners. We are going to create a simple template so MVC will meet all our needs for small size projects.
+
+If we look at MVC implementation in other languages, we will see that there are other layers besides model, view and controller. For example, Spring MVC (Java) offers us following project layout.
+
+![](https://i.imgur.com/ReTAzDc.png)
+
+As you can see, there are some layers besides MVC. There:
+
+- View is our presentation for the client.
+- Controller is our endpoint that calls the necessary services and returns view to client.
+- Service is a layer, that holds all the business logic/rules.
+- DAO (Data Access Object) is a persistence layer, that holds all interactions with the database through the models.
+
+From the following diagram, we can conclude that MVC is a 3-layered architecture, which can also have more than three layers (persistence, services, etc.).
+
+As for Flask, we can also divide our application into 3 layers:
+
+- Models — SQLAlchemy ORM models.
+- View — our route that will call the necessary Controller.
+- Controller is our business logic holder, that will manipulate the models and return the proper result.
+
+But we gonna simplify Spring’s vision of MVC and do not separate a Services and DAO layers.
+
+### Model Example
+
+```python
+# src/app/models/user.py
+from sqlalchemy.orm import Mapped, mapped_column
+
+from .base import CreatedUpdatedAtMixin
+
+
+class User(CreatedUpdatedAtMixin):
+    __tablename__ = "users"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    username: Mapped[str | None] = mapped_column(unique=True)
+    first_name: Mapped[str]
+    last_name: Mapped[str]
+```
+
+with base model configuration and mixin:
+
+```python
+
+```
