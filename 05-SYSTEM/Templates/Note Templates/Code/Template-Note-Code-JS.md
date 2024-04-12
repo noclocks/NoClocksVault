@@ -22,6 +22,11 @@
 
 ## Details
 
-<% tp.file.include("[[Template-Fragment-Callout-
+<% tp.file.include("[[Template-Fragment-Callout-About]]") %>
+
+## See Also
+
+- [[MOC - JavaScript|JavaScript Map of Content]]
+- [[JavaScript Code]]
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
