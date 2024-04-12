@@ -22,7 +22,7 @@ cssclasses:
 # JavaScript Compression Stream API
 
 > [!SOURCE] Sources:
-> 
+> - *[Compression Streams API - Web APIs | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API)*
 > - *[14 Lesser-Known but Incredibly Useful Web APIs You Should Know About | by Nebula Nomad | Mar, 2024 | JavaScript in Plain English](https://javascript.plainenglish.io/14-lesser-known-but-incredibly-useful-web-apis-you-should-know-about-91ba92ea8cf4)*
 
 ```table-of-contents
@@ -45,13 +45,95 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```javascript
+// To compress data
+async function compressData(input) {
+  // Create a compression stream in gzip format
+  const compressionStream = new CompressionStream('gzip');
+  // Create a stream from the input data
+  const inputStream = new ReadableStream({
+    start(controller) {
+      // Put the input data into the stream
+      controller.enqueue(new TextEncoder().encode(input));
+      // Close the stream
+      controller.close();
+    },
+  });
 
+  // Pipe the input stream through the compression stream
+  const compressedStream = inputStream.pipeThrough(compressionStream);
+
+  // Gather the compressed data chunks
+  const chunks = [];
+  const reader = compressedStream.getReader();
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+  }
+
+  // Combine the chunks into a single Uint8Array
+  const compressedData = new Uint8Array(chunks.reduce((acc, val) => [...acc, ...val], []));
+  return compressedData;
+}
+
+// To decompress data
+async function decompressData(compressedData) {
+  // Create a decompression stream in gzip format
+  const decompressionStream = new DecompressionStream('gzip');
+  // Create a stream from the compressed data
+  const inputStream = new ReadableStream({
+    start(controller) {
+      // Put the compressed data into the stream
+      controller.enqueue(compressedData);
+      // Close the stream
+      controller.close();
+    },
+  });
+
+  // Pipe the input stream through the decompression stream
+  const decompressedStream = inputStream.pipeThrough(decompressionStream);
+
+  // Gather the decompressed data chunks
+  const chunks = [];
+  const reader = decompressedStream.getReader();
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+  }
+
+  // Combine the chunks into a single string
+  const decompressedData = new TextDecoder().decode(concatenateUint8Arrays(chunks));
+  return decompressedData;
+}
+
+// Helper function to concatenate Uint8Arrays
+function concatenateUint8Arrays(arrays) {
+  let totalLength = arrays.reduce((acc, val) => acc + val.length, 0);
+  let result = new Uint8Array(totalLength);
+  let length = 0;
+  for (let array of arrays) {
+    result.set(array, length);
+    length += array.length;
+  }
+  return result;
+}
+
+// Example usage
+const originalData = 'This is the data to compress';
+compressData(originalData).then(compressedData => {
+  console.log('Compressed Data:', compressedData);
+  decompressData(compressedData).then(decompressedData => {
+    console.log('Decompressed Data:', decompressedData);
+  });
+});
 ```
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+The [Compression Stream API](https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API) is a JavaScript API that lets you compress and decompress data streams. It uses gzip or a default format. With a built-in compression library, JavaScript apps don’t need extra libraries for this. This makes the app download smaller. It’s a great tool for making web pages load faster and use less data.
+
+Here’s an example of how to use the Compression Stream API in JavaScript to compress and decompress data using `gzip`.
 
 ## See Also
 
