@@ -40,7 +40,7 @@ debugInConsole: false # Print debug info in Obsidian console
 │   
 ├───src/
 │   └──app/
-│      ├──────controllers/
+│      ├───controllers/
 │      ├───infra/
 │      ├───middlewares/
 │      ├───models/
@@ -52,7 +52,12 @@ debugInConsole: false # Print debug info in Obsidian console
 │      └───utils.py
 │   
 ├───tests/
-│   └───
+│   └───api/
+	   ├───__init__.py
+	   └───test_user.py
+	├───__init__.py
+	├───conftest.py
+	└───factory.py
 ```
 
 ## Application Entrypoint
