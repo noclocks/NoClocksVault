@@ -24,9 +24,12 @@ cssclasses:
 
 Styling frontend components is a topic of large debate.
 
-A good introduction is this article from the [[TailwindCSS]] documents: [Utility-First Fundamentals](https://tailwindcss.com/docs/utility-first).
+> [!NOTE]
+> [[TailwindCSS]] is a utility first [[Cascading Style Sheets (CSS)|CSS]] framework.
 
-Summary of the article by GPT-4:
+A good introduction is this article from the [[TailwindCSS]] documentation: [Utility-First Fundamentals](https://tailwindcss.com/docs/utility-first).
+
+Summary of the article by [[GPT-4]]:
 
 > Utility-first CSS is an approach that involves using predefined utility classes to build custom designs without writing custom CSS. This method offers benefits such as reducing time spent on inventing class names, limiting CSS file growth, and making changes with a lower risk of breaking other elements. Despite some similarities with inline styles, utility classes provide advantages in designing with constraints, responsive design, and handling hover, focus, and other states.
 
@@ -35,21 +38,19 @@ Extra reading/listening:
 - [Why I Love Tailwind](https://mxstbr.com/thoughts/tailwind/) from the creator of Styled Components
 - [Diana Mounter on using utility classes at GitHub](https://fullstackradio.com/75), podcast interview
 
-### Suggested packages/tools for a full utility-first styling solution
-
-[](https://github.com/opencollective/opencollective/blob/main/rfcs/015-utility-first-css-framework.md#suggested-packagestools-for-a-full-utility-first-styling-solution)
-
-- [TailwindCSS](https://tailwindcss.com/) - utilify-first CSS framework
-- [`class-variance-authority`](https://cva.style/docs) - library to help create CSS class compositions and variants of components (e.g button sizes, colors, intents)
-
-[[TailwindCSS]] is a utility first [[Cascading Style Sheets (CSS)|CSS]] framework.
-
 ## Motivation
 
 
 ## Decision
 
-Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first css framework - as our main approach to styling.
+Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first [[Cascading Style Sheets (CSS)|CSS]] framework - as our main approach to styling.
+
+Suggested packages/tools for a full utility-first styling solution:
+
+![](https://github.com/opencollective/opencollective/blob/main/rfcs/015-utility-first-css-framework.md#suggested-packagestools-for-a-full-utility-first-styling-solution)
+
+- [TailwindCSS](https://tailwindcss.com/) - utilify-first CSS framework
+- [`class-variance-authority`](https://cva.style/docs) - library to help create CSS class compositions and variants of components (e.g button sizes, colors, intents)
 
 ## Alternatives
 
@@ -67,6 +68,15 @@ If we were to use [[TailwindCSS]], we remove the need to break out of the compon
 The design system is also working on any [[Hyper Text Markup Language (HTML)|HTML]] element by default - not having to import any special utility components that accept the styled-system props. 
 
 Another benefit is easily seeing the styles they apply by hovering over the class name.
+
+- More consistent styling
+    - TailwindCSS by itself provides a predefined set of of font sizes, widths, breakpoints, colors (which all can be modified)
+- Higher overall quality of UI
+    - Having to write less custom CSS through TailwindCSS, and having to build fewer basic components ourselves by using Tailwind UI should result in a overall higher quality of components, including better accessibility
+- Increased efficiency of building and maintaining UI
+    - Less naming things, less writing fully custom css, less importing of packages (styled-components, styled-system), less importing of abstracted "utility" components (, )
+    - Easier to maintain, read and understand existing UI code (with utility classes being present directly in the composition of html elements)
+- design and developers can focus less on making sure that basic components like Buttons, Dropdowns, Modals, Forms, etc, look good and function well - and focus more on domain-specific design challenges that are unique to Open Collective - and have access to more consistent primitives while doing so
 
 ## Affected Projects
 
