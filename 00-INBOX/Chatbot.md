@@ -59,7 +59,7 @@ Chatbots have become increasingly popular in various industries and applications
 - [[Checklist - AI Tools|AI Tools]]
 - [[Tool - OpenAI|OpenAI]]
 - [[Anatomy of AI LLM-Based Agents]]
-- [[Tool - Langchain]]
+- [[Tool - Python - Langchain]]
 
 ### Backlinks
 

@@ -109,7 +109,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 - [[MOC - Artificial Intelligence|AI Map of Content]]
-- [[Tool - Langchain]]
+- [[Tool - Python - Langchain]]
 - [[MOC - Python|Python]]
 - [[Tool - Python Chainlit|Chainlit]]
 - [[Tool - OpenAI|OpenAI]]

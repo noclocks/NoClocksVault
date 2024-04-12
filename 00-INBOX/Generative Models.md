@@ -52,7 +52,7 @@ Generative models have a wide range of applications, including image synthesis, 
 - [[Checklist - AI Tools|AI Tools]]
 - [[Tool - OpenAI|OpenAI]]
 - [[Anatomy of AI LLM-Based Agents]]
-- [[Tool - Langchain]]
+- [[Tool - Python - Langchain]]
 - [[Chatbot]]
 
 ### Backlinks
