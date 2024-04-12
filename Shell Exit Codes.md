@@ -19,4 +19,10 @@ cssclasses:
 
 ## Conventions
 
-- `0`
+- `0` = **Success**: Non-Zero indicates an issue
+- `1` = **Failure**
+- `2` = **Failure** (due to a usage problem)
+- `3`-`63` = **Program-Specific** Exit Codes
+- `64`-`79` = **BSD SysExits** ([https://man.openbsd.org/sysexits.3](https://man.openbsd.org/sysexits.3))
+- `80`-`119` = **Custom**
+
