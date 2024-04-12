@@ -32,7 +32,15 @@ debugInConsole: false # Print debug info in Obsidian console
 
 
 ```plaintext
+<root>
+├───config/
 
+├───buildx
+│   ├───activity
+│   ├───defaults
+│   └───instances
+├───contexts
+│   └───meta
 ```
 
 ## Application Entrypoint
