@@ -50,6 +50,7 @@ Use TypeScript and `tsx`.
 ## Alternatives
 
 - `JSX`
+- `Flow` is a strong alternative to [[TypeScript]].
 
 ## Consequences
 
@@ -57,9 +58,15 @@ Use TypeScript and `tsx`.
 
 ## Affected Projects
 
-- [[Front]]
+- [[Frontend]]
+- [[Component Library]]
+- [[Design System]]
+- [[No Clocks Website]]
+
 ## See Also
 
+- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
+- [[MOC - JavaScript|JavaScript Map of Content]]
 - [[Architectural Decision Record (ADR)]]
 - [[Decision Record (DR)]]
 
