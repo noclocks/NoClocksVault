@@ -22,8 +22,9 @@ cssclasses:
 
 ## Context
 
-Sty
+Styling frontend components is a topic of large debate.
 
+[[TailwindCSS]] is a utility first [[Cascading Style Sheets (CSS)|CSS]] framework.
 
 ## Motivation
 
@@ -33,11 +34,20 @@ Sty
 
 ## Alternatives
 
+- Styled Components
+- Vanilla CSS
+- SASS
+- CSS Modules
+- CSS Frameworks
+- 
 
 ## Consequences
 
 
 ## Affected Projects
+
+## Examples
+
 
 
 ## See Also
