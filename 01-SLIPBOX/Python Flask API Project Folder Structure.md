@@ -34,9 +34,19 @@ debugInConsole: false # Print debug info in Obsidian console
 ```plaintext
 <root>
 ├───config/
-
-├───buildx
-│   ├───activity
+│   ├───config.testing.ini
+│   ├───config.production.ini
+│   └───config.development.ini
+├───src/
+│   ├───controllers/
+│   ├───infra/
+│   ├───middlewares/
+│   ├───models/
+│   ├───routes/
+│   ├───schemas/
+│   ├───__init__.py
+│   ├───__main__.py
+│   ├───app.py
 │   ├───defaults
 │   └───instances
 ├───contexts
