@@ -19,7 +19,10 @@ cssclasses:
   - code
 ---
 
-# HTML Hidden Gem Tags Code
+# Hidden Gem Tags in HTML
+
+> [!SOURCE] Sources:
+> - *[7 HTML Hidden Gems: HTML Tags You Should Know About - Shefali](https://shefali.dev/html-tags-2/)*
 
 ```table-of-contents
 title: Contents 
@@ -32,19 +35,32 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!SOURCE] Sources:
-> - **
+> [!NOTE] About
+> This note is about hidden gem [[Hyper Text Markup Language (HTML)|HTML]] tags.
 
-## Code Snippet
+- `<abbr>`
+- `<base>`
+- `<cite>`
+- `<details>` and `<summary>`
+- `<fieldset>` and `<legend>`
+- `<mark>`
+- `<optgroup>`
+
+## `<abbr>`
+
+The `<abbr>` HTML tag represents an abbreviation or acronym of a phrase or longer word.
+
+This tag helps improve accessibility and user understanding by providing an explanation when a user hovers over it.
 
 ```html
-
+<p>
+  <abbr title="World Wide Web">WWW</abbr> is a fundamental part of the internet.
+</p>
 ```
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+
 
 ## See Also
 
