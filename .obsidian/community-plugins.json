@@ -33,5 +33,6 @@
   "nldates-obsidian",
   "copilot",
   "obsidian-banners",
-  "callout-manager"
+  "callout-manager",
+  "obsidian-local-rest-api"
 ]
