@@ -39,16 +39,33 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```powershell
 #Requires -RunAsAdministrator
+
+# Declare Certificate Name
 $CertName = "DevtCert"
 
+# Specify Splat Params
 $Params = @{
   Subject = "CN=$CertName"
   CertStoreLocation = "Cert:\CurrentUser\My"
   KeyExportPolicy = Exportable
   KeySpec = Signature
-  KeyLength =
+  KeyLength = 2048
+  KeyAlgorithm = RSA
+  HashAlgorithm = SHA256
+  Type = CodeSigningCert
 }
-$Cert = New-SelfSignedCertificate -Subject "CN=$CertName" -CertStoreLocation
+
+# Create the Certificate
+$Cert = New-SelfSignedCertificate @Params
+
+# Export Certificate to Local File Path
+Export-Certificate -Cert $Cert -FilePath ".\$CertName.cer"
+
+# Sign a Script
+Set-Authentico
+
+# Sign a DLL
+Set-AuthenticodeSignature -FilePath "C:\dev\Path\To\Your\WSLPlugin.dll" -Certificate $cert
 ```
 
 ## Details
