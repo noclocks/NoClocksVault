@@ -37,6 +37,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippet
 
+The script below creates a new self-signed, development certificate, exports it to a local `.cer` file, and demonstrates how to sign a script or [[Dynamic Link Library (DLL)]]:
+
 ```powershell
 #Requires -RunAsAdministrator
 
@@ -62,11 +64,13 @@ $Cert = New-SelfSignedCertificate @Params
 Export-Certificate -Cert $Cert -FilePath ".\$CertName.cer"
 
 # Sign a Script
-Set-Authentico
+Set-AuthenticodeSignature -FilePath "path/to/script.ps1" -Certificate $Cert
 
 # Sign a DLL
-Set-AuthenticodeSignature -FilePath "C:\dev\Path\To\Your\WSLPlugin.dll" -Certificate $cert
+Set-AuthenticodeSignature -FilePath "path/to/library.dll" -Certificate $cert
 ```
+
+To import the certificate to the [[Trusted Root Certi]]
 
 ## Details
 
