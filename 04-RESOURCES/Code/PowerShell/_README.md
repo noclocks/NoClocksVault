@@ -4,10 +4,13 @@ modification_date: 2024-04-13
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Readme
+  - Type/Code
   - Topic/Meta
+  - Topic/Dev
+  - Topic/PowerShell
   - Status/Ongoing
 aliases:
-  - PowerShell Code
+  - PowerShellCode
   - PowerShell Code Readme
 publish: true
 permalink:
@@ -37,10 +40,13 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/PowerShell` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/PowerShell` folder, excluding this note.*
 
 ```dataview
-LIST FROM "04-RESOURCES/Code/PowerShell" AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/_README"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM "04-RESOURCES/Code/PowerShell" AND -"04-RESOURCES/Code/PowerShell/_README"
+WHERE file.name != this.file.name
+SORT file.name asc
 ```
 
 ***
