@@ -33,7 +33,10 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[Create a self-signed public certificate to authenticate your application - Microsoft identity platform | Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-self-signed-certificate)*
+> - *[Digital Signatures - Windows drivers | Microsoft Learn](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/digital-signatures)*
+> - *[wsl-plugin-sample/sign-plugin.ps1 at main · microsoft/wsl-plugin-sample](https://github.com/microsoft/wsl-plugin-sample/blob/main/sign-plugin.ps1)*
+> - *[WSL Plugins | Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/wsl-plugins)*
 
 ## Code Snippet
 
@@ -70,7 +73,11 @@ Set-AuthenticodeSignature -FilePath "path/to/script.ps1" -Certificate $Cert
 Set-AuthenticodeSignature -FilePath "path/to/library.dll" -Certificate $cert
 ```
 
-To import the certificate to the [[Trusted Root Certi]]
+To import the certificate to the [[Trusted Root Certification Authority]]:
+
+```powershell
+certutil -addstore "Root" ".\$CertName.cer"
+```
 
 ## Details
 
