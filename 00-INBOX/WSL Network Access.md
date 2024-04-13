@@ -20,4 +20,6 @@ cssclasses:
 # WSL Network Access
 
 > [!SOURCE] Sources:
+> - *[Accessing network applications with WSL | Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/networking)*
+> - *[When WSL DNS fails you](https://blog.robsewell.com/blog/when-wsl-dns-fails-you/)*
 > - *[blogrobsewell/content/post/2023-08-20-wsl-network-access.md at main · SQLDBAWithABeard/blogrobsewell](https://github.com/SQLDBAWithABeard/blogrobsewell/blob/main/content/post/2023-08-20-wsl-network-access.md)*
