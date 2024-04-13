@@ -10,7 +10,7 @@ tags:
   - Topic/<% tp.file.folder(false) %>
   - Status/Ongoing
 aliases:
-  - <% tp.file.folder(false) + 'Code' %>
+  - <% tp.file.folder(false) + ' Code' %>
   - <% tp.file.folder(false) + ' Code Readme' %>
 publish: true
 permalink:

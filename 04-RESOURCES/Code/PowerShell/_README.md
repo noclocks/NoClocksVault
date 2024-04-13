@@ -10,7 +10,7 @@ tags:
   - Topic/PowerShell
   - Status/Ongoing
 aliases:
-  - PowerShellCode
+  - PowerShell Code
   - PowerShell Code Readme
 publish: true
 permalink:
