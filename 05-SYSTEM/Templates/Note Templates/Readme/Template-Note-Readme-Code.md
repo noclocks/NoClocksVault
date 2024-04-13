@@ -1,6 +1,6 @@
-<% tp.file.include("[[Template-Fragment-Frontmatter-Readme]]") %>
+<% tp.file.include("[[Template-Fragment-Frontmatter-Readme-Code]]") %>
 
-<% tp.file.include("[[Template-Fragment-Title-Readme]]") %>
+<% tp.file.include("[[Template-Fragment-Title-Readme-Code]]") %>
 
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 

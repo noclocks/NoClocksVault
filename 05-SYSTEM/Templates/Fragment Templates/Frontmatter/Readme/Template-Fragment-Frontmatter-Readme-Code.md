@@ -10,11 +10,12 @@ tags:
   - Topic/<% tp.file.folder(false) %>
   - Status/Ongoing
 aliases:
-  - <% tp.file.folder(false) + 'C%>
-  - <% tp.file.folder(false) + ' Readme' %>
+  - <% tp.file.folder(false) + 'Code' %>
+  - <% tp.file.folder(false) + ' Code Readme' %>
 publish: true
 permalink:
 description:
 image:
 cssclasses:
   - readme
+---
