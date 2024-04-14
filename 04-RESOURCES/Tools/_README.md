@@ -1,6 +1,6 @@
 ---
 creation_date: 2024-04-01
-modification_date: 2024-04-01
+modification_date: 2024-04-14
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Readme
@@ -32,27 +32,30 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `03-AREAS/Tools` directory.
+> This note serves as an index for all notes under the `04-RESOURCES/Tools` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `03-AREAS/Tools` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Tools` folder, excluding this note.*
 
 ```dataview
-LIST FROM "03-AREAS/Tools" AND -"CHANGELOG" AND -"03-AREAS/Tools/_README"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM "04-RESOURCES/Tools" AND -"04-RESOURCES/Tools/_README"
+WHERE file.name != this.file.name
+SORT file.name asc
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
+*Note created on [[2024-04-01]] and last modified on [[2024-04-14]].*
 
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/Tools/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/_README"
 ```
 
 ***
