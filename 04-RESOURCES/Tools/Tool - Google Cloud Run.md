@@ -4,11 +4,15 @@ modification_date: 2024-04-14
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/NA
+  - Type/Tool
+  - Topic/Dev
+  - Topic/Cloud
+  - Topic/Google
+  - Topic/Docker
   - Status/WIP
 aliases:
-  - Tool - Google Cloud Run
   - Google Cloud Run
+  - Cloud Run
 publish: true
 permalink:
 description:
