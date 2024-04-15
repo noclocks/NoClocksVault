@@ -1,20 +1,20 @@
 ---
-creation_date: 2024-04-15
-modification_date: 2024-04-15
+creation_date: 2024-04-15T00:00:00.000Z
+modification_date: 2024-04-15T00:00:00.000Z
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Tool 
+  - Topic/Obsidian 
+  - Topic/Tech
+  - Status/WIP 
 aliases:
-  - Obsidian - Resource Links
+  - Obsidian Resource Links
 publish: true
 permalink:
 description:
 image:
 cssclasses:
 ---
-
 # Obsidian Resource Links
 
 - [GitHub Organization: ObsidianMd](https://github.com/obsidianmd)
