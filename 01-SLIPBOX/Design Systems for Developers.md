@@ -45,8 +45,29 @@ In [[Web Development]], [[Design Systems]] power the [[frontend]] teams of devel
 
 1. *Common [[User Interface (UI)]] Shared Components*
 2. *[[Design Tokens]]: Styling-specific variables such as [[Brand Colors]] and spacing.*
-3. 
+3. *[[Technical Documentation]]: Usage instructions, guidelines, do's and dont's, examples, etc.*
 
+Other extra areas:
+
+- **Testing**:
+- **Deployment:**
+- **Distribution**:
+
+## Introduction to Design Systems
+
+> [!TIP] A guide to the latest production-ready tools for design systems.
+
+This guide is made for **professional developers** learning how to build design systems. Intermediate experience in JavaScript, Git, and continuous integration is recommended. You should also know Storybook basics, such as writing a story and editing config files ([Intro to Storybook](https://storybook.js.org/tutorials/intro-to-storybook) teaches basics).
+
+Design systems are exploding in popularity. From tech heavyweights like Airbnb to nimble startups, organizations of every shape are reusing UI patterns to save time and money. But there’s a chasm between the design systems created by BBC, Airbnb, IBM, or Microsoft and the design systems created by most developers.
+
+Why do leading design systems teams use the tools and techniques they use? My co-author Tom and I researched the traits of successful design systems from the Storybook community to identify best practices.
+
+This step-by-step guide reveals the automated tooling and careful workflows used in scaled production design systems. We’ll walk through assembling a design system from existing component libraries, then set up core services, libraries, and workflows.
+
+![](https://i.imgur.com/wrADMUy.png)
+
+### Design Systems 
 ## See Also
 
 - [[MOC - Technology|Technology Map of Content]]
