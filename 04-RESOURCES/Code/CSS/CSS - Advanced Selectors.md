@@ -221,25 +221,10 @@ ul li:empty {
 	- [ ] The `not` Selector
 - [ ] Attribute Selectors
 	- [ ] Basic Attribute Selector
-	- [ ] Attrib
-
-### The not selector
-
-## Attribute Selectors
-
-### Basic attribute selector
-
-### Attribute equals value selector (=)
-
-### Attribute contains value selector (~= and *=)
-
-### Attribute starts with selectors (|= and ^=)
-
-### Attribute ends with selector ($=)
-## Details
-
-> [!NOTE] About
-> This note is about ...
+	- [ ] Attribute Equals Value Selector (`=`)
+	- [ ] Attribute Contains Value Selector (`~=` and `*=`)
+	- [ ] Attribute Starts With Selectors (`|=` and `^=`)
+	- [ ] Attribute Ends With Selector (`$=`)
 
 ## See Also
 
