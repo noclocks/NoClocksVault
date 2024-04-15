@@ -44,11 +44,19 @@ This note showcases using the [[PowerShell]] Module [[Tool - PowerShell WingetTo
 
 ### Installation
 
+Install from the [[Tool - PowerShell Gallery|PowerShell Gallery]] using a method from below.
+
+Installation Methods:
+
+- Installation via [[Tool - PowerShell PowerShellGet|PowerShellGet]]
+- Installation via [[Tool - Powershell PSResourceGet|PSResourceGet]]
+
 ```powershell
 # Install via PowerShellGet
 Install-Module WingetTools -Scope CurrentUser -Force
 
-# Install via 
+# Install via PSResourceGet
+Install-PSResource 
 
 ```
 
