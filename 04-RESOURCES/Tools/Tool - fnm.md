@@ -39,7 +39,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE]
-> ***Fast Node Manager (fnm)** is *
+> ***Fast Node Manager (fnm)** is a new, simple [[Node Version Manager build with [[Tool - Rust|Rust]]. It is a drop-in replacement for [[Tool - Node Version Manager (NVM)|nvm]].*
 
 ***
 
