@@ -60,10 +60,26 @@ graph LR
 	- [ ] Surroundings
 	- [ ] Workspace
 	- [ ] Hardware
+- [ ] Phone Inboxes
+	- [ ] Texts
+	- [ ] Calls
+	- [ ] Apple Notes
+	- [ ] iOS Notifications
+	- [ ] iOS Apps Lists
 - [ ] Email Inboxes
 	- [ ] Personal Email Inbox
 	- [ ] Work Email Inbox
 	- [ ] Other Email Inbox
+- [ ] Cloud Storage Inboxes
+	- [ ] Personal Google Drive
+	- [ ] Work Google Drive
+	- [ ] Personal OneDrive
+	- [ ] Work OneDrive
+- [ ] PKM Inboxes
+	- [ ] Obsidian Markdown Notes
+	- [ ] Readwise Highlights
+	- [ ] Online Article Links
+	- [ ] OneTab 
 	- [ ] 
 
 - [ ] Collect Loose Physical Items into Physical Inbox/Tray
