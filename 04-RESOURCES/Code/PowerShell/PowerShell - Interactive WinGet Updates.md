@@ -34,7 +34,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[jdhitsolutions/WingetTools: A set of PowerShell tools for working with the winget package manager.](https://github.com/jdhitsolutions/WingetTools)*
+> - *[WingetTools/docs/Get-WGUpgrade.md at main · jdhitsolutions/WingetTools](https://github.com/jdhitsolutions/WingetTools/blob/main/docs/Get-WGUpgrade.md)*
+> - 
 
 ## Code Snippet
 
