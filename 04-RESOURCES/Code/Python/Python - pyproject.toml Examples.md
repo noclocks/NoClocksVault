@@ -87,7 +87,28 @@ black = ""
 isort = ""
 ruff = ""
 black = ""
-flake8 = 
+flake8 = ""
+mypy = ""
+mypy-extensions = ""
+pre-commit = ""
+pydocstyle = ""
+pylint = ""
+pyuprade = ""
+pyinstaller = ""
+
+[tool.poetry.test.dependencies]
+coverage = ""
+coverage-badge = ""
+pytest = ""
+pytest-cov = ""
+pytest-html = ""
+httpx = ""
+pytest-asyncio = ""
+requests-mock = ""
+torch = ""
+
+[tool.poetry.docs.d]
+
 ```
 
 ## Details
