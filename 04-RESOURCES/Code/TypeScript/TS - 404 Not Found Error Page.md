@@ -36,7 +36,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippets
 
-Example **404 Not Found Error Page in [[TypeScript]]**:
+Example **404 Not Found Error Page in [[04-RESOURCES/Code/TypeScript/_README|TypeScript]]** (`src/app/pages/NotFound.tsx`):
 
 ```typescript
 import { Search } from "@/components/ui/search"
@@ -62,8 +62,9 @@ export default function NotFound() {
 
 ## Details
 
-> [!WARNING]
-> Assumptions
+> [!WARNING] Assumptions:
+> - Project uses [[TailwindCSS]]
+> - Project already has pre-existing `search` and `navigation` components
 
 ## See Also
 
