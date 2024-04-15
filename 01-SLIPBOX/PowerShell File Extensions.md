@@ -20,4 +20,11 @@ cssclasses:
 
 # PowerShell File Extensions
 
+> [!SOURCE] Sources:
+> - *[PowerShell Filename Extensions - Wikipedia](https://en.wikipedia.org/wiki/PowerShell#Filename_extensions)*
 
+| Extension |                Description                |
+|:---------:|:-----------------------------------------:|
+|  `.ps1`   |      Default PowerShell Script File       |
+|  `.psd1`  | PowerShell Data File or a Module Manifest |
+| `.psm1`    |                                           |
