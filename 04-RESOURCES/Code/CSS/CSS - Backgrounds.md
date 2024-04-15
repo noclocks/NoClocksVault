@@ -49,7 +49,9 @@ CSS background properties:
 ### Background Color
 
 ```css
-body {}
+body {
+  background-color:
+}
 ```
 
 ## Details
