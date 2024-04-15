@@ -23,7 +23,9 @@ cssclasses:
 # Design Systems for Developers
 
 > [!SOURCE] Sources:
-> - **
+> - *[Design Systems for Developers | Storybook Tutorials](https://storybook.js.org/tutorials/design-systems-for-developers/)*
+> - *[Design Systems Database: Surf among top‑notch Design Systems](https://designsystems.surf/)*
+> - *[Design Systems Repo | A Collection of Design System Resources](https://designsystemsrepo.com/design-systems/)*
 
 ```table-of-contents
 title: Contents 
@@ -36,4 +38,11 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-In [[Web Development]], [[Design Systems power the frontend teams of Shopify, IBM, Salesforce, Airbnb, Twitter, and many more. This guide for professional developers examines how the smartest teams engineer design systems at scale and why they use the tools they use. We'll walk through setting up core services, libraries, and workflows to develop a design system from scratch.
+In [[Web Development]], [[Design Systems]] power the [[frontend]] teams of developers. This guide is meant for professional developers and will examine how the smartest teams engineer [[design systems]] at scale and why they use the tools they use. We'll walk through setting up core services, libraries, and workflows to develop a design system from scratch.
+
+## See Also
+
+- [[MOC - Technology|Technology Map of Content]]
+- [[Checklist - Frontend Development]]
+- [[04-RESOURCES/Code/TypeScript/_README|TypeScript]]
+- [[Storybook]]
