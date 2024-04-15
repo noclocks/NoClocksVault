@@ -135,9 +135,9 @@ ul li:last-of-type {
 
 Notice how the first [[Cascading Style Sheets (CSS)|CSS]] rule for coloring the first `<li>` child in blue does not do anything, since it will only be applied to the first child element which is also an `<li>` element. This example also shows that the first-of-type selector is usually less useful than its counterpart first-of-type.
 
-### nth-of-type and nth-last-of-type
+#### Nth of Type and Nth Last of Type
 
-Similarly to the previous section, nth-of-type and nth-of-last-type also is less restrictive by counting elements similar to its type, but also allows selecting an element using a fixed offset from either the start or the end of the list.
+Similarly to the previous section, `nth-of-type` and `nth-of-last-type` also is less restrictive by counting elements similar to its type, but also allows selecting an element using a fixed offset from either the start or the end of the list.
 
 ```html
 <style>
@@ -162,9 +162,9 @@ ul li:nth-last-of-type(2) {
 </ul>
 ```
 
-### only-child and only-of-type
+#### Only Child and Only of Type
 
-The :only-child selector will only select an element if it does not have any siblings at all contained within its parent element. The :only-of-type is similar, only that it will only consider elements from the same type as itself.
+The `:only-child` selector will only select an element if it does not have any siblings at all contained within its parent element. The `:only-of-type` is similar, only that it will only consider elements from the same type as itself.
 
 Let's take a look at both in action:
 
@@ -187,11 +187,13 @@ ul li:only-of-type {
 
 Notice how in this example the only-child selector fails to color the `<dl>` element in read because of the presence of the `<li>` element as a sibling. However, for the only-of-type selector, having a `<dl>` element as a sibling is not an issue, since there are no other `<li>` elements contained within the same parent.
 
-## Hierarchy selectors
+### Hierarchy Selectors
 
-### empty selector
+#### Empty Selector
 
-The :empty selector applies only to elements that are empty and contain only whitespaces and/or HTML comments. Let's take a look at an example:
+The `:empty` selector applies only to elements that are empty and contain only whitespaces and/or [[Hyper Text Markup Language (HTML)|HTML]] comments. 
+
+Example:
 
 ```html
 <style>
@@ -211,11 +213,15 @@ ul li:empty {
 </ul>
 ```
 
-### Adjacent sibling selectors (+ and ~)
+## Todo
 
-## Special selectors
-
-### The universal selector (*)
+- [ ] Adjacent sibling selectors (`+` and `~`)
+- [ ] Special Selectors
+	- [ ] The Universal Selector (`*`)
+	- [ ] The `not` Selector
+- [ ] Attribute Selectors
+	- [ ] Basic Attribute Selector
+	- [ ] Attrib
 
 ### The not selector
 
