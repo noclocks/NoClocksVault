@@ -84,7 +84,18 @@ from pydantic_yaml import YamlModel
 
 class Settings(YamlModel):
   api_key: typing.Optional[str] = None
-  my_other_s
+  my_other_setting: typing.Optional[str] = None
+
+
+@lru_cache()
+def get_settings_from_file(path: str = "config.yml") -> Settings:
+	"""Get Settings From File
+	:param: path: (String) Defaults to 'config.yml'
+	:returns: Settings Object
+	"""
+	settings = Settings.parse_file(path)
+	return settings
+	
 ```
 
 ## Details
