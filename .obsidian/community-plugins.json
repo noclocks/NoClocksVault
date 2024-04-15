@@ -35,5 +35,6 @@
   "obsidian-banners",
   "callout-manager",
   "obsidian-local-rest-api",
-  "ai-tagger"
+  "ai-tagger",
+  "ai-templater"
 ]
