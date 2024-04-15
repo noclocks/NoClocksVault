@@ -40,10 +40,46 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippets
 
+### Child Selectors
+
+Child selectors allow us to select a specific set of children of an element according to their internal ordering.
+
+For example, to select the first and last child contained withing a parent element, use the `:first-child` and `:last-child` selectors:
 
 ```css
+li:first-child {
+    color: blue;
+}
 
+li:last-child {
+    color: green;
+}
 ```
+
+then in the [[Hyper Text Markup Language (HTML)|HTML]]:
+
+```html
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ul>
+```
+
+To make sure that we select only `<li>` elements within a `<ul>` element, we can use a relational selector:
+
+```css
+ul li:first-child {
+    color: blue;
+}
+
+ul li:last-child {
+    color: green;
+}
+```
+
+### 
 
 ## Details
 
