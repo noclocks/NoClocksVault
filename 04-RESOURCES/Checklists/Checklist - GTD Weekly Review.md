@@ -50,7 +50,24 @@ graph LR
 
 ### Get Clear
 
-#### 
+#### Inboxes
+
+- [ ] Physical Inboxes
+	- [ ] Mail
+	- [ ] Notes
+	- [ ] Notebooks
+	- [ ] Sticky Notes
+	- [ ] Surroundings
+	- [ ] Workspace
+	- [ ] Hardware
+- [ ] Email Inboxes
+	- [ ] Personal Email Inbox
+	- [ ] Work Email Inbox
+	- [ ] Other Email Inbox
+	- [ ] 
+
+- [ ] Collect Loose Physical Items into Physical Inbox/Tray
+- [ ] Process Physical Inbox
 
 ## Conclusion
 
