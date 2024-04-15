@@ -36,12 +36,14 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - *[jdhitsolutions/WingetTools: A set of PowerShell tools for working with the winget package manager.](https://github.com/jdhitsolutions/WingetTools)*
 > - *[WingetTools/docs/Get-WGUpgrade.md at main · jdhitsolutions/WingetTools](https://github.com/jdhitsolutions/WingetTools/blob/main/docs/Get-WGUpgrade.md)*
-> - 
+> - **
 
-## Code Snippet
+This note showcases using the [[PowerShell]] Module [[Tool - PowerShell WingetTools|WingetTools]] by [[jdhitsolutions]] to 
+
+## Code Snippets
 
 ```powershell
-
+Get-Help Get-WGUpgrade
 ```
 
 ## Details
