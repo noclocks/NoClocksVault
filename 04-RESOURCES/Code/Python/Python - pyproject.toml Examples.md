@@ -216,7 +216,6 @@ exclude = '''
     | venv
 )/
 '''
-
 ```
 
 ## Details
