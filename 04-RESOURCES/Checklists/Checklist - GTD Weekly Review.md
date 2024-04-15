@@ -55,36 +55,49 @@ graph LR
 	- [ ] Physicals
 	- [ ] Mail
 	- [ ] Workspace
-- [ ] Slack
-- [ ] Emails - Personal
-- [ ] Emails - Work
-- [ ] Todoist - Personal
-- [ ] Todoist - Work
-- [ ] GitHub - Personal
-- [ ] GitHub - Work
-- [ ] Links
-	- [ ] OneTab
-	- [ ] Raindrop
-	- [ ] Bookmarks
-- [ ] Highlights
-	- [ ] Readwise
-	- [ ] Omnivore
-	- [ ] Raindrop
-	- [ ] Hypothesis
-	- [ ] Matter
-	- [ ] Fleeting Notes
-	- [ ] Instapaper
-	- [ ] Markdownload
-- [ ] Audio
-	- [ ] Podcasts
-	- [ ] Memos
-- [ ] Personal Calendar
-- [ ] Work Calendar
-- [ ] Personal Cloud Storage
-- [ ] Work Cloud Storage
-- [ ] Computer Downloads
-- [ ] Computer Desktop
-- [ ] Computer External Drives
+	- [ ] Slack
+	- [ ] Emails - Personal
+	- [ ] Emails
+		- [ ] Personal Emails
+		- [ ] Work Emails
+	- [ ] Todoist
+		- [ ] Personal Todoist
+		- [ ] Work Todoist
+	- [ ] GitHub
+		- [ ] Personal GitHub
+		- [ ] Work Github
+	- [ ] Links
+		- [ ] OneTab
+		- [ ] Raindrop
+		- [ ] Bookmarks
+	- [ ] Highlights
+		- [ ] Readwise
+		- [ ] Omnivore
+		- [ ] Raindrop
+		- [ ] Hypothesis
+		- [ ] Matter
+		- [ ] Fleeting Notes
+		- [ ] Instapaper
+		- [ ] Markdownload
+	- [ ] Audio
+		- [ ] Podcasts
+		- [ ] Memos
+	- [ ] Calendar:
+		- [ ] Work Calendar
+		- [ ] Personal Calendar
+	- [ ] Cloud Storage:
+		- [ ] Personal Google Drive
+		- [ ] Work Google Drive
+		- [ ] Personal OneDrive
+		- [ ] Work OneDrive
+	- [ ] Work Cloud Storage
+	- [ ] Computer:
+		- [ ] Downloads
+		- [ ] Desktop
+		- [ ] Inbox
+		- [ ] DevDrive
+		- [ ] External Drives
+		- [ ] Dotfiles
 
 
 #### Inboxes
