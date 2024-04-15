@@ -26,6 +26,7 @@ cssclasses:
 > - *[Design Systems for Developers | Storybook Tutorials](https://storybook.js.org/tutorials/design-systems-for-developers/)*
 > - *[Design Systems Database: Surf among top‑notch Design Systems](https://designsystems.surf/)*
 > - *[Design Systems Repo | A Collection of Design System Resources](https://designsystemsrepo.com/design-systems/)*
+> - *[Introducing Storybook Design System | by Dominic Nguyen | Storybook | Medium](https://medium.com/storybookjs/introducing-storybook-design-system-23fd9b1ac3c0)*
 
 ```table-of-contents
 title: Contents 
@@ -40,6 +41,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 In [[Web Development]], [[Design Systems]] power the [[frontend]] teams of developers. This guide is meant for professional developers and will examine how the smartest teams engineer [[design systems]] at scale and why they use the tools they use. We'll walk through setting up core services, libraries, and workflows to develop a design system from scratch.
 
+## Technical Aspects
+
+1. *Common [[User Interface (UI)]] Shared Components*
+2. *[[Design Tokens]]: Styling-specific variables such as [[Brand Colors]] and spacing.*
+3. 
+
 ## See Also
 
 - [[MOC - Technology|Technology Map of Content]]
@@ -48,11 +55,13 @@ In [[Web Development]], [[Design Systems]] power the [[frontend]] teams of devel
 - [[Storybook for Frontend Component Design System Docs]]
 - [[Tool - Storybook.js|Storybook.js]]
 - [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
-- [[React.js]]
-- [[Next.js]]
+- [[Tool - React.js|React.js]]
+- [[Tool - Next.js|Next.js]]
 - [[Tool - Vercel|Vercel]]
 - [[Tool - GitHub Actions|GitHub Actions]]
 - [[Tool - ESLint|ESLint]]
 - [[Tool - Prettier|Prettier]]
 - [[Tool - Node.js|Node.js]]
-- [[]]
+- [[Next.js vs Remix.run]]
+- [[Tool - JS - PNPM|PNPM]]
+- [[Tool - Vite|Vite]]
