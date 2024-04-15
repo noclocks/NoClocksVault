@@ -39,6 +39,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
+![](https://i.imgur.com/Mc0967R.png)
+
+
 In [[Web Development]], [[Design Systems]] power the [[frontend]] teams of developers. This guide is meant for professional developers and will examine how the smartest teams engineer [[design systems]] at scale and why they use the tools they use. We'll walk through setting up core services, libraries, and workflows to develop a design system from scratch.
 
 ## Technical Aspects
