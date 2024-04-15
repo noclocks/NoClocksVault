@@ -18,13 +18,14 @@ cssclasses:
 # Obsidian Resource Links
 
 - [GitHub Organization: ObsidianMd](https://github.com/obsidianmd)
-- 
+- [Community - Obsidian](https://obsidian.md/community)
+- [00 - Start here - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/00+-+Start+here)
 
 
 
-![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://obsidian.md&size=32) [Community - Obsidian](https://obsidian.md/community)
+![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://obsidian.md&size=32) 
 
-![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://publish.obsidian.md&size=32) [00 - Start here - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/00+-+Start+here)
+![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://publish.obsidian.md&size=32) 
 
 ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://publish.obsidian.md&size=32) [Obsidian Community Talks - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/01+-+Community/Events/Obsidian+Community+Talks)
 
