@@ -39,7 +39,39 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE]
-> ***Fast Node Manager (fnm)** is a new, simple [[Node Version Manager build with [[Tool - Rust|Rust]]. It is a drop-in replacement for [[Tool - Node Version Manager (NVM)|nvm]].*
+> ***Fast Node Manager (fnm)** is a new, simple [[Tool - Node.js|Node.js]] Version Manager build with [[Tool - Rust|Rust]]. It is a drop-in replacement for [[Tool - Node Version Manager (NVM)|nvm]].*
+
+![](https://i.imgur.com/KYCZUB7.png)
+
+## Features
+
+🌎 Cross-platform support (macOS, Windows, Linux)
+
+✨ Single file, easy installation, instant startup
+
+🚀 Built with speed in mind
+
+📂 Works with `.node-version` and `.nvmrc` files
+
+## Installation
+
+Windows:
+
+```powershell
+
+```
+
+macOS:
+
+```bash
+brew install fnm
+```
+
+Linux (`sh`, `bash`, `zsh`, `fish`)
+
+```bash
+curl -fsSL https://fnm.vercel
+```
 
 ***
 
