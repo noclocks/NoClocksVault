@@ -40,6 +40,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - `src/utils/logging_utils.py`:
 
 ```python
+"""Logging Utilities"""
 import logging
 from typing import Optional
 
@@ -52,7 +53,7 @@ def get_logger(settings: Optional[Settings] = None) -> Logger:
     :result: Logger
     """
     
-    logger = logging.getLogger("project>")
+    logger = logging.getLogger("<project>")
     logger.setLevel(settings.log_level if settings else "INFO")
 
     # Clear the existing handlers
@@ -68,8 +69,22 @@ def get_logger(settings: Optional[Settings] = None) -> Logger:
     logger.addHandler(handler)
 
     return logger
+```
+
+where `src/settings.py` is:
+
+```python
+import typing
+import os
+
+from enum import Enum
+from functools import lru_cache
+from pydantic_yaml import YamlModel
 
 
+class Settings(YamlModel):
+  api_key: typing.Optional[str] = None
+  my_other_s
 ```
 
 ## Details
