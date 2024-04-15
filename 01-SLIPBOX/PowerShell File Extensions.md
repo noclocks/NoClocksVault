@@ -23,8 +23,14 @@ cssclasses:
 > [!SOURCE] Sources:
 > - *[PowerShell Filename Extensions - Wikipedia](https://en.wikipedia.org/wiki/PowerShell#Filename_extensions)*
 
-| Extension |                Description                |
-|:---------:|:-----------------------------------------:|
-|  `.ps1`   |      Default PowerShell Script File       |
-|  `.psd1`  | PowerShell Data File or a Module Manifest |
-| `.psm1`    |                                           |
+| Extension |                        Description                        |
+|:---------:|:---------------------------------------------------------:|
+|  `.ps1`   |              Default PowerShell Script File               |
+|  `.psd1`  |         PowerShell Data File or a Module Manifest         |
+|  `.psm1`  |               PowerShell Script Module File               |
+|  `.dll`   | Windows Dynamic Link Library Compliant Binary Module File |
+| `.ps1xml` |        PowerShell Format and Type Definitions File        |
+|  `.xml`   |            XML-Compliant Serialized Data File             |
+|  `.psc1`  |                       Console File                        |
+|  `.pssc`  |                Session Configuration File                 |
+| `.psrc`   | Role Capability File                                      |
