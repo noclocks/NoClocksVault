@@ -52,7 +52,7 @@ graph LR
 
 - [ ] List all known inboxes
 - [ ] Process inboxes one-by-one
-	- [ ] Physicals
+	- [ ] Physicals:
 		- [ ] Physical In Tray
 		- [ ] Mail
 		- [ ] Workspace
