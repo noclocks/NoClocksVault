@@ -79,11 +79,22 @@ graph LR
 	- [ ] Obsidian Markdown Notes
 	- [ ] Readwise Highlights
 	- [ ] Online Article Links
-	- [ ] OneTab 
-	- [ ] 
+	- [ ] OneTab Saved Links
+	- [ ] Browser Bookmark Links:
+		- [ ] Edge (Personal)
+		- [ ] Chrome (Work)
+		- [ ] Chrome (Personal)
+- [ ] Computer
+	- [ ] Downloads Folder
+	- [ ] Desktop
+	- [ ] Custom "Inbox" Folder
+	- [ ] Dotfiles, Configuration Files, AppData, PowerShell, etc.
+	- [ ] Installed Software
+	- [ ] Updates
+	- [ ] External Drives
+- [ ] Car
+- [ ] Other
 
-- [ ] Collect Loose Physical Items into Physical Inbox/Tray
-- [ ] Process Physical Inbox
 
 ## Conclusion
 
