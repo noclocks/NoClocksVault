@@ -107,7 +107,115 @@ pytest-asyncio = ""
 requests-mock = ""
 torch = ""
 
-[tool.poetry.docs.d]
+[tool.poetry.docs.dependencies]
+mkdocs = ""
+mkdocs-material = ""
+
+[tool.black]
+target-version = ["py10"]
+line-length = 88
+color = true
+
+[tool.isort]
+py_version = 310
+line_length = 88
+known_typing = [
+	"typing",
+	"types",
+	"typing_extensions",
+	"mypy",
+	"mypy_extensions"
+]
+sections = [
+	"FUTURE",
+	"TYPING",
+	"STDLIB",
+	"THIRDPARTY",
+	"FIRSTPARTY",
+	"LOCALFOLDER"
+]
+include_trailing_comma = true
+profile = "black"
+multi_line_output = 3
+indent = 4
+color_output = true
+
+[tool.mypy]
+python_version = 3.10
+pretty = true
+show_traceback = true
+color_output = true
+allow_redefinition = false
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+ignore_missing_imports = true
+implicit_reexport = false
+no_implicit_optional = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+strict_equality = true
+strict_optional = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+norecursedirs = [
+	"hooks",
+	"*.egg",
+	".eggs",
+	"dist",
+	"build",
+	"docs",
+	".tox",
+	".git",
+	"__pycache__"
+]
+doctest_optionflags = [
+	"NUMBER",
+	"NORMALIZE_WHITESPACE",
+	"IGNORE_EXCEPTION_DETAIL"
+]
+addopts = [
+    "--strict-markers",
+    "--tb=short",
+    "--doctest-modules",
+    "--doctest-continue-on-failure",
+]
+
+[tool.coverage.run]
+source = ["tests"]
+
+[coverage.paths]
+source = "src-myproject"
+
+[coverage.run]
+branch = true
+
+[coverage.report]
+fail_under = 50
+show_missing = true
+
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | env
+    | venv
+)/
+'''
 
 ```
 
