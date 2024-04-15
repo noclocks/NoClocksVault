@@ -57,4 +57,5 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Readwise Ingestion Workflow
 
-- [[Readw]]
+- [[Tool - ReadWise Reader|ReadWise Reader]] to annotate articles, PDFs, etc.
+- 
