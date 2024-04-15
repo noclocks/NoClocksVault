@@ -50,6 +50,32 @@ graph LR
 
 ### Get Clear
 
+- [ ] List all known inboxes
+- [ ] Process inboxes one-by-one
+- [ ] Example: Physical Inbox:
+	- [ ] Collect Loose Physical Items into Physical Inbox/Tray
+	- [ ] Process Physical Inbox
+
+- [ ] Physicals
+- [ ] Mail
+- [ ] Workspace
+- [ ] Slack
+- [ ] Emails - Personal
+- [ ] Emails - Work
+- [ ] Todoist - Personal
+- [ ] Todoist - Work
+- [ ] GitHub - Personal
+- [ ] GitHub - Work
+- [ ] Links
+	- [ ] OneTab
+	- [ ] Bookmarks
+- [ ] Highlights
+	- [ ] Omnivore
+	- [ ] Raindrop
+	- [ ] Hypothesis
+	- [ ] Instapaper
+	- [ ] 
+
 #### Inboxes
 
 - [ ] Physical Inboxes
@@ -94,6 +120,11 @@ graph LR
 	- [ ] External Drives
 - [ ] Car
 - [ ] Other
+
+### Get Current
+
+- [ ] Next Actions
+- [ ] 
 
 
 ## Conclusion
