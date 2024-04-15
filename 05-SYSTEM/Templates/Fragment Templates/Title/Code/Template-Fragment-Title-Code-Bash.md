@@ -1,0 +1,1 @@
+# Bash <% (tp.file.title).replace("Bash - ", "") %> Code
