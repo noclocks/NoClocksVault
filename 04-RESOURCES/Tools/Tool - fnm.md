@@ -55,10 +55,23 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Installation
 
-Windows:
+Cargo:
+
+```bash
+cargo install fnm
+```
+
+Windows ([[WinGet]], [[Scoop]], or [[Chocolatey]]):
 
 ```powershell
+# winget
+winget install Schniz.fnm
 
+# scoop
+scoop install fnm
+
+# chocolatey
+cinst fnm
 ```
 
 macOS:
@@ -70,7 +83,7 @@ brew install fnm
 Linux (`sh`, `bash`, `zsh`, `fish`)
 
 ```bash
-curl -fsSL https://fnm.vercel
+curl -fsSL https://fnm.vercel.app/install | bash
 ```
 
 ***
