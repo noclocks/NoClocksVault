@@ -32,8 +32,8 @@ cssclasses:
 | `.ps1xml` |        PowerShell Format and Type Definitions File        |
 |  `.xml`   |            XML-Compliant Serialized Data File             |
 |  `.json`  |            JSON-Compliant Serialized Data File            |
-| `.yml`    | YAML-Compl                                                           |
-`.psc1`  |                       Console File                        |
+|  `.yml`   |            YAML-Compliant Serialized Data File            |
+| `.psc1`  |                       Console File                         |
 |  `.pssc`  |                Session Configuration File                 |
 |  `.psrc`  |                   Role Capability File                    |
 
@@ -41,3 +41,4 @@ cssclasses:
 
 - The `.dll`, [[Dynamic Link Library (DLL)]] file extension is not [[PowerShell]]-specific. It is a generic format for storing compiled [[Tool - DotNet Framework|.NET]] assembly code.
 - The `.xml`, `json`, and `.yml` file extensions are not [[PowerShell]]-specific. These are popular [[information interchange file formats]].
+- 
