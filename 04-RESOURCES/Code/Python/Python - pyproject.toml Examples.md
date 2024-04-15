@@ -58,9 +58,36 @@ authors = [
 repository = "https://github.com/myuser/myproject"
 homepage = "https://github.com/myuser/myproject"
 keywords = [
-  ""
+  "python",
+  "poetry",
+  "keyword 1",
+  "keyword 2"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
 ]
 
+[tool.poetry.scripts]
+# entrypoint for the project package
+"myproject" = "src.myproject.__main__:run_app"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <=3.13"
+# ...
+
+[tool.poetry.dev.dependencies]
+black = ""
+isort = ""
+ruff = ""
+black = ""
+flake8 = 
 ```
 
 ## Details
