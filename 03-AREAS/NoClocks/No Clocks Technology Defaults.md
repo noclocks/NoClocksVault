@@ -33,4 +33,15 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Tools
 
-- **Email Client**: 
+- **Email Client**: [[Gmail]] and [[Outlook]]
+- **Email Server**: [[Google Workspace]]
+- **Notes**: [[Obsidian]]
+- **Task Manager**: [[Todoist]]
+- **Calendar**: [[Google Calendar]]
+- **Cloud Storage**: [[Google Drive]]
+- **RSS**: [[Feedly]]
+- **Contacts**: [[Google Contacts]]
+- **Browser**: [[Google Chrome]]
+- **Chat**: [[Slack]]
+- **Bookmarks**: [[Google Chrome]] Bookmarks and [[Raindrop.io]]
+- **Read Later**: 
