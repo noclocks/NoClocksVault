@@ -101,7 +101,11 @@ trap "rm -f folder; exit" 2
 ## Details
 
 > [!NOTE] About
-> This note is about the `trap` command in a [[Linux]] [[Shell]], or [[Bash]]
+> This note is about the `trap` command in a [[Linux]] [[Shell]], or [[04-RESOURCES/Code/Bash/_README|Bash]].
+
+It often comes the situations that you want to catch a special signal/interruption/user input in your script to prevent unpredictable events.
+
+Trap is the command for this use-case: `trap <arg/function> <signal>`.
 
 ## See Also
 
