@@ -53,24 +53,33 @@ graph LR
 - [ ] List all known inboxes
 - [ ] Process inboxes one-by-one
 	- [ ] Physicals
-	- [ ] Mail
-	- [ ] Workspace
-	- [ ] Slack
-	- [ ] Emails - Personal
-	- [ ] Emails
+		- [ ] Physical In Tray
+		- [ ] Mail
+		- [ ] Workspace
+	- [ ] Emails:
 		- [ ] Personal Emails
 		- [ ] Work Emails
-	- [ ] Todoist
+	- [ ] Communications:
+		- [ ] Slack
+		- [ ] Teams
+		- [ ] Google Meet/Chat
+	- [ ] Phone:
+		- [ ] Texts
+		- [ ] Calls
+		- [ ] Apple Notes
+		- [ ] iOS Reminders
+		- [ ] iOS Apps
+	- [ ] Todoist:
 		- [ ] Personal Todoist
 		- [ ] Work Todoist
-	- [ ] GitHub
+	- [ ] GitHub:
 		- [ ] Personal GitHub
 		- [ ] Work Github
-	- [ ] Links
+	- [ ] Links:
 		- [ ] OneTab
 		- [ ] Raindrop
 		- [ ] Bookmarks
-	- [ ] Highlights
+	- [ ] Highlights:
 		- [ ] Readwise
 		- [ ] Omnivore
 		- [ ] Raindrop
@@ -79,7 +88,7 @@ graph LR
 		- [ ] Fleeting Notes
 		- [ ] Instapaper
 		- [ ] Markdownload
-	- [ ] Audio
+	- [ ] Audio:
 		- [ ] Podcasts
 		- [ ] Memos
 	- [ ] Calendar:
@@ -90,7 +99,14 @@ graph LR
 		- [ ] Work Google Drive
 		- [ ] Personal OneDrive
 		- [ ] Work OneDrive
-	- [ ] Work Cloud Storage
+	- [ ] Documents:
+		- [ ] Documents Folder
+		- [ ] Zotero
+		- [ ] Obsidian Attachments
+		- [ ] Cloud Inboxes
+		- [ ] Todoist Attachments
+		- [ ] Email Attachments
+		- [ ] Meetings / Agenda Documents
 	- [ ] Computer:
 		- [ ] Downloads
 		- [ ] Desktop
