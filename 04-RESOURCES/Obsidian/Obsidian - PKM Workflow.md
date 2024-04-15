@@ -37,7 +37,24 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Markdown]]
 - [[Git]] and [[GitHub]]
 - [[Obsidian]]
+- [[Tool - OpenAI|OpenAI]] and [[Tool - ChatGPT|ChatGPT]]
+- [[Tool - ReadWise|ReadWise]] and [[Tool - ReadWise Reader|ReadWise Reader]]
+- [[Tool - Omnivore|Omnivore]]
+- [[Tool - Make.com|Make.com]]
+- [[MOC - Python|Python]]
+- [[MOC - PowerShell|PowerShell]]
 
 ## Frameworks
 
-- [[Zettel]]
+- [[Personal Knowledge Management (PKM)]]
+- [[Zettelkasten]]
+- [[Projects Areas Resources Archives (PARA)]]
+- [[Building a Second Brain (BASB)]]
+- [[Getting Things Done (GTD)]]
+
+
+## Workflows
+
+### Readwise Ingestion Workflow
+
+- [[Readw]]
