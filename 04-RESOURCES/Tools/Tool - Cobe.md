@@ -37,7 +37,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > - *[COBE](https://cobe.vercel.app/)*
 > - *[COBE Docs - Get Started](https://cobe.vercel.app/docs)*
 > - *[Shu on X: "I made https://t.co/I0YSkt5x0R a while ago: a 5kB globe lib, and it improved our page performance\* by almost 60%. How is it created? Time for a WebGL &amp; shader thread! https://t.co/7SW4vE5tTJ" / X](https://twitter.com/shuding_/status/1475916082875666441)*
-> -  
+> - *[index.html - nodebox - CodeSandbox](https://codesandbox.io/p/sandbox/cobe-basic-gb2ywq?file=%2Findex.html)*
 
 - COBE does not rely on any external libraries or UI frameworks. 
 - It is a vanilla [[JavaScript]] library that can be used in any web applications.
