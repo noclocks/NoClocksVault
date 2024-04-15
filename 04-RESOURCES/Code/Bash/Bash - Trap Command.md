@@ -58,12 +58,50 @@ do
 done
 ```
 
-You can substitute the `echo Booh!`
+You can substitute the `"echo Booh!"` trap with a function:
+
+```bash
+function booh {
+  echo "booh!"
+}
+```
+
+then:
+
+```bash
+trap booh SIGINT SIGTERM
+```
+
+Some of the common signal types you can trap:
+
+- `SIGINT`: user sends an interrupt signal (`Ctrl+C`)
+- `SIGQUIT`: user sends a quit signal (`Ctrl+D`)    
+- `SIGFPE`: attempted an illegal mathematical operation
+
+You can check out all signal types by entering the following command:
+
+```bash
+kill -l
+```
+
+Notice the numbers before each signal name, you can use that number to avoid typing long strings in trap:
+
+```bash
+#2 corresponds to SIGINT and 15 corresponds to SIGTERM
+trap booh 2 15
+```
+
+one of the common usage of trap is to do cleanup temporary files:
+
+```bash
+trap "rm -f folder; exit" 2
+```
+
 
 ## Details
 
 > [!NOTE] About
-> This note is about ...
+> This note is about the `trap` command in a [[Linux]] [[Shell]], or [[Bash]]
 
 ## See Also
 
