@@ -43,8 +43,10 @@ This note showcases using the [[PowerShell]] Module [[Tool - PowerShell WingetTo
 ## Code Snippets
 
 Dependencies:
+- `WinGet` and `PowerShell` (Core)
 - `PowerShellGet` or `PSResourceGet`
-- `ConsoleGuiTools` for `Out-ConsoleGridView` Function
+- `Microsoft.PowerShell.ConsoleGuiTools` for `Out-ConsoleGridView` Function
+- `WingetTools` Module
 
 ### Installation
 
@@ -73,7 +75,7 @@ Get-Help Get-WGUpgrade -Full
 
 ```powershell
 #Requires -RunAsAdministrator
-Get-WGUpgrade 
+Get-WGUpgrade | Out-ConsoleGridView -OutputMode Multiple | Invoke-WGUpgrade
 ```
 
 ## Details
