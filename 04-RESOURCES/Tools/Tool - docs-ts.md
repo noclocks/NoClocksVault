@@ -5,13 +5,13 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/TypeScript
-  - Topic/Dev
+  - Topic/JavaScript
   - Topic/Documentation
+  - Top
   - Status/WIP
 aliases:
-  - docgen
-  - TypeScript Documentation Generator
-  - TypeScript Documentation Generator - docgen
+  - Tool - docs-ts
+  - docs-ts
 publish: true
 permalink:
 description:
@@ -21,7 +21,7 @@ cssclasses:
 ---
 
 
-# TypeScript Documentation Generator - `docgen`
+# docs-ts
 
 ```table-of-contents
 title: Contents 
@@ -35,9 +35,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - *[Effect-TS/docgen: An opinionated documentation generator for Effect projects](https://github.com/Effect-TS/docgen/tree/main)*
-> - *[gcanti/docs-ts: A zero-config documentation tool for my TypeScript projects](https://github.com/gcanti/docs-ts)*
-> - 
+> - **
 
 ***
 
@@ -48,7 +46,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[Tool - TypeScript docgen]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - TypeScript docgen"
+LIST FROM [[Tool - docs-ts]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - docs-ts"
 ```
 
 ***
