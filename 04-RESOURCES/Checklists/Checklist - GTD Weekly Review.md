@@ -52,13 +52,9 @@ graph LR
 
 - [ ] List all known inboxes
 - [ ] Process inboxes one-by-one
-- [ ] Example: Physical Inbox:
-	- [ ] Collect Loose Physical Items into Physical Inbox/Tray
-	- [ ] Process Physical Inbox
-
-- [ ] Physicals
-- [ ] Mail
-- [ ] Workspace
+	- [ ] Physicals
+	- [ ] Mail
+	- [ ] Workspace
 - [ ] Slack
 - [ ] Emails - Personal
 - [ ] Emails - Work
@@ -68,13 +64,28 @@ graph LR
 - [ ] GitHub - Work
 - [ ] Links
 	- [ ] OneTab
+	- [ ] Raindrop
 	- [ ] Bookmarks
 - [ ] Highlights
+	- [ ] Readwise
 	- [ ] Omnivore
 	- [ ] Raindrop
 	- [ ] Hypothesis
+	- [ ] Matter
+	- [ ] Fleeting Notes
 	- [ ] Instapaper
-	- [ ] 
+	- [ ] Markdownload
+- [ ] Audio
+	- [ ] Podcasts
+	- [ ] Memos
+- [ ] Personal Calendar
+- [ ] Work Calendar
+- [ ] Personal Cloud Storage
+- [ ] Work Cloud Storage
+- [ ] Computer Downloads
+- [ ] Computer Desktop
+- [ ] Computer External Drives
+
 
 #### Inboxes
 
