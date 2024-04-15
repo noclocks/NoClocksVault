@@ -37,6 +37,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - **Email Server**: [[Google Workspace]]
 - **Notes**: [[Obsidian]]
 - **Task Manager**: [[Todoist]]
+- **Project Manager**: [[GitHub Projects]]
 - **Calendar**: [[Google Calendar]]
 - **Cloud Storage**: [[Google Drive]]
 - **RSS**: [[Feedly]]
@@ -45,3 +46,8 @@ debugInConsole: false # Print debug info in Obsidian console
 - **Chat**: [[Slack]]
 - **Bookmarks**: [[Google Chrome]] Bookmarks and [[Raindrop.io]]
 - **Read Later**: 
+- **Word Documents**: [[Microsoft Word]] and [[Google Docs]]
+- **Spreadsheets**: [[Microsoft Excel]] and [[Google Sheets]]
+- **Budgeting**:
+- **News**:
+- **Password Management**: [[Tool - Keeper Password Manager|Keeper Password Manager]]
