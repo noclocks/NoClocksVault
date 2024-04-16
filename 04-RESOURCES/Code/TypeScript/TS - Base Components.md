@@ -41,6 +41,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippet
 
+Example using a custom `useTheme` hook:
+
 ```typescript
 import { useTheme } from '@/theme'
 
@@ -55,7 +57,17 @@ const Button = ({ className, children }) => {
 };
 ```
 
+Example using a `className` custom Prop, custom `button.styles.css`, and exported Prop type along with component:
 
+```typescript
+import classNames from 'classnames';
+import styles from './button.styles.css'
+
+export type ButtonProps = {
+  children?: ReactNode;
+  className?: string
+}
+```
 
 ## Details
 
