@@ -60,10 +60,19 @@ const Button = ({ className, children }) => {
 Example using a `className` custom Prop, custom `button.styles.css`, and exported Prop type along with component:
 
 ```typescript
+import React, { ButtonHTMLAttributes } from 'react';
+
 import classNames from 'classnames';
 import styles from './button.styles.css'
 
+type ButtonVariant = 'filled' | 'outlined';
+
 export type ButtonProps = {
+  /**
+  * Button Variant to Use
+  * @default 'outlined'
+  */
+  variant?: ButtonVariant
   children?: ReactNode;
   className?: string;
 } & React.HTMLAttributes<HTMLButtonElement>;
