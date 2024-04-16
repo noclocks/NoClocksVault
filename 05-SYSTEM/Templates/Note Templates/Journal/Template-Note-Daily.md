@@ -31,9 +31,11 @@ group: true
 
 ## Metadata & Links
 
-> [!METADATA]
+> [!META] Metadata:
+> - Week:: [[<% moment(tp.file.title).format("YYYY-[W]ww") %>]]
+> - Month:: [[<% moment(tp.file.title).format("YYYY-MMMM") %>]]
 
-
+> [!]
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
 
