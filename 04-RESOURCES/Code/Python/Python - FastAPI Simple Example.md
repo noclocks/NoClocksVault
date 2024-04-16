@@ -32,8 +32,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!SOURCE] Sources:
-> - **
+If you’re building modern web APIs in Python, FastAPI is an absolute must-have in your toolbox. Its speed, developer experience, and industry-standard tooling make it a compelling choice that’ll save you time and headaches.
+
+While [[Tool - Python Flask|Flask]] and [[Tool - Python Django|Django]] are the traditional [[MOC - Python|Python]] web application or API frameworks, [[Tool - Python FastAPI|FastAPI]] leverages the latest Python tricks and enhancements and should technically be faster.
 
 ## Code
 
@@ -54,8 +55,9 @@ async def create_item(item: Item):
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+Key Features of [[Tool - Python FastAPI|FastAPI]]:
+
+- **Automatic Data Validation**: 
 
 ## See Also
 
