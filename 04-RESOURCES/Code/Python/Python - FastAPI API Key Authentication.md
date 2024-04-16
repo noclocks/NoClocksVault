@@ -37,10 +37,40 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code
 
-In `src/api/auth.py`
+In `src/api/auth/security.py`
 
 ```python
+from dotenv import dotenv_values  
+from fastapi.security import APIKeyHeader  
+from fastapi import HTTPException, Security, status
 
+# Constants  
+API_KEY_HEADER = APIKeyHeader(name="X-API-Key")  
+API_KEY = dotenv_values(".env")["SERVICE_API_KEY"]  
+
+def validate_authentication(api_key: str = Security(API_KEY_HEADER)):  
+	""" Validate API key authentication.  
+	:param api_key: Authentication credentials.  
+	:raise HTTPException(401): When an incorrect API key is supplied.  
+	"""
+	if api_key != API_KEY:  
+	raise HTTPException(  
+		status_code=status.HTTP_401_UNAUTHORIZED,  
+		detail="Invalid or missing API Key",  
+		headers={"WWW-Authenticate": "X-API-Key"}  
+	)
+```
+
+This _validate_authentication_ procedure handles API-key authentication for process endpoints that needs it. FastAPI are using a dependency injection pattern in the endpoint decorator and the procedure is designed to be used there. The input _api_key_ parameter is supplied automatically by FastAPI.
+
+Then in `src/api/__main__.py`:
+
+```python
+import asyncio
+from uuid import uuid4
+
+from pydantic import BaseModel, UUID4
+from fastapi import 
 ```
 
 ## Details
