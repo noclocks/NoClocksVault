@@ -114,7 +114,13 @@ Components:
 	- Popover
 	- Tooltip
 - Utility:
-	- 
+	- App Provider
+	- Collapsible
+	- Scrollable
+
+***
+
+
 Atomic UI Components:
 - Buttons
 - Icons
@@ -166,3 +172,19 @@ Typography:
 	- [ ] Form Component
 - [ ] Utilities:
 	- [ ] Truncate
+
+## Design Tokens
+
+### Border
+
+- `--p-border-radius-0`: `0px`
+- `--p-border-radius-050`: `2px`
+- `4px`
+- `6px`
+- `8px`
+- `12px`
+- `16px`
+- `20px`
+- `30px`
+- `--p-border-radius-full`: `9999px`
+- `--p-border-width`
