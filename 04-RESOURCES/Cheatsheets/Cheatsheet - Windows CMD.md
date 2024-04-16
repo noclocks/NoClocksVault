@@ -39,13 +39,11 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-The [[Microsoft Windows|Windows]] [[Command Line]] (Windows command prompt) is the command-line interface (CLI) on Microsoft Windows machines, analogous to the Terminal in [Unix](https://www.stationx.net/unix-commands-cheat-sheet/)/[Linux](https://www.stationx.net/linux-command-line-cheat-sheet/). It emulates many command-line abilities in Microsoft’s deprecated text-only operating system MS-DOS (but [it’s not MS-DOS](https://superuser.com/questions/451432/are-the-command-prompt-and-ms-dos-the-same-thing)).
+The [[Microsoft Windows|Windows]] [[Command Line]], or the [[Windows Command Prompt]], is the [[Command Line Interface (CLI)]] on [[Microsoft Windows]] machines, analogous to the Terminal in [Unix](https://www.stationx.net/unix-commands-cheat-sheet/)/[Linux](https://www.stationx.net/linux-command-line-cheat-sheet/). 
 
-Methods to open the Windows CLI:
+It emulates many command-line abilities in Microsoft’s deprecated text-only operating system [[MS-DOS]] (but [it’s not MS-DOS](https://superuser.com/questions/451432/are-the-command-prompt-and-ms-dos-the-same-thing)).
 
-- On Windows 10 or above, click **Start** on the bottom left corner, type **cmd**, and select **Command Prompt**.
-- On Windows 8.x or earlier, press **Ctrl+R** to open the **Run** dialog box, type **cmd** into it, and press **Enter**.
+> [!TIP]
+> Another name for the Windows Command Line is "CMD".
 
-Hence, another name for Windows CLI is “cmd.”
-
-Scripts containing Windows commands (batch scripts) have “.bat” as the file extension. All cmd commands are case-insensitive, so `arp` and `ARP` are the same. If you need help using any command, add `/?` to it, e.g., `ARP /?` will show the manual for `ARP:`
+Scripts containing Windows commands ([[Batch Scripts]]) have `.bat` as the [[file extension]]. All cmd commands are case-insensitive, so `arp` and `ARP` are the same. If you need help using any command, add `/?` to it, e.g., `ARP /?` will show the manual for `ARP:`
