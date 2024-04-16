@@ -42,9 +42,20 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```typescript
-import { useTheme } from '@/'
+import { useTheme } from '@/theme'
 
+const Button = ({ className, children }) => {
+  const { primaryColor } = useTheme();
+  const style = { background: primaryColor };
+  return (
+    <button style={style} className={className}>
+      {children}
+    </button>;
+  )
+};
 ```
+
+
 
 ## Details
 
