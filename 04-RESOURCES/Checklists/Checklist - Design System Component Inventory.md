@@ -43,5 +43,10 @@ In addition to UI components, it makes sense to include styling constants for ty
 	- [ ] Link Component
 - [ ] Pages:
 	- [ ] Page Component
-	- [ ] 
+- [ ] Themes:
+	- [ ] Theme Provider
+	- [ ] Theme Switcher
 - [ ] Forms:
+	- [ ] Form Component
+- [ ] Utilities:
+	- [ ] Truncate
