@@ -9,10 +9,12 @@ tags:
   - Topic/Daily
   - Status/Ongoing
 aliases:
-  - <% tp.file.title %>
+  - <% tp.date.now("YYYY-MM-DD") %>
+  - <% moment(tp.file.title).format("MMMM Do, YYYY") %>
+  - <% moment(tp.file.title).format("dddd Do MMMM, YYYY") %>
 publish: true
-permalink:
-description:
-image:
+permalink: areas/journal/daily/<% tp.file.title %>
+description: Daily Journal Note for <% tp.file.title %>.
+image: 
 cssclasses:
 ---
