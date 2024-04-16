@@ -1,0 +1,57 @@
+{
+  "sync": {
+    "onboardedToVersion": "3.2",
+    "presets": [
+      {
+        "contentTemplate": "## {{page.title}}\nURL: {{page.url}}\n{{#if page.selectedText}}\n\n{{quote page.selectedText}}\n{{/if}}",
+        "headers": {},
+        "method": "post",
+        "name": "Append to current daily note",
+        "urlTemplate": "/periodic/daily/"
+      },
+      {
+        "contentTemplate": "---\npage-title: {{json page.title}}\nurl: {{page.url}}\nweb-message:\nweb-badge-color: \"\"\nweb-badge-message:\ndate: \"{{date}}\"\n---\n{{#if page.selectedText}}\n\n{{quote page.selectedText}}\n{{/if}}",
+        "headers": {},
+        "method": "put",
+        "name": "Create new note",
+        "urlTemplate": "/vault/{{filename page.title}}.md"
+      },
+      {
+        "contentTemplate": "---\npage-title: {{json page.title}}\nurl: {{page.url}}\ndate: \"{{date}}\"\n---\n{{#if page.selectedText}}\n\n{{quote page.selectedText}}\n\n---\n\n{{/if}}{{page.content}}",
+        "headers": {},
+        "method": "put",
+        "name": "Capture page snapshot",
+        "urlTemplate": "/vault/{{filename page.title}}.md"
+      }
+    ],
+    "searchMatch": {
+      "autoOpen": "never",
+      "backgroundEnabled": false,
+      "direct": {
+        "suggestionEnabled": true,
+        "template": {
+          "contentTemplate": "## {{date}}\n{{#if page.selectedText}}\n\n{{quote page.selectedText}}\n{{/if}}",
+          "headers": {},
+          "method": "post"
+        }
+      },
+      "enabled": false,
+      "hoverEnabled": false,
+      "mentions": {
+        "suggestionEnabled": false,
+        "template": {
+          "contentTemplate": "## {{date}}\n{{#if page.selectedText}}\n\n{{quote page.selectedText}}\n{{/if}}",
+          "headers": {},
+          "method": "post"
+        }
+      }
+    },
+    "version": "2.1"
+  },
+  "local": {
+    "apiKey": "576f40ebb6d7e6715d938055615c0aedd41fc24c3d751c6a5ff296dace24d286",
+    "host": "127.0.0.1",
+    "insecureMode": false,
+    "version": "2.0"
+  }
+}
