@@ -79,8 +79,42 @@ Components:
 	- Thumbnail
 	- Gradient
 	- VideoThumbnail
-	- BlogPostPr
-- 
+	- BlogPostPreview
+	- ProfileImage
+	- BannerImage
+	- SocialImage
+- Feedback & Indicators
+	- Badge
+	- Banner
+	- ExceptionList
+	- ProgressBar
+	- SkeletonBodyText
+	- SkeletonDisplayText
+	- SkeletonPage
+	- SkeletonTabs
+	- SkeletonThumbnail
+	- Spinner
+- Typography:
+	- Text
+- Lists:
+	- ActionList
+	- DescriptionList
+	- List
+	- ListBox
+	- OptionList
+	- ResourceItem
+	- ResourceList
+- Navigation:
+	- FooterHelp
+	- FullScreenBar
+	- Link
+	- Pagination
+	- Tabs
+- Overlays:
+	- Popover
+	- Tooltip
+- Utility:
+	- 
 Atomic UI Components:
 - Buttons
 - Icons
