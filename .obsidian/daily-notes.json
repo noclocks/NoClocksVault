@@ -1,5 +1,6 @@
 {
   "format": "YYYY-MM-DD",
   "folder": "03-AREAS/Journal",
-  "template": "05-SYSTEM/Templates/Note Templates/Template-Note-Daily"
+  "template": "05-SYSTEM/Templates/Note Templates/Template-Note-Daily",
+  "autorun": true
 }
