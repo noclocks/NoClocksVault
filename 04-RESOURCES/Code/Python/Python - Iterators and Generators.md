@@ -47,13 +47,28 @@ def process_large_file(filename):
 		# Do some processing on each line  
 		results.append(process_line(line))  
 	return results
+```
 
+### Good Example (Generator)
+
+```python
+def process_huge_file_generator(filename):
+    with open(filename) as f:
+        for line in f:
+            yield process_line(line)  # Process on demand, no giant lists
+
+# Using the generator
+for result in process_huge_file_generator("massive_log.txt"):
+    # Do something with each result
 ```
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+The generator approach processes your file line-by-line, yielding results as needed. Your memory usage stays sane, even with massive datasets. This is a core principle behind how Google handles enormous amounts of data — efficiency at scale.
+
+To enhance the code even more,  you can *chain generators together to create elegant data processing pipelines.*
+
+
 
 ## See Also
 
