@@ -18,3 +18,13 @@ We’ve selected a subset of these components for this tutorial to make reasonin
 
 In addition to UI components, it makes sense to include styling constants for typography, colors, spacing, etc., that are reused across projects. In design system nomenclature global style variables are called “design tokens”. We won’t dive into the theory behind design tokens in this guide, but you can learn more online (here’s a [good article](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421)).
 
+## Taking Inventory
+
+- [ ] Buttons
+	- [ ] Button Component
+	- [ ] Button Variants:
+		- [ ] Primary
+		- [ ] Secondary
+		- [ ] Information
+		- [ ] Danger
+		- [ ] 
