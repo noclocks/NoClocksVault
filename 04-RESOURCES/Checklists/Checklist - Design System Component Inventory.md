@@ -175,6 +175,19 @@ Typography:
 
 ## Design Tokens
 
+### Color
+
+- Color Scheme: `--p-color-scheme`
+	- Light
+	- Dark
+	- Background
+	- Background Inverse
+	- Surface
+	- Surface Hover
+	- Surface Active
+	- Surface Disabled
+	- 
+
 ### Border
 
 - `--p-border-radius-0`: `0px`
@@ -187,4 +200,6 @@ Typography:
 - `20px`
 - `30px`
 - `--p-border-radius-full`: `9999px`
-- `--p-border-width`
+- `--p-border-width-0`: `0px`
+- `--p-border-width-0165`: `0.66px`
+- 
