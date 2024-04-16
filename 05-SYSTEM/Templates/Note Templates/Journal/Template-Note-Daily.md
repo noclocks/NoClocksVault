@@ -35,7 +35,8 @@ group: true
 > - Week:: [[<% moment(tp.file.title).format("YYYY-[W]ww") %>]]
 > - Month:: [[<% moment(tp.file.title).format("YYYY-MMMM") %>]]
 
-> [!]
+> [!log] Created Notes Log:
+> 
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
 
