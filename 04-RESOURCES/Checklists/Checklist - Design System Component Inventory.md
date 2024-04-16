@@ -20,11 +20,28 @@ In addition to UI components, it makes sense to include styling constants for ty
 
 ## Taking Inventory
 
-- [ ] Buttons
+- [ ] Buttons:
 	- [ ] Button Component
 	- [ ] Button Variants:
 		- [ ] Primary
 		- [ ] Secondary
 		- [ ] Information
 		- [ ] Danger
-		- [ ] 
+		- [ ] Warning
+		- [ ] Success
+- [ ] Content:
+	- [ ] Image Component
+	- [ ] Video Component
+- [ ] Layouts:
+	- [ ] App Layout Component
+	- [ ] Layout:
+		- [ ] Grid Layout Component
+		- [ ] Panel Layout Component
+		- [ ] Row Layout Component
+- [ ] Navigation:
+	- [ ] NavLink Component
+	- [ ] Link Component
+- [ ] Pages:
+	- [ ] Page Component
+	- [ ] 
+- [ ] Forms:
