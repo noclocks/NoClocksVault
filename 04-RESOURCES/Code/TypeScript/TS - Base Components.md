@@ -4,14 +4,13 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Code
-  - Type/Code/TypeScript
-  - Type/Code/React
+  - Type/Code/JavaScript
   - Topic/Dev
   - Topic/Dev/JavaScript
-  - Topic/TypeScript
+  - Topic/JavaScript
   - Status/WIP
 aliases:
-  - Button Component with Variants
+  - JavaScript TS - Base Components Code
 publish: true
 permalink:
 description:
@@ -20,10 +19,10 @@ cssclasses:
   - code
 ---
 
-# Button Component with Variants in TypeScript
+# Base Components
 
 > [!SOURCE] Sources:
-> - *[How To Build Better React Components in 2024? | Nitsan Cohen | Bits and Pieces | Bits and Pieces (bitsrc.io)](https://blog.bitsrc.io/how-to-build-better-react-components-in-2024-2d930b1f30b1)*
+> - **
 
 ```table-of-contents
 title: Contents 
@@ -36,9 +35,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
+- **Theme**
+- **Button**
+- **Environment**
+
 ## Code Snippet
 
-```javascript
+```typescript
+import { useTheme } from '@/'
 
 ```
 
@@ -65,7 +69,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[TS - Button Component with Variants]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/TypeScript/TS - Button Component with Variants"
+LIST FROM [[TS - Base Components]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/TypeScript/TS - Base Components"
 ```
 
 ***
