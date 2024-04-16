@@ -72,10 +72,28 @@ export type ButtonProps = {
   * Button Variant to Use
   * @default 'outlined'
   */
-  variant?: ButtonVariant
+  variant?: ButtonVariant;
+  /**
+  * Children
+  */
   children?: ReactNode;
+  /**
+  * Class Name
+  */
   className?: string;
 } & React.HTMLAttributes<HTMLButtonElement>;
+
+const ButtonStyles: { [key in ButtonVariant]: React.CSSProperties } = {
+  filled: {
+    backgroundColor: 'blue',
+    color: 'white',
+  },
+  outlined: {
+    backgroundColor: 'transparent',
+    color: 
+    }
+  }
+}
 
 export function Button({ className, children, ...props }: ButtonProps) {
   return (
