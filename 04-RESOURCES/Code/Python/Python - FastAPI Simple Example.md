@@ -59,7 +59,7 @@ Key Features of [[Tool - Python FastAPI|FastAPI]]:
 
 - **Automatic Data Validation**: Using [[Tool - Python Pydantic|Pydantic]] [[Data Modeling|data models]], [[Tool - Python FastAPI|FastAPI]] ensures your [[Application Programming Interface (API)|API]] endpoints always receive the correct data types and enforces any additional constraints you define (i.e. less error-handling code for you to write).
 - **Elegant Dependency Injection**: [[Tool - Python FastAPI|FastAPI]] has an intuitive dependency injection system. Declare dependencies in your path operation functions, and [[Tool - Python FastAPI|FastAPI]] will provide them. This keeps your code organized and perfect for testing.
-- **Built-In Swagger/OpenAPI Documentation**: [[Tool - Python FastAPI|FastAPI]] automatically generates interactive API documentation (using Swagger UI or ReDoc). This means your API is self-documenting, saving you tons of time.
+- **Built-In Swagger/OpenAPI Documentation**: [[Tool - Python FastAPI|FastAPI]] automatically generates interactive [[Application Programming Interface (API)|API]] documentation (using [[Tool - Swagger UI|Swagger UI]] or [[Tool - ReDoc|ReDoc]]). This means your API is self-documenting, saving you tons of time.
 
 ## See Also
 
@@ -67,6 +67,10 @@ Key Features of [[Tool - Python FastAPI|FastAPI]]:
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
 - [[Tool - Python]]
 - [[Tool - Python Flask]]
+- [[Tool - Python FastAPI]]
+- [[Tool - Langserve]]
+- [[Tool - Python Django]]
+- [[Tool - Python Pydantic]]
 
 
 ***
