@@ -70,7 +70,33 @@ import asyncio
 from uuid import uuid4
 
 from pydantic import BaseModel, UUID4
-from fastapi import 
+from fastapi import FastAPI, Depends, HTTPException
+
+from auth.security import validate_authentication
+
+app = FastAPI(
+	redoc_url=None,
+	title='API'
+)
+
+
+class ProcessModel(BaseModel):
+	status: str
+
+
+class ProcessResponseModel(ProcessModel):  
+	id: UUID4
+
+
+async def _fake_processing(payload: ProcessModel) -> bool:
+    await asyncio.sleep(0.5)
+    return payload.status == 'SUCCESS'
+
+
+@app.post(  
+	'/process', response_model=ProcessResponseModel,  
+dependencies=[Depends(validate_authentication)]  
+)
 ```
 
 ## Details
