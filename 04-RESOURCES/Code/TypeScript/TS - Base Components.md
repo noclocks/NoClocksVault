@@ -99,7 +99,14 @@ export function Button({ variant = 'outlined', children, className, ...props }: 
   return (
     <button
       type='button'
-      style{...props} className={classNames(styles.button, className)}>
+      style={{
+      ...ButtonStyles[variant],
+      padding: '10 px 20px',
+      borderRadius: '5px',
+      cursor: 'pointer',
+      ...style
+      }} {...props}
+    >
       {children}
     </button>
   );
@@ -109,6 +116,8 @@ export function Button({ variant = 'outlined', children, className, ...props }: 
 In this snippet, the `className` prop works alongside the `classNames` utility. The `styles.button` provides the default styling defined in the component's stylesheet. The `className` prop, however, is for additional style — adding or overriding the original base style, by the consumer of the component.
 
 The sequence in which these class names are applied is significant. Placing the `className` prop last in the `classNames` function ensures that any styles provided by this prop override the default styles in case of any conflicts. This design allows users to maintain the fundamental design and functionality of the component while customizing its appearance to suit specific requirements. It strikes a balance between maintaining a consistent base style and offering flexibility for customization, a vital aspect of creating reusable, adaptable components.
+
+If you observe closely, the Prop type for the Button merges with the overall prop types of the HTML button. This means that apart from the default configured props, consumers can pass their own configurations, such as an `onClick` or even an aria-label onto this component, and it will be handled using the `...rest` being spread onto the `button` component.
 
 
 ## See Also
