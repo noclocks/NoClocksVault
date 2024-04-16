@@ -4,7 +4,9 @@ modification_date: <% tp.file.last_modified_date("YYYY-MM-DD") %>
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Daily
-  - Topic/Journal/Daily
+  - Type/Journal
+  - Topic/Journal
+  - Topic/Daily
   - Status/Ongoing
 aliases:
   - <% tp.file.title %>
