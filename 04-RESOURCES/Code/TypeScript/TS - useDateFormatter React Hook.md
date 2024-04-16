@@ -46,8 +46,22 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```typescript
+import { I18nProvider, useDateFormatter } from 'react-aria';
 
+function CurrentDate() {
+  let formatter = useDateFormatter();
 
+  return <p>{formatter.format(new Date())}</p>;
+}
+
+<>
+  <I18nProvider locale="en-US">
+    <CurrentDate />
+  </I18nProvider>
+  <I18nProvider locale="ru-RU">
+    <CurrentDate />
+  </I18nProvider>
+</>
 ```
 
 ## Details
