@@ -65,13 +65,12 @@ Key Features of [[Tool - Python FastAPI|FastAPI]]:
 
 - [[MOC - Python|Python Map of Content]]
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
-- [[Tool - Python]]
-- [[Tool - Python Flask]]
-- [[Tool - Python FastAPI]]
-- [[Tool - Langserve]]
-- [[Tool - Python Django]]
-- [[Tool - Python Pydantic]]
-
+- [[Tool - Python Flask|Flask]]
+- [[Tool - Python FastAPI|FastAPI]]
+- [[Tool - Langserve|LangServe]]
+- [[Tool - Python Django|Django]]
+- [[Tool - Python Pydantic|Pydantic]]
+- [[Python Flask API Project Folder Structure]]
 
 ***
 
