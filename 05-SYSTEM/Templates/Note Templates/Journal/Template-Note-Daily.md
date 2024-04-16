@@ -20,13 +20,7 @@
 
 ## Daily Tasks
 
-```todoist
-name: Highest Priority & Date
-filter: "today"
-sorting:
-  - priority
-group: true
-```
+<% tp.file.include("[[Template-Fragment-Todoist-Daily-Query]]") %>
 
 
 ## Metadata & Links
@@ -36,7 +30,10 @@ group: true
 > - Month:: [[<% moment(tp.file.title).format("YYYY-MMMM") %>]]
 
 > [!log] Created Notes Log:
-> 
+> <% tp.file.include("[[Template-Dataview-Daily-Created-Notes]]") %>
+
+> [!log] Modified Notes Log:
+> <% tp.file.include("[[Template-Dataview-Daily-Modified-Notes]]") %>
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
 
