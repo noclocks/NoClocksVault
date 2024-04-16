@@ -83,21 +83,23 @@ export type ButtonProps = {
   className?: string;
 } & React.HTMLAttributes<HTMLButtonElement>;
 
-const ButtonStyles: { [key in ButtonVariant]: React.CSSProperties } = {
-  filled: {
+const ButtonStyles: { [key in ButtonVariant]: React.CSSProperties } = {  
+  filled: {  
     backgroundColor: 'blue',
     color: 'white',
   },
   outlined: {
+    border: '2px solid blue',
     backgroundColor: 'transparent',
-    color: 
-    }
-  }
-}
+    color: 'blue',
+    },  
+};
 
-export function Button({ className, children, ...props }: ButtonProps) {
+export function Button({ variant = 'outlined', children, className, ...props }: ButtonProps) {
   return (
-    <button {...props} className={classNames(styles.button, className)}>
+    <button
+      type='button'
+      style{...props} className={classNames(styles.button, className)}>
       {children}
     </button>
   );
