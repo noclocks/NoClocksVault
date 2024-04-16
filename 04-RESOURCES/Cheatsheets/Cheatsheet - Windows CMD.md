@@ -116,3 +116,29 @@ Scripts containing Windows commands ([[Batch Scripts]]) have `.bat` as the [[fil
 |`NOTEPAD`|Open the Notepad application from cmd|
 |`NOTEPAD filename.ext`|Open a file `filename.ext` in Notepad|
 
+### Disk Management
+
+| Command | Description |
+| ------- | ----------- |
+|`CHKDSK`|Check and repair disk problems (local disks only)|
+|`CHKDSK /F A:`|Fix errors on `A:` drive|
+|`CHKDSK /R A:`|Recover data on `A:` drive|
+|`CHKDSK /X A:`|Dismount drive `A:`|
+|`CIPHER /E classified`|Encrypt the folder `classified`|
+|`CIPHER /D secret_recipe.txt`|Decrypt the file `secret_recipe.txt`|
+|`DEFRAG`|Disk Defragmentation|
+|`CHKNTFS`|Display/modify disk-checking on startup|
+|`COMPACT`|Display/change the compression of files in NTFS partitions|
+|`CONVERT`|Convert FAT disk volume to NTFS|
+|`DISKPART`|Display and adjust disk partition properties|
+|`FORMAT`|Format the disk|
+|`FSUTIL`|File system management|
+|`LABEL d:x`|Rename disk D:\ to X:\|
+|`SUBST p: c:\taxes`|Assign drive P:\ to the local folder `c:\taxes`|
+|`SUBST p: /D`|Remove the path represented by P:\|
+|`RECOVER d:\data.dat`|Recover a file `data.dat` from a bad or defective disk D:\|
+|`VOL`|Display current disk volume label and serial number|
+|`POWERCFG`|Control power settings and configure Hibernate/Standby modes|
+|`SFC /SCANNOW`|Scan and update protected system files|
+
+### 
