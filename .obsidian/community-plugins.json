@@ -7,7 +7,6 @@
   "obsidian-mind-map",
   "recent-files-obsidian",
   "smart-second-brain",
-  "ai-assistant",
   "obsidian42-brat",
   "obsidian-advanced-uri",
   "better-word-count",
@@ -29,12 +28,8 @@
   "embed-code-file",
   "obsidian-file-info-plugin",
   "automatic-table-of-contents",
-  "buttons",
   "nldates-obsidian",
-  "copilot",
   "obsidian-banners",
   "callout-manager",
-  "obsidian-local-rest-api",
-  "ai-tagger",
-  "ai-templater"
+  "obsidian-local-rest-api"
 ]
