@@ -20,6 +20,34 @@ In addition to UI components, it makes sense to include styling constants for ty
 
 ## Taking Inventory
 
+Patterns:
+- App Settings Layout
+- Card Layout
+- Common Actions
+- Date Picker
+- New Features
+- Resource Details Layout
+- Resource Index Layout
+
+Components:
+- Actions:
+	- Account Connection
+	- Button Actions
+	- Buttons
+		- Default Button
+		- Action Button
+		- Download Button
+		- Modal Button
+	- Button Group
+	- Page Actions
+- Layout & Structure:
+	- Box
+	- Card
+	- Callout
+	- Divider
+	- Hero Section
+	- Empty State
+	- 
 Atomic UI Components:
 - Buttons
 - Icons
