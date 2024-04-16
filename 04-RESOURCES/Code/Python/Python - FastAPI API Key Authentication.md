@@ -94,10 +94,36 @@ async def _fake_processing(payload: ProcessModel) -> bool:
 
 
 @app.post(  
-	'/process', response_model=ProcessResponseModel,  
-dependencies=[Depends(validate_authentication)]  
+	'/process',
+	response_model=ProcessResponseModel,  
+	dependencies=[
+		Depends(validate_authentication)
+	]  
 )
+async def process(payload: ProcessModel) -> ProcessResponseModel:
+	if await _fake_processing(payload):
+		return ProcessResponseModel(status='SUCCESS', id=f'{uuid4()}')
+
+	raise HTTPException(status_code=500, detail="Task processing failed")
 ```
+
+After the imports the FastAPI class is instantiated. It is followed by two Pydantic models used by the endpoint to validate input and output data.
+
+A good coding practice that I want to show you is the FastAPI built-in dependency injection pattern (se _Depends_ in the decorator_)_. By using it this way you are making sure that users of the _process_ endpoint are properly authenticated (by specifying the correct API key in the calling request header).
+
+Finally, the `run.py`:
+
+```python
+import uvicorn
+
+if __name__ == "__main__":
+    uv_config = {'reload': True, 'app': 'src/api/__main__:app'}
+    uvicorn.run(**uv_config)
+```
+
+This is the program that starts _Uvicorn (who_ creates the API server). To access the API web page, use the following URL in your browser: `http://127.0.0.1:8000/docs`.
+
+
 
 ## Details
 
