@@ -15,7 +15,8 @@ aliases:
 publish: true
 permalink: areas/journal/daily/<% tp.file.title %>
 description: Daily Journal Note for <% tp.file.title %>.
-image_icon: 🕐
-image: 
+banner_icon: 🕐
+banner:
 cssclasses:
+  - daily
 ---
