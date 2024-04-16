@@ -52,8 +52,8 @@ const Button = ({ className, children }) => {
   return (
     <button style={style} className={className}>
       {children}
-    </button>;
-  )
+    </button>
+  );
 };
 ```
 
@@ -65,14 +65,22 @@ import styles from './button.styles.css'
 
 export type ButtonProps = {
   children?: ReactNode;
-  className?: string
-}
+  className?: string;
+} & React.HTMLAttributes<HTMLButtonElement>;
+
+export function Button({ className, children, ...props }: ButtonProps) {
+  return (
+    <button {...props} className={classNames(styles.button, className)}>
+      {children}
+    </button>
+  );
+};
 ```
 
-## Details
+In this snippet, the `className` prop works alongside the `classNames` utility. The `styles.button` provides the default styling defined in the component's stylesheet. The `className` prop, however, is for additional style — adding or overriding the original base style, by the consumer of the component.
 
-> [!NOTE] About
-> This note is about ...
+The sequence in which these class names are applied is significant. Placing the `className` prop last in the `classNames` function ensures that any styles provided by this prop override the default styles in case of any conflicts. This design allows users to maintain the fundamental design and functionality of the component while customizing its appearance to suit specific requirements. It strikes a balance between maintaining a consistent base style and offering flexibility for customization, a vital aspect of creating reusable, adaptable components.
+
 
 ## See Also
 
