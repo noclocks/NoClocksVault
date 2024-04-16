@@ -20,6 +20,27 @@ In addition to UI components, it makes sense to include styling constants for ty
 
 ## Taking Inventory
 
+Atomic UI Components:
+- Buttons
+- Icons
+- Inputs
+- Logos
+- Images
+- Navigation
+- Layouts
+- Pages
+
+Themes:
+- Light Theme
+- Dark Theme
+- Base Theme
+
+Typography:
+- Headings
+- Paragraphs
+
+
+
 - [ ] Buttons:
 	- [ ] Button Component
 	- [ ] Button Variants:
