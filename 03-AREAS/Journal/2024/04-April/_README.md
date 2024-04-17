@@ -4,11 +4,11 @@ modification_date: 2024-04-17
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Readme
+  - Type/Journal
   - Topic/Meta
   - Status/Ongoing
 aliases:
-  - 04-April
-  - 04-April Readme
+  - April 2024
 publish: true
 permalink:
 description:
