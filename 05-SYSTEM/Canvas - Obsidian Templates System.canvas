@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"74440eba71aa9779","x":-120,"y":-320,"width":250,"height":60,"color":"5","type":"text","text":"OBSIDIAN TEMPLATES"},
+		{"id":"f4bddc269cb8721b","x":-405,"y":-190,"width":250,"height":60,"type":"text","text":"Note Templates"},
+		{"id":"0cb0f674a7bdcf5c","x":-120,"y":-171,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"b08c206eb4c501ee","fromNode":"74440eba71aa9779","fromSide":"bottom","toNode":"f4bddc269cb8721b","toSide":"top"},
+		{"id":"a1cfdb319fc43796","fromNode":"74440eba71aa9779","fromSide":"bottom","toNode":"0cb0f674a7bdcf5c","toSide":"top"}
+	]
+}
