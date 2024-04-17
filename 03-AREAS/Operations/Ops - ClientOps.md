@@ -20,4 +20,11 @@ cssclasses:
 
 # Client Operations (ClientOps)
 
-**ClientOps**
+**ClientOps** is
+
+## Client Metadata
+
+- **ID**:
+- **Name**:
+- **Code**:
+- **
