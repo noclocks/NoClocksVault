@@ -1,7 +1,7 @@
 ```todoist
 name: Highest Priority & Date
-filter: "today"
+filter: "today & ##No Clocks"
 sorting:
    - priority
-group: true
+groupBy: project
 ```
