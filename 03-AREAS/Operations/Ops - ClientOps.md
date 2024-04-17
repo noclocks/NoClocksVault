@@ -26,5 +26,10 @@ cssclasses:
 
 - **ID**:
 - **Name**:
-- **Code**:
-- **
+- **Account Code**: Internal client identifier code or other reference number/abbrevation. 
+- **Website**: [[Uniform Resource Locator (URL)|URL]] of the primary client website homepage.
+- **Primary Contact ID**: ID of the client's primary contact from the **Contacts** table
+- **Primary Email**: Email address of the primary contact
+- **Notes**
+- **Primary Location**
+- 
