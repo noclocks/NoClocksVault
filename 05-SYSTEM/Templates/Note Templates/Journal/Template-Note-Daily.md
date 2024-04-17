@@ -20,14 +20,12 @@
 
 ## Daily Tasks
 
-<% tp.file.include("[[Template-Fragment-Todoist-Daily-Query]]") %>
+<% tp.file.include("[[Template-Fragment-Callout-Todoist]]") %>
 
 
 ## Metadata & Links
 
-> [!META] Metadata:
-> - Week:: [[<% moment(tp.file.title).format("YYYY-[W]ww") %>]]
-> - Month:: [[<% moment(tp.file.title).format("MMMM YYYY") %>]]
+
 
 > [!log] Created Notes Log:
 > <% tp.file.include("[[Template-Dataview-Daily-Created-Notes]]") %>
