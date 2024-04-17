@@ -20,7 +20,11 @@ cssclasses:
 
 # Client Operations (ClientOps)
 
-**ClientOps** is
+> [!DEFINITION]
+> **ClientOps** *(noun) `[klahy-uhnt-ops]`*:
+> 1. A specialized division or methodology within a company dedicated to optimizing 
+
+**ClientOps** is a 
 
 ## Client Metadata
 
