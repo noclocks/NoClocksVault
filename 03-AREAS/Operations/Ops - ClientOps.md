@@ -88,3 +88,21 @@ location:
 
 contacts:
 ```
+
+## ClientOps Features
+
+- Communication (internal and with the clients)
+- Project Management
+- Task Management
+- Agendas and Calendar Management
+- Information and Knowledge Management
+- Research
+- Onboardi
+- Billing and Invoicing
+- Proposals and Estimates
+- Contracts and Statements of Work
+- File Storage and Sharing
+- Embeds, Dashboards, and Reporting
+- Automations and Workflows
+- Integrations
+- Availability
