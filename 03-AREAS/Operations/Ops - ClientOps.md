@@ -20,7 +20,7 @@ cssclasses:
 
 # Client Operations (ClientOps)
 
-At [No Clocks, LLC](https://github.com/noclocks), we use the term **ClientOps** (similar to [[DevOps]]) to represent **Client Operations**. See below for a full definition 
+At [No Clocks, LLC](https://github.com/noclocks), we use the term **ClientOps** (similar to [[DevOps]]) to represent **Client Operations**. See below for a full definition created by us at No Clocks (not an official definition):
 
 > [!DEFINITION]
 > **ClientOps** *(noun) `[klahy-uhnt-ops]`*:
@@ -31,7 +31,7 @@ At [No Clocks, LLC](https://github.com/noclocks), we use the term **ClientOps** 
 > **Example Usage:**
 > *The ClientOps team implemented a new CRM system to enhance client engagement and streamline communication, resulting in a noticeable improvement in client satisfaction scores.*
 
-
+This document will serve as comprehensive documentation, to be used internally at No Clocks, that outlines our **ClientOps** strategy and systems 
 
 ## Client Metadata
 
