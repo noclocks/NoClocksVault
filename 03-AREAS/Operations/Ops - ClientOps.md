@@ -109,12 +109,20 @@ contacts:
 
 Systems:
 
+- CRM
 - Client Portal
 - Client Onboarding
 - Dashboards
 - Project Management
 - Task Management
-- Shared Calendar
+- Scheduling and Calendar Management
+- Email and Communications Management
+- Email Campaigns
+- Time Tracking
+- Time Reporting
+- Budgeting
+- Requirements Gathering
+- Project Discovery
 - Billing and Invoicing
 - Checkout Forms
 - Intake Forms
