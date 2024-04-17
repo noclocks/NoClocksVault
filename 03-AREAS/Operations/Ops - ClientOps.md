@@ -32,4 +32,16 @@ cssclasses:
 - **Primary Email**: Email address of the primary contact
 - **Notes**
 - **Primary Location**
-- 
+
+### Example
+
+Example Client Metadata in [[YAML]]:
+
+```yaml
+id: 1
+name: "ACME Incorporated"
+code: "ACME"
+website: "https://acme.com"
+
+contacts:
+```
