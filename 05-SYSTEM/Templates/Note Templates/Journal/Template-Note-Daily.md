@@ -27,7 +27,7 @@
 
 > [!META] Metadata:
 > - Week:: [[<% moment(tp.file.title).format("YYYY-[W]ww") %>]]
-> - Month:: [[<% moment(tp.file.title).format("YYYY-MMMM") %>]]
+> - Month:: [[<% moment(tp.file.title).format("MMMM YYYY") %>]]
 
 > [!log] Created Notes Log:
 > <% tp.file.include("[[Template-Dataview-Daily-Created-Notes]]") %>
