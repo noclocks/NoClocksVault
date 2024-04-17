@@ -42,6 +42,15 @@ id: 1
 name: "ACME Incorporated"
 code: "ACME"
 website: "https://acme.com"
+status: 
+type:
+links:
+  github_repo: "https://github.com/noclocks/client-acme"
+  github_project: "https://projects.github.com/noclocks/client-acme"
+  github_docs: "https://docs.noclocks.dev/client-acme"
+  gdrive: "https://"
+  todoist: "https://"
+  
 
 contacts:
 ```
