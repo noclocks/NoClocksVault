@@ -50,6 +50,16 @@ links:
   github_docs: "https://docs.noclocks.dev/client-acme"
   gdrive: "https://"
   todoist: "https://"
+contacts:
+  
+location:
+  name:
+  address_1:
+  address_2:
+  city:
+  state:
+  zip:
+  country:
   
 
 contacts:
