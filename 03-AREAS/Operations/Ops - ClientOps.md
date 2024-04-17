@@ -97,7 +97,7 @@ contacts:
 - Agendas and Calendar Management
 - Information and Knowledge Management
 - Research
-- Onboardi
+- Onboarding
 - Billing and Invoicing
 - Proposals and Estimates
 - Contracts and Statements of Work
@@ -106,3 +106,27 @@ contacts:
 - Automations and Workflows
 - Integrations
 - Availability
+
+Systems:
+
+- Client Portal
+- Client Onboarding
+- Dashboards
+- Project Management
+- Task Management
+- Shared Calendar
+- Billing and Invoicing
+- Checkout Forms
+- Intake Forms
+- Feedback Forms
+- Review Forms
+- Testimonial Forms
+- Integrations
+- File Sharing
+- Contracts and Proposals
+
+Tools:
+
+- GitHub Projects for Project Management
+- Todoist for Task Management
+- 
