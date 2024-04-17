@@ -25,7 +25,7 @@
 
 ## Metadata & Links
 
-
+<% tp.file.include("[[Template-Fragment-Callout-Daily-Metadata]]") %>
 
 > [!log] Created Notes Log:
 > <% tp.file.include("[[Template-Dataview-Daily-Created-Notes]]") %>
