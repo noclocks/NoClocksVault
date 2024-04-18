@@ -27,7 +27,7 @@ cssclasses:
 ***
 
 <p align="center">
-  <img src="https://github.com/noclocks/brand/blob/0a09618cab5d16fbaede74db271f20139350240c/src/logo/badge/png/noclocks-badge-circle-white-transparent-320x320.png" height="30%" width="30%">
+  <img src="https://github.com/noclocks/brand/blob/main/src/logo/badge/png/noclocks-badge-circle-white-transparent-320x320.png?raw=true" height="30%" width="30%">
   <br>
   <a href="mailto:support@noclocks.dev">support@noclocks.dev</a> | <a href="https://noclocks.dev">www.noclocks.dev</a>
 </p>
