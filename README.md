@@ -133,10 +133,16 @@ See the *Code* folder's README for details on all of the code snippets included 
 
 ---
 
+[changelog]: ./CHANGELOG.md
+[license]: ./LICENSE.md
+[about]: ./ABOUT.md
+[home]: ./HOME.md
+[noclocks_website]: https://noclocks.dev
+[email_dev]:
 [gh_org]: https://github.com/noclocks
 [gh_repo]: https://github.com/noclocks/NoClocksVault
-[main]: https://github.com/noclocks/NoClocksVault/tree/main
-[develop]: https://github.com/noclocks/NoClocksVault/tree/develop
-[gh-pages]: https://docs.noclocks.dev/noclocksvault/
-[Obsidian-Export]: https://github.com/zoni/obsidian-export
-[GitHub Actions]: https://github.com/jimbrig/KaaS-New/tree/main/.github/workflows
+[gh_repo_main]: https://github.com/noclocks/NoClocksVault/tree/main
+[gh_repo_develop]: https://github.com/noclocks/NoClocksVault/tree/develop
+[gh_pages]: https://docs.noclocks.dev/noclocksvault/
+[obs_export_gh_repo]: https://github.com/zoni/obsidian-export
+[gh_workflows]: https://github.com/noclocks/NoClocksVault/tree/main/.github/workflows
