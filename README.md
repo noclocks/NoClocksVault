@@ -138,7 +138,15 @@ See the *Code* folder's README for details on all of the code snippets included 
 [about]: ./ABOUT.md
 [home]: ./HOME.md
 [noclocks_website]: https://noclocks.dev
-[email_dev]:
+[noclocks_email]: mailto:dev@noclocks.dev
+[noclocks_blog]: https://blog.noclocks.dev
+[noclocks_linkedin]: https://linkedin.com/company/noclocks
+[noclocks_twitter]: https://twitter.com/noclocksdev
+[noclocks_sponsor]: https://pay.noclocks.dev/
+
+[gh_jimbrig]: https://github.com/jimbrig
+[gh_phoward]: https://github.com/phoward38
+
 [gh_org]: https://github.com/noclocks
 [gh_repo]: https://github.com/noclocks/NoClocksVault
 [gh_repo_main]: https://github.com/noclocks/NoClocksVault/tree/main
