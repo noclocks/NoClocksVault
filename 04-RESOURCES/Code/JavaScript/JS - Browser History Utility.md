@@ -55,15 +55,27 @@ Here's a detailed breakdown of what it does:
 import { createBrowserHistory } from 'history';
 ```
 
-This line imports the createBrowserHistory function from the history package. This function is used to create a history object which facilitates navigation (going back, going forward, etc.) in web applications that use HTML5 pushState and replaceState.
-Creating a Browser History Instance:
+This line imports the `createBrowserHistory` function from the `history` package. This function is used to create a history object which facilitates navigation (i.e. going back, going forward, etc.) in web applications that use [[Hyper Text Markup Language (HTML)|HTML]] `pushState` and `replaceState`.
+
+2. Creating a Browser History Instance:
+
+```javascript
 const browserHistory = createBrowserHistory();
-Here, the createBrowserHistory function is called to create a new history object. This object will be used to manage the session history of the React application. It can handle transitions between different parts of the application without full page reloads, and maintains the history stack, location, and other session state.
-Exporting the History Instance:
+```
+
+Here, the `createBrowserHistory` function is called to create a new history object. This object will be used to manage the session history of the React application. It can handle transitions between different parts of the application without full page reloads, and maintains the history stack, location, and other session state.
+
+3. Exporting the History Instance:
+
+```javascript
 export { browserHistory };
-Finally, the history object created (browserHistory) is exported. This allows it to be imported and used in other parts of the React application, typically in conjunction with the React Router for managing navigation.
-Usage in a React Application:
-In a React application using React Router, this custom history object (browserHistory) would be passed to a router component (like <Router> in React Router v6 or <BrowserRouter> in earlier versions but customized using <Router>), enabling the application to programmatically navigate (like redirecting users to a new page after a form submission, handling private routes, etc.).
+```
+
+Finally, the `history` object created (`browserHistory`) is exported. This allows it to be imported and used in other parts of the [[React.js]] application, typically in conjunction with the [[React Router]] library for managing navigation.
+
+## Usage
+
+In a React application using React Router, this custom history object (`browserHistory`) would be passed to a router component (like `<Router>` in React Router v6 or `<BrowserRouter>` in earlier versions but customized using `<Router>`), enabling the application to programmatically navigate (like redirecting users to a new page after a form submission, handling private routes, etc.).
 
 This setup separates the concern of history management from components, making the code more modular and reusable across different parts of the application.
 
