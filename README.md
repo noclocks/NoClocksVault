@@ -143,14 +143,14 @@ See the *Code* folder's README for details on all of the code snippets included 
 [noclocks_linkedin]: https://linkedin.com/company/noclocks
 [noclocks_twitter]: https://twitter.com/noclocksdev
 [noclocks_sponsor]: https://pay.noclocks.dev/
-
+[noclocks_github]: https://github.com/noclocks
 [gh_jimbrig]: https://github.com/jimbrig
 [gh_phoward]: https://github.com/phoward38
-
 [gh_org]: https://github.com/noclocks
 [gh_repo]: https://github.com/noclocks/NoClocksVault
 [gh_repo_main]: https://github.com/noclocks/NoClocksVault/tree/main
 [gh_repo_develop]: https://github.com/noclocks/NoClocksVault/tree/develop
 [gh_pages]: https://docs.noclocks.dev/noclocksvault/
-[obs_export_gh_repo]: https://github.com/zoni/obsidian-export
 [gh_workflows]: https://github.com/noclocks/NoClocksVault/tree/main/.github/workflows
+[obs_export_gh_repo]: https://github.com/zoni/obsidian-export
+[zettelkasten_site]: https://zettelkasten.de
