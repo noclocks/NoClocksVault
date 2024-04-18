@@ -30,6 +30,10 @@ debugInConsole: false # Print debug info in Obsidian console
 > A [[monorepo]] is a collection of many different apps and packages in a single codebase.
 > The alternative setup is called **a [[polyrepo]]** - multiple codebases which are published and versioned separately.
 
+```shell
+pnpm dlx create-turbo@latest
+```
+
 ## Sharing Code
 
 ### In a Polyrepo
@@ -72,3 +76,11 @@ The main building block of the monorepo is the [workspace](https://turbo.build/
 ```
 
 Workspaces are managed by the same CLI which [installs your dependencies](https://turbo.build/repo/docs/handbook/package-installation).
+
+## The Root workspace
+
+You'll also have a root workspace - a `package.json` in the root folder of your codebase. This is a useful place for:
+
+1. Specifying dependencies which are present across your entire monorepo
+2. Adding tasks that operate on the _whole_ monorepo, not just individual workspaces
+3. Adding documentation on how to use the monorepo
