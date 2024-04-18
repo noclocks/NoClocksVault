@@ -3,11 +3,11 @@ creation_date: 2024-04-18
 modification_date: 2024-04-18
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Cheatsheet
+  - Topic/Obsidian
+  - Status/Complete
 aliases:
-  - Cheatsheet - Obsidian Templater Plugin
+  - Obsidian Templater Plugin Cheat Sheet
 publish: true
 permalink:
 description:
@@ -34,12 +34,16 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Start and End Syntax
 
-- All Templater Code is placed within the start and end 
-```javascript
-opening tag = <%
-closing tag = %>
+- All Templater Code is placed within the start and end Templater "tags".
+
+for example:
+
+```markdown
+<% code %>
 ```
+
 ## Functions in Templater
+
 *can be called in command snippets*
 
 ### Types of functions
@@ -559,5 +563,18 @@ This isn't my file!
 Some content ...
 ```
 
+***
 
-Thanks for reading!
+## Appendix
+
+*Note created on [[2024-04-18]] and last modified on [[2024-04-18]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[Cheatsheet - Obsidian Templater Plugin]] AND -"CHANGELOG" AND -"04-RESOURCES/Cheatsheets/Cheatsheet - Obsidian Templater Plugin"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
