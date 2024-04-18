@@ -40,7 +40,16 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```javascript
+// src/lib/history.js
 
+// Importing required functions and libraries
+import { createBrowserHistory } from 'history';
+
+// Creating and initializing a new browser history instance
+const browserHistory = createBrowserHistory();
+
+// Exporting the created browser history instance
+export { browserHistory };
 ```
 
 ## Details
