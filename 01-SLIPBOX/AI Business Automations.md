@@ -41,4 +41,12 @@ cssclasses:
 
 ## Automate Frontend Code Generation
 
-## Automate 
+## Automate Image Modifications
+
+## Automate Legal Documents
+
+## Automate Accounting
+
+## Automate Finance
+
+## Automate Lead Generation
