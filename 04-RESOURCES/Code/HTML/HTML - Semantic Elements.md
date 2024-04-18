@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Collapsible Content Code
+  - HTML Semantic Elements Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Collapsible Content Code
+# HTML Semantic Elements Code
 
 ```table-of-contents
 title: Contents 
@@ -32,37 +32,19 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-You can use the `<details>` and `<summary>` tags, when you want to include collapsible content on your web page.
-
-The `<details>` tag creates a container for hidden content, while the `<summary>` tag provides a clickable label to toggle the visibility of that content.
+> [!SOURCE] Sources:
+> - **
 
 ## Code Snippet
 
-````html
-<details>
-  <summary>Click to Expand</summary>
-  <p>This content can be expanded or collapsed.</p>
-  I can also write in plain markdown in here!
+```html
 
-  Here's a code snippet:
-  ```bash
-  ls -a
-  ```
-</details>
-````
+```
 
-That code produces the following:
+## Details
 
-<details>
-  <summary>Click to Expand</summary>
-  <p>This content can be expanded or collapsed.</p>
-  I can also write in plain markdown in here!
-
-  Here's a code snippet:
-  ```bash
-  ls -a
-  ```
-</details>
+> [!NOTE] About
+> This note is about ...
 
 ## See Also
 
@@ -81,7 +63,7 @@ That code produces the following:
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Collapsible Content]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Collapsible Content"
+LIST FROM [[HTML - Semantic Elements]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Semantic Elements"
 ```
 
 ***
