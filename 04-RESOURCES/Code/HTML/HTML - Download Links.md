@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Subscript and Superscript Code
+  - HTML Download Links Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Subscript and Superscript Code
+# HTML Download Links Code
 
 ```table-of-contents
 title: Contents 
@@ -32,19 +32,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-The `<sub>` and `<sup>` elements can be used to display the text as subscript and superscript, respectively.
-
-![](https://i.imgur.com/J2ICIrX.png)
-
+You can use the download attribute with the `<a>` element to specify that when a user clicks the link, the linked resource should be downloaded rather than navigated to.
 
 ## Code Snippet
 
 ```html
-// H2O
-<p>H<sub>2</sub>O</p>
-
-// (a + b)^2 = a^2 + b^2 + 2ab
-<p>(a + b)<sup>2</sup> + a <sup>2</sup> + b <sup>2</sup> + 2ab
+<a href="document.pdf" download="document.pdf"> Download PDF </a>
 ```
 
 ## Details
@@ -69,7 +62,7 @@ The `<sub>` and `<sup>` elements can be used to display the text as subscript an
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Subscript and Superscript]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Subscript and Superscript"
+LIST FROM [[HTML - Download Links]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Download Links"
 ```
 
 ***

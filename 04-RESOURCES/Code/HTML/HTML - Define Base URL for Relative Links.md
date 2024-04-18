@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Subscript and Superscript Code
+  - HTML Define Base URL for Relative Links Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Subscript and Superscript Code
+# HTML Define Base URL for Relative Links Code
 
 ```table-of-contents
 title: Contents 
@@ -32,19 +32,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-The `<sub>` and `<sup>` elements can be used to display the text as subscript and superscript, respectively.
+You can use the <base> tag to define the base URL for all relative URLs in a web page.
 
-![](https://i.imgur.com/J2ICIrX.png)
-
+This is handy when you want to create a shared starting point for all relative URLs on a web page, making it easier to navigate and load resources.
 
 ## Code Snippet
 
 ```html
-// H2O
-<p>H<sub>2</sub>O</p>
 
-// (a + b)^2 = a^2 + b^2 + 2ab
-<p>(a + b)<sup>2</sup> + a <sup>2</sup> + b <sup>2</sup> + 2ab
 ```
 
 ## Details
@@ -69,7 +64,7 @@ The `<sub>` and `<sup>` elements can be used to display the text as subscript an
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Subscript and Superscript]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Subscript and Superscript"
+LIST FROM [[HTML - Define Base URL for Relative Links]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Define Base URL for Relative Links"
 ```
 
 ***
