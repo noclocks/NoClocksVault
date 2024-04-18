@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Semantic Elements Code
+  - HTML Enhanced Dropdown Menus Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Semantic Elements Code
+# HTML Enhanced Dropdown Menus Code
 
 ```table-of-contents
 title: Contents 
@@ -32,13 +32,25 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-![](https://i.imgur.com/XG0JJBI.png)
+You can use the `<optgroup>` tag to group related options in a `<select>` [[Hyper Text Markup Language (HTML)|HTML]] tag.
 
+This can be used when you are working with large dropdown menus or a long list of options.
 
 ## Code Snippet
 
 ```html
-
+<select>
+   <optgroup label="Fruits">
+      <option>Apple</option>
+      <option>Banana</option>
+      <option>Mango</option>
+   </optgroup>
+   <optgroup label="Vegetables">
+      <option>Tomato</option>
+      <option>Broccoli</option>
+      <option>Carrot</option>
+   </optgroup>
+</select>
 ```
 
 ## Details
@@ -63,7 +75,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Semantic Elements]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Semantic Elements"
+LIST FROM [[HTML - Enhanced Dropdown Menus]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Enhanced Dropdown Menus"
 ```
 
 ***

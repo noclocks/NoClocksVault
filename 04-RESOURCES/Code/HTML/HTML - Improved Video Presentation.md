@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Semantic Elements Code
+  - HTML Improved Video Presentation Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Semantic Elements Code
+# HTML Improved Video Presentation Code
 
 ```table-of-contents
 title: Contents 
@@ -32,19 +32,15 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-![](https://i.imgur.com/XG0JJBI.png)
-
+The poster attribute can be used with the `<video>` element to display an image until the user plays the video.
 
 ## Code Snippet
 
 ```html
-
+<video controls poster="image.png" width="500">
+  <source src="video.mp4" type="video/mp4 />
+</video>
 ```
-
-## Details
-
-> [!NOTE] About
-> This note is about ...
 
 ## See Also
 
@@ -63,7 +59,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Semantic Elements]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Semantic Elements"
+LIST FROM [[HTML - Improved Video Presentation]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Improved Video Presentation"
 ```
 
 ***

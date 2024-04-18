@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Semantic Elements Code
+  - HTML Grouping Form Elements Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Semantic Elements Code
+# HTML Grouping Form Elements Code
 
 ```table-of-contents
 title: Contents 
@@ -32,13 +32,25 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-![](https://i.imgur.com/XG0JJBI.png)
+Use the `<fieldset>` tag to group related elements in a form and the `<legend>` tag with `<fieldset>` to define a title for the `<fieldset>` tag.
 
+This is useful for creating more efficient and accessible forms.
 
 ## Code Snippet
 
 ```html
-
+<form>
+   <fieldset>
+      <legend>Personal Details</legend>
+      <label for="firstname">First name:</label>
+      <input type="text" id="firstname" name="firstname" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <label for="contact">Contact:</label>
+      <input type="text" id="contact" name="contact" />
+      <input type="button" value="Submit" />
+   </fieldset>
+</form>
 ```
 
 ## Details
@@ -63,7 +75,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Semantic Elements]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Semantic Elements"
+LIST FROM [[HTML - Grouping Form Elements]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Grouping Form Elements"
 ```
 
 ***
