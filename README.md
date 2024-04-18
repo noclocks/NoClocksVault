@@ -133,8 +133,10 @@ See the *Code* folder's README for details on all of the code snippets included 
 
 ---
 
-[main]: https://github.com/jimbrig/KaaS-New/tree/main
-[develop]: https://github.com/jimbrig/KaaS-New/tree/develop
-[gh-pages]: https://github.com/jimbrig/KaaS-New/tree/gh-pages
+[gh_org]: https://github.com/noclocks
+[gh_repo]: https://github.com/noclocks/NoClocksVault
+[main]: https://github.com/noclocks/NoClocksVault/tree/main
+[develop]: https://github.com/noclocks/NoClocksVault/tree/develop
+[gh-pages]: https://docs.noclocks.dev/noclocksvault/
 [Obsidian-Export]: https://github.com/zoni/obsidian-export
 [GitHub Actions]: https://github.com/jimbrig/KaaS-New/tree/main/.github/workflows
