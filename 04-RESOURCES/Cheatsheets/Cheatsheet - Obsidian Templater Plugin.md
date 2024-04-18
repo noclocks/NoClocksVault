@@ -20,6 +20,9 @@ cssclasses:
 > [!NOTE]
 > This [[04-RESOURCES/Cheatsheets/_README|Cheatsheet]] is for the *[[Obsidian - Community Plugins|Obsidian Community Plugin]] **[[Templater]]**.
 
+> [!SOURCE] Sources:
+> This cheat sheet is based on the [Official Templater Documentation](https://silentvoid13.github.io/Templater/introduction.html).
+
 ```table-of-contents
 title: Contents 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
@@ -29,34 +32,9 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-- [[#Start a command snippet|Start a command snippet]]
-- [[#Functions in Templater|Functions in Templater]]
-	- [[#Types of functions|Types of functions]]
-	- [[#Object hierarchy|Object hierarchy]]
-	- [[#Function invocation|Function invocation]]
-	- [[#Function documentation syntax|Function documentation syntax]]
-	- [[#Function Modules|Function Modules]]
-		- [[#Config Module|Config Module]]
-		- [[#Date module|Date module]]
-		- [[#File Module|File Module]]
-		- [[#Frontmatter Module|Frontmatter Module]]
-		- [[#Obsidian Module|Obsidian Module]]
-		- [[#Systems Module|Systems Module]]
-		- [[#Web Module|Web Module]]
-	- [[#User Functions|User Functions]]
-		- [[#Script User Functions|Script User Functions]]
-		- [[#System Commands|System Commands]]
-	- [[#Command Types|Command Types]]
-		- [[#Dynamic commands|Dynamic commands]]
-		- [[#Execution Commands|Execution Commands]]
-		- [[#Whitespace Control|Whitespace Control]]
+## Start and End Syntax
 
-based on the [Official Documentation](https://silentvoid13.github.io/Templater/introduction.html)
-
-
-
-## Start a command snippet
-
+- All Templater Code is placed within the start and end 
 ```javascript
 opening tag = <%
 closing tag = %>
