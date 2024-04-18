@@ -10,7 +10,7 @@ tags:
   - Topic/HTML
   - Status/WIP
 aliases:
-  - HTML Define Base URL for Relative Links Code
+  - HTML Control Image Loading Behavior Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# HTML Define Base URL for Relative Links Code
+# HTML Control Image Loading Behavior Code
 
 ```table-of-contents
 title: Contents 
@@ -32,21 +32,25 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-You can use the `<base>` tag to define the base URL for all relative URLs in a web page.
-
-This is handy when you want to create a shared starting point for all relative URLs on a web page, making it easier to navigate and load resources.
+The loading attribute with the `<img>` element can be used to control how the browser loads the image. It has three values: `eager`, `lazy`, and `auto`.
 
 ## Code Snippet
 
 ```html
-<head>
-   <base href="https://noclocks.dev" target="_blank" />
-</head>
-<body>
-   <a href="/blog">Blogs</a>
-   <a href="/contact">Contact</a>
-</body>
+// eager
+<img src="picture.jpg" loading="eager">
+
+// lazy
+<img src="picture.jpg" loading="lazy">
+
+// auto
+<img src="picture.jpg" loading="auto">
 ```
+
+## Details
+
+> [!NOTE] About
+> This note is about ...
 
 ## See Also
 
@@ -65,7 +69,7 @@ This is handy when you want to create a shared starting point for all relative U
 ### Backlinks
 
 ```dataview
-LIST FROM [[HTML - Define Base URL for Relative Links]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Define Base URL for Relative Links"
+LIST FROM [[HTML - Control Image Loading Behavior]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML/HTML - Control Image Loading Behavior"
 ```
 
 ***
