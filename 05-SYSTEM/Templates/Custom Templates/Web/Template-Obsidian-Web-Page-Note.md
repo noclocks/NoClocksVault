@@ -7,7 +7,7 @@ tags:
   - Topic/NA
   - Status/WIP
 aliases:
-  - <% tp.file.title %>
+  - {{json page.title}}
 publish: true
 permalink:
 description:
@@ -22,7 +22,7 @@ date: "{{date 'yyyy-MM-dd'}}"
 # <% tp.file.title %>
 
 > [!SOURCE] Sources:
-> - *[<% tp.file.title %>]]({{page.url}})*
+> - *[[<% tp.file.title %>]]({{page.url}})*
 
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 
