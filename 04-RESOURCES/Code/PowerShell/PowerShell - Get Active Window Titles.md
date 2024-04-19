@@ -33,12 +33,23 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[How to get window title in windows from shell - Super User](https://superuser.com/questions/378790/how-to-get-window-title-in-windows-from-shell)*
 
 ## Code Snippet
 
-```powershell
+- One-Liner:
 
+```powershell
+# One-Liner:
+Get-Process | Where-Object { $_.MainWindowTitle } | Format-Table Id, Name, MainWindowtitle -AutoSize
+```
+
+- Script:
+
+```powershell
+<#
+  .SYNOPSIS
+    Gets a List of Active Window Title
 ```
 
 ## Details
