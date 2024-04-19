@@ -32,5 +32,5 @@ date: "{{date 'yyyy-MM-dd'}}"
 {{quote page.selectedText}}
 {{/if}}
 
-<% tp.file.include()
+<% tp.file.include("[[Template-Fragment-Backmatter]]") %>
 

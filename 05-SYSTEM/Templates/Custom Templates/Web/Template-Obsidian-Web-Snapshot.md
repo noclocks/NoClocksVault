@@ -16,13 +16,18 @@ cssclasses:
 
 page-title: {{json page.title}}
 url: {{page.url}}
-date: "{{date}}"
+date: "{{date 'yyyy-MM-dd'}}"
 ---
+
+# {{json page.title}}
+
+> [!SOURCE] Sources:
+> - *[{{json page.title}}]({{page.url}})*
 
 {{#if page.selectedText}}
 
 {{quote page.selectedText}}
+{{/if}}
 
----
+<% tp.file.include("[[Template-Fragment-Backmatter]]") %>
 
-{{/if}}{{page.content}}
