@@ -19,12 +19,18 @@ url: {{page.url}}
 web-message:
 web-badge-color: ""
 web-badge-message:
-date: "{{date}}"
+date: "{{date 'yyyy-MM-dd'}}"
 ---
+
+# {{json page.title}}
+
+> [!SOURCE] Sources:
+> - *[{{json page.title}}]({{page.url}})*
 
 {{#if page.selectedText}}
 
 {{quote page.selectedText}}
 {{/if}}
+
 
 
