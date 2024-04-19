@@ -26,5 +26,6 @@
   "nldates-obsidian",
   "obsidian-banners",
   "callout-manager",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "convert-url-to-iframe"
 ]
