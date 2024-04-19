@@ -1161,3 +1161,20 @@ debugInConsole: false # Print debug info in Obsidian console
 >                     type: boolean
 >                     description: Is your current request authenticated?
 > ```
+
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-19]] and last modified on [[2024-04-19]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[Obsidian Local REST API OpenAPI Specification]] AND -"CHANGELOG" AND -"00-INBOX/Obsidian Local REST API OpenAPI Specification"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
