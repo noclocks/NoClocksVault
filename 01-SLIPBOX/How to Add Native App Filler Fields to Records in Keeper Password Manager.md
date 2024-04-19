@@ -35,6 +35,16 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 
-[[Tool - Keeper Password Manager|]]can automatically fill fields in any native application using a set of custom keystrokes.
+[[Tool - Keeper Password Manager|Keeper]] can automatically fill fields in any *native application* using a set of custom keystrokes.
 
-With the release of Keeper's "Record Types" feature, a new field type is introduced which is called "Native App Filler".
+With the release of Keeper's "Record Types" feature, a new field type is introduced which is called "Native App Filler":
+
+![](https://i.imgur.com/aJYZcaE.png)
+
+## Demo Video
+
+https://vimeo.com/703884522
+
+## See Also:
+
+- [[Tool - Keeper Password Manager|Keeper Password Manager]]
