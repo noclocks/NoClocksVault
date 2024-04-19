@@ -19,15 +19,18 @@ url: {{page.url}}
 date: "{{date 'yyyy-MM-dd'}}"
 ---
 
-# {{json page.title}}
+# <% tp.file.title %>
 
 > [!SOURCE] Sources:
 > - *[{{json page.title}}]({{page.url}})*
 
-{{#if page.selectedText}}
+<% tp.file.include("[[Template-Fragment-TOC]]") %>
 
+## Content
+
+{{#if page.selectedText}}
 {{quote page.selectedText}}
 {{/if}}
+{{page.content}}
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
-
