@@ -83,15 +83,16 @@ The supported keystrokes are as follows:
 |`{TEXT:XXX}`|XXX=Arbitrary text to fill|
 |`{SPACE}`|Space character|
 
+## Native App Filler for Multiple Apps with Identical Credentials
 
-
-[](https://docs.keeper.io/en/v/user-guides/keeperfill-for-apps#native-app-filler-for-multiple-apps-with-identical-credentials)
-
-Native App Filler for Multiple Apps with Identical Credentials
+> [!SOURCE] Sources:
+> - *https://docs.keeper.io/en/v/user-guides/keeperfill-for-apps#native-app-filler-for-multiple-apps-with-identical-credentials*
 
 An additional feature of Native App Filler is the ability to use the same Keeper record to fill credentials for multiple applications. For example, for Microsoft Office, you likely have a set of Microsoft Credentials that you use to log in to multiple applications in the Office suite. Simply list your applications separated with commas in the **Application Title or Program Name** field of the Native App Filler section of the record.
 
-In this example, we can automatically fill credentials for Teams and Excel by listing "Microsoft Teams,Excel" in the **Application Title or Program Name** field.
+In this example, we can automatically fill credentials for Teams and Excel by listing "Microsoft Teams, Excel" in the **Application Title or Program Name** field.
+
+![](https://i.imgur.com/ekuZ0Y9.png)
 
 ## Demo Video
 
@@ -102,3 +103,21 @@ Source: *https://vimeo.com/703884522*
 ## See Also:
 
 - [[Tool - Keeper Password Manager|Keeper Password Manager]]
+- [[PowerShell - Get Active Window Titles]]
+- [[Tool - Keeper Commander|Keeper Commander]]
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-19]] and last modified on [[2024-04-19]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[How to Add Native App Filler Fields to Records in Keeper Password Manager]] AND -"CHANGELOG" AND -"01-SLIPBOX/How to Add Native App Filler Fields to Records in Keeper Password Manager"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
