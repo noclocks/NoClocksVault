@@ -35,5 +35,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-You’ll need to set up a [[Certificate Authority (CA)]] to manage networks and monitor traffic. It’s important to set up a CA to ensure that your users can access websites that have digital certificates that can be validated by a specific CA. This should be done early during your deployment to ensure that users can access websites without issues.
+- [[Certificate Authority (CA)]]
 
+[[Web Browsers]] use [[Secure Sockets Layer (SSL)]] to encrypt traffic between client systems and server computers to protect confidential data such as social security information and credit card details. For an [[SSL Certificate]] to work properly, the entity that issued the certificate (also known as a [[Certificate Authority (CA)]]) must also be trusted by the web browser, which involves installing the issuer certificate so the browser knows that issuer is valid and reliable.
+
+Commonly used certificate authorities, such as [[Verisign]], [[DigiCert]], and [[Entrust]], are automatically trusted by most browsers. However, if you use an untrusted internal certificate authority to generate [[SSL Certificates]] for internal resources, you will be nagged by your browser when you attempt to connect.
+
+You can configure your system(s) to trust all certificates from a certificate authority by installing that system’s SSL certificate as a [[trusted root certificate authority]]. That way, Chrome and Firefox will never prompt you again about accessing any site with a certificate from that CA.
+
+**Note:** This article focuses on these two third-party browsers; a future article will cover Internet Explorer/Microsoft Edge. Steps listed here are accurate at the time of this writing, but future versions of these browsers may involve different menu options.
