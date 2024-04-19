@@ -22,12 +22,7 @@ page-title: {{json page.title}}
 web-message:
 web-badge-color: ""
 web-badge-message:
-date: "{{date}}"
+date: "{{date yyyy-MM-dd}}"
 ---
-
-{{#if page.selectedText}}
-
-{{quote page.selectedText}}
-{{/if}}
 
 
