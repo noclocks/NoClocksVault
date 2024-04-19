@@ -44,6 +44,12 @@ debugInConsole: false # Print debug info in Obsidian console
 Get-Process | Where-Object { $_.MainWindowTitle } | Format-Table Id, Name, MainWindowtitle -AutoSize
 ```
 
+- Retrieve Only the Window Title:
+
+```powershell
+(Get-Process -id 8748 -ErrorAction SilentlyContinue).MainWindowTitle
+```
+
 - Script:
 
 ```powershell
@@ -67,8 +73,6 @@ End {}
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
 
 ## See Also
 
