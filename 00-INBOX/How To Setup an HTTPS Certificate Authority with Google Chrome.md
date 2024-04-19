@@ -41,6 +41,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Commonly used certificate authorities, such as [[Verisign]], [[DigiCert]], and [[Entrust]], are automatically trusted by most browsers. However, if you use an untrusted internal certificate authority to generate [[SSL Certificates]] for internal resources, you will be nagged by your browser when you attempt to connect.
 
-You can configure your system(s) to trust all certificates from a certificate authority by installing that system’s SSL certificate as a [[trusted root certificate authority]]. That way, Chrome and Firefox will never prompt you again about accessing any site with a certificate from that CA.
+You can configure your system(s) to trust all certificates from a certificate authority by installing that system’s SSL certificate as a [[trusted root certificate authority]]. That way, the web browser will never prompt you again about accessing any site with a certificate from that CA.
 
-**Note:** This article focuses on these two third-party browsers; a future article will cover Internet Explorer/Microsoft Edge. Steps listed here are accurate at the time of this writing, but future versions of these browsers may involve different menu options.
+> [!NOTE]
+> This note focuses on [[Google Chrome]], [[Microsoft Edge]], and [[Mozilla FireFox]]. Steps listed here are accurate at the time of this writing, but future versions of these browsers may involve different menu options.
+
+## Obtain the CA Certificate
+
+First, you need to get a copy of the [[SSL Certificate]] from the [[Certificate Authority (CA)]] in `DER` format. If your CA runs [[Microsoft Windows]], follow the steps below.
+
