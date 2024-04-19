@@ -22,7 +22,7 @@ date: "{{date 'yyyy-MM-dd'}}"
 # <% tp.file.title %>
 
 > [!SOURCE] Sources:
-> - *[{{json page.title}}]({{page.url}})*
+> - *[<% tp.file.title %>]]({{page.url}})*
 
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 
