@@ -61,5 +61,7 @@ First, you need to get a copy of the [[SSL Certificate]] from the [[Certificate 
 
 ![](https://i.imgur.com/4yW6ZCZ.png)
 
+![](https://i.imgur.com/iGJTeTX.png)
+
 
 
