@@ -48,7 +48,50 @@ With the release of Keeper's "Record Types" feature, a new field type is introdu
 
 ![](https://i.imgur.com/hYN3OJR.png)
 
-In the simple example below, the "Zoom" app name is matched and the username + `<Tab> + password` is typed when the user hits the hotkey "ctrl+shift+M".
+In the simple example below, the "Zoom" app name is matched and the `username + <Tab> + password` is typed when the user hits the hotkey `Ctrl+Shift+M`:
+
+![](https://i.imgur.com/ntkjIZS.png)
+
+When you launch an application that matches the Application Title or Program Name field, the KeeperFill for Apps system tray icon will change from the Keeper logo to a lock icon. At that point, hitting the assigned hotkey will initiate the Auto-Type keystroke filling sequence.
+
+![](https://i.imgur.com/muJ1PKm.png)
+
+By default, the Native App Filler hotkey is set to **Ctrl/Cmd + Shift + M**. To change the hotkey, simply to go **Settings > KeeperFill Hotkeys**.
+
+![](https://i.imgur.com/T3USmvZ.png)
+
+## Supported Key Strokes
+
+The Auto-Type Keystrokes can contain many different keystroke elements. 
+
+The supported keystrokes are as follows:
+
+|Keystroke|Description|
+|---|---|
+|`{USERNAME}`|Record username field|
+|`{PASSWORD}`|Record password field|
+|`{TOTP}`|Record Two-Factor Code field|
+|`{URL}`|Record Website URL field|
+|`{FIELD:XXX}`|XXX=Value for Custom Field Name|
+|`{ENTER}`|Enter key|
+|`{TAB}`|Tab key|
+|`{DELAY:X}`|Delay by X number of seconds|
+|`{UP}`|Up arrow key|
+|`{DOWN}`|Down arrow key|
+|`{LEFT}`|Left arrow key|
+|`{RIGHT}`|Right arrow key|
+|`{TEXT:XXX}`|XXX=Arbitrary text to fill|
+|`{SPACE}`|Space character|
+
+
+
+[](https://docs.keeper.io/en/v/user-guides/keeperfill-for-apps#native-app-filler-for-multiple-apps-with-identical-credentials)
+
+Native App Filler for Multiple Apps with Identical Credentials
+
+An additional feature of Native App Filler is the ability to use the same Keeper record to fill credentials for multiple applications. For example, for Microsoft Office, you likely have a set of Microsoft Credentials that you use to log in to multiple applications in the Office suite. Simply list your applications separated with commas in the **Application Title or Program Name** field of the Native App Filler section of the record.
+
+In this example, we can automatically fill credentials for Teams and Excel by listing "Microsoft Teams,Excel" in the **Application Title or Program Name** field.
 
 ## Demo Video
 
