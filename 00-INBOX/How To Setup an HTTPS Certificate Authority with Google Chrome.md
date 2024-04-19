@@ -57,8 +57,9 @@ First, you need to get a copy of the [[SSL Certificate]] from the [[Certificate 
 
 ![](https://i.imgur.com/FEO8erU.png)
 
-3. Choose "Trusted Root Certificate Authorities" Tab:
+3. Choose "Trusted Root Certificate Authorities" Tab and Select "Import":
 
+![](https://i.imgur.com/4yW6ZCZ.png)
 
 
 
