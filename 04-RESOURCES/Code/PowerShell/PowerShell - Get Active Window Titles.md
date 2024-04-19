@@ -49,7 +49,20 @@ Get-Process | Where-Object { $_.MainWindowTitle } | Format-Table Id, Name, MainW
 ```powershell
 <#
   .SYNOPSIS
-    Gets a List of Active Window Title
+    Gets a List of Active Application Window's ID, Name, and MainWindowTitle
+#>
+[CmdLetBinding()]
+Param()
+
+Begin {
+  $Processes = Get-Process | Where-Object { $_.MainWindowTitle }
+}
+
+Process {
+  $Processes | Format-Table Id, Name, MainWindowTitle -AutoSize
+}
+
+End {}
 ```
 
 ## Details
