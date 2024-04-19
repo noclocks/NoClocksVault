@@ -48,5 +48,17 @@ You can configure your system(s) to trust all certificates from a certificate au
 
 ## Obtain the CA Certificate
 
-First, you need to get a copy of the [[SSL Certificate]] from the [[Certificate Authority (CA)]] in `DER` format. If your CA runs [[Microsoft Windows]], follow the steps below.
+First, you need to get a copy of the [[SSL Certificate]] from the [[Certificate Authority (CA)]] in `DER` format. 
+
+## Manage Chrome Certificate Settings
+
+1. Navigate to `chrome://settings/security` in the browser 
+2. Select "Manage Certificates":
+
+![](https://i.imgur.com/FEO8erU.png)
+
+3. Choose "Trusted Root Certificate Authorities" Tab:
+
+
+
 
