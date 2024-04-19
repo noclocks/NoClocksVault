@@ -16,21 +16,21 @@ cssclasses:
 
 page-title: {{json page.title}}
 url: {{page.url}}
-web-message:
-web-badge-color: ""
-web-badge-message:
 date: "{{date 'yyyy-MM-dd'}}"
 ---
 
-# {{json page.title}}
+# <% tp.file.title %>
 
 > [!SOURCE] Sources:
-> - *[{{json page.title}}]({{page.url}})*
+> - *[<% tp.file.title %>]]({{page.url}})*
+
+<% tp.file.include("[[Template-Fragment-TOC]]") %>
+
+## Overview
 
 {{#if page.selectedText}}
-
 {{quote page.selectedText}}
 {{/if}}
+{{page.content}}
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
-
