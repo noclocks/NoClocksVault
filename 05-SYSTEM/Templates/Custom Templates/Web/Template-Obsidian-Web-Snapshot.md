@@ -16,15 +16,13 @@ cssclasses:
 
 page-title: {{json page.title}}
 url: {{page.url}}
-web-message:
-web-badge-color: ""
-web-badge-message:
 date: "{{date}}"
 ---
 
 {{#if page.selectedText}}
 
 {{quote page.selectedText}}
-{{/if}}
 
+---
 
+{{/if}}{{page.content}}
