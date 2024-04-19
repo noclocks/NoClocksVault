@@ -29,7 +29,7 @@ date: "{{date 'yyyy-MM-dd'}}"
 ## Content
 
 {{#if page.selectedText}}
-{{quote page.selectedText}}
+{{page.selectedText}}
 {{/if}}
 {{page.content}}
 

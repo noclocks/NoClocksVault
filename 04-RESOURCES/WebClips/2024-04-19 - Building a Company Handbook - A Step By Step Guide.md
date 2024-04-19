@@ -1,20 +1,46 @@
 ---
+creation_date: 2024-04-19
+modification_date: 2024-04-19
+author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+tags:
+  - Type/WebClip
+  - Topic/NA
+  - Status/WIP
+aliases:
+  - "Building a Company Handbook - A Step By Step Guide"
+publish: true
+permalink:
+description:
+image:
+cssclasses:
+
 page-title: "Building a Company Handbook - A Step By Step Guide"
 url: https://todoist.com/inspiration/building-a-company-handbook
-web-message:
-web-badge-color: ""
-web-badge-message:
-date: "2024-04-19 14:56:34"
+date: "2024-04-19"
 ---
 
-> In the modern era of work, the need for seamless access to information and knowledge sharing has grown exponentially.That’s why providing a centralized hub for knowledge, processes, and workflows via a well-structured company documentation system has emerged as a linchpin for success in today’s working environment.This article will share Doist’s journey with documentation as a team of nearly 100 people spread across all time zones. We’ll dive into the challenges, pitfalls, and principles we have used to build a robust team documentation system that organizations can leverage to enhance productivity, streamline operations, and foster a culture of trust and collaboration.
+# 2024-04-19 - Building a Company Handbook - A Step By Step Guide
+
+> [!SOURCE] Sources:
+> - *https://todoist.com/inspiration/building-a-company-handbook*
+
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Overview
+
+> In the modern era of work, the need for seamless access to information and knowledge sharing has grown exponentially. That’s why providing a centralized hub for knowledge, processes, and workflows via a well-structured company documentation system has emerged as a linchpin for success in today’s working environment. This article will share Doist’s journey with documentation as a team of nearly 100 people spread across all time zones. We’ll dive into the challenges, pitfalls, and principles we have used to build a robust team documentation system that organizations can leverage to enhance productivity, streamline operations, and foster a culture of trust and collaboration.
 > 
 > ## The Contents of Your Company Handbook
 > 
 >   
-> A company handbook is often also referred to as a documentation system or a central source of truth (SSoT). For the purposes of this article (and in the interest of simplicity), we’ll refer to it as a company handbook.
-> 
-> Some common items and topics found in a company handbook can include:
+> A company handbook is often also referred to as a documentation system or a central source of truth (SSoT). For the purposes of this article (and in the interest of simplicity), we’ll refer to it as a company handbook.Some common items and topics found in a company handbook can include:
 > 
 > 1.  **Company Overview.** An introduction to the organization, its mission, values, and culture.
 > 2.  **Team Roles and Responsibilities.** Detailed descriptions of team roles, responsibilities, and reporting structures.
@@ -46,13 +72,8 @@ date: "2024-04-19 14:56:34"
 > ##   
 > The Doist Documentation Journey
 > 
-> At [Doist](http://doist.com/), we've been proudly remote-first since our Founder and CEO, Amir, started building [Todoist](http://todoist.com/) in 2007, prioritizing the flexibility and efficiency that remote work offers.
-> 
-> Alongside this philosophy lives a dedication to transparent communication and documentation, which officially dates back over a decade ago when we codified our core value of Communication as the first official entry into what is now our company handbook.
-> 
-> Initially hosted on [GitHub](http://github.com/), today, our handbook lives in [Almanac](https://almanac.io/) and houses 1200+ pages of invaluable content that powers our globally distributed team working almost entirely asynchronously.
-> 
-> We believe that these remote work practices can serve as inspiration for every company, so whether your team is distributed or not, we all benefit from better documentation and processes.
+>   
+> At [Doist](http://doist.com/), we've been proudly remote-first since our Founder and CEO, Amir, started building [Todoist](http://todoist.com/) in 2007, prioritizing the flexibility and efficiency that remote work offers.Alongside this philosophy lives a dedication to transparent communication and documentation, which officially dates back over a decade ago when we codified our core value of Communication as the first official entry into what is now our company handbook.Initially hosted on [GitHub](http://github.com/), today, our handbook lives in [Almanac](https://almanac.io/) and houses 1200+ pages of invaluable content that powers our globally distributed team working almost entirely asynchronously.We believe that these remote work practices can serve as inspiration for every company, so whether your team is distributed or not, we all benefit from better documentation and processes.
 > 
 > ##   
 > Challenges → Revamp
@@ -66,9 +87,8 @@ date: "2024-04-19 14:56:34"
 > 4.  Consistency was lacking in terms of appearance and usage (likely due to #5).
 > 5.  There was a sense of collective responsibility but no clear ownership of the handbook.
 > 
-> This feedback fuelled a determination to create a top-notch company handbook that lived up to our standards to do everything at a world-class level. This year, we embarked on a three-month-long journey to revamp the handbook by rallying a cross-functional team (internally called a “squad”) to address these issues head-on.
-> 
-> That process revealed that we had a lot of room for improvement, which provided the opportunity to up-level our entire process and the structure of our company handbook.
+>   
+> This feedback fuelled a determination to create a top-notch company handbook that lived up to our standards to do everything at a world-class level. This year, we embarked on a three-month-long journey to revamp the handbook by rallying a cross-functional team (internally called a “squad”) to address these issues head-on.That process revealed that we had a lot of room for improvement, which provided the opportunity to up-level our entire process and the structure of our company handbook.
 > 
 > ##   
 > Defining the Handbook's Objectives & Framework
@@ -79,32 +99,18 @@ date: "2024-04-19 14:56:34"
 >   
 > As we began to rebuild, we were initially tempted to jump straight into finding the perfect platform. However, we quickly realized the importance of first clarifying our objectives. To guide us in this process, we posed a series of crucial questions to the squad:
 > 
-> 1.  **Ownership and Responsibility: Who will be the directly responsible individual (internally a DRD, Directly Responsible Doister) for our handbook? Should it be everyone collectively, as it has been, or should we assign a single person or set of people to oversee it?**
->     
->     After careful consideration, we opted for a hybrid approach. We designated a single DRD for the entire handbook, allowing us to maintain agency and ownership over its quality and consistency. Additionally, we appointed DRDs for each team’s specific section of the handbook, empowering each team with the freedom to exercise control over their respective areas.
->     
-> 2.  **Permissions: What permissions should everyone have - read-only, edit, full access? What are the pros and cons of each?**
->     
->     To strike a balance between control and collaboration, we granted full edit access to the DRDs while providing the rest of the team with comment and suggestion access. This approach introduced more friction compared to our previous setup, but it significantly enhanced the quality of our documentation.
->     
-> 3.  **Consistency and Quality: What steps can we take, and what product features do we require to maintain consistency and high quality?**
->     
->     We decided to prioritize finding a platform that would help us elevate older documents and highlight new and recently updated ones. By assigning individual DRDs to each section, we also gained better control over maintaining consistency within those sections.
->     
-> 4.  **Structure and Organization: How should we structure the table of contents to serve the outlined expectations?**
->     
->     To achieve both centralized oversight and team-specific control, we restructured our handbook completely - giving intentional thought to how we would design our table of contents.  
+> 1.  **Ownership and Responsibility: Who will be the directly responsible individual (internally a DRD, Directly Responsible Doister) for our handbook? Should it be everyone collectively, as it has been, or should we assign a single person or set of people to oversee it?**After careful consideration, we opted for a hybrid approach. We designated a single DRD for the entire handbook, allowing us to maintain agency and ownership over its quality and consistency. Additionally, we appointed DRDs for each team’s specific section of the handbook, empowering each team with the freedom to exercise control over their respective areas.
+> 2.  **Permissions: What permissions should everyone have - read-only, edit, full access? What are the pros and cons of each?**To strike a balance between control and collaboration, we granted full edit access to the DRDs while providing the rest of the team with comment and suggestion access. This approach introduced more friction compared to our previous setup, but it significantly enhanced the quality of our documentation.
+> 3.  **Consistency and Quality: What steps can we take, and what product features do we require to maintain consistency and high quality?**We decided to prioritize finding a platform that would help us elevate older documents and highlight new and recently updated ones. By assigning individual DRDs to each section, we also gained better control over maintaining consistency within those sections.
+> 4.  **Structure and Organization: How should we structure the table of contents to serve the outlined expectations?**To achieve both centralized oversight and team-specific control, we restructured our handbook completely - giving intentional thought to how we would design our table of contents.  
 >     We now have a company handbook complemented by team sections with their sub-folders, each under the authority of its respective team DRD.  
 >     Additionally, we introduced comprehensive style guidelines to ensure that our DRDs maintain a consistently high standard of content.
->     
 > 
 > Taking a methodical approach, which began with defining objectives and actively gaining insights from the team throughout the process, led to a much richer understanding of where we needed to take the company handbook.  
 > 
 > ### Guidelines
 > 
-> Consistency in team documentation relies on clear standards and guidelines. These define how information should be documented and presented.
-> 
-> A few points to remember:
+> Consistency in team documentation relies on clear standards and guidelines. These define how information should be documented and presented.A few points to remember:
 > 
 > -   Start with a style guide covering tone, language, headings, and visuals.
 > -   Create templates for various document types like meeting notes, project plans, and knowledge base articles to maintain a consistent look.
@@ -159,19 +165,13 @@ date: "2024-04-19 14:56:34"
 > ###   
 > More on Security and Accessibility
 > 
-> It may *seem* to go without saying, but in the world of documentation - over-communication is necessary - as is ensuring security and accessibility meet your standards.
+> It may
 > 
-> Security needs will vary from team to team. Still, at a minimum, you’ll want to evaluate who has access to your documentation and, via which means to ensure that sensitive information remains protected from unauthorized access or breaches. Furthermore, access control mechanisms should be in place to restrict document access based on roles and responsibilities.
+> *seem*
 > 
-> I recommend engaging with an expert on this topic (I’m not one - but luckily, Alex, our Head of Infrastructure is.
+> to go without saying, but in the world of documentation - over-communication is necessary - as is ensuring security and accessibility meet your standards.Security needs will vary from team to team. Still, at a minimum, you’ll want to evaluate who has access to your documentation and, via which means to ensure that sensitive information remains protected from unauthorized access or breaches. Furthermore, access control mechanisms should be in place to restrict document access based on roles and responsibilities.I recommend engaging with an expert on this topic (I’m not one - but luckily, Alex, our Head of Infrastructure is.
 > 
-> > “Firstly, the company handbook should be accessible to everyone in the company, so we integrated it with Doist’s single sign-on system. This makes both onboarding and offboarding easier and more secure.
-> > 
-> > In terms of access control and authorization, there's no one-size-fits-all, but we opted for a democratic setup where published content is searchable by everyone. However, teams can have internal docs (e.g., drafts) they can hold to themselves before they're in a state to be shared more widely. We can also share parts of our handbook publicly as a way to inspire others on our mission to change the future of work.
-> > 
-> > From an authorization perspective, everyone can recommend suggestions and documentation owners review before approving the content. This helps us maintain the quality of content and organization while promoting collaboration – the handbook is made by all and for all.
-> > 
-> > Authentication and authorization make up the first 2 of 3 As that describe the security traits expected in a professional tool. The third one is auditing: all changes made and all reviews are recorded. This makes it easy to spot honest mistakes and fix them or simply engage with the right people to update content.”
+> > “Firstly, the company handbook should be accessible to everyone in the company, so we integrated it with Doist’s single sign-on system. This makes both onboarding and offboarding easier and more secure.In terms of access control and authorization, there's no one-size-fits-all, but we opted for a democratic setup where published content is searchable by everyone. However, teams can have internal docs (e.g., drafts) they can hold to themselves before they're in a state to be shared more widely. We can also share parts of our handbook publicly as a way to inspire others on our mission to change the future of work.From an authorization perspective, everyone can recommend suggestions and documentation owners review before approving the content. This helps us maintain the quality of content and organization while promoting collaboration – the handbook is made by all and for all.Authentication and authorization make up the first 2 of 3 As that describe the security traits expected in a professional tool. The third one is auditing: all changes made and all reviews are recorded. This makes it easy to spot honest mistakes and fix them or simply engage with the right people to update content.”
 > 
 > **Alex Rodrigues - Head of Infrastructure at Doist**
 > 
@@ -179,9 +179,7 @@ date: "2024-04-19 14:56:34"
 > 
 > ### Organize Information Effectively
 > 
-> A well-structured company handbook ensures that information is not only accessible but also easily navigable. Start by creating a logical hierarchy and categorization system for your documentation. This involves arranging documents in a clear and intuitive manner, which creates a roadmap for team members to navigate all the information.
-> 
-> Here are a few tips to keep in mind:
+> A well-structured company handbook ensures that information is not only accessible but also easily navigable. Start by creating a logical hierarchy and categorization system for your documentation. This involves arranging documents in a clear and intuitive manner, which creates a roadmap for team members to navigate all the information.Here are a few tips to keep in mind:
 > 
 > -   Encourage teammates to use the robust search capabilities to help them find the information they need.
 > -   Implement a standardized naming convention for documents to ensure consistency and clarity in file identification.
@@ -191,11 +189,8 @@ date: "2024-04-19 14:56:34"
 > 
 > ### Document the Workflows and Processes
 > 
-> One of the pillars of a highly effective company handbook is properly documenting how to use the handbook itself. As simple as that seems, this small step often goes overlooked.
-> 
-> Documented processes reduce the time spent on decision-making and troubleshooting, enabling team members to focus on execution. These documents also encourage team members to regularly review and update workflows and processes so teams can identify bottlenecks and areas in need of optimization.
-> 
-> Here are a few key guidelines to offer:
+>   
+> One of the pillars of a highly effective company handbook is properly documenting how to use the handbook itself. As simple as that seems, this small step often goes overlooked.Documented processes reduce the time spent on decision-making and troubleshooting, enabling team members to focus on execution. These documents also encourage team members to regularly review and update workflows and processes so teams can identify bottlenecks and areas in need of optimization.Here are a few key guidelines to offer:
 > 
 > -   How to create new documents
 > -   How to edit current documents
@@ -206,9 +201,8 @@ date: "2024-04-19 14:56:34"
 > 
 > ### Training, Onboarding, Review, and Maintenance
 > 
-> On the surface, a handbook seems fairly straightforward, but don't overlook training and onboarding. Properly preparing team members with clear guidance on your documentation system ensures effective utilization, and preparing materials today will set your team up for success as new employees join the company.
-> 
-> Once we decided on our platform and the above details, we laid out an onboarding plan that included:
+>   
+> On the surface, a handbook seems fairly straightforward, but don't overlook training and onboarding. Properly preparing team members with clear guidance on your documentation system ensures effective utilization, and preparing materials today will set your team up for success as new employees join the company.Once we decided on our platform and the above details, we laid out an onboarding plan that included:
 > 
 > -   Clear documentation and how-to-guides to be read asynchronously
 > -   Beta testing before rolling the new solution out to the team
@@ -240,8 +234,48 @@ date: "2024-04-19 14:56:34"
 > 
 > **Darren Murph, Strategy and Operations at Ford, former Head of Remote at GitLab**
 > 
-> The ability to document processes, share knowledge, and maintain clear communication is indispensable.
+>   
+> The ability to document processes, share knowledge, and maintain clear communication is indispensable.By establishing clear objectives, choosing the right tools, fostering a culture of documentation, and adhering to best practices, teams can unlock the true potential of their collaborative efforts.Embrace these principles, and your company will thrive in an era where seamless communication and information sharing are the keys to productivity and innovation.
 > 
-> By establishing clear objectives, choosing the right tools, fostering a culture of documentation, and adhering to best practices, teams can unlock the true potential of their collaborative efforts.
+> ## Building a Company Handbook Todoist Template
 > 
-> Embrace these principles, and your company will thrive in an era where seamless communication and information sharing are the keys to productivity and innovation.
+> This article is packed full of actionable advice, but we know there is a lot of it. So we've created a [Todoist template for Building a Company Handbook](https://todoist.com/API/v9.1/import/project_from_url?t_url=https%3A%2F%2Fd1aspxi4rjqbaz.cloudfront.net%2F0c102659e12857713668e9dbc459ddbd_Company%2520handbook%2520template.csv) with all of this advice distilled into a checklist. Now you can get started on turning this knowledge into action (and your own company handbook.)
+[19 Little-Known Todoist Features](https://todoist.com/inspiration/hidden-features-todoist "19 Little-Known Todoist Features")![](https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Ftdinspiration.wpengine.com%2Fwp-content%2Fuploads%2F2020%2F02%2Flittle-known-todoist-features_banner.png)
+
+## 19 Little-Known Todoist Features
+
+Test your Todoist knowledge and pick up a few tricks along the way
+
+-   [Todoist](https://todoist.com/inspiration/category/todoist)
+
+[Work-Life Balance vs. Work-Life Integration](https://todoist.com/inspiration/work-life-integration-comic "Work-Life Balance vs. Work-Life Integration")![](https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Ftdinspiration.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fbrain-trust_life-integration_thumbnail_no-frame.jpg)
+
+## Work-Life Balance vs. Work-Life Integration
+
+When the flexibility to work anywhere anytime means working everywhere all the time
+
+-   [Productivity](https://todoist.com/inspiration/category/productivity)
+
+[Getting Promoted Isn’t the Same as Being a Leader](https://todoist.com/inspiration/how-to-become-a-leader "Getting Promoted Isn’t the Same as Being a Leader")![](https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Ftdinspiration.wpengine.com%2Fwp-content%2Fuploads%2F2019%2F01%2FHow-to-become-a-leader.png)
+
+## Getting Promoted Isn’t the Same as Being a Leader
+
+A promotion is one form of recognition, but it doesn’t make you a leader. Here’s what will…
+
+-   [Collaboration](https://todoist.com/inspiration/category/collaboration)
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-19]] and last modified on [[2024-04-19]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[2024-04-19 - Building a Company Handbook - A Step By Step Guide]] AND -"CHANGELOG" AND -"04-RESOURCES/2024-04-19 - Building a Company Handbook - A Step By Step Guide"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
