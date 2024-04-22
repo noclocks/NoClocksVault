@@ -1,3 +1,3 @@
 ```powershell
-wsl.exe --system 
+wsl.exe --system -d Ubuntu df -h /mnt/wslg/distro
 ```
