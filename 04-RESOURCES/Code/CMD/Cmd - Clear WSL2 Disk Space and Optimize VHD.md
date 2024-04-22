@@ -35,5 +35,9 @@ debugInConsole: false # Print debug info in Obsidian console
 # stop wsl
 wsl --shutdown
 
-# 
+# launch diskpart
+diskpart
+
+# select virtual disk
+select vdisk file="C:\
 ```

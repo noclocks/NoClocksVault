@@ -1,0 +1,3 @@
+```powershell
+wsl.exe --system 
+```
