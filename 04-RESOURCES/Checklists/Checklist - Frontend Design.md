@@ -61,7 +61,23 @@ graph LR
 	- [ ] Password Reset Page
 	- [ ] User Profile / Account Management Page
 
-- [ ] Pricing Page
+- [ ] **About Pages**:
+	- [ ] Team Page
+	- [ ] Mission Page
+	- [ ] FAQ Page
+
+- [ ] **Legal Pages:**
+	- [ ] Privacy Policy
+	- [ ] Terms of Service
+	- [ ] Cookie Consent
+	- [ ] Disclaimer
+
+- [ ] **Products/Services Pages:**
+	- [ ] Pricing Page
+	- [ ] Products (Index) Page
+	- [ ] Individual Product Pages
+	- [ ] Services (Index) Page
+	
 
 - [ ] Press Page
 
