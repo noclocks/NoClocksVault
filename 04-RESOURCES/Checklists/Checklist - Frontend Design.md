@@ -70,6 +70,7 @@ graph LR
 	- [ ] Contact/Schedule Page
 	- [ ] Feedback Page
 	- [ ] Testimonials Page
+	- [ ] Careers Page
 
 - [ ] **Legal Pages:**
 	- [ ] Privacy Policy
@@ -91,7 +92,9 @@ graph LR
 - [ ] **Blogging Pages**:
 	- [ ] Blog (Index) Page
 	- [ ] Individual Blog Post Page(s)
-	- [ ] 
+	- [ ] Search
+
+
 
 
 ## Conclusion
