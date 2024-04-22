@@ -13,4 +13,5 @@
 - [[Actuarial Cumulative Loss Development Factors (CDFs)]]
 - [[Actuarial Reserving Methodologies for General Insurance]]
 - [[Actuarial Chain Ladder Reserving Method (CLM)]]
-- [[Actuarial Bornhuetter-Fergu]]
+- [[Actuarial Bornhuetter-Ferguson Method (BF Method)]]
+- [[Actuarial Expected Claims Method]]
