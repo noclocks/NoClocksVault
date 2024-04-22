@@ -7,7 +7,7 @@ tags:
   - Topic/Business
   - Status/WIP
 aliases:
-  - Agenda - 2024-04-22 - Executive Meeting
+  - 2024-04-22 - Executive Meeting Agenda
   - 2024-04-22 - Executive Meeting
 publish: true
 permalink:
@@ -18,16 +18,6 @@ cssclasses:
 ---
 
 # 2024-04-22 - Executive Meeting Agenda 
-
-> [!example] **Agenda Metadata**:
-> - Date:: 2024-04-22 16:36
-> - Organizer: undefined
-> - Description:: undefined
-
-
-
-
-
 
 ```table-of-contents
 title: Contents 
@@ -43,9 +33,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Team
 
+- [[Jimmy Briggs]]
+- [[Patrick Howard]]
 
 ## Agenda
 
+### Client Work
+
+- [[Client - Connect|Connect]]: 
 
 ## Questions
 
