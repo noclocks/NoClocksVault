@@ -50,8 +50,20 @@ graph LR
 
 ### Pages
 
-- Login Page
-- 
+- [ ] **Core Pages**:
+	- [ ] Home (Landing) Page
+	- [ ] About Page
+	- [ ] Contact Page
+
+- [ ] **Authentication Pages**
+	- [ ] Login Page
+	- [ ] Sign Up/Registration Page
+	- [ ] Password Reset Page
+	- [ ] User Profile / Account Management Page
+
+- [ ] Pricing Page
+
+- [ ] Press Page
 
 ## Conclusion
 
