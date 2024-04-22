@@ -65,6 +65,11 @@ graph LR
 	- [ ] Team Page
 	- [ ] Mission Page
 	- [ ] FAQ Page
+	- [ ] Brand Page
+	- [ ] Press Page
+	- [ ] Contact/Schedule Page
+	- [ ] Feedback Page
+	- [ ] Testimonials Page
 
 - [ ] **Legal Pages:**
 	- [ ] Privacy Policy
@@ -75,11 +80,19 @@ graph LR
 - [ ] **Products/Services Pages:**
 	- [ ] Pricing Page
 	- [ ] Products (Index) Page
-	- [ ] Individual Product Pages
+	- [ ] Individual Product Page(s)
 	- [ ] Services (Index) Page
-	
+	- [ ] Individual Service Page(s)
 
-- [ ] Press Page
+- [ ] **Error Pages:**
+	- [ ] Custom 404 Not Found Page
+	- [ ] Custom 500 Server Error Page
+
+- [ ] **Blogging Pages**:
+	- [ ] Blog (Index) Page
+	- [ ] Individual Blog Post Page(s)
+	- [ ] 
+
 
 ## Conclusion
 
