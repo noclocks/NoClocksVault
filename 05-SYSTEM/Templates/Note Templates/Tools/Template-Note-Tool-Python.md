@@ -1,4 +1,4 @@
-<% tp.file.include("[[Template-Fragment-Frontmatter-Tool]]") %>
+<% tp.file.include("[[Template-Fragment-Frontmatter-Tool-Python]]") %>
 
 <% tp.file.include("[[Template-Fragment-Title-Tool]]") %>
 

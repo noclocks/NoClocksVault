@@ -1,13 +1,14 @@
 ---
 creation_date: 2024-04-23
-modification_date: 2024-04-23
+modification_date: NaN
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/NA
+  - Topic/Dev
+  - Topic/Python
   - Status/WIP
 aliases:
-  - Tool - Python PromptTools
+  - PromptTools Python Package
   - PromptTools
 publish: true
 permalink:
@@ -16,7 +17,6 @@ image:
 cssclasses:
   - tool
 ---
-
 
 # PromptTools
 
