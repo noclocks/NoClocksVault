@@ -10,7 +10,7 @@ tags:
   - Topic/Python
   - Status/WIP
 aliases:
-  - OTP Password Verification Python Code
+  - Scrape Latest Google News Python Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# OTP Password Verification Python Code
+# Scrape Latest Google News Python Code
 
 ```table-of-contents
 title: Contents 
@@ -38,28 +38,14 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code
 
 ```python
-import os
-import math
-import random
-import smtplib
-
-digits="0123456789"
-OTP=""
-for i in range(6):
-    OTP+=digits[math.floor(random.random()*10)]
-otp = OTP + " is your OTP"
-msg= otp
-s = smtplib.SMTP('smtp.gmail.com', 587)
-s.starttls()
-s.login("Your Gmail Account", "You app password")
-emailid = input("Enter your email: ")
-s.sendmail('&&&&&&&&&&&',emailid,msg)
-a = input("Enter Your OTP >>: ")
-if a == OTP:
-    print("Verified")
-else:
-    print("Please Check your OTP again")
-
+from GoogleNews import GoogleNews
+news = GoogleNews(period='1d')
+news.search("India")
+result = news.result()
+import pandas as pd
+data = pd.DataFrame.from_dict(result)
+data = data.drop(columns=["img"])
+data.head()
 ```
 
 ## Details
@@ -84,7 +70,7 @@ else:
 ### Backlinks
 
 ```dataview
-LIST FROM [[Python - OTP Password Verification]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/Python/Python - OTP Password Verification"
+LIST FROM [[Python - Scrape Latest Google News]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/Python/Python - Scrape Latest Google News"
 ```
 
 ***
