@@ -22,7 +22,7 @@ cssclasses:
 
 
 ```table-of-contents
-title: Contents 
+title: Contents
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
 minLevel: 1 # Include headings from the specified level
 maxLevel: 4 # Include headings up to the specified level
@@ -153,7 +153,7 @@ function createCustomMenu() {
 
 /**
  * On spreadsheet open creates menu
- * 
+ *
  */
 function onOpen(e) {
 
@@ -259,13 +259,13 @@ function fetchData(systemContent, userContent) {
 Here are some key points to notice in the code above:
 
 1. Paste the API key that you created earlier inside the quotes.
-2. We will be using the Chat Completions API. You can find more details about it [here](https://platform.openai.com/docs/api-reference/chat/create).
+2. We will be using the Chat Completions API. You can find more details about it [here](https://platform.openai.com/docs/api-reference/chat/create).
 3. ChatGPT models have different roles, such as system, user, and assistant.
 4. The systemContent parameter is where you provide roleplay for the GPT system. For example, you could say "You're an expert algebra teacher" or "You're an expert CV writer".
 5. The userContent parameter is where you provide tasks to perform for the model. In our case, we will provide long passages from the spreadsheet to summarize and simplify.
-6. We will be using the [GPT 3.5 turbo model](https://platform.openai.com/docs/models/gpt-3-5).
+6. We will be using the [GPT 3.5 turbo model](https://platform.openai.com/docs/models/gpt-3-5).
 7. We are muting HTTPExceptions so that we can use our own error message in the catch block.
-8. The error string is useful when we face errors such as [Rate Limit Exceed](https://platform.openai.com/docs/guides/rate-limits/what-are-the-rate-limits-for-our-api).
+8. The error string is useful when we face errors such as [Rate Limit Exceed](https://platform.openai.com/docs/guides/rate-limits/what-are-the-rate-limits-for-our-api).
 
 We're returning the content from the response object of GPT that'll be later on handled by our formulas.
 
@@ -292,7 +292,7 @@ The response object from [[ChatGPT]] has following structure:
 }
 ```
 
-Read more on how to use URLFetchApp from [here](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app).
+Read more on how to use URLFetchApp from [here](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app).
 
 ## Formula Integration
 
@@ -317,13 +317,13 @@ function GPT_SIMPLIFY(input) {
 }
 ```
 
-1. The `GPT_SIMPLIFY` formula simplifies whatever text is provided as input. The input to this function is data that is coming from the spreadsheet. When you select a range, a cell, or multiple cells, the data in the range will be automatically provided by the spreadsheet to this formula.
-2. The `systemContent` is defined to be passed as the first parameter to the `fetchData(systemContent,userContent)` function.
+1. The `GPT_SIMPLIFY` formula simplifies whatever text is provided as input. The input to this function is data that is coming from the spreadsheet. When you select a range, a cell, or multiple cells, the data in the range will be automatically provided by the spreadsheet to this formula.
+2. The `systemContent` is defined to be passed as the first parameter to the `fetchData(systemContent,userContent)` function.
 3. We are checking if the input is an Array because the data passed to this function can either be a nested array or just a string if we select multiple cells or single cell, respectively, in the spreadsheet.
 
-You can read more on custom functions on this [page](https://developers.google.com/apps-script/guides/sheets/functions).
+You can read more on custom functions on this [page](https://developers.google.com/apps-script/guides/sheets/functions).
 
-Now go ahead and apply this formula in your spreadsheet. I copied some text from a book I'm reading in the first column and applied the formula in the second column named "Simplify Passage", like this `=GPT_SIMPLIFY(A2)` for the second cell.
+Now go ahead and apply this formula in your spreadsheet. I copied some text from a book I'm reading in the first column and applied the formula in the second column named "Simplify Passage", like this `=GPT_SIMPLIFY(A2)` for the second cell.
 
 Note: Make sure to refresh the spreadsheet before you apply the formula to sync with the latest changes in the script.
 
@@ -351,11 +351,11 @@ function GPT_SUMMARY(input) {
 
 The main thing to notice here is the different system content.
 
-Note: Since this is not a tutorial on how to use [[ChatGPT]] optimally, I provided instructions as the system content instead of role-play, and then just provided data in the user content. You can improvise this by providing roles in system content, and tasks as well as data as two different user roles in our `FetchData()` function.
+Note: Since this is not a tutorial on how to use [[ChatGPT]] optimally, I provided instructions as the system content instead of role-play, and then just provided data in the user content. You can improvise this by providing roles in system content, and tasks as well as data as two different user roles in our `FetchData()` function.
 
 #### GPT Rate Limit Error
 
-For free users, the rate limit to use the API is **3/minute**. As such, when you apply these formulas in more than three cells you'll encounter the error. Luckily the execution won't stop because we're returning an error string from fetch data which will be saved into those cells.
+For free users, the rate limit to use the API is **3/minute**. As such, when you apply these formulas in more than three cells you'll encounter the error. Luckily the execution won't stop because we're returning an error string from fetch data which will be saved into those cells.
 
 #### Auto Refresh and Error
 
@@ -367,7 +367,7 @@ When we add a rate limit on top of auto-refresh it can cause a conundrum. You ca
 
 ### GPT_SIMPLIFY
 
-First, let's create another file named `menu`. Then we'll create the `gptSimplifyMenu` function which will be an alternative to the `GPT_SIMPLIFY` formula:
+First, let's create another file named `menu`. Then we'll create the `gptSimplifyMenu` function which will be an alternative to the `GPT_SIMPLIFY` formula:
 
 
 ```javascript
@@ -420,7 +420,7 @@ The function is ready to be tested, but it still will not appear in the spreadsh
  * Menu creates menu UI in spreadsheet.
  */
 function createCustomMenu() {
-   // define menu ui 
+   // define menu ui
   let menu = SpreadsheetApp.getUi().createMenu("GPT Functions");
    // add function to the menu
    menu.addItem("GPT SIMPLIFY", "gptSimplifyMenu");
@@ -437,13 +437,13 @@ function onOpen(e) {
 }
 ```
 
-In `createCustomMenu()`:
+In `createCustomMenu()`:
 
-1. We define menu with [`SpreadsheetApp.getUi().createMenu("GPT Functions")`](https://developers.google.com/apps-script/reference/base/ui#createmenucaption) as GPT Functions the title appearing in the spreadsheet tab.
-2. We add a function to the menu with the `menu.addItem("GPT SIMPLIFY", "gptSimplifyMenu")`, where the first parameter is the title for display and the second is the function to call when pressed.
-3. Add the menu to the UI with `menu.addToUi()`.
+1. We define menu with [`SpreadsheetApp.getUi().createMenu("GPT Functions")`](https://developers.google.com/apps-script/reference/base/ui#createmenucaption) as GPT Functions the title appearing in the spreadsheet tab.
+2. We add a function to the menu with the `menu.addItem("GPT SIMPLIFY", "gptSimplifyMenu")`, where the first parameter is the title for display and the second is the function to call when pressed.
+3. Add the menu to the UI with `menu.addToUi()`.
 
-The [onOpen](https://developers.google.com/apps-script/guides/triggers#onopene) trigger runs automatically whenever the document the script is attached to reloads and as such will add a menu to the spreadsheet as shown in the image below.
+The [onOpen](https://developers.google.com/apps-script/guides/triggers#onopene) trigger runs automatically whenever the document the script is attached to reloads and as such will add a menu to the spreadsheet as shown in the image below.
 
 ### GPT Summarize Menu
 
@@ -502,7 +502,7 @@ You can change System Content Description should to address your needs, like "Yo
 Add one more instruction in the messages array:
 
 ```javascript
-// from this 
+// from this
 [{
           "role": "system",
           "content": systemContent,
@@ -511,9 +511,9 @@ Add one more instruction in the messages array:
           "role": "user",
           "content": userContent
         },
-        ], 
+        ],
 
-// to 
+// to
 [{
           "role": "system",
           "content": "You write an expert cover letter for software developers",
