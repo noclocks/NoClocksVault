@@ -185,3 +185,67 @@ const BorderBox = ({ borderColor }) => {
   );
 };
 ```
+
+2. If we do not know all the expected value of `borderColor` at build time, it is better to pass the border color in the style attribute of the element to support unknown values.
+
+```typescript
+const BorderBox = ({ borderColor }) => {
+  return (
+    <div className="border border-solid" style={{ borderColor }}>
+      Some Random Text
+    </div>
+  );
+};
+```
+
+## Create Utility to Read Tailwind Configuration
+
+In web applications, rarely a situation arises where you need to read some CSS design token value in JavaScript, but when it does, we generally hardcode the CSS design token value in our code while working with tailwind. This is not a good practice as in future if you changed your design token value in your tailwind configuration, your code might still refer to the older value which can cause unwanted behavior.
+
+Hence, we can build a custom utility function to read the tailwind configuration in our code:
+
+```javascript
+import resolveConfig from "tailwindcss/resolveConfig";
+import tailwindConfig from "../tailwind.config";
+
+const getTailwindConfiguration = () => {
+  return resolveConfig(tailwindConfig).theme;
+};
+
+const config = getTailwindConfiguration();
+
+console.log(config.colors.red[500]); // would print #ef4444
+```
+
+## Defining Tailwind Plugins to Register New CSS Styles
+
+Tailwind provides us with plugins to register new styles to inject into the user’s stylesheet using JavaScript instead of writing custom CSS styling in stylesheets.
+
+I find this approach better, as writing custom CSS classes means you're essentially rewriting CSS and waving goodbye to Tailwind’s organized workflow and simple maintenance.
+
+Suppose we want to create a `.btn` class which has several styles attached to it. This is how we can achieve it:
+
+```javascript
+import plugin from "tailwindcss/plugin";
+
+const config = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  plugins: [
+    plugin(function ({ addComponents }) {
+      addComponents({
+        ".btn": {
+          padding: ".5rem 1rem",
+          borderRadius: ".25rem",
+          fontWeight: "600",
+        },
+      });
+    }),
+  ],
+};
+
+export default config;
+```
+
+Tailwind supports registering complex styles as well, along with user provided values. You can go through the tailwind official documentation for plugin ([link](https://tailwindcss.com/docs/plugins#overview)) to know more about it.
