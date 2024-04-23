@@ -17,13 +17,7 @@ cssclasses:
   - code
 ---
 
-> [!example] **Code Snippet Metadata**:
-> - Date:: [[2024-04-23]]
-> - Source: [[undefined]]
-> - Language: undefined
-> - Description:: undefined
-
-# AppsScript - Google Sheets with ChatGPT
+# Google Sheets with ChatGPT AppsScript Code
 
 
 
