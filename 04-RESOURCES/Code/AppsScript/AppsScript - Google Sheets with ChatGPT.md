@@ -4,6 +4,7 @@ modification_date: 2024-04-23
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Code
+  - Type/Code/AppsScript
   - Topic/Dev
   - Status/WIP
 aliases:
@@ -169,7 +170,7 @@ function onOpen(e) {
 - `utils.js`:
 
 ```javascript
-const CHAT_GPT_API = "sk-...";
+const CHAT_GPT_API = "paste your API key here";
 const BASE_URL = "https://api.openai.com/v1/chat/completions";
 
 
