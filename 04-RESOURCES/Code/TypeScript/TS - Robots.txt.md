@@ -56,10 +56,42 @@ export default function robots(): MetadataRoute.Robots {
 }
 ```
 
+
+```typescript
+import type { MetadataRoute } from 'next'
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: [
+      {
+        userAgent: 'Googlebot',
+        allow: ['/'],
+        crawlDelay: 10
+      },
+      {
+        userAgent: ['Applebot', 'Bingbot'],
+        allow: ['/'],
+      },
+      {
+        userAgent : 'GPTBot',
+        disallow : ["/"]
+      }
+    ], 
+    sitemap: 'https://your-site.dev/sitemap.xml',
+  }
+}
+```
+
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+You customize every individual web crawler and allow and disallow them.
+
+1. **userAgent**: The name of the bot or web crawler.
+2. **allow**: It gives access to a particular webpage such as URL, Path or directory.
+3. **disallow**: It prevents the bots from accessing specific web pages such as URLs, paths, or directories on the website.
+4. **crawlDelay**: how often bots can request pages from a website.
+
+Verify whether your robots.txt file is created or not. Just visit [http://localhost:3000/robots.txt](http://localhost:3000/robots.txt) URL in your browser.
 
 ## See Also
 
