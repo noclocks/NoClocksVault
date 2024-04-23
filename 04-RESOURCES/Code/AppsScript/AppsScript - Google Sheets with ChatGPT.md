@@ -169,7 +169,7 @@ function onOpen(e) {
 - `utils.js`:
 
 ```javascript
-const CHAT_GPT_API = "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";
+const CHAT_GPT_API = "sk-...";
 const BASE_URL = "https://api.openai.com/v1/chat/completions";
 
 
