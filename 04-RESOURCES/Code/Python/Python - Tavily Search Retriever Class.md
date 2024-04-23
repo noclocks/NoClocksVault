@@ -94,7 +94,13 @@ class TavilySearch():
 - `src/services/tavily/__init__.py`:
 
 ```python
+from .tavily_search import TavilySearch
+from .tavily_news import TavilyNews
 
+__all__ = [
+    "TavilySearch",
+    "TavilyNews"
+]
 ```
 
 ## Details
