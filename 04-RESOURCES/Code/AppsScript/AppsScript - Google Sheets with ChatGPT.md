@@ -158,5 +158,84 @@ Note: Make sure to refresh the spreadsheet before you apply the formula to sync 
 
 To summarize the formula we'll just copy the simplify function and some other things, as you can see in the code below.
 
-```java
+```javascript
+/**
+ * Summarzies the given paragraph. It provides from 3-5 bullet points
+ *
+ * @param {String} input The value to summarize.
+ * @return summarize Text.
+ * @customfunction
+ */
+function GPT_SUMMARY(input) {
+  console.log(input)
+  const systemContent = "Summarize the given text. Provide atleast 3 and atmost 5 bullet points.";
+  return Array.isArray(input) ?
+    input.flat().map(text => fetchData(systemContent, text)) :
+    fetchData(systemContent, input);
+
+}
 ```
+
+The main thing to notice here is the different system content.
+
+Note: Since this is not a tutorial on how to use [[ChatGPT]] optimally, I provided instructions as the system content instead of role-play, and then just provided data in the user content. You can improvise this by providing roles in system content, and tasks as well as data as two different user roles in our `FetchData()` function.
+
+#### GPT Rate Limit Error
+
+For free users, the rate limit to use the API is **3/minute**. As such, when you apply these formulas in more than three cells you'll encounter the error. Luckily the execution won't stop because we're returning an error string from fetch data which will be saved into those cells.
+
+#### Auto Refresh and Error
+
+Moreover, the auto-refresh feature of the formula can force the re-application of the formula on cells that already have satisfying values whenever source cells are updated, in our case cells in column "A".
+
+When we add a rate limit on top of auto-refresh it can cause a conundrum. You can technically make changes in custom functions to accommodate such circumstances but, I like to keep formulas light and efficient. So, I recommend we instead create custom menus and apply these functions manually.
+
+## Integrate GPT Chat API in Sheets Menu Functions
+
+### GPT_SIMPLIFY
+
+First, let's create another file named `menu`. Then we'll create the `gptSimplifyMenu` function which will be an alternative to the `GPT_SIMPLIFY` formula:
+
+
+```javascript
+/**
+ * Simplifies the given paragraph in layman's term.
+ * @customfunction
+ */
+function gptSimplifyMenu() {
+  try {
+    // get sheets and data
+    const ss = SpreadsheetApp.getActiveSheet();
+    const data = ss.getDataRange().getValues();
+    const lastRow = data.length;
+    const lastCol = data[0].length;
+
+    // define gpt's role play
+    const systemContent = "Simplify the given text in layman's term. Remember reader is not an expert in english.";
+
+
+    for (let i = 1; i < data.length; i++) {
+      // only simplify if not already simplified or error occured previously
+      if (data[i][1] === "" || data[i][1] === "Some Error Occured Please check your formula or try again later.") {
+        data[i][1] = fetchData(systemContent, data[i][0]);
+        console.log(data[i][1]);
+
+      }
+    }
+
+    ss.getRange(1, 1, lastRow, lastCol).setValues(data);
+  } catch (e) {
+    console.log(e)
+    SpreadsheetApp.getActiveSpreadsheet().toast("Some Error Occured Please check your formula or try again later.");
+
+  }
+}
+```
+
+Key points that are different to understand in this code are:
+
+1. We're hardcoding the data sources, as such `data[i]`, which refers to the second column (that is "Simplified Passage") as shown in the spreadsheet image above. This means that if you're using some other columns to save data from ChatGPT to, then you'll have to make changes according to it.
+2. We only fetch data when the target cell is empty or contains an error message. This helps to avoid unnecessary API calls.
+
+### Add a Custom Function as a Sheets Menu
+
