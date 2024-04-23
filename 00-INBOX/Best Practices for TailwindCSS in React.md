@@ -62,6 +62,126 @@ You can create the design tokens in the `tailwind.config.js` file. This is a g
 Suppose our application follows a particular design system, we can add these guidelines to our tailwind configuration:
 
 ```javascript
+import defaultTheme from "tailwindcss/defaultTheme";
 
+const config = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        manrope: "var(--font-manrope)",
+      },
+      colors: {
+        ...defaultTheme.colors,
+        theme: "#7743DB",
+        light: {
+          primary: "#FFFFFF",
+          secondary: "#f1f1ef",
+        },
+        dark: {
+          primary: "#0F0F0F",
+          secondary: "#202020",
+        },
+        "background": "#F5F5F5",
+      },
+      screens: {
+        ...defaultTheme.screens,
+        xs: "340px",
+        sm: "420px",
+      },
+      spacing: {
+        spacing: {
+          ...defaultTheme.spacing,
+          1: '5px',
+          2: '10px',
+          3: '15px',
+          4: '20px',
+          5: '25px'
+        }
+      }
+    },
+  },
+};
+
+export default config;
 ```
 
+## Avoid Arbitrary Values
+
+Imagine our web application follows some colour scheme where we have `#7743DB` as our theme colour and `#0D0D0D` as our background colour.
+
+We can add these colours to our tailwind configuration and refer to them using class names, such as `bg-background` `text-theme` instead of using arbitrary values at multiple places, i.e. `bg-[#0D0D0D]` or `text-[#7743DB]`.
+
+Now, if we want to change our application's color scheme, we just need to update our tailwind configuration instead of renaming the arbitrary class names at multiple places.
+
+```javascript
+import defaultTheme from "tailwindcss/defaultTheme";
+
+const config = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        ...defaultTheme.colors,
+        theme: "#7743DB",
+        background: "#0D0D0D"
+      },
+    },
+  },
+};
+
+export default config;
+```
+
+```typescript
+const ColoredText = ({ children }) => {
+  return (
+     <span className="text-theme">
+          {children}
+     </span>
+  );
+};
+```
+
+## Avoid Dynamically Generated Class Names
+
+You all might have encountered this issue while working with dynamic classes that whenever we apply some dynamic class name based on state or some condition, the class name appears in elements panel on the browser, but its corresponding CSS does not.
+
+```typescript
+const BorderBox = ({ borderColor }) => {
+  return (
+    <div className={`border border-solid border-[${borderColor}]`}>
+      Some Random Text
+    </div>
+  );
+};
+```
+
+This is because Tailwind scans your source code for classes using regular expressions to extract every string that could possibly be a class name. Hence, any broken class name string such as `border-[${borderColor}]` would not be recognized by tailwind at build time, and it would not be included in the output CSS file of tailwind.
+
+Suppose, we have to change the border color of our element based on the color code passed in props. There are two ways to it:
+
+1.  Defining a separate class name for each state value. This is only applicable if you know all the expected values of the `borderColor` at build time.
+
+> [!TIP]
+> `clsx` is utility package for constructing `className` strings conditionally.
+
+```typescript
+const BorderBox = ({ borderColor }) => {
+  return (
+    <div
+      className={clsx("border border-solid", {
+        "border-black": borderColor === "black",
+        "border-red-500": borderColor === "red",
+        "border-green-500": borderColor === "green",
+      })}
+    >
+      Some Random Text
+    </div>
+  );
+};
+```
