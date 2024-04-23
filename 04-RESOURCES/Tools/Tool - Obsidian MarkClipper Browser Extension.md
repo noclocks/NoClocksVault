@@ -33,6 +33,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
+> - *[anilkumarum/mark-clipper: mark-clipper - obsidian web clipper](https://github.com/anilkumarum/mark-clipper)*
 > - *[markClipper - obsidian web clipper](https://chromewebstore.google.com/detail/markclipper-obsidian-web/mcbhalpamcihagflkpllacdcfmmnjemn?hl=en-US&utm_source=ext_sidebar)*
 > - *[markClipper - live preview markdown](https://markclipper.noterail.site/)*
 > - *[markdown formatting syntax](https://markclipper.noterail.site/guide/)*

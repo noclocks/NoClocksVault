@@ -34,7 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[How to use](https://chatgptsave.notion.site/How-to-use-54ecb28a07b04f9d8ff9edb974608400)*
 
 ***
 
