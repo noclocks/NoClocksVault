@@ -57,7 +57,8 @@ graph LR
   end
   subgraph services[Professional Services]
     legal[Legal]
-    consulting[Consul]
+    consulting[Consulting]
+    accounting[Accounting and Taxes]
   end
   
 ```
