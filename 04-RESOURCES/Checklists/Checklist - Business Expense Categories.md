@@ -42,9 +42,22 @@ graph LR
     rent[Rent]
     utils[Utilities]
     wages[Salaries and Wages]
-    
-
-
+    insurance[Insurance]
+  end
+  subgraph cogs[Cost of Goods Sold]
+  end
+  subgraph tech[Technology and Software]
+    subs[SaaS Subscriptions]
+    hardware[Hardware]
+  end
+  subgraph marketing[Digital Marketing]
+    ads[Advertising Campaigns]
+    promotions[Promotional Materials]
+    research[Market Research]
+  end
+  subgraph services[Professional Services]
+    legal[Legal]
+    consulting[Consul]
   end
   
 ```
