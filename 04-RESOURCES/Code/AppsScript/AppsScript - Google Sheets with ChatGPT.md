@@ -239,3 +239,119 @@ Key points that are different to understand in this code are:
 
 ### Add a Custom Function as a Sheets Menu
 
+The function is ready to be tested, but it still will not appear in the spreadsheet. To do so, we'll need to provide the following instructions:
+
+
+```javascript
+/**
+ * Menu creates menu UI in spreadsheet.
+ */
+function createCustomMenu() {
+   // define menu ui 
+  let menu = SpreadsheetApp.getUi().createMenu("GPT Functions");
+   // add function to the menu
+   menu.addItem("GPT SIMPLIFY", "gptSimplifyMenu");
+   // add menu to the spreadsheet ui
+  menu.addToUi();
+}
+
+/**
+ * OnOpen trigger that creates menu
+ * @param {Dictionary} e
+ */
+function onOpen(e) {
+  createCustomMenu();
+}
+```
+
+In `createCustomMenu()`:
+
+1. We define menu with [`SpreadsheetApp.getUi().createMenu("GPT Functions")`](https://developers.google.com/apps-script/reference/base/ui#createmenucaption) as GPT Functions the title appearing in the spreadsheet tab.
+2. We add a function to the menu with the `menu.addItem("GPT SIMPLIFY", "gptSimplifyMenu")`, where the first parameter is the title for display and the second is the function to call when pressed.
+3. Add the menu to the UI with `menu.addToUi()`.
+
+The [onOpen](https://developers.google.com/apps-script/guides/triggers#onopene) trigger runs automatically whenever the document the script is attached to reloads and as such will add a menu to the spreadsheet as shown in the image below.
+
+### GPT Summarize Menu
+
+We'll make some minor changes after copying the simplify function as shown below:
+
+```javascript
+/**
+ * Summarzies the given paragraph. It provides from 3-5 bullet points
+ * @customfunction
+ */
+function gptSummaryMenu() {
+  try {
+    // get sheets and data
+    const ss = SpreadsheetApp.getActiveSheet();
+    const data = ss.getDataRange().getValues();
+    const lastRow = data.length;
+    const lastCol = data[0].length;
+
+    // define gpt's role play
+    const systemContent = "Summarize the given text. Provide atleast 3 and atmost 5 bullet points.";
+
+
+    for (let i = 0; i < data.length; i++) {
+      console.log(`Inside gptSummaryMenu() for loop`)
+
+      if (i == 0) continue;
+      // only summarize if not already summarized or error occured previously
+      if (data[i][2] === "" || data[i][2] === "Some Error Occured Please check your formula or try again later.") {
+        data[i][2] = fetchData(systemContent, data[i][0]);
+        console.log(data[i][2]);
+      }
+    }
+
+    ss.getRange(1, 1, lastRow, lastCol).setValues(data);
+  } catch (e) {
+    console.log(e)
+    SpreadsheetApp.getActiveSpreadsheet().toast("Some Error Occured Please check your formula or try again later.");
+  }
+}
+```
+
+1. The system role has been changed to address summary instruction.
+2. The target column to save data is now the third column.
+3. The doc string has been adjusted as well.
+
+As for adding this function to the menu I'll leave it to you.
+
+## Tips
+
+All you need to make your own formula like `=GPT_COVER_LETTER_CREATOR()` are the following modifications:
+
+### To FetchData
+
+You can change System Content Description should to address your needs, like "You write an expert cover letter for software developers".
+
+Add one more instruction in the messages array:
+
+```javascript
+// from this 
+[{
+          "role": "system",
+          "content": systemContent,
+        },
+        {
+          "role": "user",
+          "content": userContent
+        },
+        ], 
+
+// to 
+[{
+          "role": "system",
+          "content": "You write an expert cover letter for software developers",
+        },
+        {
+          "role": "user",
+          "content": "Write me a cover letter for this given job advertisement"
+        },
+        {
+          "role": "user",
+          "content": userContent // this is job ad from spreadsheet
+        },
+        ],
+```
