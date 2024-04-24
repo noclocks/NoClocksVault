@@ -176,7 +176,7 @@ function Analytics({ exclude, domain }: AnalyticsProps) {
   );
 }
 
-export default Component;
+export default Analytics;
 ```
 
 ## Details
