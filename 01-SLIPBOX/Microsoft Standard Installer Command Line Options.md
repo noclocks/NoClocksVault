@@ -191,3 +191,19 @@ The equivalent Windows Installer command line has `PATCH = [<msipatch>.msp]<;Pat
 -   [REBOOT property - Win32 apps](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/en-us/windows/win32/msi/reboot?source=recommendations)
     
     The REBOOT property suppresses certain prompts for a restart of the system.
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-24]] and last modified on [[2024-04-24]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[Microsoft Standard Installer Command Line Options]] AND -"CHANGELOG" AND -"01-SLIPBOX/Microsoft Standard Installer Command Line Options"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
