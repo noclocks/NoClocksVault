@@ -25,7 +25,14 @@
 
 ## UI/UX Design
 
+> [!NOTE]
+> What will this fix/feature look like? How will it affect the end user?
+
 ## Capabilities
+
+> [!NOTE]
+> Discuss how the proposed fixes/features impact the following key considerations:
+
 
 ### Accessibility
 
@@ -64,3 +71,4 @@
 > [!NOTE]
 > Be sure to add links to references, resources, footnotes, etc.
 
+<% tp.file.include("[[Template-Fragment-Backmatter]]") %>
