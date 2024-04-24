@@ -57,6 +57,22 @@ debugInConsole: false # Print debug info in Obsidian console
 
 import meta from "@/config/meta.json" assert { type: "json" };
 
+// CacheControl type
+export type CacheControl = Partial<{
+  "max-age": number;
+  "s-maxage": number;
+  "stale-while-revalidate": number;
+  "stale-if-error": number;
+  "public": boolean;
+  "private": boolean;
+  "no-cache": boolean;
+  "no-store": boolean;
+  "must-revalidate": boolean;
+  "proxy-revalidate": boolean;
+  "immutable": boolean;
+  "no-transform": boolean;
+}>;
+
 // default cache control
 export const DEFAULT_CACHE_CONTROL: CacheControl = {
   "s-maxage": 60, // 1minute cdn cache
@@ -74,6 +90,14 @@ export const DEFAULT_CACHE_CONTROL: CacheControl = {
 
 > [!NOTE] About
 > This note is about ...
+
+### CacheControl Type
+
+> [!CODE]
+> - Date:: [[2024-04-24]]
+> - Source: [[undefined]]
+> - Language: undefined
+> - Description:: null
 
 ## See Also
 
