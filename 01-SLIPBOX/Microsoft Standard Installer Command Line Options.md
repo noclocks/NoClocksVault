@@ -88,3 +88,106 @@ Example:
 msiexec /package Application.msi /passive
 ```
 
+## /norestart
+
+Never restart option. The installer never restarts the computer after the installation.
+
+The equivalent Windows Installer command line has `REBOOT=ReallySuppress` set on the command line.
+
+Example:
+
+```powershell
+msiexec /package Application.msi /norestart`
+```
+
+## /forcerestart
+
+Always restart option. The installer restarts the computer after every installation.
+
+The equivalent Windows Installer command line has `REBOOT=Force` set on the command line.
+
+Example:
+
+```powershell
+msiexec /package Application.msi /forcerestart
+```
+
+## /promptrestart
+
+Prompt before restarting option. Displays a message that a restart is required to complete the installation and asks the user whether to restart the system now. You can't use this option with the `/quiet` option.
+
+The equivalent Windows Installer command line has `REBOOTPROMPT = ""` set on the command line.
+
+## /uninstall (product)
+
+Uninstall product option. Uninstalls a product.
+
+The equivalent Windows Installer command-line option is `/x.`
+
+### Parameter
+
+`<Package>.msi | <ProductCode>`
+
+## /uninstall (patch)
+
+Uninstall update option. Uninstalls an update patch.
+
+The equivalent Windows Installer command-line option is `/I` with `MSIPATCHREMOVE=Update1.msp | PatchGUID1[;Update2.msp | PatchGUID2]` set on the command line.
+
+`msiexec /uninstall Update1.msp;PatchGUID2`
+
+## /log
+
+Log option. Writes logging information into a log file at the specified existing path. The path to the log file location must already exist. The installer doesn't create the directory structure for the log file.
+
+For more information about all the methods that are available for setting the logging mode, see [Normal logging](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/normal-logging) for the Windows Installer.
+
+The equivalent Windows Installer command-line option is: `/L*`.
+
+The following information is entered into the log:
+
+-   Status messages
+-   Nonfatal warnings
+-   All error messages
+-   Startup of actions
+-   Action-specific records
+-   User requests
+-   Initial UI parameters
+-   Out-of-memory or fatal exit information
+-   Out-of-disk-space messages
+-   Terminal properties
+
+## /package
+
+Install product option. Installs or configures a product.
+
+The equivalent Windows Installer command-line option is `/I`.
+
+### Parameter
+
+`<Package>.msi | <ProductCode>`
+
+
+## /update
+
+Install patches option. Installs one or multiple patches.
+
+The equivalent Windows Installer command line has `PATCH = [<msipatch>.msp]<;PatchGuid>` set on the command line.
+
+### Parameter
+
+`<Patch>.msp | <PatchGUID>`
+
+## Additional resources
+
+- [Command-Line Options - Win32 apps](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/en-us/windows/win32/msi/command-line-options?source=recommendations)
+    
+    Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.
+    
+-   [msiexec](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/en-us/windows-server/administration/windows-commands/msiexec?source=recommendations)
+    
+    Reference article for the msiexec command, which provides the means to install, modify, and perform operations on Windows Installer from the command line.
+    
+-   [REBOOT property - Win32 apps](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/en-us/windows/win32/msi/reboot?source=recommendations)
+    
+    The REBOOT property suppresses certain prompts for a restart of the system.
