@@ -100,7 +100,7 @@ export const DEFAULT_CACHE_CONTROL: CacheControl = {
 >   "max-age": number;
 >   "s-maxage": number;
 >   "stale-while-revalidate": number;
->    "stale-if-error": number;
+>   "stale-if-error": number;
 >   "public": boolean;
 >   "private": boolean;
 >   "no-cache": boolean;
@@ -109,7 +109,16 @@ export const DEFAULT_CACHE_CONTROL: CacheControl = {
 >   "proxy-revalidate": boolean;
 >   "immutable": boolean;
 >   "no-transform": boolean;
->   }>;
+> }>;
+> 
+> // default cache control
+> export const DEFAULT_CACHE_CONTROL: CacheControl = {
+>   "s-maxage": 60, // 1minute cdn cache
+>   "max-age": 10, // 10s browser cache to avoid BYPASS on cloudflare
+>   "stale-while-revalidate": 3600, // 1hour
+>   "stale-if-error": 24 * 3600, // 1day
+>   public: true,
+> };
 > ```
 
 ## See Also
