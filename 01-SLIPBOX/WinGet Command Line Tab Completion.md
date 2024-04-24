@@ -16,21 +16,40 @@ image:
 cssclasses:
 ---
 
-# 
+# WinGet Command Line Tab Completion
 
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
 
-[](https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md#winget-command-line-tab-completion)
+> [!SOURCE] Sources:
+> - *[winget-cli/doc/Completion.md at master · microsoft/winget-cli](https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md)*
+
+## Overview
+
 WinGet offers a `complete`  command that can be leveraged by your shell to provide context sensitive tab completion. It allows for completion of command names, argument names, and argument values, dependent on the current command line state.
-> 
-Note, this feature was released in  [v0.1.42241 Preview](https://github.com/microsoft/winget-cli/releases/tag/v0.1.42241-preview) . Please update if you are on an older build.
+
+> [!NOTE]
+> This feature was released in  [v0.1.42241 Preview](https://github.com/microsoft/winget-cli/releases/tag/v0.1.42241-preview) . Please update if you are on an older build.
 
 ## Examples
-[](https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md#examples)
-> 
-These examples assume that the tab completion in your shell works similar to PowerShell; repeated presses of tab (`` ) will result in cycling through the possible values.
 
-|Input|Result|Reason|
-|-----|------|------|
+> [!NOTE]
+> These examples assume that the tab completion in your shell works similar to [[PowerShell]]; repeated presses of tab will result in cycling through the possible values.
+
+| Input | Result | Reason |
+| :---: | :--- |---|
+|`winget ⇥`|`winget install`|`install` is the first command below the root|
+|`winget sh⇥`|`winget show`|`show` is the first command that starts with `sh`|
+|`winget source l⇥`|`winget source list`|`list` is the first sub-command of source that starts with `l`|
+|`winget -⇥`|`winget --version`|`--version` is the first argument defined for the root|
+|`winget install power⇥`|`winget install "Power Toys"`|`"Power Toys"` is the first package whose Id, Name, or Moniker starts with `power`|
+|`winget install "Power Toys" --version ⇥`|`winget install "Power Toys" --version 0.19.2`|`0.19.2` is the highest version of Power Toys at the time of writing|
 
 ## PowerShell
 [](https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md#powershell)
