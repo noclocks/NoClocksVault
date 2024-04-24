@@ -18,7 +18,12 @@ cssclasses:
 ## Choose Frameworks
 
 [![NextJS Icon](https://i.imgur.com/gASWRl8.png)](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-overview)
-**Install Next
+
+[![NextJS Icon](https://i.imgur.com/Ke3cWQL.png)
+
+**[Install [[Tool - Next.js|Next.js]] on [[Tool - WSL|WSL]]](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nextjs-on-wsl)**
+
+
 
 
 [![NextJS icon](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/images/nextjs-logo.png)](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/nextjs-on-wsl)  
