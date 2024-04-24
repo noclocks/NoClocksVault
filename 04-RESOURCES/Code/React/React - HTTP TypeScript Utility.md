@@ -93,11 +93,24 @@ export const DEFAULT_CACHE_CONTROL: CacheControl = {
 
 ### CacheControl Type
 
-> [!CODE]
-> - Date:: [[2024-04-24]]
-> - Source: [[undefined]]
-> - Language: undefined
-> - Description:: null
+> [!CODE]- View Code:
+> ```typescript
+> // declare CacheControl type:
+> export type CacheControl = Partial<{
+>   "max-age": number;
+>   "s-maxage": number;
+>   "stale-while-revalidate": number;
+>    "stale-if-error": number;
+>   "public": boolean;
+>   "private": boolean;
+>   "no-cache": boolean;
+>   "no-store": boolean;
+>   "must-revalidate": boolean;
+>   "proxy-revalidate": boolean;
+>   "immutable": boolean;
+>   "no-transform": boolean;
+>   }>;
+> ```
 
 ## See Also
 
