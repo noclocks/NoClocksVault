@@ -59,6 +59,17 @@ To support these assertions, various studies and research have been conducted, p
 
 In today's fiercely competitive digital landscape, optimizing website performance is vital for the success of e-commerce businesses. A well-performing website not only enhances user engagement but also improves conversion rates, leading to increased sales and revenue. Studies consistently demonstrate that faster page load times result in reduced bounce rates, improved user experience, increased page views, higher customer satisfaction, and a positive brand perception. Therefore, investing in website performance optimization is a strategic decision for any online business aiming to thrive in the ever-evolving digital marketplace.
 
+## Introduction
+
+- Understand the Framework and System Architecture:
+	- Using a tool efficiently implies understanding its components and capabilities. This allows for a healthy codebase from the start.
+	- Example: Create components like `Image` that help accelerate the efficient delivery of images, but users can still use the `<img>` [[Hyper Text Markup Language (HTML)|HTML]] element if they prefer.
+- Learn to Analyze Performance:
+	- Learn to analyze the performance of your pages. Navigating a page should not be slow, not even for you. **If it's slow for the developer, it will be slow for the user**. Understand the available tools and how they work.
+- Ongoing Monitoring for Performance:
+	- Once the system stops performing, it is common to stop caring about performance until it becomes much more difficult to make corrections. Detecting performance issues is an ongoing task, but it should not be an end in itself.
+	- Important: the most important thing (the golden rule) is the user experience. Sometimes the system may not deliver the best performance, as long as it is a conscious decision to deliver the best experience to the user.
+
 
 ## Diagram
 
@@ -69,12 +80,17 @@ graph LR
 
 ## Checklist
 
-- Understand the framework and system architecture
-	- Using a tool efficiently implies understanding its components and capabilities. This allows for a healthy codebase from the start.
-	- Example: Create components like `Image` that help accelerate the efficient delivery of images, but users can still use the `<img>` 
+
 
 ### Analyze Page Performance
 
+Testing performance involves understanding a series of tools and possible metrics that seek to understand what needs to be improved (and how). There are tools that help in this process. Understand how and when to use them.
+
+### Local Testing
+
+**Always test your page, section, loader, or action locally. It doesn't always need to be a structured test**. If it's already slow for you, it will be slow for the user.
+
+Run the deployed test versions. Then use the tools available in the browser itself to debug performance issues. With them, you can monitor the performance of the page in detail and simulate adverse conditions (such as a lower quality network or CPU). More information in the guide below:
 
 
 ## Conclusion
