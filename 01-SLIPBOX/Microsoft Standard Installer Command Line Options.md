@@ -30,3 +30,13 @@ maxLevel: 4 # Include headings up to the specified level
 includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
+
+## Overview
+
+This article describes standard command-line options for the Microsoft Standard Installer `msiexec.exe`, the app you use to interpret packages and install products.
+
+Command-line options are case insensitive.
+
+`Msiexec` sets and returns an error level that corresponds to [system error codes](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes).
+
+> []
