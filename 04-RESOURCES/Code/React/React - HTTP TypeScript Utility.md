@@ -46,13 +46,27 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!example] **Code Snippet Metadata**:
 > - Date:: [[2024-04-24]]
-> - Source: *[deco/utils/http.ts at main · deco-cx/deco](https://github.com/deco-cx/deco/blob/main/utils/http.ts)*
-> - Language: [[TypeS]]
+> - Source:: *[deco/utils/http.ts at main · deco-cx/deco](https://github.com/deco-cx/deco/blob/main/utils/http.ts)*
+> - Language:: [[04-RESOURCES/Code/TypeScript/_README|TypeScript]]
 > - Description:: ""
 
 ## Code Snippet
 
-```javascript
+```typescript
+// src/utils/http.ts
+
+import meta from "@/config/meta.json" assert { type: "json" };
+
+// default cache control
+export const DEFAULT_CACHE_CONTROL: CacheControl = {
+  "s-maxage": 60, // 1minute cdn cache
+  "max-age": 10, // 10s browser cache to avoid BYPASS on cloudflare: https://developers.cloudflare.com/cache/about/default-cache-behavior/#cloudflare-cache-responses
+  "stale-while-revalidate": 3600, // 1hour
+  "stale-if-error": 24 * 3600, // 1day
+  public: true,
+};
+
+
 
 ```
 
