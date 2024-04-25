@@ -9,5 +9,6 @@
     "tables",
     "tool"
   ],
-  "cssTheme": "GitHub Theme"
+  "cssTheme": "GitHub Theme",
+  "interfaceFontFamily": "Inter"
 }
