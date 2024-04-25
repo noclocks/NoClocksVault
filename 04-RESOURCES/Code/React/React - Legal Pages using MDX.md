@@ -40,7 +40,35 @@ debugInConsole: false # Print debug info in Obsidian console
 - `src/pages/legal/index.tsx`
 
 ```typescript
-import Footer from ''
+import Footer from '@/components/Footer';
+
+export default function LegalLayout() {
+  return (
+    <div className="bg-interior bg-no-repeat">
+      <div className="page-grid min-h-screen">
+        <aside className="p-page md:p-8 md:fixed col-span-12">
+          <a href="/">
+            <img src="/images/logo.svg" alt="No Clocks, LLC" />
+          </a>
+        </aside>
+        <main className="col-span-12 md:col-start-5 md:col-span-6 md:pt-[130px] px-page md:px-0">
+          <div className="content legal-content">
+            <Outlet />
+          </div>
+        </main>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+```
+
+where `src/components/Footer.tsx`:
+
+```typescript
+const Footer = () => {
+  const 
+}
 ```
 
 ### Privacy Policy
