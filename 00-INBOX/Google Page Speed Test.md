@@ -36,10 +36,10 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Key Factors
 
-- **Loading**: 
-- Interactivity
-- Visual Stability
-- Mobile Friendly
-- Safe Browsing
-- HTTPS
-- Interstitials
+- **Loading**: [[Largest Contentful Paint (LCP)]] is one of the [[Core Web Vitals]] and should be **under 2.5 seconds** for a good [[User Experience (UX)]].
+- **Interactivity**: [[First Input Display (FID)]] is a part of [[Core Web Vitals]] and should be *less than 100 milliseconds* for a good [[User Experience (UX)]].
+- **Visual Stability**: Also a part of [[Core Web Vitals]], [[Cumulative Layout Shift (CLS)]] should have *a score of less than 0.1* for a good [[User Experience (UX)]].
+- **Mobile Friendly**: Over 50% of Google searches originate from mobile devices. Make sure your website is responsive and adjusts to every dimension.
+- **Safe Browsing**: Your website should not contain malicious (malware) or deceptive content and should be safe for all visitors.
+- **HTTPS**: HTTPS is your site’s first line of defense when Google checks your website for Encryption, Data Integrity, and Authentication.
+- **Interstitials**: Web pages with intrusive pop-ups or banners that conceal actual content get flagged by Google because it ruins the user experience.
