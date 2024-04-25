@@ -43,6 +43,14 @@ Configuring fonts for a [[React.js]] application can be done in many ways.
 
 ## Code Snippet
 
+Assumes usage of the [[Tool - FontSource|FontSource]] library:
+
+```bash
+pnpm add @fontsource-variable/inter
+```
+
+Add 
+
 ```typescript
 // src/config/fonts.ts
 
