@@ -19,7 +19,7 @@ cssclasses:
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[two-week-build\_\_remix/app/routes/\_legal/route.tsx at main · ahaywood/two-week-build\_\_remix](https://github.com/ahaywood/two-week-build__remix/blob/main/app/routes/_legal/route.tsx)*
 
 ```table-of-contents
 title: Contents 
@@ -32,6 +32,16 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code
 
+### Legal Index
+
+> [!SOURCE] References:
+> - *https://www.perplexity.ai/search/I-have-a-bqCmKkTPQimXhW4fiLr5Hw?s=c*
+
+- `src/pages/legal/index.tsx`
+
+```typescript
+import Footer from ''
+```
 
 ### Privacy Policy
 
@@ -236,7 +246,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > ```
 
 
-## Disclaimers
+### Disclaimers
 
 - `src/pages/legal/disclaimer.mdx`
 
@@ -254,3 +264,19 @@ debugInConsole: false # Print debug info in Obsidian console
 > ***
 > Updated: **April 2024**
 > ```
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-25]] and last modified on [[2024-04-25]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[React - Legal Pages using MDX]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/React/React - Legal Pages using MDX"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
