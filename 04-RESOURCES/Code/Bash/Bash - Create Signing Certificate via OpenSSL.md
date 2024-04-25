@@ -59,6 +59,9 @@ For the digital signature of your documents you need a signing certificate in `.
 ## Code Snippet
 
 ```bash
+#!/usr/bin/env bash
+# -*- coding: utf-8 -*-
+
 # generate a private key using openssl (2048-bit RSA key):
 openssl genrsa -out private.key 2048
 
@@ -69,7 +72,21 @@ openssl req -new -x509 -key private.key -out certificate.crt -days 365
 openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.crt
 ```
 
+Function Wrapper:
+
+```bash
+
+```
+
 ## Details
+
+This script is written in [[04-RESOURCES/Code/Bash/_README|Bash]], a popular [[shell scripting]] language. It uses [[Tool - OpenSSL|OpenSSL]], a robust toolkit for the [[Transport Layer Security (TLS)]] and [[Secure Sockets Layer (SSL)]] protocols, to generate a **private key**, a **self-signed certificate**, and a **PKCS#12 certificate bundle**.
+
+- The first line, `#!/usr/bin/env bash`, is known as a shebang. It tells the system that this script should be executed using Bash.
+- The second line, `# -*- coding: utf-8 -*-`, is a coding declaration. While not necessary in Bash scripts, it's often used in Python scripts to specify the character encoding. In this script, it doesn't have any effect and can be considered a comment.
+- The command `openssl genrsa -out private.key 2048` generates a 2048-bit RSA private key. The `-out` option specifies the output filename, in this case, `private.key`.
+- The command `openssl req -new -x509 -key private.key -out certificate.crt -days 365` generates a new X.509 certificate using the previously generated private key. The `-new` option indicates that a new certificate request should be created. The `-x509` option tells OpenSSL to create a self-signed certificate instead of a certificate request. The `-days 365` option sets the certificate to expire after one year.
+- The command `openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.crt` creates a PKCS#12 file, also known as a PFX file, which bundles the private key and certificate together. This is often required when importing the key and certificate into certain systems. The `-export` option is used to specify that a PKCS#12 file will be created instead of parsed. The `-out` option specifies the output filename, in this case, `certificate.p12`. The `-inkey` and `-in` options specify the input private key and certificate files, respectively.
 
 ## See Also
 
