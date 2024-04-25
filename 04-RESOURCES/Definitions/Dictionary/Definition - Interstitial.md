@@ -4,9 +4,11 @@ modification_date: 2024-04-25
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Definition
-  - Topic/NA
+  - Type/Dictionary
+  - Topic/Dev/Web
   - Status/Complete
 aliases:
+  - "Interstitial Definition"
   - "Interstitial"
 publish: true
 permalink:
@@ -15,7 +17,7 @@ image:
 cssclasses:
 ---
 
-# Interstitial
+# Interstitial Definition
 
 ```table-of-contents
 title: Contents 
