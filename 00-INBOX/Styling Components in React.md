@@ -224,7 +224,162 @@ In the code above, we import the `styled` object from `styled-components`, wh
 
 #### Shortcomings
 
+1. **Learning Curve**  
+    Frontend developers that are already comfortable with writing traditional CSS will have to learn a different way of styling that is different from how traditional CSS is written.
+2. **Integration with Legacy CSS can be painful.**  
+    If you’re making use of a UI library like Material UI or even traditional CSS, integrating styled-components together with them can be confusing to locate and debug styles.
+3. **Performance**  
+    styled-components converts all of the style definitions in your React component into plain CSS at build time and the inject everything into the `<style>` tags in the head of your `index.html` file. This affects performance in the sense that it is not only increasing the size of our HTML file which can have an impact on the load time, but there is also no way to chunk the output CSS either.
 
+### JSS
+
+[**JSS**](https://cssinjs.org/) is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node. JSS is a new styling strategy that hasn’t been adapted so much. It is framework agnostic and consists of multiple packages: the core, plugins, framework integrations and others.
+
+JSS has third party API adapters that can be used to write JSS like styles but differently, these third party API adapters include:
+
+- **Styled-JSS**  
+    This is a styled-component API adapter.
+- **Glamor-JSS**  
+    Glamor flavored CSS with JSS under the hood.
+- **Aphrodite-JSS**  
+    Aphrodite like API.
+
+#### React-JSS
+
+React-JSS makes use of JSS with React using the new Hooks API. JSS and the default preset are already built into the library. According to the [official React-JSS docs](https://cssinjs.org/react-jss?v=v10.1.1), the following are the benefits of using React-JSS instead of the core JSS library in your React components.
+
+- **Dynamic Theming**  
+    This allows context-based theme propagation and runtime updates.
+- **Critical CSS Extraction**  
+    The only CSS from rendered components gets extracted.
+- **Lazy Evaluation**  
+    Style Sheets are created when a component mounts and removed when it’s unmounted.
+- The **static part of a Style Sheet** will be shared between all elements.
+- Function values and rules are **updated automatically** with any data you pass to `useStyles(data)`. You can pass props, state or anything from context for example.
+
+The code below is an example of how React-JSS is used.
+
+```javascript
+import React from 'react'
+import {render} from 'react-dom'
+import injectSheet, { ThemeProvider } from 'react-jss'
+const styles = (theme) => ({
+  wrapper: {
+    padding: 40,
+    background: theme.background,
+    textAlign: 'center'
+  },
+  title: {
+    font: {
+      size: 40,
+      weight: 900,
+    },
+    color: props => props.color
+  },
+  link: {
+    color: theme.color,
+    '&:hover': {
+      opacity: 0.5
+    }
+  }
+})
+const Comp = ({ classes }) => (
+  <div className={classes.wrapper}>
+    <h1 className={classes.title}>Hello React-JSS!</h1>
+    <a
+      className={classes.link}
+      href="https://cssinjs.org/react-jss"
+      traget="_blank"
+    >
+      See docs
+    </a>
+  </div>
+)
+const StyledComp = injectSheet(styles)(Comp)
+const theme = {
+  background: '#aaa',
+  color: '#24292e'
+}
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <StyledComp color="red"/>
+  </ThemeProvider>
+)
+render(<App />, document.getElementById("root"))
+
+```
+
+In the code above, which somewhat similar to using styled components, we import `injectSheet` and `ThemeProvider` from the `react-jss` library. The `ThemeProvider` is a High-Order component in React, which passes the theme object down the React tree by the use of context. It will contain the root theme of the component. While `injectSheet` is used for injecting the stylesheet we have created in this case `styles` into the main component.
+
+```javascript
+const Comp = ({ classes }) => (
+  <div className={classes.wrapper}>
+    <h1 className={classes.title}>Hello React-JSS!</h1>
+    <a
+      className={classes.link}
+      href="https://cssinjs.org/react-jss"
+      traget="_blank"
+    >
+      See docs
+    </a>
+  </div>
+)
+```
+
+The code above is the main React component that has not been injected with the styles object we have created, it contains the main code for our React component and it is going to be styled when we inject it with the styles object that we have created.
+
+```javascript
+const StyledComp = injectSheet(styles)(Comp)
+```
+
+The line of code above is injecting the styles we have created into the component we created it for using the `injectSheet()` function.
+
+```javascript
+const theme = {
+  background: '#aaa',
+  color: '#24292e'
+}
+```
+
+The code above holds the theme object that would be passed to the `<ThemeProvider>` HOC via context and it acts as the root theme of our component.
+
+```javascript
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <StyledComp color="red"/>
+  </ThemeProvider>
+)
+```
+
+In this portion of the code, what we are doing here is using the `<ThemeProvider>` HOC, we are rendering our component that we have injected the styled sheet we created into `<StyledComp color= "red"/>`.
+
+#### Benefits
+
+1. **Local Scoping**  
+    JSS supports local scoping, taking it to the next level by automating scoping, which leads to a high level of predictability.
+2. **Encapsulation**  
+    Encapsulation facilitates maintenance and eliminates errors, as you can modify all component-related code and style in the same place, without having to worry about unexpectedly changing other parts of the application.
+3. **Reusability**  
+    Components are reusable, so you only have to write them once, then you can run them everywhere while maintaining their styling too.
+4. **Dynamic Styling**  
+    You can make use of props to dynamically change the styles in any way that feels natural to anyone comfortable with React.
+
+#### Shortcomings
+
+1. **Learning Curve**  
+    Learning JSS can be very tricky especially frontend developers that are already used to writing traditional CSS.
+2. **Extra Layer of Complexity**  
+    Putting a CSS-in-JS library into use adds an extra layer to your React application, which can sometimes be unnecessary.
+3. **Code Readability**  
+    Custom or Automatically generated selectors can be very difficult to read especially when using your browser devtools to debug.
+
+## Conclusion
+
+Each of these has its advantages and disadvantages, and it all depends on your personal/company preference and the complexity of your application. Also, whatever styling strategy you may decide to use, it is still basically CSS. You can write CSS like you’ve always done, but React and other libraries offer solutions that can also help with styling.
+
+I hope you enjoyed working through this tutorial. You could always read more on Styling React Components from the references below. If you have any questions, leave a comment below and I’ll be happy to reply to each and every single one.
+
+## Resources
 
 
 ***
