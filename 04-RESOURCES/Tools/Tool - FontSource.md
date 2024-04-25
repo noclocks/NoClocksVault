@@ -80,7 +80,29 @@ bun add @fontsource/open-sans
 ```
 
 > [!NOTE] Note:
-> 
+> Alternatively, you can download the font files yourself in each directory listing.
+
+3. **Import the Font**: In your application’s entry file, page, or site component, import the font package using the package name. For example, to import Open Sans into `index.tsx`, add the following code:
+
+```typescript
+// src/index.tsx
+import "@fontsource/open-sans"; // Defaults to weight 400
+```
+
+4. **Weights & Styles**: If you only need specific font weights or styles, you can import them individually to reduce the payload size. Fontsource allows you to select weights and styles precisely. To import a specific weight or style, use the corresponding imports. For example:
+
+```typescript
+import "@fontsource/open-sans/500.css"; // Weight 500.
+import "@fontsource/open-sans/900-italic.css"; // Italic variant.
+```
+
+5. **CSS**: Once the font is imported, you can reference it in your CSS stylesheets, CSS Modules, or CSS-in-JS. Use the font family name associated with the font package you installed. For example:
+
+```css
+body {
+ font-family: "Open Sans", sans-serif;
+}
+```
 
 ***
 
