@@ -16,7 +16,6 @@
   "obsidian-git",
   "open-vscode",
   "quickadd",
-  "smart-connections",
   "tag-wrangler",
   "templater-obsidian",
   "obsidian-textgenerator-plugin",
@@ -28,5 +27,7 @@
   "callout-manager",
   "obsidian-local-rest-api",
   "convert-url-to-iframe",
-  "obsidian-thoughtpartner-plugin"
+  "buttons",
+  "dbfolder",
+  "supercharged-links-obsidian"
 ]
