@@ -37,4 +37,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Design Principles
 
-Development and design at [No Clocks, LLC](https)
+Development and design at [No Clocks, LLC](https://github.com/noclocks) is guided by a set of specific design and API principles. These principles serve as the foundation for our frontend libraries and design assets and play a crucial role in ensuring the efficiency, consistency, effectiveness, and both the user-experience and developer-experience are satisfactory.
+
+### Simplicity and Usability
+
+Simplicity is the ultimate sophistication. At NextUI, we believe in delivering simple and intuitive components. Our design process centers around the user, ensuring that we deliver tools that are easy to understand, configure, and implement, regardless of a developer's expertise level.
+
+### Modular Design
+
+
