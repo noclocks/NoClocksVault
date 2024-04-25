@@ -20,7 +20,10 @@ cssclasses:
 
 # CSS Validator
 
-> 
+> [!SOURCE] Sources:
+> - *[The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)*
+> - *[Documentation for the W3C CSS Validator](https://jigsaw.w3.org/css-validator/documentation.html)*
+> - *[w3c/css-validator: W3C CSS Validation Service (github.com)](https://github.com/w3c/css-validator)*
 
 ```table-of-contents
 title: Contents 
@@ -31,16 +34,29 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-## Overview
+## Usage
 
-> [!SOURCE] Sources:
-> - **
+The simplest way to check a document is to use the basic interface. In this page you will find three forms corresponding to three possibilities:
+
+### Validation by URL
+
+Simply enter the URL of the document you want to validate. This document can be HTML or CSS one.
+
+### Validation by File Upload
+
+### Validation by Direct Input
 
 ***
 
 ## Appendix
 
 *Note created on [[2024-04-25]] and last modified on [[2024-04-25]].*
+
+### See Also
+
+- [[Tool - Nu HTML Checker|Nu HTML Checker]]
+- [[Cascading Style Sheets (CSS)]]
+- [[Frontend]]
 
 ### Backlinks
 
