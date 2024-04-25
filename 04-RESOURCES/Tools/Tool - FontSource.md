@@ -49,7 +49,20 @@ FontSource is a collection of open-source fonts that are packaged into individua
 4. **Offline**
 	- Your **fonts load offline**. This feature is beneficial for Progressive Web Apps and situations where you have limited or no access to the internet.
 5. **Additional Fonts**
-	- **Support for fonts outside the Google Font ecosystem**. This repository is constantly evolving with [other Open Source fonts](https://github.com/fontsource/font-files). Feel free to contribute!
+	- **Support for fonts outside the Google Font ecosystem**. This repository is constantly evolving with [other Open Source fonts](https://github.com/fontsource/font-files).
+
+## Installation
+
+> [!WARNING] **Pre-Requisites**
+> Before proceeding with the installation, ensure that you are using a bundler, such as [[Tool - Vite|Vite]] or [[Tool - Webpack|Webpack]], to handle importing [[Cascading Style Sheets (CSS)|CSS]] into your final bundle. Please refer to the [Fontsource Guides](https://fontsource.org/docs/guides) section to see detailed instructions for your preferred framework.
+
+> [!TIP] **Variable Fonts**
+> If your chosen font supports variable fonts, Fontsource **highly recommends** using them, especially when working with multiple weights, as it helps reduce bundle sizes. To learn more about using variable fonts, refer to the dedicated [Variable Fonts](https://fontsource.org/docs/getting-started/variable) guide.
+
+To instal
+
+```
+```
 
 ***
 
