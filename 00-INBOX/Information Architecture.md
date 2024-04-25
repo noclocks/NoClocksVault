@@ -44,8 +44,9 @@ The above *information architecture diagram* is from a product called [[Tool - N
 - **Members**
 - **Projects**
 - **Data Sources**
+- **Data Definitions**
 - **Schemas**
 - **APIs and API Docs**
 - **Custom Queries**
 - **Environments**
-- 
+- **Runners**
