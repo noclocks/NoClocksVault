@@ -67,7 +67,28 @@ where `src/components/Footer.tsx`:
 
 ```typescript
 const Footer = () => {
-  const 
+  
+  const currentYear = () => new Date().getFullYear();
+  
+  return (
+    <footer className="p-5 text-sm md:p-page text-neutral-500 flex xl:justify-between flex-col xl:flex-row gap-4">
+      <div>
+        Copyright &copy;{currentYear()}{" "}
+        <a href="https://noclocks.dev" target="_blank" rel="noreferrer">
+          No Clocks, LLC.
+        </a>{" "}
+        All Rights Reserved.
+      </div>
+      <div>
+        <a href="/disclaimer">Disclaimer</a> .{" "}
+        <a href="/privacy">Privacy Policy</a> .{" "}
+        <a href="/terms">Terms of Service</a>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
 }
 ```
 
@@ -292,6 +313,19 @@ const Footer = () => {
 > ***
 > Updated: **April 2024**
 > ```
+
+### Styles
+
+- `src/styles/*.css`
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+```
 
 ***
 
