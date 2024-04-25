@@ -77,3 +77,24 @@
 >
 > Updated: _November 2023_
 > ```
+
+
+## Terms of Service
+
+- `src/pages/legal/terms.mdx`
+
+## Disclaimers
+
+- `src/pages/legal/disclaimer.mdx`
+
+> [!CODE]- Expand to View Code
+> ```mdx
+> ---
+> title: Disclaimers
+> metaDescription: Here in the fine print of 'No Clocks, LLC.' While we strive to ensure your building experience is as seamless and inspiring as possible, there are a few legal landscapes we need to navigate together. This page covers the essentials—from what we're responsible for to the nitty-gritty details that keep our community safe and sound. We've tried to keep it as clear and straightforward as possible because we know your focus is on creating something great. Take a moment to familiarize yourself with these guidelines, and then let's get back to building amazing things together!
+> ---
+>
+> # Disclaimers
+>
+> This website/community/blog/email series is an educational and informational resource for builders. It is not a substitute for working with a consultant. I cannot guarantee the outcome of following the recommendations provided and my statements about the potential outcome are expressions of opinion only. I make no guarantees about the information and recommendations provided herein. By continuing to use/read/participate in this website/community/blog/email series you acknowledge that I cannot guarantee any particular results, as such outcomes are based on subjective factors that are not within my control. Therefore, following any information or recommendations provided on this website/community/blog/email series are at your own risk. If you need technical/startup/business advice, you should hire a consultant or other professional.
+> ```
