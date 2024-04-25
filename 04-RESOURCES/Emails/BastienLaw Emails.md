@@ -1,0 +1,1 @@
+![[Email - BastienLaw - Google Business Profile Ownership Transfer]]
