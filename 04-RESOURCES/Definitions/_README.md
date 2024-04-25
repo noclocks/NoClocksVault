@@ -34,14 +34,12 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note serves as an index for all notes under the `04-RESOURCES/Definitions` directory.
 
-## Notes
+## Acronyms
+
+## Dictionary
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `04-RESOURCES/Definitions` folder, including this note.*
-
-```dataview
-LIST FROM "04-RESOURCES/Definitions" AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/_README"
-```
+> These notes use the [[Obsidian Dictionary]]
 
 ***
 
