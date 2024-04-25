@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Definition
   - Type/Dictionary
-  - Topic/NA
+  - Topic/Dev/Web
   - Status/Complete
 aliases:
   - "Interstitial"
@@ -46,14 +46,6 @@ An interstitial discontinuity in a crystal.
 ### Adjective
 
 Of, relating to, or situated in an interstice.
-
-
-
-## 
-
-
-
-***
 
 ***
 
