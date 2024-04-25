@@ -29,7 +29,7 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-## Strategies
+## Overview
 
 There are various strategies to follow when planning to style React components, these strategies have also increased and evolved over the years. In this tutorial, we would be talking about the most popular and modern styling strategies, and how to use them to style our React components. 
 
@@ -40,7 +40,7 @@ These styling strategies include:
 3. **[`styled-components`](https://www.smashingmagazine.com/2020/05/styling-components-react/#styled-components)**: styled-components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called **CSS-in-JS**.
 4. **[JSS](https://www.smashingmagazine.com/2020/05/styling-components-react/#jss)**: JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node.
 
-### CSS & SASS Stylesheets
+## CSS & SASS Stylesheets
 
 > [!NOTE]
 > "Sass has two syntaxes. The most commonly used syntax is known as "SCSS" (for "Sassy CSS") and is a superset of CSS syntax. This means that every valid CSS stylesheet is valid SCSS as well. SCSS files use the extension .scss.
@@ -82,7 +82,7 @@ After creating the styles and importing it into `Box.js` file, we can then set
 
 While using this strategy, you could also leverage on existing frameworks like; Bulma, Bootstrap, etc. These frameworks provide you with existing classes and components you could plug into your React application without styling every aspect of your application.
 
-#### Benefits
+### Benefits
 
 1. It is **much more popular than the rest** of the styling strategies, so there is a ton of helpful resources when you run into a bug.
 2. **Caching & Performance**  
@@ -94,14 +94,14 @@ While using this strategy, you could also leverage on existing frameworks like; 
 5. **CSS** **Frameworks**  
     CSS frameworks come in handy if you are a new developer, or you want to quickly work on a prototype without diving deep into writing your own full-blown stylesheets. CSS frameworks will provide you with building blocks to get your idea off the ground. Some of these frameworks include, Bootstrap, Bulma, Semantic UI, Materialize.
 
-#### Shortcomings
+### Shortcomings
 
 1. **Readability**  
     If not properly structured, a CSS or SASS stylesheet can become long and difficult to navigate through as the application becomes complex.
 2. **Legacy CSS Can Live On For Years**  
     Most times these really large stylesheets can become so complex and long that cleaning up old, outdated or even unused styles can be a pain.
 
-### CSS Modules
+## CSS Modules
 
 A [CSS Module](https://github.com/css-modules/css-modules) is a CSS file in which all class names and animation names are scoped locally by default. When using CSS Modules, each React component is provided with its own CSS file, that is scoped to that file and component alone.
 
@@ -150,7 +150,7 @@ export default Box;
 
 `styles` here is an object that contains the styles we created in `Box.css`. This object will contain the classes; `container` and `content` that maps to their respective styles. To make use of them, we assign the element’s `className` to the appropriate class we have in `Box.css`.
 
-#### Benefits
+### Benefits
 
 1. Modular and reusable CSS,
 2. No more styling conflicts,
@@ -161,7 +161,7 @@ export default Box;
 7. No Additional costs in JS payload,
 8. Variables, Sharing variables in CSS and exposing it to JavaScript.
 
-#### Shortcomings
+### Shortcomings
 
 1. Extra build tools (e.g. webpack).
 2. Mixing CSS Modules and global CSS classes is cumbersome.
@@ -169,7 +169,7 @@ export default Box;
 4. Using the `styles` object whenever constructing a `className` is compulsory.
 5. Only allows usage of `camelCase` **CSS** class names.
 
-### Styled Components
+## Styled Components
 
 `styled-components` is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS.
 
@@ -211,7 +211,7 @@ export default Box;
 
 In the code above, we import the `styled` object from `styled-components`, which makes use of tagged template literals to style your component. We then create a variable that would hold our styling and also act as a wrapper around content, that’s why we have the `<Box>` and `<Content>` tags, in this variables, we assign it to the `styled` object plus the HTML element we want to style then followed by the accompanying styles for the HTML element. To use the variables we created for styling all we need to do is wrap our JSX or content in between them as tags.
 
-#### Benefits
+### Benefits
 
 1. **Consistency**  
     `styled-components` make it easy for you to publish a React component to NPM. These components can be customised through props and/or extending via `styled(Component)` and no clashing with CSS selectors.
@@ -222,7 +222,7 @@ In the code above, we import the `styled` object from `styled-components`, wh
 4. **Theming**  
     Using React’s Context API, styled-components offers a `ThemeContext` that can you can pass a theme object directly to, making it very accessible in any of your components, and by default can be interpolated into your styled definitions.
 
-#### Shortcomings
+### Shortcomings
 
 1. **Learning Curve**  
     Frontend developers that are already comfortable with writing traditional CSS will have to learn a different way of styling that is different from how traditional CSS is written.
@@ -231,7 +231,7 @@ In the code above, we import the `styled` object from `styled-components`, wh
 3. **Performance**  
     styled-components converts all of the style definitions in your React component into plain CSS at build time and the inject everything into the `<style>` tags in the head of your `index.html` file. This affects performance in the sense that it is not only increasing the size of our HTML file which can have an impact on the load time, but there is also no way to chunk the output CSS either.
 
-### JSS
+## JSS
 
 [**JSS**](https://cssinjs.org/) is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node. JSS is a new styling strategy that hasn’t been adapted so much. It is framework agnostic and consists of multiple packages: the core, plugins, framework integrations and others.
 
@@ -244,7 +244,7 @@ JSS has third party API adapters that can be used to write JSS like styles but d
 - **Aphrodite-JSS**  
     Aphrodite like API.
 
-#### React-JSS
+### React-JSS
 
 React-JSS makes use of JSS with React using the new Hooks API. JSS and the default preset are already built into the library. According to the [official React-JSS docs](https://cssinjs.org/react-jss?v=v10.1.1), the following are the benefits of using React-JSS instead of the core JSS library in your React components.
 
@@ -353,7 +353,7 @@ const App = () => (
 
 In this portion of the code, what we are doing here is using the `<ThemeProvider>` HOC, we are rendering our component that we have injected the styled sheet we created into `<StyledComp color= "red"/>`.
 
-#### Benefits
+### Benefits
 
 1. **Local Scoping**  
     JSS supports local scoping, taking it to the next level by automating scoping, which leads to a high level of predictability.
@@ -364,7 +364,7 @@ In this portion of the code, what we are doing here is using the `<ThemeProvide
 4. **Dynamic Styling**  
     You can make use of props to dynamically change the styles in any way that feels natural to anyone comfortable with React.
 
-#### Shortcomings
+### Shortcomings
 
 1. **Learning Curve**  
     Learning JSS can be very tricky especially frontend developers that are already used to writing traditional CSS.
@@ -380,6 +380,15 @@ Each of these has its advantages and disadvantages, and it all depends on your p
 I hope you enjoyed working through this tutorial. You could always read more on Styling React Components from the references below. If you have any questions, leave a comment below and I’ll be happy to reply to each and every single one.
 
 ## Resources
+
+- [JSS](https://cssinjs.org/?v=v10.1.1) (docs)
+- “[Styling In React](https://coursework.vschool.io/styling-in-react/),” Jacob Evans, V School
+- “[Styled Components](https://flaviocopes.com/styled-components/),” Flavio Copes
+- “[Four Ways To Style React Components](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822),” Agata Krzywda
+- “[CSS-in-JS 101: All You Need To Know](https://github.com/stereobooster/css-in-js-101) ,” stereobooster, GitHub
+- “[Styled Components vs. CSS Stylesheets](https://getstream.io/blog/styled-components-vs-css-stylesheets/),” Luke Smetham, Stream.io
+- “[Best Practices For Styling React Components](https://app.pluralsight.com/guides/best-practices-styling-react-components),” Chris Parker, Pluralsight
+- “[Styled Components vs. CSS Stylesheets](https://getstream.io/blog/styled-components-vs-css-stylesheets/),” Luke Smetham, Stream.io
 
 
 ***
