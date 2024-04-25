@@ -37,7 +37,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Configuring fonts for a [[React.js]] application can be done in many ways.
 
-- Manually D
+- Manually Download and Import Font Files
+- Use a [[Content Delivery Network (CDN)]]
+- Use a published [[Node Package Manager (NPM)]] package
 
 ## Code Snippet
 
