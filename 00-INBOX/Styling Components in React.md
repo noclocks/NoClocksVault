@@ -29,6 +29,20 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
+## Strategies
+
+There are various strategies to follow when planning to style React components, these strategies have also increased and evolved over the years. In this tutorial, we would be talking about the most popular and modern styling strategies, and how to use them to style our React components. 
+
+These styling strategies include:
+
+1. **[CSS and SCSS Stylesheets](https://www.smashingmagazine.com/2020/05/styling-components-react/#css-and-stylesheets)**:  This involves using separate stylesheets like our conventional way of styling our [[Hyper Text Markup Language (HTML)|HTML]] websites either with [[Cascading Style Sheets (CSS)|CSS]] or a CSS preprocessor called **SASS**.
+2. **[CSS Modules](https://www.smashingmagazine.com/2020/05/styling-components-react/#css-modules)**: A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.
+3. **[`styled-components`](https://www.smashingmagazine.com/2020/05/styling-components-react/#styled-components)**: styled-components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called **CSS-in-JS**.
+4. **[JSS](https://www.smashingmagazine.com/2020/05/styling-components-react/#jss)**: JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node.
+
+### CSS & SASS Stylesheets
+
+
 
 ***
 
