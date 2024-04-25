@@ -40,7 +40,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 For the digital signature of your documents you need a signing certificate in `.p12` format (public and private key). You can buy one (not recommended for dev) or use the steps to create a self-signed one:
 
-1. Generate a private key using the [[OpenSSL]] command. You can run the following command to generate a 2048-bit RSA key:
+1. Generate a private key using the [[Tool - OpenSSL|OpenSSL]] command. You can run the following command to generate a 2048-bit RSA key:
     
     `openssl genrsa -out private.key 2048`
     
@@ -56,8 +56,6 @@ For the digital signature of your documents you need a signing certificate in `.
     
 4. You will be prompted to enter a password for the p12 file. Choose a strong password and remember it, as you will need it to use the certificate (**can be empty for dev certificates**)
     
-5. Place the certificate `/apps/web/resources/certificate.p12` (If the path does not exist, it needs to be created)
-
 ## Code Snippet
 
 ```bash
@@ -73,10 +71,14 @@ openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.c
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
-
 ## See Also
+
+- [[MOC - Technology|MOC - Technology]]
+- [[MOC - Development]]
+- [[Cryptography]]
+
+- [[Tool - Documenso|Documenso]]
+- [[Tool - OpenSSL|OpenSSL]]
 
 - [[04-RESOURCES/Code/Bash/_README|Bash Code Snippets]]
 - [[Linux]], [[Tool - Ubuntu|Ubuntu]], [[Tool - Kali Linux|Kali Linux]]
