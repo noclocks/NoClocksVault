@@ -59,10 +59,28 @@ FontSource is a collection of open-source fonts that are packaged into individua
 > [!TIP] **Variable Fonts**
 > If your chosen font supports variable fonts, Fontsource **highly recommends** using them, especially when working with multiple weights, as it helps reduce bundle sizes. To learn more about using variable fonts, refer to the dedicated [Variable Fonts](https://fontsource.org/docs/getting-started/variable) guide.
 
-To instal
+To install a font, follow these steps:
 
+1. **Choose the Font Package**: Select the font package you wish to install. You can find a list of available fonts in the Fontsource directory. Each font package corresponds to a specific font.
+
+2. **Install the Package**:  Use your preferred package manager (`npm`, `yarn`, `pnpm`, or `bun`) to install the font package. For example, to install the Open Sans font, run the following command:
+
+```bash
+# npm
+npm install @fontsource/open-sans
+
+# yarn
+yarn add @fontsource/open-sans
+
+# pnpm
+pnpm add @fontsource/open-sans
+
+# bun
+bun add @fontsource/open-sans
 ```
-```
+
+> [!NOTE] Note:
+> 
 
 ***
 
