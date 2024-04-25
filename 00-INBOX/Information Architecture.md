@@ -18,5 +18,34 @@ cssclasses:
 # Information Architecture
 
 > [!SOURCE] Sources:
-> -**
+> - **
 
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Overview
+
+## Example
+
+> [!SOURCE] Sources:
+> - *[Core Concepts | Neurelo Product Documentation](https://docs.neurelo.com/introduction-neurelo-cloud-data-api-platform/core-concepts)*
+
+![](https://i.imgur.com/OI8FBfp.png)
+
+The above *information architecture diagram* is from a product called [[Tool - Neurelo|Neurelo]], and includes the following entities:
+
+- **Organizations**
+- **Members**
+- **Projects**
+- **Data Sources**
+- **Schemas**
+- **APIs and API Docs**
+- **Custom Queries**
+- **Environments**
+- 
