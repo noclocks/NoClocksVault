@@ -29,17 +29,17 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-## Overview
-
 > [!NOTE] About
-> This note serves as an index for all notes under the `04-RESOURCES/Definitions` directory.
+> This note serves as an index for all notes under the `04-RESOURCES/Definitions` directory. Currently, two sub-folders reside under 
 
 ## Acronyms
+
+![[04-RESOURCES/Definitions/Acronyms/_README#Notes|_README]]
 
 ## Dictionary
 
 > [!NOTE]
-> These notes use the [[Obsidian Dictionary]]
+> These notes use the [[Obsidian Dictionary Plugin]].
 
 ***
 
@@ -49,7 +49,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### Related
 
-- [[Customer Relationship Management (CRM)]]
+- [[MOC - Glossary|Glossary Map of Content]]
 
 ### Backlinks
 
