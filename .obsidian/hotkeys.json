@@ -46,5 +46,14 @@
       ],
       "key": "S"
     }
+  ],
+  "templater-obsidian:05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }
