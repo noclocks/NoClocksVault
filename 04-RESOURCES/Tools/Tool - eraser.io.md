@@ -9,7 +9,7 @@ tags:
   - Topic/PKM
   - Status/WIP
 aliases:
-  - Tool - eraser.io
+  - Erasor
   - eraser.io
 publish: true
 permalink:
@@ -20,7 +20,7 @@ cssclasses:
 ---
 
 
-# eraser.io
+# Erasor (eraser.io)
 
 ```table-of-contents
 title: Contents 
@@ -34,7 +34,8 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[What is Eraser?](https://docs.eraser.io/docs/what-is-eraser)*
+> - *[No Clocks Team Workspaces — Eraser](https://app.eraser.io/dashboard/all)*
 
 ***
 
