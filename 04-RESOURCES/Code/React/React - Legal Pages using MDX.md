@@ -324,7 +324,15 @@ export default Footer;
 @tailwind utilities;
 
 @layer base {
+  ...
 
+  footer a {
+    @apply border-b-2 border-neutral-500 hover:text-springBud
+  }
+
+  .legal-content h1 {
+    @apply text-springBud text-4xl md:text-6xl lg:text-8xl font-mono leading-none mb-8 -tracking-tight;
+  }
 ```
 
 ***
