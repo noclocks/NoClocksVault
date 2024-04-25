@@ -38,14 +38,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Acronyms
 
-![[04-RESOURCES/Definitions/Acronyms/_README#Acronyms]]
+![[04-RESOURCES/Definitions/Acronyms/_README#Table]]
 
 ## Dictionary
 
 > [!NOTE]
 > These notes use the [[Obsidian Dictionary Plugin]].
 
-![[04-RESOURCES/Definitions/Dictionary/_README#Dictionary]]
+![[04-RESOURCES/Definitions/Dictionary/_README#Table]]
 
 ***
 
