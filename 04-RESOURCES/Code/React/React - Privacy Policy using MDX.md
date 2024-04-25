@@ -10,14 +10,15 @@ BY VISITING [HTTPS://NOCLOCKS.DEV](https://noclocks.dev), YOU ARE CONSENTING TO 
 
 ## OVERVIEW
 
-Ah Ha Creative, LLC is committed to protecting your privacy online. This Privacy Policy describes the personal information we collect through this website at [https://ahhacreative.com](https://ahhacreative.com) (the “Site”), and how we collect and use that information.
-The terms “we,” “us,” and “our” refers to Two Week Build. The terms “user,” “you,” and “your” refer to site visitors, customers, and any other users of the site.
+No Clocks, LLC is committed to protecting your privacy online. This Privacy Policy describes the personal information we collect through this website at [https://noclocks.dev](https://noclocks.dev) (the "Site"), and how we collect and use that information.
 
-The term “personal information” is defined as information that you voluntarily provide to us that personally identifies you and/or your contact information, such as your name, phone number, and email address.
+The terms "we", "us", and "our" refers to No Clocks, LLC. The terms "user", "you", and "your" refer to site visitors, customers, and any other users of the site.
 
-We provide 24 JavaScript coding challenges and their solutions. (the “Service”).
+The term "personal information" is defined as information that you voluntarily provide to us that personally identifies you and/or your contact information, such as your name, phone number, and email address.
 
-Use of Two Week Build, including all materials presented herein and all online services provided by Two Week Build, is subject to the following Privacy Policy. This Privacy Policy applies to all site visitors, customers, and all other users of the site. By using the Site or Service, you agree to this Privacy Policy, without modification, and acknowledge reading it.
+We provide technology consulting solutions. (the "Service").
+
+Use of the No Clocks, LLC website, including all materials presented herein and all online services provided by No Clocks, LLC, is subject to the following Privacy Policy. This Privacy Policy applies to all site visitors, customers, and all other users of the site. By using the Site or Service, you agree to this Privacy Policy, without modification, and acknowledge reading it.
 
 ## INFORMATION WE COLLECT
 
