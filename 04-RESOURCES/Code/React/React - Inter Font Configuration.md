@@ -49,13 +49,19 @@ Assumes usage of the [[Tool - FontSource|FontSource]] library:
 pnpm add @fontsource-variable/inter
 ```
 
-Add 
+Add import to project's entry-point/root layout: 
 
 ```typescript
-// src/config/fonts.ts
+// src/index.tsx
+import '@fontsource-variable/inter'; // Supports weights 100-900
+```
 
-import { Inter } from 
+Include [[Cascading Style Sheets (CSS)|CSS]]:
 
+```css
+body {
+  font-family: 'Inter Variable', sans-serif;
+}
 ```
 
 ## Details
