@@ -18,6 +18,5 @@ cssclasses:
 
 # Bastien Law Emails
 
-## Google Business Profile Ownership Transfer ([[2024-04-18]])
-
-![[Email - BastienLaw - Google Business Profile Ownership Transfer.eml]]
+> [!EMAIL]- Google Business Profile Ownership Transfer ([[2024-04-18]]):
+> ![[Email - BastienLaw - Google Business Profile Ownership Transfer.eml]]
