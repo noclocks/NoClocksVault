@@ -56,7 +56,10 @@ Simply enter the URL of the document you want to validate. This document can be 
 
 - [[Tool - Nu HTML Checker|Nu HTML Checker]]
 - [[Cascading Style Sheets (CSS)]]
-- [[Frontend]]
+- [[Checklist - Frontend Design|Frontend Design Checklist]]
+- [[User Interface (UI)]]
+- [[User Experience (UX)]]
+- [[04-RESOURCES/Code/React/_README|React Code]]
 
 ### Backlinks
 
