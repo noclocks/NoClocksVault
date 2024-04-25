@@ -38,6 +38,26 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - *[documenso/SIGNING.md at main · documenso/documenso](https://github.com/documenso/documenso/blob/main/SIGNING.md)*
 
+For the digital signature of your documents you need a signing certificate in `.p12` format (public and private key). You can buy one (not recommended for dev) or use the steps to create a self-signed one:
+
+1. Generate a private key using the [[OpenSSL]] command. You can run the following command to generate a 2048-bit RSA key:
+    
+    `openssl genrsa -out private.key 2048`
+    
+2. Generate a self-signed certificate using the private key. You can run the following command to generate a self-signed certificate:
+    
+    `openssl req -new -x509 -key private.key -out certificate.crt -days 365`
+    
+    This will prompt you to enter some information, such as the [[Common Name (CN)]] for the certificate. Make sure you enter the correct information. The -days parameter sets the number of days for which the certificate is valid.
+    
+3. Combine the private key and the self-signed certificate to create the `p12` certificate. You can run the following command to do this:
+    
+    `openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.crt`
+    
+4. You will be prompted to enter a password for the p12 file. Choose a strong password and remember it, as you will need it to use the certificate (**can be empty for dev certificates**)
+    
+5. Place the certificate `/apps/web/resources/certificate.p12` (If the path does not exist, it needs to be created)
+
 ## Code Snippet
 
 ```bash
@@ -45,6 +65,10 @@ debugInConsole: false # Print debug info in Obsidian console
 openssl genrsa -out private.key 2048
 
 # generate self-signed certificate using private key
+openssl req -new -x509 -key private.key -out certificate.crt -days 365
+
+# combine private key and certificate into a p12 certificate bundle:
+openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.crt
 ```
 
 ## Details
