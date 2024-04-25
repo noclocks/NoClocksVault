@@ -42,6 +42,64 @@ These styling strategies include:
 
 ### CSS & SASS Stylesheets
 
+> [!NOTE]
+> "Sass has two syntaxes. The most commonly used syntax is known as "SCSS" (for "Sassy CSS") and is a superset of CSS syntax. This means that every valid CSS stylesheet is valid SCSS as well. SCSS files use the extension .scss.
+> The second, older syntax is known as the indented syntax (or just “.sass”). Inspired by Haml's terseness, it’s intended for people who prefer conciseness over similarity to CSS. Instead of brackets and semicolons, it uses the indentation of lines to specify blocks. Files in the indented syntax use the extension .sass."
+
+CSS or SCSS Stylesheets is a styling strategy that involves the use of external CSS or SASS stylesheets that can be imported into your React components depending on where you need the styling to be applied.
+
+For example, we have a SASS file of styles called `Box.scss` we need to use in a component called `Box.js`**,** below is the code for our SASS file.
+
+```css
+// Box.scss
+.Box {
+  margin: 40px;
+  border: 5px black;
+}
+
+.Box_content {
+  font-size: 16px;
+  text-align: center;
+}
+```
+
+In order to make use of this styling inside our Box component all we need to do is import the SASS file directly into our `Box.js` component like so:
+
+```javascript
+import React from 'react';
+import './Box.css';
+
+const Box = () => (
+  <div className="Box">
+    <p className="Box_content"> Styling React Components </p>
+  </div>
+);
+
+export default Box;
+```
+
+After creating the styles and importing it into `Box.js` file, we can then set the `className` attribute to the match what we have in the stylesheet.
+
+While using this strategy, you could also leverage on existing frameworks like; Bulma, Bootstrap, etc. These frameworks provide you with existing classes and components you could plug into your React application without styling every aspect of your application.
+
+#### Benefits
+
+1. It is **much more popular than the rest** of the styling strategies, so there is a ton of helpful resources when you run into a bug.
+2. **Caching & Performance**  
+    Standard CSS files are easy for the browser to optimize for, caching the files locally for repeat visits, and ultimately giving performance wins.
+3. **Un-opinionated and Universal**  
+    CSS and SASS is universal and has no opinion on how you render your UI making it a great choice for teams that have legacy CSS and are migrating over to a new framework or rebuilding their website or product.
+4. **Quickly Iterate A New Design**  
+    You can very easily rip out the entire stylesheet and create a new one to refresh the look and feel of your app without digging through potentially hundreds of components.
+5. **CSS** **Frameworks**  
+    CSS frameworks come in handy if you are a new developer, or you want to quickly work on a prototype without diving deep into writing your own full-blown stylesheets. CSS frameworks will provide you with building blocks to get your idea off the ground. Some of these frameworks include, Bootstrap, Bulma, Semantic UI, Materialize.
+
+#### Shortcomings
+
+1. **Readability**  
+    If not properly structured, a CSS or SASS stylesheet can become long and difficult to navigate through as the application becomes complex.
+2. **Legacy CSS Can Live On For Years**  
+    Most times these really large stylesheets can become so complex and long that cleaning up old, outdated or even unused styles can be a pain.
 
 
 ***
