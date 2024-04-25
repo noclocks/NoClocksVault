@@ -7,7 +7,7 @@ tags:
   - Topic/NA
   - Status/NA
 aliases:
-  - No Clocks Brand Logos
+  - No Clocks Brand Colors
 publish: true
 permalink:
 description:
@@ -15,20 +15,23 @@ image:
 cssclasses:
 ---
 
-# No Clocks Brand Logos
-
-> [!ABOUT]
+# No Clocks Brand Colors
 
 ## Overview
 
-## Logo Variants
+## Color Palettes
 
-## Image File Naming Conventions
+### Core Palette
 
-## Image File Formats
+### Alternative Palette
 
-## Logo Package
+### Gray Palette
 
-## Usage Guide
+## Gradients
 
+## CSS Styles
 
+## Tools
+
+- [[Tool - Coolors|Coolors]]
+- [[Tool - Sass Math Tool|]]
