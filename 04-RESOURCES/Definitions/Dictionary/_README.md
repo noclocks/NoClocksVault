@@ -34,7 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note serves as an index for all notes under the `04-RESOURCES/Definitions/Dictionary` directory.
 
-## Notes
+## Dictionary
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Definitions/Dictionary` folder, excluding this note.*

@@ -30,16 +30,22 @@ debugInConsole: false # Print debug info in Obsidian console
 ```
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `04-RESOURCES/Definitions` directory. Currently, two sub-folders reside under 
+> This note serves as an index for all *Definition Notes* (i.e. notes under the `04-RESOURCES/Definitions` directory).
+>
+> Currently, two sub-folders reside under `04-RESOURCES/Definitions`:
+> - [[04-RESOURCES/Definitions/Acronyms/_README|Acronyms]]
+> - [[04-RESOURCES/Definitions/Dictionary/_README|Dictionary]]
 
 ## Acronyms
 
-![[04-RESOURCES/Definitions/Acronyms/_README#Notes|_README]]
+![[04-RESOURCES/Definitions/Acronyms/_README#Acronyms]]
 
 ## Dictionary
 
 > [!NOTE]
 > These notes use the [[Obsidian Dictionary Plugin]].
+
+![[04-RESOURCES/Definitions/Dictionary/_README#Dictionary]]
 
 ***
 
