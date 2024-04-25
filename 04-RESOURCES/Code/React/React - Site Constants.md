@@ -1,0 +1,3 @@
+```typescript
+// src/lib/c
+```
