@@ -40,7 +40,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### See Also
 
-- [[Tool - ]]
+- [[Tool - Markup Validation Service|Markup Validation Service]]
 - [[Tool - Nu HTML Checker|Nu HTML Checker]]
 - [[Tool - CSS Validator|CSS Validator]]
 
