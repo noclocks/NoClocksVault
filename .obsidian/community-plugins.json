@@ -27,5 +27,6 @@
   "obsidian-banners",
   "callout-manager",
   "obsidian-local-rest-api",
-  "convert-url-to-iframe"
+  "convert-url-to-iframe",
+  "obsidian-thoughtpartner-plugin"
 ]
