@@ -57,6 +57,18 @@ This article lists and describes Windows kernel opaque structures. For many of t
 
 ### EPROCESS
 
+The **EPROCESS** structure is an opaque structure that serves as the process object for a process.
+
+Some routines, such as [**PsGetProcessCreateTimeQuadPart**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetprocesscreatetimequadpart), use **EPROCESS** to identify the process to operate on. Drivers can use the [**PsGetCurrentProcess**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentprocess) routine to obtain a pointer to the process object for the current process and can use the [**ObReferenceObjectByHandle**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle) routine to obtain a pointer to the process object that is associated with the specified handle. The [**PsInitialSystemProcess**](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/mm64bitphysicaladdress) global variable points to the process object for the system process.
+
+A process object is an Object Manager object. Drivers should use Object Manager routines such as [**ObReferenceObject**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject) and [**ObDereferenceObject**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) to maintain the object's reference count.
+
 ### ETHREAD
+
+The **ETHREAD** structure is an opaque structure that serves as the thread object for a thread.
+
+Some routines, such as [**PsIsSystemThread**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread), use **ETHREAD** to identify the thread to operate on. Drivers can use the [**PsGetCurrentThread**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread) routine to obtain a pointer to the thread object for the current thread and can use the [**ObReferenceObjectByHandle**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle) routine to obtain a pointer to the thread object that is associated with the specified handle.
+
+A thread object is an Object Manager object. Drivers should use Object Manager routines such as [**ObReferenceObject**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject) and [**ObDereferenceObject**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) to maintain the object's reference count.
 
 ### 
