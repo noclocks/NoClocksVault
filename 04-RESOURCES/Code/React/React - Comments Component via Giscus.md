@@ -94,8 +94,29 @@ export default function Comments() {
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+This is a [[React]] [[functional component]] named `Comments` that uses the [[Giscus]] component from the `@giscus/react` library to display a comments section.
+
+Here's a breakdown of the code:
+
+1. **useState**: `const [isDark, setDark] = useState(false);` This line declares a state variable `isDark` with its initial value set to `false`. `setDark` is the function to update this state.
+
+2. **useEffect**: The first `useEffect` hook is used to set the `isDark` state based on the 'theme' item in the local storage when the component mounts.
+   
+3. **useEffect**: The second `useEffect` hook sets up a `MutationObserver` that watches for changes to the `data-theme` attribute on the `document.documentElement`. If the attribute changes, it toggles the `isDark` state.
+   
+4. **Giscus Component**: The `Giscus` component is a pre-built component from the `@giscus/react` library that provides a comments section for a GitHub repository. The props passed to it configure its behavior:
+   
+    - `repo` and `repoId` specify the GitHub repository.
+    - `category` and `categoryId` specify the category of discussions.
+    - `mapping` and `term` specify how discussions are mapped to pages.
+    - `reactionsEnabled`, `emitMetadata`, and `inputPosition` control various features of the comments section.
+    - `theme` sets the theme of the comments section based on the `isDark` state.
+    - `lang` sets the language.
+    - `loading` sets the loading strategy.
+
+The component will render a comments section for the specified GitHub repository, with the appearance and behavior controlled by the provided props.
+
+## Expanding the Component
 
 ## See Also
 
