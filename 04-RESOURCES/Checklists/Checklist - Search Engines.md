@@ -49,7 +49,7 @@ debugInConsole: false # Print debug info in Obsidian console
 10. Swisscows - [https://www.swisscows.com](https://www.swisscows.com/)
 11. Startpage - [https://www.startpage.com](https://www.startpage.com/)
 
-## Privacy-Focused Search Engines:
+## Privacy-Focused Search Engines
 
 12. Search Encrypt - [https://www.searchencrypt.com](https://www.searchencrypt.com/)
 13. Qwant - [https://www.qwant.com](https://www.qwant.com/)
@@ -65,9 +65,7 @@ debugInConsole: false # Print debug info in Obsidian console
 23. Searx - [https://searx.me](https://searx.me/)
 24. Presearch - [https://www.presearch.org](https://www.presearch.org/)
 
-# Meta Search Engines:
-
-[](https://github.com/AnonCatalyst/Coeus-Framework/blob/main/Search-Engines.md#meta-search-engines)
+## Meta Search Engines
 
 45. Dogpile - [https://www.dogpile.com](https://www.dogpile.com/)
 46. WebCrawler - [https://www.webcrawler.com](https://www.webcrawler.com/)
@@ -88,9 +86,7 @@ debugInConsole: false # Print debug info in Obsidian console
 61. Del.icio.us - [https://del.icio.us](https://del.icio.us/)
 62. ScoopGo - [https://www.scoopgo.com](https://www.scoopgo.com/)
 
-# Specialty Search Engines:
-
-[](https://github.com/AnonCatalyst/Coeus-Framework/blob/main/Search-Engines.md#specialty-search-engines)
+## Specialty Search Engines
 
 63. Wayback Machine - [https://archive.org/web/](https://archive.org/web/)
 64. Netcraft - [https://searchdns.netcraft.com](https://searchdns.netcraft.com/)
@@ -111,9 +107,7 @@ debugInConsole: false # Print debug info in Obsidian console
 79. AAfter - [https://aafter.com](https://aafter.com/)
 80. InfoSpace - [https://www.infospace.com](https://www.infospace.com/)
 
-# Deprecated/Obsolete Search Engines:
-
-[](https://github.com/AnonCatalyst/Coeus-Framework/blob/main/Search-Engines.md#deprecatedobsolete-search-engines)
+## Deprecated/Obsolete Search Engines
 
 81. Excite - [https://www.excite.com](https://www.excite.com/)
 82. MyWebSearch - [https://search.mywebsearch.com](https://search.mywebsearch.com/)
@@ -135,10 +129,6 @@ debugInConsole: false # Print debug info in Obsidian console
 98. AllTheWeb - [https://alltheweb.com](https://alltheweb.com/)
 99. Mahalo.com - [https://www.mahalo.com](https://www.mahalo.com/)
 100. ScrubTheWeb - [https://www.scrubtheweb.com](https://www.scrubtheweb.com/)
-
-### Step 1
-
-## Conclusion
 
 ***
 
