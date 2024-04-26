@@ -34,6 +34,23 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
+> [!NOTE] About
+> This note provides a detailed overview of the anatomy of an executable process.
+
+Multiple programs are running on the computer at the same time. It must be managed by the operating system. Managing this process, along with memory management, is one of the main tasks an operating system must perform.
+
+In order for the operating system to manage processes, it must create, store, and handle a lot of information necessary for management. A process has various information related to the process, and the operating system maintains information blocks that record detailed information for each process in the kernel memory.
+
+(kernel object).
+
+One process has one or more execution blocks (or execution routines, execution units..) (Thread).
+
+It can also be understood that several threads included in a program are grouped together and called
+
+a 'process'.
+
 When a new process (program) is executed on a [[Microsoft Windows]] operating system:
 
-1. Windows creates a structure named `EPROCE` 
+1. Windows creates a structure named `EPROCESS` in the kernel memory space to manage it
+2. The `ETHREAD` structure is created together as many threads as the process uses
+3. 
