@@ -1,1 +1,1 @@
-# <% (tp.file.title).replace("Guide - ", "") %>
+# <% (tp.file.title).replace("Guide - ", "") %> Guide

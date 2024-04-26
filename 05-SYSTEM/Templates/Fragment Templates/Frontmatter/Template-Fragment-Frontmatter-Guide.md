@@ -8,6 +8,7 @@ tags:
   - Status/WIP
 aliases:
   - <% (tp.file.title).replace("Guide - ", "") %>
+  - <% (tp.file.title).replace("Guide - ", "") %> Guide
 publish: true
 permalink:
 description:

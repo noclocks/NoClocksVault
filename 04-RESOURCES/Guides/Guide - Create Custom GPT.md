@@ -5,10 +5,11 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Guide
   - Topic/AI
-  - 
+  - Topic/Dev
   - Status/WIP
 aliases:
   - Create Custom GPT
+  - Create Custom GPT Guide
 publish: true
 permalink:
 description:
@@ -16,7 +17,7 @@ image:
 cssclasses:
 ---
 
-# Create Custom GPT
+# Create Custom GPT Guide
 
 ```table-of-contents
 title: Contents 
@@ -30,7 +31,11 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *https://gpt-stores.com/sample-page/*
+
+Creating a tailored [[Tool - ChatGPT|ChatGPT]] assistant is easy and can be done without coding:
+
+1. Open [[Tool - ChatGPT|ChatGPT]]
 
 ***
 
