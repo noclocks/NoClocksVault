@@ -20,7 +20,7 @@ cssclasses:
 # Open Source Intelligence (OSINT)
 
 > [!SOURCE] Sources:
-> - **
+> - *[AnonCatalyst/Scavenger: Scavenger is an Open Source Intelligence (OSINT) tool equipped with a user-friendly graphical interface, designed for efficient information gathering about a target. With features like web and user searches, Serpapi integration, system information retrieval, forum detection, and social profile recognition, Scavenger excels in digital reconnaissance](https://github.com/AnonCatalyst/Scavenger)*
 
 ```table-of-contents
 title: Contents 
