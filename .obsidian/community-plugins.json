@@ -35,5 +35,6 @@
   "beautitab",
   "msg-handler",
   "fontsource",
-  "oz-image-plugin"
+  "oz-image-plugin",
+  "auto-note-mover"
 ]
