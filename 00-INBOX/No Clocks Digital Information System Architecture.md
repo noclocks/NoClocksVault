@@ -9,5 +9,8 @@
 	- [[Tool - Obsidian|Obsidian]] and [[Tool - Markdown|Markdown]] for maintaining a knowledge base, making it the central hub for insights and learning
 - **Communication and Scheduling**:
 	- [[Tool - Google Calendar|Google Calendar]]: Manage Events, Agendas, Meetings, Deadlines, Reminders, etc.
-	- [[Tool - G]]
-	- [[Tool - Slack|Slack]]: 
+	- [[Tool - Gmail|Gmail]]: Email communications
+	- [[Tool - Slack|Slack]]: Internal, real-time, chat-based communications, updates, and quick decisions.
+- **Security & Credentials**:
+	- [[Tool - Keeper Password Manager|Keeper Password Manager]]: Credentials and Password Management for securely storing, sharing, and managing all internal passwords, API keys, Database Connections, Credentials, etc.
+	- [[Tool - Infisical|Infisical]]: `#TODO`
