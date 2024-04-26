@@ -1,0 +1,5 @@
+/* Command Palette Styles */
+
+.suggestion-item.is-selected .suggestion-hotkey {
+  color: var(--base3)
+}
