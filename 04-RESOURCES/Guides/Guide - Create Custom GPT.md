@@ -39,8 +39,23 @@ Creating a tailored [[Tool - ChatGPT|ChatGPT]] assistant is easy and can be done
 2. Give the GPT a name and description; Be clear on its intended purpose.
 3. Start a conversation with the assistant to define the GPT's knowledge, skills, and how it should behave. Explain what you want it to be an expert in.
 4. Specify additional capabilities like searching the web, analyzing data, or generating images/text. The builder will guide you in enabling APIs.
-2. Choose privacy settings like whether your GPT's conversations can be used to train [[Tool - OpenAI|OpenAI]]'s models.
-3. Publish your GPT either for personal use or submit it for inclusion in the GPT Store!
+5. Choose privacy settings like whether your GPT's conversations can be used to train [[Tool - OpenAI|OpenAI]]'s models.
+6. Publish your GPT either for personal use or submit it for inclusion in the GPT Store.
+
+```mermaid
+flowchart TB
+  1[1. Launch ChatGPT Interface]
+  2[2. Specify Name and Description]
+  3[3. Utilize AI Assistant]
+  4[4. Add Additional Capabilities]
+  5[5. Choose Privacy Settings]
+  6[6. Publish]
+
+  1 --> 2 --> 3 --> 4 --> 5 --> 6
+```
+
+
+
 ***
 
 ## Appendix
