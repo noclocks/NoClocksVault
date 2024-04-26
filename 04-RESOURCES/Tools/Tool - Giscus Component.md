@@ -9,6 +9,7 @@ tags:
 aliases:
   - Tool - Giscus Component
   - Giscus Component
+  - Giscus
 publish: true
 permalink:
 description:
