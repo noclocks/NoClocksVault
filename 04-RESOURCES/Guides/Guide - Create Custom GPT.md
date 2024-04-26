@@ -15,6 +15,7 @@ permalink:
 description:
 image:
 cssclasses:
+  - mermaid
 ---
 
 # Create Custom GPT Guide

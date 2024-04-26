@@ -1,0 +1,120 @@
+/* Code Note CSS Styles */
+
+/* Clean Inline Code Blocks */
+:root {
+  --code-border-color: var(--background-primary-alt);
+}
+
+/* tweaks */
+.cm-s-obsidian span.cm-inline-code:not(.cm-hmd-indented-code):not(.cm-formatting):not(.obsidian-search-match-highlight),
+.markdown-preview-view code,
+.cm-s-obsidian span.cm-inline-code.cm-formatting {
+  padding: .125rem 0;
+}
+
+/* body.cbsnip-codeblock-edit = logic to also apply it in editing mode */
+
+pre,
+.markdown-preview-view code,
+body.cbsnip-codeblock-edit .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+  background-color: var(--code-background);
+  border: 1px solid var(--code-border-color)
+}
+
+body.cbsnip-codeblock-edit .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+  border-radius: var(--radius-s, 5px);
+  color: var(--inline-code-color);
+}
+
+/* make ` around codeblocks in editing mode look like normal text */
+body.cbsnip-codeblock-edit .cm-s-obsidian span.cm-inline-code.cm-formatting:not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+  background-color: transparent;
+}
+
+/* border color */
+.theme-light {
+  --code-border-color: #3b3c3e1e;
+}
+
+.theme-dark {
+  --code-border-color: #3b3c3e59;
+}
+
+body.cbsnip-border-dynamic {
+  --code-border-color: var(--background-primary-alt) !important;
+}
+
+.theme-dark .markdown-preview-view pre code {
+  border: none;
+}
+
+.markdown-preview-view code {
+  padding: 2px var(--size-4-1, .3rem) !important;
+}
+
+/* padding: .125rem .3rem; */
+.markdown-preview-view pre>code {
+  padding: 0px !important;
+}
+
+/* only do inlines, not multilines */
+
+/* reset stuff for inner code thingy */
+pre code[class*="language"] {
+  background-color: transparent;
+  border: none !important;
+}
+
+/* orange color */
+body.cbsnip-style-orange.theme-dark {
+  --inline-code-color: hsla(28, 70%, 65%, 0.8);
+}
+
+body.cbsnip-style-orange.theme-light {
+  --inline-code-color: hsla(28, 67%, 45%, 0.8);
+  --code-background: hsla(0, 0%, 95%, 0.69);
+}
+
+/* colors from tinyclouds.org blog, modified */
+body.cbsnip-style-blue.theme-dark {
+  --inline-code-color: #58a6ff;
+}
+
+body.cbsnip-style-blue.theme-light {
+  --inline-code-color: hsl(212, 85%, 56%);
+  --code-background: rgba(0, 0, 0, .08);
+}
+
+/* colors from vitepress default theme - credit to vuejs team */
+body.cbsnip-style-vitepress.theme-dark {
+  --inline-code-color: #c9def1;
+  --code-background: #3a3a3a;
+}
+
+body.cbsnip-style-vitepress.theme-light {
+  --inline-code-color: #476582;
+  --code-background: #f1f1f1;
+}
+
+body.cbsnip-style-vitepress :is(pre, .markdown-preview-view code) {
+  border-width: 0;
+  border-radius: 4px;
+}
+
+body.cbsnip-style-vitepress pre[class^="language"] {
+  background-color: #1a1a1a;
+}
+
+.cm-inline-code,
+.is-live-preview code,
+body .markdown-preview-view :not(pre):not(.external-link)>code {
+  color: var(--inline-code-color);
+}
+
+.external-link code {
+  color: var(--text-accent);
+}
+
+.markdown-preview-view pre>code {
+  color: var(--text);
+}
