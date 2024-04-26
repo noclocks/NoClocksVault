@@ -20,13 +20,10 @@ cssclasses:
 ├── docs/
 ├── src/
 │ ├── app/
-│ ├── __init__.py  
-
 │ ├── __init__.py
 │ ├── main.py
 │ ├── models.py
-│ ├── utils.py
-│ └── main.py
+│ └── utils.py
 ├── tests/
 ├── app/  
 │ ├── __init__.py  
