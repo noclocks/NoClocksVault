@@ -1,3 +1,8 @@
+## Repair Windows Component Store
+
+> [!ABOUT]
+> The component store on Windows is a feature which stores all system files. hen 
+
 ## Fix Problem with DNS Resolution
 
 > [!ABOUT]
@@ -69,4 +74,14 @@ net start AeLookupSvc
 rundll32.exe inetcpl.cpl,ResetIEtoDefaults
 ```
 
-## Fix Missing TelNet Comment
+## Fix Missing Telnet Command
+
+> [!ABOUT]
+> [[Telnet]] (Teletype Network) is a protocol meant for internet or [[Local Area Network (LAN)|LAN]] communication. It is primarily used to control other computers remotely.
+
+```cmd
+# cmd as admin
+
+# enable telnet
+DISM /Online /Enable-Feature /FeatureName:TelnetClient
+```
