@@ -21,6 +21,7 @@ cssclasses:
 # The Anatomy of a Windows Process
 
 > [!SOURCE] Sources:
+> - *[Windows Kernel Opaque Structures - Windows drivers | Microsoft Learn](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/eprocess)*
 > - *https://winstoreappsummary.blogspot.com/2024/03/process-knowledge.html*
 
 ```table-of-contents
@@ -39,18 +40,23 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Multiple programs are running on the computer at the same time. It must be managed by the operating system. Managing this process, along with memory management, is one of the main tasks an operating system must perform.
 
-In order for the operating system to manage processes, it must create, store, and handle a lot of information necessary for management. A process has various information related to the process, and the operating system maintains information blocks that record detailed information for each process in the kernel memory.
+In order for the operating system to manage processes, it must create, store, and handle a lot of information necessary for management. A process has various information related to the process, and the operating system maintains information blocks that record detailed information for each process in the kernel memory (kernel object).
 
-(kernel object).
+A single process has one or more execution blocks (or execution routines, execution units..) (Thread).
 
-One process has one or more execution blocks (or execution routines, execution units..) (Thread).
-
-It can also be understood that several threads included in a program are grouped together and called
-
-a 'process'.
+It can also be understood that several threads included in a program are grouped together and called a "process".
 
 When a new process (program) is executed on a [[Microsoft Windows]] operating system:
 
 1. Windows creates a structure named `EPROCESS` in the kernel memory space to manage it
 2. The `ETHREAD` structure is created together as many threads as the process uses
-3. 
+
+## Windows Kernel Opaque Structures
+
+This article lists and describes Windows kernel opaque structures. For many of these structures, drivers shouldn't access or change any members but should instead use system-supplied routines to access the information. See each structure for details.
+
+### EPROCESS
+
+### ETHREAD
+
+### 
