@@ -16,7 +16,17 @@ net stop dnscache
 net start dnscache
 ```
 
-## Fix Internet Connectivity 
+## Fix Internet Winsock Catalog
+
+> [!ABOUT]
+> Winsock is a technical specification that defines how Windows network software should access network services, especially TCP/IP. Windows comes with a [[Dynamic Link Library (DLL)|DLL]] that implements the [[Application Programming Interface (API)|API]] and coordinates Windows programs and TCP/IP connections. However, sometimes it gets corrupted and as a consequence, can break internet connectivity.
+
+```cmd
+# cmd as admin
+
+# reset winsock
+netsh winsock reset
+```
 
 ## Fix Internet Protocol (TCP/IP)
 
@@ -58,3 +68,5 @@ net start AeLookupSvc
 # cmd as admin
 rundll32.exe inetcpl.cpl,ResetIEtoDefaults
 ```
+
+## Fix Missing TelNet Comment
