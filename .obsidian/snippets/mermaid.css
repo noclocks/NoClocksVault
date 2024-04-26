@@ -1,8 +1,9 @@
 /* Mermaid Diagram Custom CSS Styles */
 
-.mermaid svg {
-  align-items: center;
-  min-width: 350px;
-  max-width: 700px;
-  height: auto;
+div.mermaid {
+  text-align: "center";
+  min-width: "350px";
+  max-width: "600px";
+  width: "80%";
+  height: "auto";
 }

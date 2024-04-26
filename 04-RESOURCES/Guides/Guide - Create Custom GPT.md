@@ -42,7 +42,7 @@ Creating a tailored [[Tool - ChatGPT|ChatGPT]] assistant is easy and can be done
 5. Choose privacy settings like whether your GPT's conversations can be used to train [[Tool - OpenAI|OpenAI]]'s models.
 6. Publish your GPT either for personal use or submit it for inclusion in the GPT Store.
 
-```mermaid
+```mermaid <!-- element style="width:90%; height:auto" -->
 flowchart TB
   1[1. Launch ChatGPT Interface]
   2[2. Specify Name and Description]
