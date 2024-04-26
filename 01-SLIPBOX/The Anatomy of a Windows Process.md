@@ -38,6 +38,10 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note provides a detailed overview of the anatomy of an executable process.
 
+![](https://i.imgur.com/FmZVk1c.png)
+![](https://i.imgur.com/RhPlPQM.png)
+
+
 Multiple programs are running on the computer at the same time. It must be managed by the operating system. Managing this process, along with memory management, is one of the main tasks an operating system must perform.
 
 In order for the operating system to manage processes, it must create, store, and handle a lot of information necessary for management. A process has various information related to the process, and the operating system maintains information blocks that record detailed information for each process in the kernel memory (kernel object).
@@ -71,4 +75,79 @@ Some routines, such as [**PsIsSystemThread**](https://learn.microsoft.com/en-us
 
 A thread object is an Object Manager object. Drivers should use Object Manager routines such as [**ObReferenceObject**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject) and [**ObDereferenceObject**](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) to maintain the object's reference count.
 
-### 
+ ***
+ 
+```plaintext
+Alpc  = Advanced LPC Routines
+Cc    = Cache Manager
+Cm    = Config Manager
+Dbgk  = Debugger Facilities
+Em    = Errata Manager
+Etw   = Event Tracing Facilities
+Ex    = Executive Support Facilities
+FsRtl = File System Runtime Library Facilities
+Hvl   = Hypervisor Library Support Facilities 
+Io    = I/O manager
+Kd    = Kernel Debugger Facilities
+Ke    = Internal Core routines
+Ki    = Not exported kernel routines (i = internal)
+Ldr   = Image Loading Facilities
+Lpc   = Local Procedure Call Facilities
+Lsa   = Local Security Authority Routines
+Mm    = Memory Manager
+Ob    = Object Manager
+Pc    = Performance Counter Routines
+Po    = Power Manager
+Pp    = Plug and Play Manager
+Ps    = Process & Thread Manager
+Rtl   = Runtime Library Facilities Rtl 
+Se    = Security Referenece Monitor
+Wmi   = WMI routines
+```
+
+The **Executive Subsystem** deals with base OS features, such as memory management, process and thread management, security, I/O, networking, and inter-process communication.
+
+The **Kernel** deals with low-level OS functions, such as thread scheduling, interrupts and exception dispatching, and multiprocessor synchronization.
+
+**Device drivers** includes both hw and sw drivers and they usually translate user I/O calls into specific hardware device I/O requests.
+
+The Hardware Abstraction Layer (**HAL**) is a layer of code that isolates the kernel, the device drivers, and the rest of the Windows executive from platform-specific hardware.
+
+The main kernel files can be summed as follows:
+
+|File Name|Components|
+|---|---|
+|Ntoskrnl.exe|Executive and Kernel|
+|Hal.dll|HAL|
+|Win32k.sys|Kernel mode part of the GUI|
+|*.sys in \SystemRoot\System32\Drivers|Core driver files|
+
+Process and threads' most significant data structures are living both in user and kernel space, depending on their role and functionality.
+
+Here a summary of the most important **kernel structures** and their role:
+
+|Kernel Structure|Description|
+|---|---|
+|_EPROCESS|executive process object|
+|_KPROCESS|kernel process object|
+|_ETHREAD|executive thread object|
+|_KTHREAD|kernel thread object|
+|_KPCR|Processor information|
+|_KPRCB|CPU state|
+
+Here is a summary of where are placed and how are interconnected together. Here is also an overview of how some process and thread structures are interlinked.
+
+## Process
+
+As opposed to the *nix landscape, where a process is the one normally executing code, in the Windows world a process is just a container of resources used to execute the program. A thread is the entity actually running code. So what’s inside a process?
+
+- **Private Address Space**: gives each process the same address virtual space memory layout
+- **Private Handle Table**: resides in kernel memory and contains all handles to objects belonging to the process.
+- **Access Token**: security context used to access shared resources.
+- **One or more threads**: the one executing code. A process must have at least one thread.
+
+Each process is managed by the Executive and it is represented by two objects, named EPROCESS and KPROCESS.
+
+### EPROCESS/KPROCESS
+
+Executive Process Block (**EPROCESS**) is the principal process structure that resides in kernel and equivalent to the user mode counterpart *_PEB_ If we inspect the `lass` process fromkdb, we can retrieve its EPROCESS value (in this case **ffffd60b4aa5b240**).
