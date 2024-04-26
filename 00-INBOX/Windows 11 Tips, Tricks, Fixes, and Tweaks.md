@@ -1,7 +1,21 @@
 ## Repair Windows Component Store
 
 > [!ABOUT]
-> The component store on Windows is a feature which stores all system files. hen 
+> The component store on Windows is a feature which stores all system files. Whenever Windows gets an operating system update, this store may get corrupted. To fix the store we use the [[Deployment Image and Service Management Tool (DISM)]].  
+
+```cmd
+# cmd as admin
+DISM /Online /Cleanup-Image /RestoreHealth
+```
+
+## Reset Settings UI Application
+
+```powershell
+# powershell as admin
+
+Set-ExecutionPolicy Unrestricted
+Add-AppXPackage -DisableDevelopmentMode -Register $Env:SystemRoot\ImmersiveControlPanel
+```
 
 ## Fix Problem with DNS Resolution
 
