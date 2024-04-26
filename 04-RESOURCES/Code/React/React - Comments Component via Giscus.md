@@ -116,7 +116,78 @@ Here's a breakdown of the code:
 
 The component will render a comments section for the specified GitHub repository, with the appearance and behavior controlled by the provided props.
 
-## Expanding the Component
+## Expanding the Component with Additional Props
+
+To pass additional props to the `Giscus` component, you can modify the `Comments` component to accept props and then spread those props onto the `Giscus` component. Here's how you can do it:
+
+```typescript
+// src/components/Comments.tsx
+
+import { useEffect, useState } from 'react';
+import Giscus from '@giscus/react';
+
+interface CommentsProps {
+  [key: string]: any; // This allows you to pass any additional props
+}
+
+export default function Comments(props: CommentsProps) {
+    const [isDark, setDark] = useState(false);
+
+    useEffect(() => {
+        setDark(localStorage.getItem('theme') === 'dracula');
+    }, [])
+
+    useEffect(() => {
+        const targetNode = document.documentElement;
+        const observer = new MutationObserver((mutationsList) => {
+            for (const mutation of mutationsList) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+                    console.log('data-theme attribute changed:', targetNode.getAttribute('data-theme'));
+                    setDark(!isDark);
+                }
+            }
+        });
+
+        const config = { attributes: true, attributeFilter: ['data-theme'] };
+        observer.observe(targetNode, config);
+        return () => {
+            observer.disconnect();
+        };
+    }, [isDark]);
+
+    return (
+        <Giscus
+            repo="lencx/gpthub"
+            repoId="R_kgDOKrn4Tw"
+            category="Comments"
+            categoryId="DIC_kwDOKrn4T84Ca5ph"
+            mapping="og:title"
+            term="Welcome to GPTHub!"
+            reactionsEnabled="1"
+            theme={isDark ? 'dark_dimmed' : 'light_tritanopia'}
+            lang="en"
+            loading="lazy"
+            {...props} // Spread the additional props here
+        />
+    );
+}
+```
+
+Now, you can pass additional props to the `Comments` component, and they will be passed through to the `Giscus` component. 
+
+For example:
+
+```typescript
+<Comments additionalProp1="value1" additionalProp2="value2" />
+```
+
+These additional props (`additionalProp1` and `additionalProp2`) will be passed to the `Giscus` component.
+
+## Source Code
+
+The Source Code from the [[Giscus]] library's react component reveals all types accessible as props:
+
+
 
 ## See Also
 
