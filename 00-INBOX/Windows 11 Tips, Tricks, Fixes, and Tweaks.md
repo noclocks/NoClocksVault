@@ -111,3 +111,18 @@ rundll32.exe inetcpl.cpl,ResetIEtoDefaults
 # enable telnet
 DISM /Online /Enable-Feature /FeatureName:TelnetClient
 ```
+
+## Reset Windows Defender Defaults
+
+1. regsvr32 wuaueng.dll 2. regsvr32 wucltui.dll 3. regsvr32 softpub.dll 4. regsvr32 wintrust.dll 5. regsvr32 initpki.dll 6. regsvr32 wups.dll 7. regsvr32 wuweb.dll 8. regsvr32 atl.dll 9. regsvr32 mssip32.dll 
+
+Then it sets some registry keys.
+
+## Reset Windows Security Settings Defaults
+
+```cmd
+# cmd as admin
+
+secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose 
+```
+
