@@ -10,11 +10,23 @@ DISM /Online /Cleanup-Image /RestoreHealth
 
 ## Reset Settings UI Application
 
+> [!ABOUT]
+> If the settings UI app won't open, try resetting it with [[PowerShell]].
+
 ```powershell
 # powershell as admin
 
 Set-ExecutionPolicy Unrestricted
-Add-AppXPackage -DisableDevelopmentMode -Register $Env:SystemRoot\ImmersiveControlPanel
+
+Add-AppXPackage -DisableDevelopmentMode -Register "$Env:SystemRoot\ImmersiveControlPanel\AppxManifest.xml"
+```
+
+## Disable OneDrive from Running in Background
+
+> [!ABOUT]
+> By default, on [[Windows 11]], [[Tool - Microsoft OneDrive|OneDrive]] is enabled and runs on startup. To disable, modify the registry key `HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive`.
+
+```cmd
 ```
 
 ## Fix Problem with DNS Resolution
