@@ -34,7 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[FastAPI](https://fastapi.tiangolo.com/)*
 
 ***
 

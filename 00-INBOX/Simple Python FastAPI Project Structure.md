@@ -41,5 +41,11 @@ app = FastAPI()
 
 @app.get("/")
 def status() -> Dict[str, str]:
-    
+    return {"status": "ok"}
+
+
+@app.get("/about") -> Dict[str, str]:
+def about() -> Dict[str, str]:
+    return {"": ""}
+
 ```
