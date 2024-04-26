@@ -51,7 +51,13 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## See Also
 
-### 
+### FastAPI Notes and Code Snippets
+
+- [[Python - FastAPI Simple Example|FastAPI Simple Example Python Code]]
+- [[Python - FastAPI API Key Authentication|FastAPI API Key Authentication Python Code]]
+- [[Simple Python FastAPI Project Structure]]
+
+### Related Tools
 
 - [[Tool - Python|Python]]
 - [[Tool - Python SQLModel|SQLModel]]
@@ -64,6 +70,8 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Tool - Traefik|Traefik]]
 - [[Tool - Caddy|Caddy]]
 - [[Tool - NGINX|Nginx]]
+
+
 
 
 ***
