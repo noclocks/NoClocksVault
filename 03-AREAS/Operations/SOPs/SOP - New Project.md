@@ -38,5 +38,8 @@ Follow the steps below as exact as possible.
 
 ## Workflow
 
-1. **Setup Project Folder**: Google Drive - Create Primary Project Folder from the Template (`02-PROJECTS/Client Name>- <Project Name>`)
-2. 
+1. **Setup Project Folder**: Google Drive - Create Primary Project Folder from the Template (`02-PROJECTS/<Client Name> - <Project Name>`)
+2. **Add Project Proposal**: From `03-AREAS/Proposals/` -> `02-PROJECTS/<Client Name> - <Project Name>/Documents/Proposals/`
+3. **Add Project Support Documents**
+4. **Create Source Code Repository**
+5. 
