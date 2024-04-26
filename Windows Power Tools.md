@@ -1,8 +1,10 @@
 - [[Tool - Microsoft PowerToys|Microsoft PowerToys]]
-- [[Tool - Win]]
+- [[Tool - Windows Terminal|Windows Terminal]]
 - [[Tool - AltTabTerminator|AltTabTerminator]]
 - [[Tool - FileConverter|FileConverter]]
 - [[Tool - Teracopy|Teracopy]]
 - [[Tool - Winaero Tweaker|Winaero Tweaker]]
 - [[Tool - Everything|Everything Search]]
-- [[]]
+- [[Tool - SysInternals|SysInternals]]
+- [[Tool - ViveTool|ViveTool]] and [[Tool - ViveTool GUI|ViveTool GUI]]
+- 
