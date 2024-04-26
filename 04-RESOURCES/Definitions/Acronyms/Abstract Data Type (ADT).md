@@ -19,8 +19,6 @@ cssclasses:
 
 # Abstract Data Type (ADT)
 
-## Contents
-
 ```table-of-contents
 style: nestedList
 minLevel: 2

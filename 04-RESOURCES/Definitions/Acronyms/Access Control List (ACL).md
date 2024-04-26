@@ -19,8 +19,6 @@ cssclasses:
 
 # Access Control List (ACL)
 
-## Contents
-
 ```table-of-contents
 style: nestedList
 minLevel: 2
