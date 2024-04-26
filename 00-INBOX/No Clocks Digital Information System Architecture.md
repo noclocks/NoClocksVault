@@ -14,3 +14,7 @@
 - **Security & Credentials**:
 	- [[Tool - Keeper Password Manager|Keeper Password Manager]]: Credentials and Password Management for securely storing, sharing, and managing all internal passwords, API keys, Database Connections, Credentials, etc.
 	- [[Tool - Infisical|Infisical]]: `#TODO`
+- **Output & Utilization**:
+	- **Static Hosting and Documentation**: [[Tool - GitHub Pages|GitHub Pages]] ([[Tool - Python MkDocs|MkDocs]]) for hosting project-level support and technical documentation and resources
+	- **Task Execution & Monitoring**: [[Tool - Todoist|Todoist]] to monitor completion of administrative and operational tasks
+	- - **Review and Reporting**: GitHub for tracking progress, reviewing code, and automating deployment workflows.
