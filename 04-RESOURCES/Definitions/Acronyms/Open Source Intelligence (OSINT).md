@@ -20,6 +20,7 @@ cssclasses:
 # Open Source Intelligence (OSINT)
 
 > [!SOURCE] Sources:
+> - *[AnonCatalyst/Coeus-Framework: Coeus 🌐 is an OSINT framework empowering users with tools for effective intelligence gathering from open sources. From social media monitoring 📱 to data analysis 📊, it offers a centralized platform for seamless OSINT investigations.](https://github.com/AnonCatalyst/Coeus-Framework)*
 > - *[AnonCatalyst/Scavenger: Scavenger is an Open Source Intelligence (OSINT) tool equipped with a user-friendly graphical interface, designed for efficient information gathering about a target. With features like web and user searches, Serpapi integration, system information retrieval, forum detection, and social profile recognition, Scavenger excels in digital reconnaissance](https://github.com/AnonCatalyst/Scavenger)*
 
 ```table-of-contents
