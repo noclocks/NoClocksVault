@@ -15,7 +15,6 @@ permalink:
 description:
 image:
 cssclasses:
-
 ---
 
 # Create Custom GPT Guide
