@@ -7,7 +7,9 @@
     "clean-embeds",
     "home",
     "tables",
-    "tool"
+    "tool",
+    "command-palette",
+    "mermaid"
   ],
   "cssTheme": "GitHub Theme",
   "interfaceFontFamily": "Inter"
