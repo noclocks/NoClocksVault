@@ -31,9 +31,10 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-**Digital Information System Architecture (DISA)** isn't a widely recognized or specific term in the field of [[Information Technology or systems architecture. However, if you're referring to a concept that involves the architecture of digital information systems more broadly, it generally relates to the planning, designing, and structuring of systems that handle digital information.
+> [!INFO]
+> **Digital Information System Architecture (DISA)** isn't a widely recognized or specific term in the field of [[Information Technology (IT)]] or systems architecture. The concept involves the architecture of digital information systems and generally relates to the *planning, designing, and structuring of systems that handle digital information*.
 
-This includes considerations around how data is processed, stored, and transmitted in systems that might span everything from databases and software applications to network infrastructure and cloud services. The architecture aims to ensure that the system is scalable, reliable, secure, and efficient in handling data and user requirements.
+**DISA** includes considerations around how data is *processed, stored, and transmitted in systems that might span everything from databases and software applications to network infrastructure and cloud services.* The architecture aims to ensure that the system is scalable, reliable, secure, and efficient in handling data and user requirements.
 
 Here’s a breakdown of the key components often involved in such architectures:
 
@@ -44,3 +45,8 @@ Here’s a breakdown of the key components often involved in such architectures:
 5. **Security**: Ensuring data integrity, confidentiality, and availability through security protocols, encryption, access control, and regular audits.
 
 Effective digital information system architecture helps organizations manage their data and associated processes in a way that supports their business objectives and technological needs. If you had a specific aspect of digital information systems in mind, or if there's a particular application or context you're interested in, let me know, and I can provide more targeted information.
+
+## Example
+
+![](https://i.imgur.com/dGgA7j9.png)
+*Example *
