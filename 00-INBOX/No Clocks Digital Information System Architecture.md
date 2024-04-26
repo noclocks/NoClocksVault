@@ -1,9 +1,13 @@
-- **Cloud Storage**: [[Tool - Google Drive|Google Drive]]:
-	- Storing all non-code related files, project documents, company policies, and administrative materials.
-- **Code and Version Control**: [[Tool - GitHub|Github]]:
-	- Code Repositories, Code Management, Technical Documentation, and Version Control
-- **Task Management**: [[Tool - Todoist|Todoist]]:
-	- Managing administrative and operational tasks across the team
-- **Project Management**: [[Tool - GitHub Projects|GitHub Projects]]:
-	- GitHub Projects and Boards ([[Kanban]]) for detailed software project management
-	- Obsidian for maintaining a knowledge base, making it the central hub for 
+- **Cloud Storage**:
+	- [[Tool - Google Drive|Google Drive]]: Storing all non-code related files, project documents, company policies, and administrative materials.
+- **Code and Version Control**:
+	- [[Tool - GitHub|Github]]: Code Repositories, Code Management, Technical Documentation, and Version Control
+- **Task Management**:
+	- [[Tool - Todoist|Todoist]] for managing administrative and operational tasks across the team.
+- **Project Management**:
+	- [[Tool - GitHub Projects|GitHub Projects]] and Boards ([[Kanban]]) for detailed software project management
+	- [[Tool - Obsidian|Obsidian]] and [[Tool - Markdown|Markdown]] for maintaining a knowledge base, making it the central hub for insights and learning
+- **Communication and Scheduling**:
+	- [[Tool - Google Calendar|Google Calendar]]: Manage Events, Agendas, Meetings, Deadlines, Reminders, etc.
+	- [[Tool - G]]
+	- [[Tool - Slack|Slack]]: 
