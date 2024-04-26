@@ -18,4 +18,25 @@ cssclasses:
 # New Project Standard Operating Procedure
 
 > [!NOTE]
-> [No Clocks, LLC](https://github.com/noclocks) [[Standard Operating Procedure (SOP)]] for initializing 
+> [No Clocks, LLC](https://github.com/noclocks) [[Standard Operating Procedure (SOP)]] for initializing a new *client, development project.*
+
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Overview
+
+> [!SOURCE] Sources:
+> - **
+
+Follow the steps below as exact as possible.
+
+## Workflow
+
+1. **Setup Project Folder**: Google Drive - Create Primary Project Folder from the Template (`02-PROJECTS/Client Name>- <Project Name>`)
+2. 
