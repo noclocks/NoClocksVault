@@ -9,4 +9,5 @@
 - [[Tool - ViveTool|ViveTool]] and [[Tool - ViveTool GUI|ViveTool GUI]]
 - [[Tool - RapidEE|Rapid Environment Editor]]
 - [[Tool - Link Shell Extension|Link Shell Extension]]
-- [[Tool - ]]
+- [[Tool - Raindrop.io|Raindrop.io]]
+- [[Tool - ChatGPT Desktop]]

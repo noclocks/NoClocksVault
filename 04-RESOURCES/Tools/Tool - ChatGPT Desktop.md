@@ -1,15 +1,15 @@
 ---
-creation_date: 2024-04-14
-modification_date: 2024-04-14
+creation_date: 2024-04-25
+modification_date: 2024-04-25
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/NA
   - Status/WIP
 aliases:
-  - Tool - Raindrop.io
-  - Raindrop.io
-  - Raindrop
+  - Tool - ChatGPT Desktop
+  - ChatGPT Desktop
+  - ChatGPT Desktop Application
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
 ---
 
 
-# Raindrop.io
+# ChatGPT Desktop
 
 ```table-of-contents
 title: Contents 
@@ -33,18 +33,18 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[lencx/ChatGPT: 🔮 ChatGPT Desktop Application (Mac, Windows and Linux) (github.com)](https://github.com/lencx/chatgpt)*
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-04-14]] and last modified on [[2024-04-14]].*
+*Note created on [[2024-04-25]] and last modified on [[2024-04-25]].*
 
 ### Backlinks
 
 ```dataview
-LIST FROM [[Tool - Raindrop.io]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - Raindrop.io"
+LIST FROM [[Tool - ChatGPT Desktop]] AND -"CHANGELOG" AND -"//Tool - ChatGPT Desktop"
 ```
 
 ***
