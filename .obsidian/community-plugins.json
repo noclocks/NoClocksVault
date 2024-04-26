@@ -36,5 +36,6 @@
   "msg-handler",
   "fontsource",
   "oz-image-plugin",
-  "auto-note-mover"
+  "auto-note-mover",
+  "obsidian-file-cooker"
 ]
