@@ -74,16 +74,15 @@ These categories suggest a comprehensive approach to handling different aspects 
     - Gmail for emails
     - Slack for team communication
 
-4. **Output**: The information from these different categories appears to be funneled into a structured format, which involves:
-    
+4. **Output**: The information from these different categories gets funneled into a structured format following the [[Projects Areas Resources Archives (PARA)]] method:
     - Projects
     - Areas
     - Resources
-    - Archive
+    - Archives
     
-    This structure is likely designed to support project management and workflow, with tools such as GitHub and ClickUp (as depicted by their logos) being utilized for managing projects, collaborative areas, resources, and archival of data.
+		
+This DISA system is likely designed to support project management and workflows, with tools such as [[Tool - GitHub|GitHub]] and [[Tool - ClickUp|ClickUp]] (as depicted by their logos) being utilized for managing projects, collaborative areas, resources, and archival of data.
     
-3. **Process Cycle**: The presence of a cyclic arrow at the bottom suggests that this is not a linear process, but rather a cyclical one where the output can loop back as input for continuous improvement or ongoing management.
-    
+5. **Process Cycle**: The presence of a cyclic arrow at the bottom suggests that this is not a linear process, but rather a cyclical one where the output can loop back as input for continuous improvement or ongoing management.
 
 Overall, the architecture presents a clear and organized way of managing various types of information using specialized tools, ensuring that data is properly collected, sorted, and utilized. It implies an integrated approach where different functions within a team or organization can interact seamlessly with each other through these tools, potentially increasing efficiency and reducing the likelihood of information silos.
