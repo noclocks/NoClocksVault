@@ -35,8 +35,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Creating a tailored [[Tool - ChatGPT|ChatGPT]] assistant is easy and can be done without coding:
 
-1. Open [[Tool - ChatGPT|ChatGPT]]
-
+1. Open [[Tool - ChatGPT|ChatGPT]] interface and click on `Create a GPT` to launch the interactive GPT Builder.
+2. Give the GPT a name and description; Be clear on its intended purpose.
+3. Start a conversation with the assistant to define the GPT's knowledge, skills, and how it should behave. Explain what you want it to be an expert in.
+4. Specify additional capabilities like searching the web, analyzing data, or generating images/text. The builder will guide you in enabling APIs.
+2. Choose privacy settings like whether your GPT's conversations can be used to train [[Tool - OpenAI|OpenAI]]'s models.
+3. Publish your GPT either for personal use or submit it for inclusion in the GPT Store!
 ***
 
 ## Appendix
