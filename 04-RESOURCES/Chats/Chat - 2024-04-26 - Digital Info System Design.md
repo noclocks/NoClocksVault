@@ -1,12 +1,11 @@
 ChatGPT URL: 
 https://chat.openai.com/c/f3c176e9-3c94-44d6-a693-f0799baf4f00
  
-# You: 
-what is Digital Information System Architecture
-# ChatGPT: 
-ChatGPT
+## You: 
 
-ChatGPT
+What is Digital Information System Architecture
+
+## ChatGPT: 
 
 Digital Information System Architecture (DISA) isn't a widely recognized or specific term in the field of Information Technology or systems architecture. However, if you're referring to a concept that involves the architecture of digital information systems more broadly, it generally relates to the planning, designing, and structuring of systems that handle digital information.
 
@@ -22,13 +21,13 @@ Here’s a breakdown of the key components often involved in such architectures:
 
 Effective digital information system architecture helps organizations manage their data and associated processes in a way that supports their business objectives and technological needs. If you had a specific aspect of digital information systems in mind, or if there's a particular application or context you're interested in, let me know, and I can provide more targeted information.
 
---- 
-# You: 
-<https://files.oaiusercontent.com/file-NwpXBkBTbRk2qzkAASRtULs8?se=2024-04-26T16%3A22%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=5C65L2o7i0HRG0xIqR/F5QvoKFkqbWMwz/WCbCLA1zE%3D>
-# ChatGPT: 
-ChatGPT
+---
 
-ChatGPT
+## You: 
+
+<https://files.oaiusercontent.com/file-NwpXBkBTbRk2qzkAASRtULs8?se=2024-04-26T16%3A22%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=5C65L2o7i0HRG0xIqR/F5QvoKFkqbWMwz/WCbCLA1zE%3D>
+
+## ChatGPT: 
 
 The image you've provided seems to depict a diagram of a Digital Information System Architecture. Here's an analysis based on what's visible:
 
@@ -60,12 +59,11 @@ This structure is likely designed to support project management and workflow, wi
 Overall, the architecture presents a clear and organized way of managing various types of information using specialized tools, ensuring that data is properly collected, sorted, and utilized. It implies an integrated approach where different functions within a team or organization can interact seamlessly with each other through these tools, potentially increasing efficiency and reducing the likelihood of information silos.
 
 --- 
-# You: 
-help me expand and update the architecture from above for my own systems. My company is called No Clocks, LLC and we are a technology based startup skilled in software engineering. We use Google Drive for cloud storage, GitHub for code and version control, todoist for administrative and operational tasks, github projects and boards for software-specific project management, google calendar for events, keeper password manager for credentials, gmail and outlook for email, slack for internal comms, obsidian for knowledge management, github pages for hosting project level support and docs, etc. 
-# ChatGPT: 
-ChatGPT
+## You: 
 
-ChatGPT
+help me expand and update the architecture from above for my own systems. My company is called No Clocks, LLC and we are a technology based startup skilled in software engineering. We use Google Drive for cloud storage, GitHub for code and version control, todoist for administrative and operational tasks, github projects and boards for software-specific project management, google calendar for events, keeper password manager for credentials, gmail and outlook for email, slack for internal comms, obsidian for knowledge management, github pages for hosting project level support and docs, etc. 
+
+## ChatGPT: 
 
 To expand and update the architecture for No Clocks, LLC, we need to ensure that it accommodates all the tools and processes you've mentioned. The architecture should enable efficient workflows and integration between the various tools, while also maintaining a focus on security, collaboration, and accessibility.
 
@@ -106,9 +104,9 @@ Additionally, considering that you're a technology-based startup skilled in soft
 Would you like to visualize this updated architecture in a diagram format? If so, I can sketch out a more detailed layout based on your specifications.
 
 --- 
-# You: 
+## You: 
 yes
-# ChatGPT: 
+## ChatGPT: 
 ChatGPT
 
 ChatGPT
