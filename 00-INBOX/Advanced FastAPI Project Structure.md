@@ -17,6 +17,17 @@ cssclasses:
 
 ```plaintext
 <root>
+├── docs/
+├── src/
+│ ├── app/
+│ ├── __init__.py  
+
+│ ├── __init__.py
+│ ├── main.py
+│ ├── models.py
+│ ├── utils.py
+│ └── main.py
+├── tests/
 ├── app/  
 │ ├── __init__.py  
 │ └── main.py  
