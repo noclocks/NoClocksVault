@@ -1,0 +1,4 @@
+- **Cloud Storage**: [[Tool - Google Drive|Google Drive]]:
+	- Storing all non-code related files, project documents, company policies, and administrative ma
+- **Code and Version Control**: [[Tool - GitHub|Github]]
+- **
