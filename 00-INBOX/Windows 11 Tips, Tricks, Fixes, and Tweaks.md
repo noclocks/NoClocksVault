@@ -16,6 +16,8 @@ net stop dnscache
 net start dnscache
 ```
 
+## Fix Internet Connectivity 
+
 ## Fix Internet Protocol (TCP/IP)
 
 > [!ABOUT]
@@ -37,11 +39,22 @@ net int ip reset
 # cmd as admin
 
 # stop windows update service
-net stop vuauserv
+net stop wuauserv
 
 # stop lookup service
 net stop AeLookupSvc
 
-# delete software distribution logs (C:\Windows\SoftwareDistribution\
+# delete software distribution logs 
+del "C:\Windows\SoftwareDistribution\DataStore\Logs\edb.log"
+
+# re-start services
+net start wuauserv
+net start AeLookupSvc
 ```
 
+## Reset Internet Explorer to Defaults
+
+```cmd
+# cmd as admin
+rundll32.exe inetcpl.cpl,ResetIEtoDefaults
+```
