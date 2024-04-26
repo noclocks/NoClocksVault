@@ -35,6 +35,29 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!SOURCE] Sources:
 > - *[FastAPI](https://fastapi.tiangolo.com/)*
+> - *[tiangolo/full-stack-fastapi-template: Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.](https://github.com/tiangolo/full-stack-fastapi-template)*
+> - 
+
+```table-of-contents
+title: Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Overview
+
+## See Also
+
+- [[Tool - Python SQLModel|SQLModel]]
+- [[Tool - Python Pydantic|Pydantic]]
+- [[Tool - Python Flask|Flask]]
+- [[Tool - Python Django|Django]]
+- [[Tool - Python|Python]]
+- [[Tool - PostgreSQL|PostgreSQL]]
+- [[Tool - Docker Compose|Do]]
 
 ***
 
