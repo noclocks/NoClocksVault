@@ -49,4 +49,9 @@ Effective digital information system architecture helps organizations manage the
 ## Example
 
 ![](https://i.imgur.com/dGgA7j9.png)
-*Example *
+*Example DISA - Source: [ClickUp](https://doc.clickup.com/9015213037/p/h/8cnjezd-10395/b6df6749c999c36/8cnjezd-10415)*
+
+The example above depicts a diagram of a Digital Information System Architecture with the following notable details:
+
+1. **Inputs and Flow**: The "funnel" at the top of the diagram represents the collection or input of data and information into the system. The downward flow indicates how the data streams through the system.
+2. **Data Categorization**: The architecture break
