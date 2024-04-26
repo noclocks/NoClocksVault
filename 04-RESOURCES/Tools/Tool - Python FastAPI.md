@@ -51,13 +51,20 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## See Also
 
+### 
+
+- [[Tool - Python|Python]]
 - [[Tool - Python SQLModel|SQLModel]]
 - [[Tool - Python Pydantic|Pydantic]]
 - [[Tool - Python Flask|Flask]]
 - [[Tool - Python Django|Django]]
-- [[Tool - Python|Python]]
+- [[Tool - Python PyTest|PyTest]]
 - [[Tool - PostgreSQL|PostgreSQL]]
-- [[Tool - Docker Compose|Do]]
+- [[Tool - Docker Compose|Docker Compose]]
+- [[Tool - Traefik|Traefik]]
+- [[Tool - Caddy|Caddy]]
+- [[Tool - NGINX|Nginx]]
+
 
 ***
 
