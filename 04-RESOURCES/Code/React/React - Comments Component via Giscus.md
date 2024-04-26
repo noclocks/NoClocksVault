@@ -187,7 +187,25 @@ These additional props (`additionalProp1` and `additionalProp2`) will be passe
 
 The Source Code from the [[Giscus]] library's react component reveals all types accessible as props:
 
-
+```typescript
+export interface GiscusProps {
+  id?: string;
+  host?: string;
+  repo: Repo;
+  repoId: string;
+  category?: string;
+  categoryId?: string;
+  mapping: Mapping;
+  term?: string;
+  theme?: Theme;
+  strict?: BooleanString;
+  reactionsEnabled?: BooleanString;
+  emitMetadata?: BooleanString;
+  inputPosition?: InputPosition;
+  lang?: AvailableLanguage;
+  loading?: Loading;
+}
+```
 
 ## See Also
 
