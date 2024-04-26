@@ -28,3 +28,20 @@ net start dnscache
 net int ip reset
 ```
 
+## Clear Windows Update History
+
+> [!ABOUT]
+> Windows Update shows the history of installed and failed updates. If this list grows too large, you can clear it per below.
+
+```cmd
+# cmd as admin
+
+# stop windows update service
+net stop vuauserv
+
+# stop lookup service
+net stop AeLookupSvc
+
+# delete software distribution logs (C:\Windows\SoftwareDistribution\
+```
+
