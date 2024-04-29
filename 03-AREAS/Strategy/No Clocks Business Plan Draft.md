@@ -3,7 +3,7 @@ creation_date: 2024-03-28
 modification_date: 2024-03-28
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/Draft
+  - Status/Draft
   - Type/Plan
   - Type/Document
   - Topic/Business

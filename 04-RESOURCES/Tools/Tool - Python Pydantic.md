@@ -4,7 +4,7 @@ modification_date: 2024-04-14
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Type/Package
+  - Type/Tool/Package
   - Topic/Dev
   - Topic/Dev/Python
   - Topic/Dev/Data

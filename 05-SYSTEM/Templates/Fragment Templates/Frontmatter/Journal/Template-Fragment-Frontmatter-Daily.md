@@ -3,7 +3,7 @@ creation_date: <% tp.file.creation_date("YYYY-MM-DD") %>
 modification_date: <% tp.file.last_modified_date("YYYY-MM-DD") %>
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/Daily
+  - Type/Journal/Daily
   - Type/Journal
   - Topic/Journal
   - Topic/Journal/Daily
