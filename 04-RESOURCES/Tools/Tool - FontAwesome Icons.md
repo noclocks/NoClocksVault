@@ -7,8 +7,8 @@ tags:
   - Topic/NA
   - Status/WIP
 aliases:
-  - Tool - Framer Motion
-  - Framer Motion
+  - Tool - FontAwesome Icons
+  - FontAwesome Icons
 publish: true
 permalink:
 description:
@@ -18,7 +18,7 @@ cssclasses:
 ---
 
 
-# Framer Motion
+# FontAwesome Icons
 
 ```table-of-contents
 title: ## Contents 
@@ -43,7 +43,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[Tool - Framer Motion]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - Framer Motion"
+LIST FROM [[Tool - FontAwesome Icons]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - FontAwesome Icons"
 ```
 
 ***
