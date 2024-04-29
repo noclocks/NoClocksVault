@@ -33,7 +33,28 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - *[Overview - Chainlit](https://docs.chainlit.io/get-started/overview)*
 
-Chainlit is an open-source [[Python package to build production ready Conversational AI.
+Chainlit is an open-source [[MOC - Python|Python]] package to build production ready Conversational AI.
+
+![[Video - Chainlit Demo.mp4]]
+
+## Features
+
+1. [Build fast:](https://docs.chainlit.io/examples/openai-sql) Integrate seamlessly with an existing code base or start from scratch in minutes
+    
+2. [Copilot:](https://docs.chainlit.io/deployment/copilot) Embed your chainlit app as a Software Copilot
+    
+3. [Data persistence:](https://docs.chainlit.io/data-persistence/overview) Collect, monitor and analyze data from your users
+    
+4. [Visualize multi-steps reasoning:](https://docs.chainlit.io/concepts/step) Understand the intermediary steps that produced an output at a glance
+    
+5. [Iterate on prompts:](https://docs.chainlit.io/advanced-features/prompt-playground) Deep dive into prompts in the Prompt Playground to understand where things went wrong and iterate
+
+## Integrations
+
+- [[Tool - OpenAI|OpenAI]]
+- [[Tool - Langchain|LangChain]]
+- [[Tool - Autogen|Autogen]]
+- [[Tool - Python LlamaIndex]]
 
 ***
 
