@@ -8,19 +8,27 @@ tags:
   - Type/Tool/Package
   - Topic/Dev
   - Topic/Dev/Python
+  - Topic/Dev/Rust
   - Status/WIP
 aliases:
-  - Tool - Python Ruff
+  - Python Ruff
   - Ruff
+  - Ruff Linter and Formatter for Python
 publish: true
 permalink:
-description:
+description: "Ruff: an extremely fast Python linter and code formatter written in Rust."
 image:
 cssclasses:
   - tool
 ---
 
 # Ruff
+
+> [!SOURCE] Sources:
+> - *[astral-sh/ruff: An extremely fast Python linter and code formatter, written in Rust.](https://github.com/astral-sh/ruff)*
+
+> [!ABOUT]
+> *`Ruff`: an extremely fast [[MOC - Python|Python]] code linter and formatter, written with [[Tool - Rust|Rust]].*
 
 ```table-of-contents
 title: ## Contents 
@@ -33,8 +41,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!SOURCE] Sources:
-> - **
+
 
 ***
 
