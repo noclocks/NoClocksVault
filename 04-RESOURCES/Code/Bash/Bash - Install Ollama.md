@@ -62,6 +62,14 @@ curl -fsSL https://ollama.com/install.sh | sh
 - [[Tool - Mistral]]
 - [[Tool - Neural Chat]]
 - [[Tool - Code Llama]]
+- [[Tool - Chatbot UI]]
+- [[Tool - TypeScript UI]]
+- [[NextJS Web Interface for Ollama]]
+- [[React UI for Ollama Models]]
+- [[Tool -Ollamac]]
+- [[Tool - Chatbox]]
+- [[Tool - OllamaGUI]]
+- [[Tool - Lobe Chat]]
 - [[Tool - ]]
 
 ***
