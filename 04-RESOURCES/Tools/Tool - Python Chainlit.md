@@ -31,9 +31,10 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
+> - *[ChainLit (github.com)](https://github.com/Chainlit)*
 > - *[Overview - Chainlit](https://docs.chainlit.io/get-started/overview)*
 > - *[Chainlit/cookbook: Chainlit's cookbook repo](https://github.com/Chainlit/cookbook)*
-> - *[ChainLit (github.com)](https://github.com/Chainlit)*
+> - *[Literal AI - Evaluate, Improve & Monitor LLM applications](https://getliteral.ai/)*
 
 Chainlit is an open-source [[MOC - Python|Python]] package to build production ready Conversational AI.
 
@@ -123,6 +124,8 @@ The `-w` flag tells Chainlit to enable auto-reloading, so you don’t need to 
 - [[Tool - OpenAI|OpenAI]]
 - [[Tool - Python Streamlit|Streamlit]]
 - [[Tool - Python Langchain|Langchain]]
+
+[[Tool - Python Streamlit]]
 
 ```dataview
 LIST FROM [[Tool - Python Chainlit]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - Python Chainlit"
