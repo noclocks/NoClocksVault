@@ -34,15 +34,41 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> [[Large Language Models (LLMs)]] today trained on large amounts of data and tuned to follow instructions, are capable of performing tasks zero-shot
+> [[Large Language Models (LLMs)]] today trained on large amounts of data and tuned to follow instructions, are capable of performing tasks zero-shot.
 
-## Resources
+
+## Example
+
+Prompt:
+
+```plaintext
+Classify the text into neutral, negative, or positive.
+
+Text: I think the vacation is okay.
+Sentiment:
+```
+
+Output:
+
+```plaintext
+neutral
+```
+
+> [!NOTE]
+> Note that in the prompt above we didn't provide the model with any examples -- that's the zero-shot capabilities at work. When zero-shot doesn't work, it's recommended to provide demonstrations or examples in the prompt. Below we discuss the approach known as few-shot prompting.
 
 ***
 
 ## Appendix
 
 *Note created on [[2024-04-29]] and last modified on [[2024-04-29]].*
+
+### See Also
+
+- [[MOC - Artificial Intelligence|MOC - Artificial Intelligence]]
+- [[Prompt Engineering|Prompt Engineering]]
+- [[Tool - Python PromptTools|PromptTools Python Package]]
+- [[Tool - Langchain|]]
 
 ### Backlinks
 
