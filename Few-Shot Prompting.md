@@ -34,10 +34,11 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> While [[Large Language Models (LLMs)]] already demonstrate remarkable [[Zero-Shot Prompting]] capabilities, they still fall short on more complex tasks when using the zero-shot setting. To improve on this, few-shot prompting is used as a technique to enable in-context learning where we provide demonstrations in the prompt to steer the model to better performance. The demonstrations serve as conditioning for subsequent examples where we would like the model to generate a response.
-
+> While [[Large Language Models (LLMs)]] already demonstrate remarkable [[Zero-Shot Prompting]] capabilities, they still fall short on more complex tasks when using the [[Zero-Shot Prompting]] technique. To improve on this, **few-shot prompting** is used as a technique to enable *in-context learning where we provide demonstrations in the prompt to steer the model to better performance. The demonstrations serve as conditioning for subsequent examples where we would like the model to generate a response.*
 
 ## Example
+
+*To demonstrate **few-shot prompting**, we use an example presented by [Brown et al. 2020](https://arxiv.org/abs/2005.14165)
 
 Prompt:
 
