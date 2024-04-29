@@ -110,12 +110,13 @@ npm run dev
 
 ### See Also
 
-- [[Tool - ShadCN]]
-- [[Tool - Next.js]]
-- [[Tool - React.js]]
+- [[Tool - ShadCN|ShadCN]]
+- [[Tool - Next.js|Next.js]]
+- [[Tool - React.js|React.js]]
 - [[04-RESOURCES/Code/TypeScript/_README|TypeScript]]
 - [[Tool - TailwindCSS|TailwindCSS]]
 - [[MOC - Artificial Intelligence|Artificial Intelligence Map of Content]]
+- [[Chatbot]]
 
 ### Backlinks
 
