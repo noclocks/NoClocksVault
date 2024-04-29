@@ -117,7 +117,7 @@ uv's `pip-install` and `pip-compile` commands support many of the same comma
 - [[MOC - Python|Python Map of Content]]
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
 - [[Tool - Python|Python]]
-- [[Tool - Python pip|pip]]
+- [[Tool - Python Pip|pip]]
 - [[Tool - Python Pipx|pipx]]
 - [[Tool - Python Pipenv|pipenv]]
 - [[Tool - Python Poetry|poetry]]
