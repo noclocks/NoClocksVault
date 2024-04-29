@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Productivity
-  - Topic/GTD
+  - Topic/Productivity/GTD
   - Status/WIP
 aliases:
   - GTD Weekly Review

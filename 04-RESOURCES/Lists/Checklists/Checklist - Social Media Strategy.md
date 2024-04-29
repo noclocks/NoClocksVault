@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Business/Marketing
-  - Topic/SocialMedia
+  - Topic/Business/SocialMedia
   - Status/WIP
 aliases:
   - Checklist - Social Media Strategy

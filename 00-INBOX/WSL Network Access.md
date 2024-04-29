@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Dev/WSL
-  - Topic/Network
+  - Topic/Dev/Network
   - Topic/Dev
   - Status/WIP
 aliases:

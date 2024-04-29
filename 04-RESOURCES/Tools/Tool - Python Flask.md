@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev/Python
-  - Topic/Flask
+  - Topic/Dev/Python/Flask
   - Status/WIP
 aliases:
   - Python Flask

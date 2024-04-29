@@ -6,7 +6,7 @@ tags:
   - Type/Note
   - Topic/Business
   - Topic/Business/Finance
-  - Topic/Operations
+  - Topic/Business/Operations
   - Status/WIP
 aliases:
   - Pricing Strategy

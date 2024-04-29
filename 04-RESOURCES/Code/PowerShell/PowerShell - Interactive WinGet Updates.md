@@ -8,7 +8,6 @@ tags:
   - Topic/Dev
   - Topic/Dev/Windows
   - Topic/Dev/PowerShell
-  - Topic/WinGet
   - Status/WIP
 aliases:
   - Interactive WinGet Updates PowerShell Code

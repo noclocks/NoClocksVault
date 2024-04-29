@@ -6,7 +6,6 @@ tags:
   - Type/Note
   - Topic/Dev/Windows
   - Topic/Business/IT
-  - Topic/ComputerS
   - Topic/Dev
   - Status/WIP
 aliases:

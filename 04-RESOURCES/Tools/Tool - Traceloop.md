@@ -5,11 +5,11 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev/Analytics
-  - Topic/Observability
+  - Topic/Dev/Observability
   - Topic/Dev
   - Topic/Business/Technology
   - Topic/Dev/AI
-  - Topic/LLM
+  - Topic/Dev/LLM
   - Status/WIP
 aliases:
   - Traceloop

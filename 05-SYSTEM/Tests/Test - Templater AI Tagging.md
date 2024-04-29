@@ -1,4 +1,4 @@
-#Topic/Dev/AI #Topic/ProductDevelopment
+#Topic/Dev/AI #Topic/Business/ProductDevelopment
 
 ## Content
 

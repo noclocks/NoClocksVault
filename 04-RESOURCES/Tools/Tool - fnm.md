@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev
-  - Topic/Rust
+  - Topic/Dev/Rust
   - Topic/Dev/Node
   - Topic/Dev/JavaScript
   - Status/WIP

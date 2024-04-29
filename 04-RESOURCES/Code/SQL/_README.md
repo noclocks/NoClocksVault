@@ -7,7 +7,7 @@ tags:
   - Type/Code
   - Topic/Meta
   - Topic/Dev
-  - Topic/SQL
+  - Topic/Dev/SQL
   - Status/Ongoing
 aliases:
   - SQL Code

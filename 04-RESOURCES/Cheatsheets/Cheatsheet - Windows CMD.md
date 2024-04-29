@@ -9,7 +9,7 @@ tags:
   - Topic/Dev
   - Topic/Business/IT
   - Topic/Business/Technology
-  - Topic/CMD
+  - Topic/Dev/CMD
   - Status/WIP
 aliases:
   - Windows Command Line Cheatsheet

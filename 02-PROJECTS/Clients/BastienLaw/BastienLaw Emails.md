@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Email
   - Topic/Productivity/Communication
-  - Topic/Client
+  - Topic/Business/Client
   - Status/WIP
 aliases:
   - BastienLaw Emails
