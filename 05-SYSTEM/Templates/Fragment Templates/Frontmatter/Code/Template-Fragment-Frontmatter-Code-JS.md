@@ -7,7 +7,7 @@ tags:
   - Type/Code/JavaScript
   - Topic/Dev
   - Topic/Dev/JavaScript
-  - Topic/JavaScript
+  - Topic/Dev/JavaScript
   - Status/WIP
 aliases:
   - JavaScript <% (tp.file.title).replace("JS - ", "") %> Code

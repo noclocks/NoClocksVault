@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Dev
   - Topic/Dev/Python
-  - Topic/AI
+  - Topic/Dev/AI
   - Status/WIP
 aliases:
   - LlamaIndex

@@ -8,7 +8,7 @@ tags:
   - Topic/Observability
   - Topic/Dev
   - Topic/Technology
-  - Topic/AI
+  - Topic/Dev/AI
   - Topic/LLM
   - Status/WIP
 aliases:

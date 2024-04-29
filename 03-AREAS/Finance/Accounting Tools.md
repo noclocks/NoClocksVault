@@ -7,7 +7,7 @@ tags:
   - Type/Tool
   - Topic/Business
   - Topic/Accounting
-  - Topic/Finance
+  - Topic/Business/Finance
   - Status/WIP
 aliases:
   - Accounting Tools

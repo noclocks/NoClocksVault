@@ -7,7 +7,7 @@ tags:
   - Topic/Dev
   - Topic/Rust
   - Topic/Node
-  - Topic/JavaScript
+  - Topic/Dev/JavaScript
   - Status/WIP
 aliases:
   - Fast Node Manager (fnm)

@@ -7,7 +7,7 @@ tags:
   - Type/Code
   - Topic/Dev
   - Topic/Meta
-  - Topic/JavaScript
+  - Topic/Dev/JavaScript
   - Topic/Code
   - Status/Ongoing
 aliases:

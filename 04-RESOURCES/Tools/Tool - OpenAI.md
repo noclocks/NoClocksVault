@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev
-  - Topic/AI
+  - Topic/Dev/AI
   - Topic/API
   - Status/WIP
 aliases:

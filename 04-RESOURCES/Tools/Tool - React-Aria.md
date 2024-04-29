@@ -4,10 +4,10 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/React
+  - Topic/Dev/React
   - Topic/UI
   - Topic/Dev
-  - Topic/Frontend
+  - Topic/Dev/Frontend
   - Status/WIP
 aliases:
   - React-Aria

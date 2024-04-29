@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev
-  - Topic/AI
+  - Topic/Dev/AI
   - Status/WIP
 aliases:
   - Tool - ChatGPT

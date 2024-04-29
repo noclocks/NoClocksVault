@@ -4,7 +4,7 @@ modification_date: 2024-03-21
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Definition
-  - Topic/Finance
+  - Topic/Business/Finance
   - Status/Complete
 aliases:
   - Electronic Funds Transfer

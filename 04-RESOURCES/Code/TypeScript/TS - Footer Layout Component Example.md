@@ -7,9 +7,9 @@ tags:
   - Type/Code/TypeScript
   - Topic/Dev
   - Topic/Dev/TypeScript
-  - Topic/TypeScript
-  - Topic/React
-  - Topic/Frontend
+  - Topic/Dev/TypeScript
+  - Topic/Dev/React
+  - Topic/Dev/Frontend
   - Status/WIP
 aliases:
   - Footer Layout Component Example TypeScript Code

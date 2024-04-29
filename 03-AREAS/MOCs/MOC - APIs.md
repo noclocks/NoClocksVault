@@ -6,7 +6,7 @@ tags:
   - Type/MOC
   - Topic/API
   - Topic/Dev
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Status/Ongoing
 aliases:
   - MOC - APIs

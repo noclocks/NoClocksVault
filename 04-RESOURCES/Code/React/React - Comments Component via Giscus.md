@@ -9,8 +9,8 @@ tags:
   - Topic/Dev
   - Topic/Dev/JavaScript
   - Topic/Dev/TypeScript
-  - Topic/JavaScript
-  - Topic/TypeScript
+  - Topic/Dev/JavaScript
+  - Topic/Dev/TypeScript
   - Status/WIP
 aliases:
   - Comments React Component via Giscus

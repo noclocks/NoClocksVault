@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Decision
   - Topic/Dev
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Topic/Dev/Frontend
   - Topic/Dev/JavaScript
   - Status/WIP

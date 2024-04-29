@@ -4,7 +4,7 @@ modification_date: 2024-04-02
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/AI
+  - Topic/Dev/AI
   - Status/WIP
 aliases:
   - Tool - Perfect Memory

@@ -8,7 +8,7 @@ tags:
   - Type/Code/React
   - Topic/Dev
   - Topic/Dev/JavaScript
-  - Topic/TypeScript
+  - Topic/Dev/TypeScript
   - Status/WIP
 aliases:
   - Button Component with Variants

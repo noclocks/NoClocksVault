@@ -6,7 +6,7 @@ tags:
   - Type/Code
   - Type/Code/CSS
   - Topic/Dev
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Topic/CSS
   - Status/WIP
 aliases:

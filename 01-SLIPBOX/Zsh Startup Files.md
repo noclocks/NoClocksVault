@@ -7,9 +7,9 @@ tags:
   - Type/List
   - Topic/Dev
   - Topic/Dev/Zsh
-  - Topic/Linux
+  - Topic/Dev/Linux
   - Topic/WSL
-  - Topic/Bash
+  - Topic/Dev/Bash
   - Status/WIP
 aliases:
   - Zsh Startup Files

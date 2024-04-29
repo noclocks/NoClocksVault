@@ -10,10 +10,10 @@ tags:
   - Topic/Dev
   - Topic/Dev/TypeScript
   - Topic/Dev/React
-  - Topic/Frontend
-  - Topic/React
-  - Topic/JavaScript
-  - Topic/TypeScript
+  - Topic/Dev/Frontend
+  - Topic/Dev/React
+  - Topic/Dev/JavaScript
+  - Topic/Dev/TypeScript
   - Status/WIP
 aliases:
   - useDateFormatter React Hook

@@ -7,10 +7,10 @@ tags:
   - Type/Code
   - Type/Code/Bash
   - Type/Code/Shell
-  - Topic/Linux
+  - Topic/Dev/Linux
   - Topic/Meta
   - Topic/Dev
-  - Topic/Bash
+  - Topic/Dev/Bash
   - Topic/Shell
   - Status/Ongoing
 aliases:

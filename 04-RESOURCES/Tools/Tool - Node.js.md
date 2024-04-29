@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Node
   - Topic/Dev
-  - Topic/JavaScript
+  - Topic/Dev/JavaScript
   - Status/WIP
 aliases:
   - Node.js

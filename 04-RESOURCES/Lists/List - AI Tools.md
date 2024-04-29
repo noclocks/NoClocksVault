@@ -4,7 +4,7 @@ modification_date: 2024-04-04
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
-  - Topic/AI
+  - Topic/Dev/AI
   - Status/WIP
 aliases:
   - Checklist - AI Tools

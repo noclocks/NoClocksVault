@@ -4,8 +4,8 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/TypeScript
-  - Topic/JavaScript
+  - Topic/Dev/TypeScript
+  - Topic/Dev/JavaScript
   - Topic/Documentation
   - Topic/Dev
   - Status/WIP

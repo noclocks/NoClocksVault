@@ -6,7 +6,7 @@ tags:
   - Type/Code
   - Type/Code/TypeScript
   - Topic/Dev
-  - Topic/TypeScript
+  - Topic/Dev/TypeScript
   - Status/WIP
 aliases:
   - 404 Not Found Error Page TypeScript Code

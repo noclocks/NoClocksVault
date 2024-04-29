@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Business
-  - Topic/Finance
+  - Topic/Business/Finance
   - Topic/Accounting
   - Status/WIP
 aliases:

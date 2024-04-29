@@ -4,7 +4,7 @@ modification_date: 2024-04-10
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
-  - Topic/AI
+  - Topic/Dev/AI
   - Status/WIP
 aliases:
   - Generative Models

@@ -5,8 +5,8 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Dev
-  - Topic/Frontend
-  - Topic/React
+  - Topic/Dev/Frontend
+  - Topic/Dev/React
   - Status/WIP
 aliases:
   - Checklist - Frontend Metadata Files

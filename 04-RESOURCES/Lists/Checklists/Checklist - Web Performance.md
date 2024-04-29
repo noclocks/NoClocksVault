@@ -4,12 +4,12 @@ modification_date: 2024-04-24
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
-  - Topic/Frontend
+  - Topic/Dev/Frontend
   - Topic/Dev
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Topic/Dev/UI
-  - Topic/React
-  - Topic/JavaScript
+  - Topic/Dev/React
+  - Topic/Dev/JavaScript
   - Topic/Productivity
   - Topic/Business
   - Status/WIP

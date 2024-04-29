@@ -11,10 +11,10 @@ tags:
   - Type/List
   - Topic/Meta
   - Topic/Dev
-  - Topic/React
+  - Topic/Dev/React
   - Topic/Technology
-  - Topic/JavaScript
-  - Topic/TypeScript
+  - Topic/Dev/JavaScript
+  - Topic/Dev/TypeScript
   - Topic/Dev/Web
   - Topic/Dev/Frontend
   - Topic/Dev/UI

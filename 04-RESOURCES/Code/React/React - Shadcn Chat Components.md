@@ -11,7 +11,7 @@ tags:
   - Topic/Dev/React
   - Topic/Dev/Web
   - Topic/Dev/AI
-  - Topic/AI
+  - Topic/Dev/AI
   - Topic/Dev/Frontend
   - Status/WIP
 aliases:

@@ -7,9 +7,9 @@ tags:
   - Type/Code/TypeScript
   - Topic/Dev
   - Topic/Dev/TypeScript
-  - Topic/TypeScript
-  - Topic/Frontend
-  - Topic/React
+  - Topic/Dev/TypeScript
+  - Topic/Dev/Frontend
+  - Topic/Dev/React
   - Status/WIP
 aliases:
   - TypeScript Analytics

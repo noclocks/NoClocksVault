@@ -14,9 +14,9 @@ tags:
   - Topic/Dev/Web
   - Topic/Dev/Frontend
   - Topic/Dev/UI
-  - Topic/JavaScript
-  - Topic/TypeScript
-  - Topic/React
+  - Topic/Dev/JavaScript
+  - Topic/Dev/TypeScript
+  - Topic/Dev/React
   - Status/WIP
 aliases:
   - HTTP TypeScript Utility Code

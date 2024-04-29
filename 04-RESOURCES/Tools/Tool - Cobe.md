@@ -4,7 +4,7 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/JavaScript
+  - Topic/Dev/JavaScript
   - Topic/Dev
   - Status/WIP
 aliases:

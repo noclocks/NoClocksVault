@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/List
   - Topic/Business
-  - Topic/Finance
+  - Topic/Business/Finance
   - Status/WIP
 aliases:
   - Startup Costs List

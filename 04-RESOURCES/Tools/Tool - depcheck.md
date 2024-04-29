@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev
-  - Topic/JavaScript
+  - Topic/Dev/JavaScript
   - Status/WIP
 aliases:
   - Tool - depcheck

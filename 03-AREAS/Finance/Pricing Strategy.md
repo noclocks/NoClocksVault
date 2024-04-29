@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Business
-  - Topic/Finance
+  - Topic/Business/Finance
   - Topic/Operations
   - Status/WIP
 aliases:

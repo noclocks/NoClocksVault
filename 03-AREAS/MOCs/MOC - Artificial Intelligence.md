@@ -4,7 +4,7 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
-  - Topic/AI
+  - Topic/Dev/AI
   - Topic/Dev
   - Status/Ongoing
 aliases:

@@ -7,8 +7,8 @@ tags:
   - Type/Code/Bash
   - Type/Code/Shell
   - Topic/Dev
-  - Topic/Linux
-  - Topic/Bash
+  - Topic/Dev/Linux
+  - Topic/Dev/Bash
   - Topic/Shell
   - Topic/Windows
   - Status/WIP
