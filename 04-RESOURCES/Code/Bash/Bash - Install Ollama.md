@@ -70,6 +70,13 @@ curl -fsSL https://ollama.com/install.sh | sh
 - [[Tool - Chatbox]]
 - [[Tool - OllamaGUI]]
 - [[Tool - Lobe Chat]]
+- [[Tool - ChatOllama]]
+- [[Tool - Dify.ai]]
+- [[Tool - Ollama Copilot]]
+- [[Tool - LLM-X]]
+- [[Tool - Python Datasette]]
+- [[Tool - TypeChat CLI]]
+- [[Tool - tlm CLI]]
 - [[Tool - ]]
 
 ***
