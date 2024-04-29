@@ -298,7 +298,8 @@ For a complete enumeration of the supported rules, see [_Rules_](https://docs.a
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
 - [[Tool - Python uv 1|uv]]
 - [[04-RESOURCES/Tools/_README|Tools]]
-
+- [[Tool - Python flake8|flake8]]
+- [[Tool - Python ]]
 
 
 ### Backlinks

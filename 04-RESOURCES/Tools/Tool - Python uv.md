@@ -113,17 +113,15 @@ uv's `pip-install` and `pip-compile` commands support many of the same comma
 
 ## See Also
 
+- [[04-RESOURCES/Tools/_README|Tools]]
 - [[MOC - Python|Python Map of Content]]
-- [[Python Code Snippets]]
-- [[Comparison of Python Package Managers]]
-- [[Master List of Package Managers]]
-
-- [[Tool - Python]]
-- [[Tool - Python pip]]
-- [[Tool - Python Pipx]]
-- [[Tool - Python Pipenv]]
-- [[Tool - Python Poetry]]
-- [[04-RESOURCES/Tools/Tool - Python Ruff]]
+- [[04-RESOURCES/Code/Python/_README|Python Code]]
+- [[Tool - Python|Python]]
+- [[Tool - Python pip|pip]]
+- [[Tool - Python Pipx|pipx]]
+- [[Tool - Python Pipenv|pipenv]]
+- [[Tool - Python Poetry|poetry]]
+- [[Tool - Python Ruff|Ruff]]
 
 ***
 
