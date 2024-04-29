@@ -84,7 +84,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 - [[Tool - Obsidian Ollama Plugin]]
 - [[Tool - Obsidian Local GPT Plugin]]
 - [[Tool - Obsidian Copilot Plugin]]
-- [[Tool - Obsidian BMO ]]
+- [[Tool - Obsidian BMO Chatbot Plugin]]
 - [[Tool - Open Interpreter]]
 - [[Tool - Wingman-AI]]
 - [[Tool - Page Assist]]
