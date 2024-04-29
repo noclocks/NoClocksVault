@@ -114,7 +114,22 @@ if __name__ == "__main__":
 - `Dockerfile`:
 
 ```dockerfile
+FROM python:3.11 AS backend
 
+WORKDIR /usr/src/api
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .
+
+EXPOSE 5000
+
+ENV FLASK_APP=api_server.py
+
+ENV FLASK_RUN_EXTRA_FILES=/usr/src/api/*
+ENV FLASK_ENV=development
+
+CMD ["flask", "run", "--host=0.0.0.0", "--reload"]
 ```
 
 - `compose.yml`:
@@ -140,27 +155,26 @@ services:
 - `.env`:
 
 ```plaintext
-
+OPEN_API_KEY=""
 ```
 
 - `requirements.txt`:
 
 ```plaintext
-
+flask
+embedchain
 ```
 
 
-## Details
-
-> [!NOTE] About
-> This note is about ...
-
-## See Also
+# See Also
 
 - [[MOC - Python|Python Map of Content]]
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
 - [[Tool - Python]]
 - [[Tool - Python Flask]]
+- [[Tool - Python Embedchain|Embedchain]]
+- [[Docker]]
+- [[Docker Compose]]
 
 
 ***
