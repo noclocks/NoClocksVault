@@ -32,6 +32,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!SOURCE] Sources:
 > - *[Overview - Chainlit](https://docs.chainlit.io/get-started/overview)*
+> - *[Chainlit/cookbook: Chainlit's cookbook repo](https://github.com/Chainlit/cookbook)*
+> - *[ChainLit (github.com)](https://github.com/Chainlit)*
 
 Chainlit is an open-source [[MOC - Python|Python]] package to build production ready Conversational AI.
 
@@ -78,11 +80,34 @@ chainlit hello
 touch app.py
 ```
 
-2. Write application logic
+2. Write Application Logic: In `app.py`, import the Chainlit package and define a function that will handle incoming messages from the chatbot UI. Decorate the function with the `@cl.on_message` decorator to ensure it gets called whenever a user inputs a message.
+
+Here’s the basic structure of the script:
 
 ```python
+import chainlit as cl
 
+@cl.on_message
+async def main(message: cl.Message):
+    # Your custom logic goes here...
+
+    # Send a response back to the user
+    await cl.Message(
+        content=f"Received: {message.content}",
+    ).send()
 ```
+
+The `main` function will be called every time a user inputs a message in the chatbot UI. You can put your custom logic within the function to process the user’s input, such as analyzing the text, calling an API, or computing a result.
+
+The [Message](https://docs.chainlit.io/api-reference/message) class is responsible for sending a reply back to the user. In this example, we simply send a message containing the user’s input.
+
+3. Run Application Locally: To start your Chainlit app, open a terminal and navigate to the directory containing `app.py`. Then run the following command:
+
+```python
+chainlit run app.py -w
+```
+
+The `-w` flag tells Chainlit to enable auto-reloading, so you don’t need to restart the server every time you make changes to your application. Your chatbot UI should now be accessible at [http://localhost:8000](http://localhost:8000/).
 
 ***
 
