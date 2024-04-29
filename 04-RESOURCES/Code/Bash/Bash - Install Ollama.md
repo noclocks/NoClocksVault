@@ -77,7 +77,18 @@ curl -fsSL https://ollama.com/install.sh | sh
 - [[Tool - Python Datasette]]
 - [[Tool - TypeChat CLI]]
 - [[Tool - tlm CLI]]
-- [[Tool - ]]
+- [[Tool - LiteLLM]]
+- [[Tool - Python Semantic Kernel]]
+- [[Tool - R rollama]]
+- [[Tool - Docker Testcontainers]]
+- [[Tool - Obsidian Ollama Plugin]]
+- [[Tool - Obsidian Local GPT Plugin]]
+- [[Tool - Obsidian Copilot Plugin]]
+- [[Tool - Obsidian BMO ]]
+- [[Tool - Open Interpreter]]
+- [[Tool - Wingman-AI]]
+- [[Tool - Page Assist]]
+- 
 
 ***
 
