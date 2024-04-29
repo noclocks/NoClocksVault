@@ -143,7 +143,7 @@ Site audits provide website owners and development teams valuable insights into 
 
 ### Related
 
-- [[04-RESOURCES/Checklists/_README|Checklists]]
+- [[04-RESOURCES/Lists/Checklists/_README|Checklists]]
 - [[Checklist - SEO|SEO Checklist]]
 - [[Hyper-Text Markup Language (HTML)]]
 - [[Search Engine Optimization (SEO)]]
