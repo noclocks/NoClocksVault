@@ -65,7 +65,23 @@ See [Chainlit - Custom React Frontend](https://github.com/Chainlit/cookbook/tree
 
 ## Installation
 
+```shell
+pip install chainlit
+chainlit hello
 ```
+
+## Usage
+
+1. Create `app.py`: Create a new [[MOC - Python|Python]] file named `app.py` in your project directory. This file will contain the main logic for your [[Large Language Model (LLM)|LLM]] application.
+
+```shell
+touch app.py
+```
+
+2. Write application logic
+
+```python
+
 ```
 
 ***
