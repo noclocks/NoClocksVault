@@ -293,7 +293,7 @@ For a complete enumeration of the supported rules, see [_Rules_](https://docs.a
 
 ### See Also
 
-- [[Tools - Python]]
+- [[Tool - Python|Python (Tool)]]
 - [[MOC - Python|Python Map of Content]]
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
 - [[Tool - Python uv|uv]]
@@ -307,7 +307,7 @@ For a complete enumeration of the supported rules, see [_Rules_](https://docs.a
 - [[Tool - Biome|Biome]]
 - [[Tool - Python PyCodeStyle|PyCodeStyle]]
 - [[Tool - Python PyDocStyle|PyDocStyle]]
-- [[Toole - Python PyUpgrade|PyUpgrade]]
+- [[Tool - Python PyUpgrade|PyUpgrade]]
 
 ### Backlinks
 
