@@ -70,8 +70,11 @@ Comprehensive guides and API documentation are available to help you get the mos
 
 ### See Also
 
-- [[MOC - Python|Python MOC]]
 - [[04-RESOURCES/Code/Python/_README|Python Code Snippets]]
+- [[Python - Embedchain API Server]]
+- [[Python - Chainlit Embedchain Example]]
+
+- [[MOC - Python|Python MOC]]
 - [[04-RESOURCES/Tools/_README|Tools]]
 - [[Tool - OpenAI|OpenAI]]
 - [[Tool - Python Streamlit|Streamlit]]
