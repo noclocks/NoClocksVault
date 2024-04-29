@@ -33,7 +33,10 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - *https://github.com/embedchain/embedchain*
+> - *[⚡ Quickstart - Embedchain](https://docs.embedchain.ai/get-started/quickstart)*
+> - *[embedchain/embedchain: Personalizing LLM Responses](https://github.com/embedchain/embedchain)*
+
+
 
 ***
 
