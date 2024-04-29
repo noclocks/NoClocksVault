@@ -131,7 +131,7 @@ Overall, it seems that providing examples is useful for solving some tasks. When
 - [[List - AI Tools|AI Tools Checklist]]
 - [[AI Starter Guide.pdf]]
 - [[Tool - Python PromptTools|PromptTools Python Package]]
-- [[Tool - Langchain|Langchain]], [[Tool - Langsmith|Langsmith]], [[Tool - Langserve|Langserve]]
+- [[Tool - Python Langchain|Langchain]], [[Tool - Langsmith|Langsmith]], [[Tool - Langserve|Langserve]]
 
 ### Backlinks
 

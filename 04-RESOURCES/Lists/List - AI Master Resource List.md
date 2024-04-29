@@ -73,7 +73,7 @@ promptinguides
 | [Guidance](https://github.com/microsoft/guidance)            |      | `N/A`  | A Python library from Microsoft using Handlebars templating. |
 | [Haystack](https://github.com/deepset-ai/haystack)           |      | `N/A`  | Open-source LLM orchestration framework.                     |
 | [HoneyHive](https://honeyhive.ai/)                           |      | `N/A`  | An enterprise platform to evaluate, debug, and monitor LLM apps. |
-| [LangChain](https://github.com/hwchase17/langchain)          | [[Tool - Langchain\|Langchain]]     | ⭐⭐⭐    | A popular Python/JavaScript library for chaining language model prompts. |
+| [LangChain](https://github.com/hwchase17/langchain)          | [[Tool - Python Langchain|Langchain]]     | ⭐⭐⭐    | A popular Python/JavaScript library for chaining language model prompts. |
 | [LiteLLM](https://github.com/BerriAI/litellm)                |      | `N/A`  | A minimal Python library for calling LLM APIs.               |
 | [LlamaIndex](https://github.com/jerryjliu/llama_index)       | [[Tool - Python LlamaIndex|LlamaIndex]]     | ⭐⭐⭐    | A Python library for augmenting LLM apps with data.          |
 | [LMQL](https://lmql.ai/)                                     |      | `N/A`  | A programming language for LLM interaction with various supports. |

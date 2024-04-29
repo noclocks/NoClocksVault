@@ -55,7 +55,7 @@ Chainlit is an open-source [[MOC - Python|Python]] package to build production r
 ## Integrations
 
 - [[Tool - OpenAI|OpenAI]] & [[Tool - OpenAI Assistant|OpenAI Assistant]]
-- [[Tool - Langchain|LangChain]]
+- [[Tool - Python Langchain|LangChain]]
 - [[Tool - Autogen|Autogen]]
 - [[Tool - Python LlamaIndex|LlamaIndex]]
 - [[Tool - Haystack|Haystack]]
@@ -125,7 +125,7 @@ The `-w` flag tells Chainlit to enable auto-reloading, so you don’t need to 
 - [[Tool - Python Streamlit|Streamlit]]
 - [[Tool - Python Langchain|Langchain]]
 
-[[Tool - Python Streamlit]]
+
 
 ```dataview
 LIST FROM [[Tool - Python Chainlit]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - Python Chainlit"
