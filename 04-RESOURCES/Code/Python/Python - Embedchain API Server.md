@@ -7,7 +7,7 @@ tags:
   - Type/Code/Python
   - Topic/Dev
   - Topic/Dev/Python
-  - Topic/Python
+  - Topic/Dev/Python
   - Status/WIP
 aliases:
   - Embedchain API Server Python Code

@@ -4,7 +4,7 @@ modification_date: 2024-04-10
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/Python
+  - Topic/Dev/Python
   - Topic/Dev
   - Status/WIP
 aliases:
@@ -123,7 +123,7 @@ uv's `pip-install` and `pip-compile` commands support many of the same comma
 - [[Tool - Python Pipx]]
 - [[Tool - Python Pipenv]]
 - [[Tool - Python Poetry]]
-- [[Tool - Python Ruff]]
+- [[04-RESOURCES/Tools/Tool - Python Ruff]]
 
 ***
 
