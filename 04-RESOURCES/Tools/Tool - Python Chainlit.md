@@ -51,10 +51,22 @@ Chainlit is an open-source [[MOC - Python|Python]] package to build production r
 
 ## Integrations
 
-- [[Tool - OpenAI|OpenAI]]
+- [[Tool - OpenAI|OpenAI]] & [[Tool - OpenAI Assistant|OpenAI Assistant]]
 - [[Tool - Langchain|LangChain]]
 - [[Tool - Autogen|Autogen]]
-- [[Tool - Python LlamaIndex]]
+- [[Tool - Python LlamaIndex|LlamaIndex]]
+- [[Tool - Haystack|Haystack]]
+
+## Custom Frontend
+
+Chainlit comes with a [[Tool - ChatGPT|ChatGPT]] like [[Checklist - Frontend Design|Frontend Design|frontend]] that you can use out of the box. However, you can also build your own frontend and use Chainlit as a backend.
+
+See [Chainlit - Custom React Frontend](https://github.com/Chainlit/cookbook/tree/main/custom-frontend) on [[Tool - GitHub|GitHub]].
+
+## Installation
+
+```
+```
 
 ***
 
