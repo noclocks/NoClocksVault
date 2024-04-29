@@ -5,10 +5,10 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Cheatsheet
   - Topic/Dev/Windows
-  - Topic/CLI
+  - Topic/Dev/CLI
   - Topic/Dev
-  - Topic/IT
-  - Topic/Business/Tech
+  - Topic/Business/IT
+  - Topic/Business/Technology
   - Topic/CMD
   - Status/WIP
 aliases:

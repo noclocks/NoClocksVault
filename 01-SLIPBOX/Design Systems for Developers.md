@@ -6,10 +6,10 @@ tags:
   - Type/Note
   - Topic/Dev/Frontend
   - Topic/Design
-  - Topic/UI
+  - Topic/Dev/UI
   - Topic/Business/Brand
   - Topic/Dev
-  - Topic/Business/Tech
+  - Topic/Business/Technology
   - Status/WIP
 aliases:
   - Design Systems for Developers

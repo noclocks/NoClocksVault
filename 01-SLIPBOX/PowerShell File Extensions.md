@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Dev/PowerShell
-  - Topic/Business/Tech
+  - Topic/Business/Technology
   - Topic/Dev
   - Topic/Dev/Windows
   - Status/Complete

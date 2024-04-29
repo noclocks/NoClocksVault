@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev/React
-  - Topic/UI
+  - Topic/Dev/UI
   - Topic/Dev
   - Topic/Dev/Frontend
   - Status/WIP

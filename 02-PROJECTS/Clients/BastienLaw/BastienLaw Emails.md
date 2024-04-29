@@ -4,7 +4,7 @@ modification_date: 2024-04-25
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Email
-  - Topic/Comms
+  - Topic/Productivity/Communication
   - Topic/Client
   - Status/WIP
 aliases:

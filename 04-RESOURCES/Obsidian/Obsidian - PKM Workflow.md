@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Workflow
   - Topic/Dev/Obsidian
-  - Topic/PKM
+  - Topic/Productivity/PKM
   - Status/WIP
 aliases:
   - Obsidian PKM Workflow

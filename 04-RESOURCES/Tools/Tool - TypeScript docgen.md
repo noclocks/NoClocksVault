@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Dev/TypeScript
   - Topic/Dev
-  - Topic/Documentation
+  - Topic/Dev/Documentation
   - Status/WIP
 aliases:
   - docgen

@@ -12,7 +12,7 @@ tags:
   - Topic/Meta
   - Topic/Dev
   - Topic/Dev/React
-  - Topic/Technology
+  - Topic/Business/Technology
   - Topic/Dev/JavaScript
   - Topic/Dev/TypeScript
   - Topic/Dev/Web

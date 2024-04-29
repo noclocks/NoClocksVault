@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
   - Topic/Dev/Obsidian
-  - Topic/PKM
+  - Topic/Productivity/PKM
   - Topic/Meta
   - Status/Ongoing
 aliases:

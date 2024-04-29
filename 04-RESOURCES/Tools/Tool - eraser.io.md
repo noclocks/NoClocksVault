@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Dev
   - Topic/Productivity
-  - Topic/PKM
+  - Topic/Productivity/PKM
   - Status/WIP
 aliases:
   - Erasor

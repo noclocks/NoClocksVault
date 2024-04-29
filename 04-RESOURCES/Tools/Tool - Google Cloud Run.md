@@ -6,8 +6,8 @@ tags:
   - Type/Tool
   - Type/Tool
   - Topic/Dev
-  - Topic/Cloud
-  - Topic/Google
+  - Topic/Dev/Cloud
+  - Topic/Dev/Google
   - Topic/Docker
   - Status/WIP
 aliases:

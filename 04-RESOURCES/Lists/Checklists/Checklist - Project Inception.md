@@ -6,8 +6,8 @@ tags:
   - Type/Checklist
   - Topic/Business
   - Topic/Productivity
-  - Topic/PKM
-  - Topic/ProjectManagement
+  - Topic/Productivity/PKM
+  - Topic/Productivity/ProjectManagement
   - Status/WIP
 aliases:
   - Checklist - Project Inception

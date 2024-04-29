@@ -7,7 +7,7 @@ tags:
   - Type/Package
   - Topic/Dev
   - Topic/Dev/Python
-  - Topic/Data
+  - Topic/Dev/Data
   - Status/WIP
 aliases:
   - Python Pydantic

@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
   - Topic/Dev
-  - Topic/IT
+  - Topic/Business/IT
   - Topic/Dev/Windows
   - Status/WIP
 aliases:

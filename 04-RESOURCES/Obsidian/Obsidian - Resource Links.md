@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool 
   - Topic/Dev/Obsidian 
-  - Topic/Business/Tech
+  - Topic/Business/Technology
   - Status/WIP 
 aliases:
   - Obsidian Resource Links

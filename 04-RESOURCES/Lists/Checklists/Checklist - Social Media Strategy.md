@@ -4,7 +4,7 @@ modification_date: 2024-03-08
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
-  - Topic/Marketing
+  - Topic/Business/Marketing
   - Topic/SocialMedia
   - Status/WIP
 aliases:

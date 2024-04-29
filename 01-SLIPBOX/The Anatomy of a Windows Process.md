@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Dev/Windows
-  - Topic/IT
+  - Topic/Business/IT
   - Topic/ComputerS
   - Topic/Dev
   - Status/WIP

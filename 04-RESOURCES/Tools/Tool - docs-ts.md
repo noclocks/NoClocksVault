@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Dev/TypeScript
   - Topic/Dev/JavaScript
-  - Topic/Documentation
+  - Topic/Dev/Documentation
   - Topic/Dev
   - Status/WIP
 aliases:

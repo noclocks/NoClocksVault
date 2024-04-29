@@ -4,7 +4,7 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Checklist
-  - Topic/Marketing
+  - Topic/Business/Marketing
   - Topic/Business
   - Topic/Design
   - Status/WIP

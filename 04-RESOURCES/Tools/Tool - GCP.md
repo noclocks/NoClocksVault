@@ -5,8 +5,8 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
   - Topic/Dev
-  - Topic/Cloud
-  - Topic/Google
+  - Topic/Dev/Cloud
+  - Topic/Dev/Google
   - Status/WIP
 aliases:
   - Google Cloud Platform (GCP)

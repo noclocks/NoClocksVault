@@ -8,7 +8,7 @@ tags:
   - Topic/Dev
   - Topic/Dev/Zsh
   - Topic/Dev/Linux
-  - Topic/WSL
+  - Topic/Dev/WSL
   - Topic/Dev/Bash
   - Status/WIP
 aliases:

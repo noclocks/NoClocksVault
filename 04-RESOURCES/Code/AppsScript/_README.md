@@ -7,7 +7,7 @@ tags:
   - Type/Code
   - Topic/Meta
   - Topic/Dev
-  - Topic/AppsScript
+  - Topic/Dev/AppsScript
   - Status/Ongoing
 aliases:
   - AppsScript Code

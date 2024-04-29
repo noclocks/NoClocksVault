@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Business
-  - Topic/Business/Tech
+  - Topic/Business/Technology
   - Status/WIP
 aliases:
   - Business Technology Audit
