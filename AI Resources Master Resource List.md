@@ -71,9 +71,9 @@ promptinguides
 | [Guidance](https://github.com/microsoft/guidance)            |      | `N/A`  | A Python library from Microsoft using Handlebars templating. |
 | [Haystack](https://github.com/deepset-ai/haystack)           |      | `N/A`  | Open-source LLM orchestration framework.                     |
 | [HoneyHive](https://honeyhive.ai/)                           |      | `N/A`  | An enterprise platform to evaluate, debug, and monitor LLM apps. |
-| [LangChain](https://github.com/hwchase17/langchain)          | [[Tool - Langchain\Langchain]]     | ⭐⭐⭐    | A popular Python/JavaScript library for chaining language model prompts. |
+| [LangChain](https://github.com/hwchase17/langchain)          | [[Tool - Langchain\|Langchain]]     | ⭐⭐⭐    | A popular Python/JavaScript library for chaining language model prompts. |
 | [LiteLLM](https://github.com/BerriAI/litellm)                |      | `N/A`  | A minimal Python library for calling LLM APIs.               |
-| [LlamaIndex](https://github.com/jerryjliu/llama_index)       | [[Tool - llamaindex|L]]     | ⭐⭐⭐    | A Python library for augmenting LLM apps with data.          |
+| [LlamaIndex](https://github.com/jerryjliu/llama_index)       | [[Tool - Python LlamaIndex|LlamaIndex]]     | ⭐⭐⭐    | A Python library for augmenting LLM apps with data.          |
 | [LMQL](https://lmql.ai/)                                     |      | `N/A`  | A programming language for LLM interaction with various supports. |
 | [OpenAI Evals](https://github.com/openai/evals)              |      | `N/A`  | An open-source library for evaluating language models and prompts. |
 | [Outlines](https://github.com/normal-computing/outlines)     |      | `N/A`  | A Python library for simplifying prompting and constraining generation. |
@@ -89,59 +89,16 @@ promptinguides
 | [YiVal](https://github.com/YiVal/YiVal)                      |      | `N/A`  | An open-source GenAI-Ops tool for tuning and evaluating prompts and more. |
 
 
-| Name             | Link                                                         | Note | Description                                                  | Rating |
-| ---------------- | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | ------ |
-| Arthur Shield    | [Arthur Shield](https://www.arthur.ai/get-started)           |      | A paid product for detecting toxicity, hallucination, prompt injection, etc. | `N/A`  |
-| Baserun          | [Baserun](https://baserun.ai/)                               |      | A paid product for testing, debugging, and monitoring LLM-based apps | `N/A`  |
-| Chainlit         | [Chainlit](https://docs.chainlit.io/overview)                |      | A Python library for making chatbot interfaces.              | ⭐⭐     |
-| Embedchain       | [Embedchain](https://github.com/embedchain/embedchain)       |      | A Python library for managing and syncing unstructured data with LLMs. | ⭐⭐     |
-| FLAML            | [FLAML](https://microsoft.github.io/FLAML/docs/Getting-Started/) |      | A Python library for automating selection of models, hyperparameters, and other tunable choices. | `N/A`  |
-| Guardrails.ai    | [Guardrails.ai](https://shreyar.github.io/guardrails/)       |      | A Python library for validating outputs and retrying failures. Still in alpha. | `N/A`  |
-| Guidance         | [Guidance](https://github.com/microsoft/guidance)            |      | A Python library from Microsoft using Handlebars templating. | `N/A`  |
-| Haystack         | [Haystack](https://github.com/deepset-ai/haystack)           |      | Open-source LLM orchestration framework.                     | `N/A`  |
-| HoneyHive        | [HoneyHive](https://honeyhive.ai/)                           |      | An enterprise platform to evaluate, debug, and monitor LLM apps. | `N/A`  |
-| LangChain        | [LangChain](https://github.com/hwchase17/langchain)          |      | A popular Python/JavaScript library for chaining language model prompts. | ⭐⭐⭐    |
-| LiteLLM          | [LiteLLM](https://github.com/BerriAI/litellm)                |      | A minimal Python library for calling LLM APIs.               | `N/A`  |
-| LlamaIndex       | [LlamaIndex](https://github.com/jerryjliu/llama_index)       |      | A Python library for augmenting LLM apps with data.          | ⭐⭐⭐    |
-| LMQL             | [LMQL](https://lmql.ai/)                                     |      | A programming language for LLM interaction with various supports. | `N/A`  |
-| OpenAI Evals     | [OpenAI Evals](https://github.com/openai/evals)              |      | An open-source library for evaluating language models and prompts. | `N/A`  |
-| Outlines         | [Outlines](https://github.com/normal-computing/outlines)     |      | A Python library for simplifying prompting and constraining generation. | `N/A`  |
-| Parea AI         | [Parea AI](https://www.parea.ai/)                            |      | A platform for debugging, testing, and monitoring LLM apps.  | `N/A`  |
-| Portkey          | [Portkey](https://portkey.ai/)                               |      | A platform for observability and management in LLM apps.     | `N/A`  |
-| Promptify        | [Promptify](https://github.com/promptslab/Promptify)         |      | A small Python library for using language models in NLP tasks. | ⭐      |
-| PromptPerfect    | [PromptPerfect](https://promptperfect.jina.ai/prompts)       |      | A paid product for testing and improving prompts.            | ⭐      |
-| Prompttools      | [Prompttools](https://github.com/hegelai/prompttools)        |      | Open-source Python tools for testing and evaluating models.  | ⭐⭐     |
-| Scale Spellbook  | [Scale Spellbook](https://scale.com/spellbook)               |      | A paid product for building and shipping language model apps. | ⭐⭐⭐    |
-| Semantic Kernel  | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) |      | A library from Microsoft supporting prompt templating and more. | `N/A`  |
-| Vellum           | [Vellum](https://www.vellum.ai/)                             |      | A paid AI product development platform for LLM apps.         | `N/A`  |
-| Weights & Biases | [Weights & Biases](https://wandb.ai/site/solutions/llmops)   |      | A paid product for tracking model training and prompt engineering. | `N/A`  |
-| YiVal            | [YiVal](https://github.com/YiVal/YiVal)                      |      | An open-source GenAI-Ops tool for tuning and evaluating prompts and more. | `N/A`  |
+### Guides
 
-- [Arthur Shield](https://www.arthur.ai/get-started): A paid product for detecting toxicity, hallucination, prompt injection, etc.
-- [Baserun](https://baserun.ai/): A paid product for testing, debugging, and monitoring LLM-based apps
-- ⭐ [Chainlit](https://docs.chainlit.io/overview): A Python library for making chatbot interfaces.
-- ⭐ [Embedchain](https://github.com/embedchain/embedchain): A Python library for managing and syncing unstructured data with LLMs.
-- [FLAML (A Fast Library for Automated Machine Learning & Tuning)](https://microsoft.github.io/FLAML/docs/Getting-Started/): A Python library for automating selection of models, hyperparameters, and other tunable choices.
-- [Guardrails.ai](https://shreyar.github.io/guardrails/): A Python library for validating outputs and retrying failures. Still in alpha, so expect sharp edges and bugs.
-- [Guidance](https://github.com/microsoft/guidance): A handy looking Python library from Microsoft that uses Handlebars templating to interleave generation, prompting, and logical control.
-- [Haystack](https://github.com/deepset-ai/haystack): Open-source LLM orchestration framework to build customizable, production-ready LLM applications in Python.
-- [HoneyHive](https://honeyhive.ai/): An enterprise platform to evaluate, debug, and monitor LLM apps.
-- ⭐[LangChain](https://github.com/hwchase17/langchain): A popular Python/JavaScript library for chaining sequences of language model prompts.
-- [LiteLLM](https://github.com/BerriAI/litellm): A minimal Python library for calling LLM APIs with a consistent format.
-- [LlamaIndex](https://github.com/jerryjliu/llama_index): A Python library for augmenting LLM apps with data.
-- [LMQL](https://lmql.ai/): A programming language for LLM interaction with support for typed prompting, control flow, constraints, and tools.
-- [OpenAI Evals](https://github.com/openai/evals): An open-source library for evaluating task performance of language models and prompts.
-- [Outlines](https://github.com/normal-computing/outlines): A Python library that provides a domain-specific language to simplify prompting and constrain generation.
-- [Parea AI](https://www.parea.ai/): A platform for debugging, testing, and monitoring LLM apps.
-- [Portkey](https://portkey.ai/): A platform for observability, model management, evals, and security for LLM apps.
-- [Promptify](https://github.com/promptslab/Promptify): A small Python library for using language models to perform NLP tasks.
-- [PromptPerfect](https://promptperfect.jina.ai/prompts): A paid product for testing and improving prompts.
-- [Prompttools](https://github.com/hegelai/prompttools): Open-source Python tools for testing and evaluating models, vector DBs, and prompts.
-- [Scale Spellbook](https://scale.com/spellbook): A paid product for building, comparing, and shipping language model apps.
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel): A Python/C#/Java library from Microsoft that supports prompt templating, function chaining, vectorized memory, and intelligent planning.
-- [Vellum](https://www.vellum.ai/): A paid AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.
-- [Weights & Biases](https://wandb.ai/site/solutions/llmops): A paid product for tracking model training and prompt engineering experiments.
-- [YiVal](https://github.com/YiVal/YiVal): An open-source GenAI-Ops tool for tuning and evaluating prompts, retrieval configurations, and model parameters using customizable datasets, evaluation methods, and evolution strategies.
+- [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering): Brex's introduction to language models and prompt engineering.
+- [learnprompting.org](https://learnprompting.org/): An introductory course to prompt engineering.
+- [Lil'Log Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/): An OpenAI researcher's review of the prompt engineering literature (as of March 2023).
+- [OpenAI Cookbook: Techniques to improve reliability](https://cookbook.openai.com/articles/techniques_to_improve_reliability): A slightly dated (Sep 2022) review of techniques for prompting language models.
+- [promptingguide.ai](https://www.promptingguide.ai/): A prompt engineering guide that demonstrates many techniques.
+- [Xavi Amatriain's Prompt Engineering 101 Introduction to Prompt Engineering](https://amatriain.net/blog/PromptEngineering) and [202 Advanced Prompt Engineering](https://amatriain.net/blog/prompt201): A basic but opinionated introduction to prompt engineering and a follow up collection with many advanced methods starting with CoT.
+
+### Academic Papers
 
 
 
