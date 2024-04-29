@@ -7,7 +7,7 @@ tags:
   - Type/Code
   - Topic/Meta
   - Topic/Dev
-  - Topic/PowerShell
+  - Topic/Dev/PowerShell
   - Status/Ongoing
 aliases:
   - PowerShell Code

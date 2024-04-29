@@ -4,7 +4,7 @@ modification_date: 2024-04-25
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Project
-  - Topic/Brand
+  - Topic/Business/Brand
   - Topic/Design
   - Topic/Dev
   - Topic/Business

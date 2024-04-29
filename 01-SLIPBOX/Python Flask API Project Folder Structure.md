@@ -6,7 +6,7 @@ tags:
   - Type/Note
   - Topic/Dev/Python
   - Topic/Dev/Python/Flask
-  - Topic/API
+  - Topic/Dev/API
   - Status/WIP
 aliases:
   - Python Flask API Project Folder Structure

@@ -4,7 +4,7 @@ modification_date: 2024-04-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/MOC
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Topic/PKM
   - Topic/Meta
   - Status/Ongoing

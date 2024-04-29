@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Dev
-  - Topic/Windows
+  - Topic/Dev/Windows
   - Status/WIP
 aliases:
   - WinGet Command Line Tab Completion

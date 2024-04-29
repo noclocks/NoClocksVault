@@ -6,7 +6,7 @@ tags:
   - Type/List
   - Type/Tool
   - Topic/Business
-  - Topic/Accounting
+  - Topic/Business/Accounting
   - Topic/Business/Finance
   - Status/WIP
 aliases:

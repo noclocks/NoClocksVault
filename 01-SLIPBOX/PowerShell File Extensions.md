@@ -4,10 +4,10 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
-  - Topic/PowerShell
-  - Topic/Tech
+  - Topic/Dev/PowerShell
+  - Topic/Business/Tech
   - Topic/Dev
-  - Topic/Windows
+  - Topic/Dev/Windows
   - Status/Complete
 aliases:
   - PowerShell File Extensions

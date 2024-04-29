@@ -6,7 +6,7 @@ tags:
   - Type/Checklist
   - Topic/Business
   - Topic/Business/Finance
-  - Topic/Accounting
+  - Topic/Business/Accounting
   - Status/WIP
 aliases:
   - Checklist - Business Tax Planning

@@ -6,8 +6,8 @@ tags:
   - Type/Code
   - Type/Code/PowerShell
   - Topic/Dev
-  - Topic/Windows
-  - Topic/PowerShell
+  - Topic/Dev/Windows
+  - Topic/Dev/PowerShell
   - Status/WIP
 aliases:
   - PowerShell PowerShell - Create Self-Signed Development Certificate Code

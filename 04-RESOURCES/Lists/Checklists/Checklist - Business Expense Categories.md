@@ -6,7 +6,7 @@ tags:
   - Type/Checklist
   - Topic/Business/Finance
   - Topic/Business
-  - Topic/Accounting
+  - Topic/Business/Accounting
   - Status/WIP
 aliases:
   - Business Expense Categories

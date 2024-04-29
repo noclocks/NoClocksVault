@@ -7,7 +7,7 @@ tags:
   - Type/Code/CSS
   - Topic/Dev
   - Topic/Dev/Web
-  - Topic/CSS
+  - Topic/Dev/CSS
   - Status/WIP
 aliases:
   - CSS Advanced Selectors Code

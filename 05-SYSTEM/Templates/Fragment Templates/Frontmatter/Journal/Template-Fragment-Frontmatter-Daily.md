@@ -6,7 +6,7 @@ tags:
   - Type/Daily
   - Type/Journal
   - Topic/Journal
-  - Topic/Daily
+  - Topic/Journal/Daily
   - Status/Ongoing
 aliases:
   - <% tp.date.now("YYYY-MM-DD") %>

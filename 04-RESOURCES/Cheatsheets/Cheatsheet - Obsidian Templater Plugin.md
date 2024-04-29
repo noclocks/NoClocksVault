@@ -4,7 +4,7 @@ modification_date: 2024-04-18
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Cheatsheet
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Status/Complete
 aliases:
   - Obsidian Templater Plugin Cheat Sheet

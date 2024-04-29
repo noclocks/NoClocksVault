@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Dev/Python
   - Topic/Dev
-  - Topic/API
+  - Topic/Dev/API
   - Status/WIP
 aliases:
   - Python FastAPI

@@ -9,8 +9,8 @@ tags:
   - Topic/Dev
   - Topic/Dev/Linux
   - Topic/Dev/Bash
-  - Topic/Shell
-  - Topic/Windows
+  - Topic/Dev/Shell
+  - Topic/Dev/Windows
   - Status/WIP
 aliases:
   - Bash Test if File Exists Code

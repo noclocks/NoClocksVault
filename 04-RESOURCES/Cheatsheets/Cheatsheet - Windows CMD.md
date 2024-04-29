@@ -4,11 +4,11 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Cheatsheet
-  - Topic/Windows
+  - Topic/Dev/Windows
   - Topic/CLI
   - Topic/Dev
   - Topic/IT
-  - Topic/Tech
+  - Topic/Business/Tech
   - Topic/CMD
   - Status/WIP
 aliases:

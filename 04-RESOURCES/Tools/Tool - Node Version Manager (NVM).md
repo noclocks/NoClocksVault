@@ -4,7 +4,7 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/Node
+  - Topic/Dev/Node
   - Status/WIP
 aliases:
   - Node Version Manager (NVM)

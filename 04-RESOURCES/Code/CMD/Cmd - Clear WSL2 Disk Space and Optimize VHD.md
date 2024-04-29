@@ -6,7 +6,7 @@ tags:
   - Type/Code
   - Type/Code/Cmd
   - Topic/Dev
-  - Topic/Windows
+  - Topic/Dev/Windows
   - Status/WIP
 aliases:
   - Clear WSL2 Disk Space and Optimize VHD

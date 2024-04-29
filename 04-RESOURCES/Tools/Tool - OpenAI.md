@@ -6,7 +6,7 @@ tags:
   - Type/Tool
   - Topic/Dev
   - Topic/Dev/AI
-  - Topic/API
+  - Topic/Dev/API
   - Status/WIP
 aliases:
   - Tool - OpenAI

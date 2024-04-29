@@ -4,7 +4,7 @@ modification_date: 2024-04-12
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Status/WIP
 aliases:
   - New Obsidian JSON Canvas Feature

@@ -4,7 +4,7 @@ modification_date: 2024-04-02
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Meta
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Status/WIP
 aliases:
   - Obsidian - AI

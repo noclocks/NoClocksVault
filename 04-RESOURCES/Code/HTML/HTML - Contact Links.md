@@ -7,7 +7,7 @@ tags:
   - Type/Code/HTML
   - Topic/Dev
   - Topic/Dev/Web
-  - Topic/HTML
+  - Topic/Dev/HTML
   - Status/WIP
 aliases:
   - HTML Contact Links Code

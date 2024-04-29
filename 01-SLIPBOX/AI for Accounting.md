@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
   - Topic/Dev/AI
-  - Topic/Accounting
+  - Topic/Business/Accounting
   - Status/WIP
 aliases:
   - Artificial Inteligence for Accounting

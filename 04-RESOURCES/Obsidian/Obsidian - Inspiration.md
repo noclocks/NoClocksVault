@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Meta
   - Topic/PKM
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Status/Ongoing
 aliases:
   - Obsidian - Inspiration

@@ -4,8 +4,8 @@ modification_date: 2024-04-15T00:00:00.000Z
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool 
-  - Topic/Obsidian 
-  - Topic/Tech
+  - Topic/Dev/Obsidian 
+  - Topic/Business/Tech
   - Status/WIP 
 aliases:
   - Obsidian Resource Links

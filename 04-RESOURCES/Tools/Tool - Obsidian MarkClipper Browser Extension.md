@@ -4,7 +4,7 @@ modification_date: 2024-04-23
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Status/WIP
 aliases:
   - Obsidian MarkClipper Browser Extension

@@ -6,7 +6,7 @@ tags:
   - Type/Checklist
   - Topic/Dev
   - Topic/IT
-  - Topic/Windows
+  - Topic/Dev/Windows
   - Status/WIP
 aliases:
   - Windows Performance and Installation Integrity

@@ -7,9 +7,9 @@ tags:
   - Topic/Dev/Frontend
   - Topic/Design
   - Topic/UI
-  - Topic/Brand
+  - Topic/Business/Brand
   - Topic/Dev
-  - Topic/Tech
+  - Topic/Business/Tech
   - Status/WIP
 aliases:
   - Design Systems for Developers

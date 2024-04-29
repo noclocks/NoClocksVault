@@ -4,7 +4,7 @@ modification_date: 2024-04-15
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Workflow
-  - Topic/Obsidian
+  - Topic/Dev/Obsidian
   - Topic/PKM
   - Status/WIP
 aliases:

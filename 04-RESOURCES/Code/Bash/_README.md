@@ -11,7 +11,7 @@ tags:
   - Topic/Meta
   - Topic/Dev
   - Topic/Dev/Bash
-  - Topic/Shell
+  - Topic/Dev/Shell
   - Status/Ongoing
 aliases:
   - Bash Code
