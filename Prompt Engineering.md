@@ -8,7 +8,7 @@ tags:
   - Topic/Dev
   - Status/WIP
 aliases:
-  - Advanced Prompt Engineering
+  - Prompt Engineering
 publish: true
 permalink:
 description:
@@ -17,10 +17,10 @@ cssclasses:
 ---
 
 
-# Advanced Prompt Engineering
+# Prompt Engineering
 
 > [!SOURCE] Sources:
-> - *[Prompt-Engineering-Guide/guides/prompts-advanced-usage.md at main · dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md)*
+> - **
 
 ```table-of-contents
 title: Contents 
@@ -34,17 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note is about advanced [[Prompt Engineering]] concepts, techniques, and relevant discussion topics.
-
-## Topics
-
-- [[Zero-Shot Prompting]]
-- [[Few-Shot Prompting]]
-- [[Chain-of-Thought (CoT)]]
-- [[Zero-Shot CoT]]
-- [[Self-Consistency]]
-- [[Generate Knowledge Prompting]]
-- [[Automatic Prompt Engineer]]
+> This note is about ...
 
 ## Resources
 
@@ -57,7 +47,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[Advanced Prompt Engineering]] AND -"CHANGELOG" AND -"01-SLIPBOX/Advanced Prompt Engineering"
+LIST FROM [[Prompt Engineering]] AND -"CHANGELOG" AND -"//Prompt Engineering"
 ```
 
 ***

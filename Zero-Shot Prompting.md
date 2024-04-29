@@ -8,7 +8,7 @@ tags:
   - Topic/Dev
   - Status/WIP
 aliases:
-  - Advanced Prompt Engineering
+  - Zero-Shot Prompting
 publish: true
 permalink:
 description:
@@ -17,10 +17,10 @@ cssclasses:
 ---
 
 
-# Advanced Prompt Engineering
+# Zero-Shot Prompting
 
 > [!SOURCE] Sources:
-> - *[Prompt-Engineering-Guide/guides/prompts-advanced-usage.md at main · dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md)*
+> - *https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md#zero-shot-prompting*
 
 ```table-of-contents
 title: Contents 
@@ -34,17 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note is about advanced [[Prompt Engineering]] concepts, techniques, and relevant discussion topics.
-
-## Topics
-
-- [[Zero-Shot Prompting]]
-- [[Few-Shot Prompting]]
-- [[Chain-of-Thought (CoT)]]
-- [[Zero-Shot CoT]]
-- [[Self-Consistency]]
-- [[Generate Knowledge Prompting]]
-- [[Automatic Prompt Engineer]]
+> [[Large Language Models (LLMs)]] today trained on large amounts of data and tuned to follow instructions, are capable of performing tasks zero-shot
 
 ## Resources
 
@@ -57,7 +47,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[Advanced Prompt Engineering]] AND -"CHANGELOG" AND -"01-SLIPBOX/Advanced Prompt Engineering"
+LIST FROM [[Zero-Shot Prompting]] AND -"CHANGELOG" AND -"//Zero-Shot Prompting"
 ```
 
 ***
