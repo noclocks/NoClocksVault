@@ -8,7 +8,6 @@ tags:
   - Topic/Python
   - Status/WIP
 aliases:
-  - Tool - Python Chainlit
   - Chainlit
 publish: true
 permalink:
@@ -32,7 +31,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[Overview - Chainlit](https://docs.chainlit.io/get-started/overview)*
+
+Chainlit is an open-source [[Python package to build production ready Conversational AI.
 
 ***
 

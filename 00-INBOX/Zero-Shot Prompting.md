@@ -72,7 +72,7 @@ neutral
 - [[Zero-Shot CoT]]
 - [[Self-Consistency]]
 - [[Generate Knowledge Prompting]]
-- [[Checklist - AI Tools|AI Tools Checklist]]
+- [[List - AI Tools|AI Tools Checklist]]
 - [[AI Starter Guide.pdf]]
 - [[Tool - Python PromptTools|PromptTools Python Package]]
 - [[Tool - Langchain|Langchain]], [[Tool - Langsmith|Langsmith]], [[Tool - Langserve|Langserve]]

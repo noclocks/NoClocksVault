@@ -56,7 +56,7 @@ Chatbots have become increasingly popular in various industries and applications
 - [[MOC - Technology|Technology Map of Content]]
 - [[MOC - Development|Development Map of Content]]
 - [[Tool - ChatGPT|ChatGPT]]
-- [[Checklist - AI Tools|AI Tools]]
+- [[List - AI Tools|AI Tools]]
 - [[Tool - OpenAI|OpenAI]]
 - [[Anatomy of AI LLM-Based Agents]]
 - [[Tool - Python - Langchain]]

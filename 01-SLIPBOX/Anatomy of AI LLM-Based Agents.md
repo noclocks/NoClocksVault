@@ -135,7 +135,7 @@ In an ecosystem where every developer might have their unique approach to crafti
 - [[MOC - Technology|Technology Map of Content]]
 - [[MOC - Development|Development Map of Content]]
 - [[Tool - ChatGPT|ChatGPT]]
-- [[Checklist - AI Tools|AI Tools]]
+- [[List - AI Tools|AI Tools]]
 - [[Tool - OpenAI|OpenAI]]
 
 ### Backlinks
