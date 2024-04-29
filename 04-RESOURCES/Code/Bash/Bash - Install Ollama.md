@@ -36,18 +36,17 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[ollama/ollama: Get up and running with Llama 3, Mistral, Gemma, and other large language models.](https://github.com/ollama/ollama)*
 
 ## Code Snippet
 
 ```bash
-
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+
 
 ## See Also
 
@@ -56,6 +55,14 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Tool - Zsh|Zsh]]
 - [[MOC - Development|Development Map of Content]]
 - [[Tool - WSL|Windows Sub-System for Linux (WSL)]]
+- [[Tool - Ollama|Ollama]]
+- [[Tool - Python Ollama|Ollama-Python]]
+- [[Tool - Llama3]]
+- [[Tool - Phi-3]]
+- [[Tool - Mistral]]
+- [[Tool - Neural Chat]]
+- [[Tool - Code Llama]]
+- [[Tool - ]]
 
 ***
 
