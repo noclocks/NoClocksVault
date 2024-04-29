@@ -55,18 +55,20 @@ promptinguides
 
 ### Libraries & Tools
 
-
+| Name | Link | Note | Description | Rating |
+| :--: | :--: | :--: | :---------: | :----: |
+|      |      |      |             |        |
 
 - [Arthur Shield](https://www.arthur.ai/get-started): A paid product for detecting toxicity, hallucination, prompt injection, etc.
 - [Baserun](https://baserun.ai/): A paid product for testing, debugging, and monitoring LLM-based apps
-- [Chainlit](https://docs.chainlit.io/overview): A Python library for making chatbot interfaces.
-- [Embedchain](https://github.com/embedchain/embedchain): A Python library for managing and syncing unstructured data with LLMs.
+- ⭐ [Chainlit](https://docs.chainlit.io/overview): A Python library for making chatbot interfaces.
+- ⭐ [Embedchain](https://github.com/embedchain/embedchain): A Python library for managing and syncing unstructured data with LLMs.
 - [FLAML (A Fast Library for Automated Machine Learning & Tuning)](https://microsoft.github.io/FLAML/docs/Getting-Started/): A Python library for automating selection of models, hyperparameters, and other tunable choices.
 - [Guardrails.ai](https://shreyar.github.io/guardrails/): A Python library for validating outputs and retrying failures. Still in alpha, so expect sharp edges and bugs.
 - [Guidance](https://github.com/microsoft/guidance): A handy looking Python library from Microsoft that uses Handlebars templating to interleave generation, prompting, and logical control.
 - [Haystack](https://github.com/deepset-ai/haystack): Open-source LLM orchestration framework to build customizable, production-ready LLM applications in Python.
 - [HoneyHive](https://honeyhive.ai/): An enterprise platform to evaluate, debug, and monitor LLM apps.
-- [LangChain](https://github.com/hwchase17/langchain): A popular Python/JavaScript library for chaining sequences of language model prompts.
+- ⭐[LangChain](https://github.com/hwchase17/langchain): A popular Python/JavaScript library for chaining sequences of language model prompts.
 - [LiteLLM](https://github.com/BerriAI/litellm): A minimal Python library for calling LLM APIs with a consistent format.
 - [LlamaIndex](https://github.com/jerryjliu/llama_index): A Python library for augmenting LLM apps with data.
 - [LMQL](https://lmql.ai/): A programming language for LLM interaction with support for typed prompting, control flow, constraints, and tools.
