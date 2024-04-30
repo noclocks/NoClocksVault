@@ -38,7 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Resources
 
-- [[Tool - Google PageSpeed Insights]]
+- [[Tool - Google PageSpeed Insights|Google PageSpeed Insights]]
 
 ***
 
