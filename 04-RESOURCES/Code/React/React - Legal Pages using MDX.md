@@ -20,6 +20,7 @@ cssclasses:
 
 > [!SOURCE] Sources:
 > - *[two-week-build\_\_remix/app/routes/\_legal/route.tsx at main · ahaywood/two-week-build\_\_remix](https://github.com/ahaywood/two-week-build__remix/blob/main/app/routes/_legal/route.tsx)*
+> - *[documentation/content/policies at main · npm/documentation](https://github.com/npm/documentation/tree/main/content/policies)*
 
 ```table-of-contents
 title: Contents 
