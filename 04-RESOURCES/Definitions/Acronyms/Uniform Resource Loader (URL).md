@@ -39,12 +39,9 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!TIP]
 > A URL is a specific type of [[Uniform Resource Identifier (URI)]], although many people use the two terms interchangeably.
 
-URLs occur most commonly to reference [web pages](https://en.wikipedia.org/wiki/Web_page "Web page") ([[HTTP]]/[[HTTPS]]) but are also used for file transfer ([[FTP]], email ([mailto](https://en.wikipedia.org/wiki/Mailto "Mailto")), database access ([JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity "Java Database Connectivity")), and many other applications.
+URLs occur most commonly to reference [web pages](https://en.wikipedia.org/wiki/Web_page "Web page") ([[HTTP]]/[[HTTPS]]) but are also used for file transfer ([[FTP]]), email ([[mailto]], database access ([[JDBC]], and many other applications.
 
 Most [web browsers](https://en.wikipedia.org/wiki/Web_browser "Web browser") display the URL of a web page above the page in an [address bar](https://en.wikipedia.org/wiki/Address_bar "Address bar"). A typical URL could have the form `http://www.example.com/index.html`, which indicates a protocol (`http`), a [hostname](https://en.wikipedia.org/wiki/Hostname "Hostname") (`www.example.com`), and a file name (`index.html`).
-
-
-## Resources
 
 ***
 
