@@ -40,6 +40,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Languages
 
+- [[Tool - AppsScript|AppsScript Code]]
+- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
+
 ```dataview
 LIST FROM "04-RESOURCES/Code" AND #Type/Readme AND #Type/Code
 ```
