@@ -47,7 +47,7 @@ rd /s /q "C:\$Recycle.bin"
 
 ## See Also
 
-- [[04-RESOURCES/Code/CMD/_README|Command Line Code]]
+- [[04-RESOURCES/Code/Cmd/_README|Command Line Code]]
 - [[Microsoft Windows]]
 - [[Batch Scripts]]
 - [[MOC - Development|Development Map of Content]]

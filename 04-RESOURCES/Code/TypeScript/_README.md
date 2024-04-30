@@ -8,7 +8,10 @@ tags:
   - Status/Ongoing
 aliases:
   - TypeScript
-  - TypeScript Readme
+  - TypeScript Code
+  - TypeScript Code Readme
+  - TypeScript Code Index
+  - TypeScript Code Snippets
 publish: true
 permalink:
 description:

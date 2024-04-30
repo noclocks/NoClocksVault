@@ -40,7 +40,7 @@ You can take your time to perform these steps over days but try to complete them
 
 > [!TIP]
 > *If any steps cannot be run, try restarting into [[Windows Safe Mode]] with Networking following this guide: [How to enter Windows Safe Mode.](http://www.pcworld.com/article/2984712/windows/how-to-enter-windows-10s-safe-mode.html).
-> You can also run the Repair commands via the [[04-RESOURCES/Code/CMD/_README|Command Prompt Code|Command Prompt]] at boot in the [Advanced Startup Options](https://www.tenforums.com/tutorials/2294-advanced-startup-options-boot-windows-10-a.html) (WinRE) _Advanced Troubleshoot options, which may work best from bootable media created from_ [Media Creation Tool](http://windows.microsoft.com/en-us/windows-10/media-creation-tool-install "windows.microsoft.com"), especially if the password is not working since bootable media is the only Repair Mode that doesn't require a password .
+> You can also run the Repair commands via the [[04-RESOURCES/Code/Cmd/_README|Command Prompt Code|Command Prompt]] at boot in the [Advanced Startup Options](https://www.tenforums.com/tutorials/2294-advanced-startup-options-boot-windows-10-a.html) (WinRE) _Advanced Troubleshoot options, which may work best from bootable media created from_ [Media Creation Tool](http://windows.microsoft.com/en-us/windows-10/media-creation-tool-install "windows.microsoft.com"), especially if the password is not working since bootable media is the only Repair Mode that doesn't require a password .
 
 At any point if you don't have your files backed up and cannot afford to lose them you can rescue them using one of these methods:
 

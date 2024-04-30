@@ -16,7 +16,7 @@ aliases:
   - PowerQuery Code
   - PowerQuery Code Readme
   - PowerQuery M Code
-- PowerQuery
+  - PowerQuery M Code Snippets
 publish: true
 permalink:
 description:
