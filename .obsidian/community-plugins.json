@@ -38,5 +38,9 @@
   "oz-image-plugin",
   "auto-note-mover",
   "obsidian-file-cooker",
-  "obsidian-vault-changelog"
+  "obsidian-vault-changelog",
+  "obsidian-pandoc",
+  "obsidian-annotator",
+  "obsidian-epub-plugin",
+  "epub-importer"
 ]
