@@ -77,7 +77,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!CODE]- [[04-RESOURCES/Code/R/_README|R Code]]:
 > ![[04-RESOURCES/Code/R/_README#Index]]
 
-> -[!CODE]- [[04-RESOURCES/Code/React/_README|React Code]]:
+> [!CODE]- [[04-RESOURCES/Code/React/_README|React Code]]:
 > ![[04-RESOURCES/Code/React/_README#Index]]
 
 > [!CODE]- [[04-RESOURCES/Code/Registry/_README|Registry Code]]:
@@ -103,11 +103,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ```dataview
 TABLE without ID 
   file.link as "Note Title",
-  file.mday as "Last Modified",
-  file.folder as "Language/Category" 
+  file.mday as "Last Modified" 
 FROM "04-RESOURCES/Code"
 WHERE file.name != this.file.name
-GROUP BY "Language/Category"
 ```
 
 ***
@@ -115,6 +113,12 @@ GROUP BY "Language/Category"
 ## Appendix
 
 *Note created on [[2024-04-01]] and last modified on [[2024-04-30]].*
+
+### See Also
+
+- [[MOC - Development|Development Map of Content]]
+- [[MOC - R|R Map of Content]]
+- [[MOC - ]]
 
 ### Backlinks
 
