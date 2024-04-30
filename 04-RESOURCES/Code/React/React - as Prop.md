@@ -41,12 +41,17 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!TIP]
-> Utilize the `as` component property to compose components in [[Tool - React.js|React]]. This way you can change the underlying element of a composed component
+> Utilize the `as` component property to compose components in [[Tool - React.js|React]]. This way you can change the underlying element of a composed component or combine it with another component (i.e. render a `checkbox` component as a `button` element).
+
+> [!NOTE]
+> The topmost component (i.e. `checkbox` in the example above) will take precedence if there is a conflict between `props`.
 
 ## Code Snippet
 
-```javascript
+- `src/components/Example.tsx`
 
+```typescript
+import { useCheckboxState } from "@/hooks/useCheckboxState"
 ```
 
 ## Details
