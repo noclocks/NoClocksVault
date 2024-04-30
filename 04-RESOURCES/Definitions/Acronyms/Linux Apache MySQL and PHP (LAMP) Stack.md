@@ -32,11 +32,11 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-Linux is an open-source operating system that provides a stable and secure platform for development. Apache is a widely used web server that supports various programming languages and is known for its flexibility and scalability. MySQL is a robust and dependable database management system allowing quick and efficient data retrieval. PHP is a server-side scripting language that is widely used for web development.
+[[Linux]] is an open-source operating system that provides a stable and secure platform for development. Apache is a widely used web server that supports various programming languages and is known for its flexibility and scalability. MySQL is a robust and dependable database management system allowing quick and efficient data retrieval. PHP is a server-side scripting language that is widely used for web development.
 
 The LAMP stack is well-known for its simplicity, adaptability, and low cost. LAMP allows developers to create dynamic, interactive web apps that are simple to maintain and scale. It is an excellent choice for web developers who are just starting or working on small to medium-sized projects.
 
-But there may be better options for large-scale projects requiring high scalability and performance. There may be better options for complex projects that necessitate specialised knowledge.
+But there may be better options for large-scale projects requiring high scalability and performance. There may be better options for complex projects that necessitate specialized knowledge.
 
 Overall, its ease of use, flexibility, and affordability make it a popular choice among developers around the world.
 
