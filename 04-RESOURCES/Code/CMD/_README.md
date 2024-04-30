@@ -50,21 +50,19 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note serves as an index for all notes under the `04-RESOURCES/Code/CMD` directory.
 
-## Index
-
 - [[Cmd - Add or Review Administrator Account Password]]
 - [[Cmd - Check Available WSL Disk Space]]
 - [[Cmd - Clear WSL2 Disk Space and Optimize VHD]]
 - [[Cmd - Fix Corrupted Recycle Bin]]
 
-## Dataview
+## Index
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/CMD` folder, excluding this note.*
 
 ```dataview
 TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
-FROM "04-RESOURCES/Code/CMD" AND -"04-RESOURCES/Code/CMD/_README"
+FROM "04-RESOURCES/Code/Cmd" AND -"04-RESOURCES/Code/Cmd/_README"
 WHERE file.name != this.file.name
 SORT file.name asc
 ```
