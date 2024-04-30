@@ -34,6 +34,23 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - **
 
+![](https://i.imgur.com/R8lY3Na.png)
+
+## Usage
+
+### Command Line
+
+```shell
+# global install
+npm install -g style-dictionary
+
+# dev dependency
+npm install --save-dev style-dictionary
+
+
+
+```
+
 ***
 
 ## Appendix
