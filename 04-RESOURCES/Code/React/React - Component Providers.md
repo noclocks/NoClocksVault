@@ -45,7 +45,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Component Providers are optional components that act as a higher-level [[Application Programming Interface (API)|API]] on top of [[component stores]]. They wrap components and automatically provide a store to them.
 
-## Code Examples
+## Code Example
 
 For instance, let's wrap `ComboBox` and `ComboBoxPopOver` within `ComboBoxProvider`, where both components will be connected to the same store automatically: 
 
@@ -59,10 +59,33 @@ For instance, let's wrap `ComboBox` and `ComboBoxPopOver` within `ComboBoxProvid
     <ComboBoxItem vaule="Banana" />
     <ComboBoxItem vaule="Orange" />
   </ComboBoxPopOver>
-</Combox
-    
+</ComboBoxProvider>  
+```
+
+If you choose not to use component providers, you will need to manually pass the [`store`](https://github.com/ariakit/ariakit/blob/main/reference/combobox#store) prop to each top-level component.
+
+## Managing State
+
+Component Providers can also act as uncontrolled containers. In such a scenario, you can supply initial state using props.
+
+### Default State
+
+```typescript
+<SelectProvider defaultValue="Banana>
+```
+
+
+### State Setters
+
+Component providers may also accept callbacks for state changes. These functions conventionally bear the name of the state property they modify, prefixed with the word `set`. They are invoked with the new state whenever an update occurs.
+
+These state setters serve various purposes, such as updating another state, executing side effects, or implementing features like `onChange`, `onValuesChange`, `onToggle`, `onOpenChange`, and so on.
+
+```typescript
 
 ```
+
+
 
 ## Details
 
