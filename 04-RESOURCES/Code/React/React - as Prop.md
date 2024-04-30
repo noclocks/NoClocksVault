@@ -15,7 +15,7 @@ tags:
   - Topic/Dev/React
   - Status/WIP
 aliases:
-  - JavaScript React - as Prop Code
+  - as Prop
 publish: true
 permalink:
 description:
@@ -24,10 +24,10 @@ cssclasses:
   - code
 ---
 
-# React - as Prop
+# `as` Prop
 
 > [!SOURCE] Sources:
-> - **
+> - *[# (reakit.io)](https://reakit.io/docs/composition/#as-prop)*
 
 ```table-of-contents
 title: ## Contents 
@@ -40,11 +40,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!example] **Code Snippet Metadata**:
-> - Date:: [[2024-04-30]]
-> - Source: **
-> - Language: [[MOC - JavaScript|JavaScript]]
-> - Description:: ""
+> [!TIP]
+> Utilize the `as` component property to compose components in [[Tool - React.js|React]]. This way you can change the underlying element of a composed component
 
 ## Code Snippet
 
