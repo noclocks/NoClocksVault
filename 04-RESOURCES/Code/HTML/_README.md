@@ -56,7 +56,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[HTML - Hidden Gem Tags]]
 - [[HTML - Input Types and Attributes]]
 
-## Notes
+## Index
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `04-RESOURCES/Code/HTML` folder, including this note.*
