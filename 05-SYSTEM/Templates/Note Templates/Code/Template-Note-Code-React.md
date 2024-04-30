@@ -1,6 +1,6 @@
 <% tp.file.include("[[Template-Fragment-Frontmatter-Code-React]]") %>
 
-<% tp.file.include("[[Template-Fragment-Title-Code-Python]]") %>
+<% tp.file.include("[[Template-Fragment-Title-Code-React]]") %>
 
 <% tp.file.include("[[Template-Fragment-TOC]]") %>
 
@@ -10,7 +10,7 @@
 
 ## Code
 
-```python
+```typescript
 
 ```
 
@@ -20,10 +20,16 @@
 
 ## See Also
 
-- [[MOC - Python|Python Map of Content]]
-- [[04-RESOURCES/Code/Python/_README|Python Code]]
-- [[Tool - Python]]
-- [[Tool - Python Flask]]
+- [[04-RESOURCES/Code/React/_README|React Code]]
+- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
+- [[04-RESOURCES/Code/TypeScript/_README|TypeScript Code]]
+- [[MOC - Development|Development Map of Content]]
+- [[MOC - React|React Map of Content]]
+- [[MOC - JavaScript|JavaScript Map of Content]]
+- [[Hyper Text Markup Language (HTML)]]
+- [[Cascading Style Sheets (CSS)]]
+- [[Tool - React.js|React.js]]
+- [[Tool - JS - Next.js|Next.js]]
 
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
@@ -73,12 +79,7 @@ function Example() {
 
 ## See Also
 
-- [[MOC - JavaScript|JavaScript Map of Content]]
-- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
-- [[Hyper Text Markup Language (HTML)]]
-- [[Cascading Style Sheets (CSS)]]
-- [[Tool - React.js|React.js]]
-- [[Tool - JS - Next.js|Next.js]]
+
 
 ***
 
