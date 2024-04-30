@@ -46,9 +46,19 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Languages & Frameworks
 
-- [[Tool - AppsScript|AppsScript]]
+- [[04-RESOURCES/Code/AppsScript/_README|AppsScript Code]]
 - [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[]]
+- [[04-RESOURCES/Code/CMD/_README|Command Line Code]]
+- [[04-RESOURCES/Code/CSS/_README|CSS Code]]
+- [[04-RESOURCES/Code/HTML/_README|HTML Code]]
+- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
+- [[PowerQuery Code]]
+- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
+- [[04-RESOURCES/Code/Python/_README|Python Code]]
+- [[04-RESOURCES/Code/React/_README|React Code]]
+- [[04-RESOURCES/Code/R/_README|R Code]]
+- [[04-RESOURCES/Code/SQL/_README|SQL Code]]
+- [[Registry]]
 
 ```dataview
 LIST FROM "04-RESOURCES/Code" AND #Type/Readme AND #Type/Code
