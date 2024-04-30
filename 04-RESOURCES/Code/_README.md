@@ -19,7 +19,7 @@ description:
 image:
 cssclasses:
   - readme
-  - hide-embed-header
+  - clean-embeds
 ---
 
 
@@ -52,8 +52,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!CODE]- [[04-RESOURCES/Code/AppsScript/_README|AppsScript Code]]:
 > ![[04-RESOURCES/Code/AppsScript/_README#Index]]
 
-
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
+> [!CODE]- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
 - [[04-RESOURCES/Code/Cmd/_README|Command Line Code]]
 - [[04-RESOURCES/Code/CSS/_README|CSS Code]]
 - [[04-RESOURCES/Code/HTML/_README|HTML Code]]
