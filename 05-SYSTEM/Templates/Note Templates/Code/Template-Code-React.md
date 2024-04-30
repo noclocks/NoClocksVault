@@ -1,28 +1,4 @@
----
-creation_date: 2024-04-30
-modification_date: 2024-04-30
-author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-tags:
-  - Type/Code
-  - Type/Code/JavaScript
-  - Type/Code/React
-  - Type/Code/TypeScript
-  - Topic/Dev
-  - Topic/Dev/JavaScript
-  - Topic/Dev/TypeScript
-  - Topic/Dev/Frontend
-  - Topic/Dev/Web
-  - Topic/Dev/React
-  - Status/WIP
-aliases:
-  - as Prop
-publish: true
-permalink:
-description:
-image:
-cssclasses:
-  - code
----
+
 
 # `as` Prop
 
