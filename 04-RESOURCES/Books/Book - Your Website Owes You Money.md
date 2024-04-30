@@ -38,6 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Chapters
 
 - [Foundations]()
+	- [I Say This With Love]()
 	- 
 
 
