@@ -22,7 +22,7 @@ cssclasses:
 # Fix Corrupted Recycle Bin
 
 > [!SOURCE] Sources:
-> - **
+> - *[Recycle bin not emptying - Microsoft Community](https://answers.microsoft.com/en-us/windows/forum/all/recycle-bin-not-emptying/404e6fbc-3647-403e-84a1-b53821b119a6)*
 
 ```table-of-contents
 title: ## Contents 
@@ -36,8 +36,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!ABOUT]
-> Use this code to f
-
+> Use this code to fix a corrupted recycle bin in a [[Microsoft Windows]] machine.
 
 ## Code
 
