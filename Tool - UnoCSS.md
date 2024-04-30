@@ -4,15 +4,12 @@ modification_date: 2024-04-30
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Tool
-  - Topic/Dev/JavaScript
-  - Topic/Dev/TypeScript
-  - Topic/Dev/Frontend
-  - Topic/Dev/React
   - Topic/Dev/CSS
+  - Topic/Dev/Frontend
   - Status/WIP
 aliases:
-  - ShadCN without TailwindCSS
-  - ShadCN-CSS
+  - Tool - UnoCSS
+  - UnoCSS
 publish: true
 permalink:
 description:
@@ -22,7 +19,7 @@ cssclasses:
 ---
 
 
-# ShadCN-CSS
+# UnoCSS
 
 ```table-of-contents
 title: ## Contents 
@@ -36,9 +33,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - *[qwalker8408/shadcn-css: Shadcn. No tailwindcss. CSS modules. next-themes.](https://github.com/qwalker8408/shadcn-css)*
-
-`shadcn-css` is [[Tool - ShadCN|shadcn]] but without [[Tool - TailwindCSS|TailwindCSS]]. It uses [[CSS Modules]] and [[Tool - Next-Themes|next-themes]] instead.
+> - *[UnoCSS Vite Plugin](https://unocss.dev/integrations/vite)*
 
 ***
 
@@ -49,7 +44,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[Tool - ShadCN-CSS]] AND -"CHANGELOG" AND -"04-RESOURCES/Tools/Tool - ShadCN-CSS"
+LIST FROM [[Tool - UnoCSS]] AND -"CHANGELOG" AND -"//Tool - UnoCSS"
 ```
 
 ***
