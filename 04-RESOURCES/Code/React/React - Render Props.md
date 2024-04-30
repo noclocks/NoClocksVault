@@ -50,13 +50,28 @@ debugInConsole: false # Print debug info in Obsidian console
 
 See Also: [[React - as Prop|as Prop]]
 
-Compared to the `as` prop, `render` props has the disadvantage of adding 
+Compared to the `as` prop, `render` props has the disadvantage of adding more nesting into the code. On the other hand, you have more control over the components and props added.
 
 ## Code Snippet
 
 - `src/components/Example.tsx`
 
 ```typescript
+import { useCheckboxState } from "@/hooks/useCheckboxState"
+import { Checkbox, Button } from "@/components/Elements"
+
+function Example() {
+  const checkbox = useCheckboxState();
+  return (
+    <Button {...checkbox}>
+      {(props) => (
+        <Checkbox {...props} as="div">
+          {checkbox.state ? "Happy" : "Sad"}
+        </Checkbox>
+      )}
+    </Button>
+  );
+}
 
 ```
 
@@ -67,6 +82,7 @@ Compared to the `as` prop, `render` props has the disadvantage of adding
 ## See Also
 
 - [[Tool - Reakit]]
+- [[React - as Prop|as Prop]]
 
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[Tool - React.js|React]] (Tool)
