@@ -43,14 +43,24 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note is about the practice of providing state to [[Tool - React.js|React]] components using a simple wrapper that supports controlled and un-contolled props.
 
-Component Providers are optional components that act as a higher-level [[Application Programming Interface (API)|API]] on top of [[component stores]]. They wrap components and automatically provide a store to  
+Component Providers are optional components that act as a higher-level [[Application Programming Interface (API)|API]] on top of [[component stores]]. They wrap components and automatically provide a store to them.
 
+## Code Examples
 
-## Code
+For instance, let's wrap `ComboBox` and `ComboBoxPopOver` within `ComboBoxProvider`, where both components will be connected to the same store automatically: 
 
 - `src/components/Example.tsx`
 
 ```typescript
+<ComboBoxProvider>
+  <ComboBox />
+  <ComboBoxPopOver>
+    <ComboBoxItem vaule="Apple" />
+    <ComboBoxItem vaule="Banana" />
+    <ComboBoxItem vaule="Orange" />
+  </ComboBoxPopOver>
+</Combox
+    
 
 ```
 
