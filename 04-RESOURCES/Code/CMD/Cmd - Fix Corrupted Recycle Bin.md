@@ -4,10 +4,13 @@ modification_date: 2024-04-30
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Code
+  - Type/Code/Cmd
   - Topic/Dev
+  - Topic/Dev/Windows
+  - Topic/Dev/Cmd
   - Status/WIP
 aliases:
-  - Cmd - Fix Corrupted Recycle Bin
+  - Fix Corrupted Recycle Bin
 publish: true
 permalink:
 description:
@@ -16,15 +19,10 @@ cssclasses:
   - code
 ---
 
-> [!example] **Code Snippet Metadata**:
-> - Date:: [[2024-04-30]]
-> - Source: [[undefined]]
-> - Language: undefined
-> - Description:: undefined
+# Fix Corrupted Recycle Bin
 
-# Cmd - Fix Corrupted Recycle Bin
-
-
+> [!SOURCE] Sources:
+> - **
 
 ```table-of-contents
 title: ## Contents 
@@ -35,3 +33,41 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
+## Overview
+
+> [!ABOUT]
+> Use this code to f
+
+
+## Code
+
+```powershell
+# cmd as admin
+rd /s /q "C:\$Recycle.bin"
+```
+
+## See Also
+
+- [[04-RESOURCES/Code/CMD/_README|Command Line Code]]
+- [[Microsoft Windows]]
+- [[Batch Scripts]]
+- [[MOC - Development|Development Map of Content]]
+- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
+- [[Tool - Windows Terminal|Windows Terminal]]
+- [[Cheatsheet - Windows CMD|Windows CMD Commands]]
+
+***
+
+## Appendix
+
+*Note created on [[2024-04-30]] and last modified on [[2024-04-30]].*
+
+### Backlinks
+
+```dataview
+LIST FROM [[Cmd - Fix Corrupted Recycle Bin]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/CMD/Cmd - Fix Corrupted Recycle Bin"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
