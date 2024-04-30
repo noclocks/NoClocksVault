@@ -1,0 +1,5 @@
+/* CSS to Hide Embedded Headers */
+
+.hide-embed-header .markdown-embed h1 h2 h3 {
+  display: none;
+}

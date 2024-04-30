@@ -9,7 +9,8 @@
     "tables",
     "tool",
     "command-palette",
-    "mermaid"
+    "mermaid",
+    "hide-embed-header"
   ],
   "cssTheme": "GitHub Theme",
   "interfaceFontFamily": "Inter"

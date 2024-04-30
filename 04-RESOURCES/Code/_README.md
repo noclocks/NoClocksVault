@@ -19,6 +19,7 @@ description:
 image:
 cssclasses:
   - readme
+  - hide-embed-header
 ---
 
 
