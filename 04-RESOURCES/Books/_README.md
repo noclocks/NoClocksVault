@@ -11,7 +11,7 @@ aliases:
   - Books Readme
 publish: true
 permalink:
-description: "Readme note for the books folder."
+description:
 image:
 cssclasses:
   - readme
@@ -21,7 +21,7 @@ cssclasses:
 # Books
 
 ```table-of-contents
-title: Contents 
+title: ## Contents 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
 minLevel: 1 # Include headings from the specified level
 maxLevel: 4 # Include headings up to the specified level
@@ -37,10 +37,13 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `04-RESOURCES/Books` folder, including this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Books` folder, excluding this note.*
 
 ```dataview
-LIST FROM "04-RESOURCES/Books" AND -"CHANGELOG" AND -"04-RESOURCES/Books/_README"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+FROM "04-RESOURCES/Books" AND -"04-RESOURCES/Books/_README"
+WHERE file.name != this.file.name
+SORT file.name asc
 ```
 
 ***
