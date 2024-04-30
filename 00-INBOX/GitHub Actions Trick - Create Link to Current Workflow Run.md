@@ -17,7 +17,7 @@ jobs:
 
 To link to the job logs, you can use the [GitHub CLI](https://cli.github.com/) which is available on all GitHub-hosted runners:
 
-```
+```yaml
 jobs:
   run_tests:
     name: Run Tests
@@ -32,20 +32,20 @@ jobs:
 
 You need to provide the `GH_TOKEN` environment variable for the CLI tool. If you’ve modified the default token permissions, you need at least read access to actions:
 
-```
+```yaml
 permissions:
   actions: read
 ```
 
 The CLI tool determines the repo from the current working directory. If you haven’t performed an `actions/checkout` step, or you are referencing a different repo, pass the relevant flag to the CLI tool:
 
-```
+```bash
 gh -R ${{ github.repository }} run view ...
 ```
 
-The JQ filter selects the job by name. If you don’t want to hardcode the job name, you need a further API call:
+The [[Tool - JQ|JQ]] filter selects the job by name. If you don’t want to hardcode the job name, you need a further [[Application Programming Interface (API)|API]] call:
 
-```
+```bash
 JOB_NAME=$(gh workflow view '${{ github.workflow }}' -r ${{ github.ref}} -y |
   yq eval .jobs.${{ github.job }}.name -)
 
