@@ -101,10 +101,13 @@ debugInConsole: false # Print debug info in Obsidian console
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code` folder, excluding this note.*
 
 ```dataview
-TABLE without ID file.link as "Note Title", file.mday as "Last Modified", file.
-FROM "04-RESOURCES/Code" AND -"04-RESOURCES/Code/_README"
+TABLE without ID 
+  file.link as "Note Title",
+  file.mday as "Last Modified",
+  file.folder as "Language/Category" 
+FROM "04-RESOURCES/Code"
 WHERE file.name != this.file.name
-SORT file.name asc
+GROUP BY "Language/Category"
 ```
 
 ***
