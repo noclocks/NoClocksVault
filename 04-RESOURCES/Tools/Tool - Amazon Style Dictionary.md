@@ -46,11 +46,21 @@ npm install -g style-dictionary
 
 # dev dependency
 npm install --save-dev style-dictionary
-
-
-
 ```
 
+Edit `package.json`:
+
+```json
+"scripts": {
+  "build:style-dictionary": "style-dictionary build"
+},
+```
+
+```shell
+mkdir styledict && cd styledict
+npx style-dictionary init basic
+style-dictionary build
+```
 ***
 
 ## Appendix
