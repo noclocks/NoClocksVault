@@ -47,8 +47,6 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Index
 
-### Languages & Frameworks
-
 > [!CODE]- [[04-RESOURCES/Code/AppsScript/_README|AppsScript Code]]:
 > ![[04-RESOURCES/Code/AppsScript/_README#Index]]
 
@@ -91,18 +89,19 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!CODE]- [[04-RESOURCES/Code/Terraform/_README|Terraform Code]]:
 > ![[04-RESOURCES/Code/Terraform/_README#Index]]
 
+> [!CODE]- [[04-RESOURCES/Code/TypeScript/_README|TypeScript Code]]:
+> ![[04-RESOURCES/Code/TypeScript/_README#Index]]
 
+> [!CODE]- [[04-RESOURCES/Code/VBA/_README|VBA Code]]:
+> ![[04-RESOURCES/Code/VBA/_README#Index]]
 
-- [[04-RESOURCES/Code/TypeScript/_README|TypeScript Code]]
-- [[04-RESOURCES/Code/VBA/_README|VBA Code]]
-
-
+### Individual Notes
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code` folder, excluding this note.*
 
 ```dataview
-TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
+TABLE without ID file.link as "Note Title", file.mday as "Last Modified", file.
 FROM "04-RESOURCES/Code" AND -"04-RESOURCES/Code/_README"
 WHERE file.name != this.file.name
 SORT file.name asc
