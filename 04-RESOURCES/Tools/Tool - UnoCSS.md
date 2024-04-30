@@ -33,7 +33,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - *[UnoCSS Vite Plugin](https://unocss.dev/integrations/vite)*
+> - *[UnoCSS: The instant on-demand Atomic CSS engine](https://unocss.dev/)*
 
 ***
 
