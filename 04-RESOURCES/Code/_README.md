@@ -67,7 +67,6 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!CODE]- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]:
 > ![[04-RESOURCES/Code/JavaScript/_README#Index]]
 
-
 > [!CODE]- [[04-RESOURCES/Code/PowerQuery/_README|PowerQuery M Code]]:
 > ![[04-RESOURCES/Code/PowerQuery/_README#Index]]
 
@@ -77,14 +76,23 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!CODE]- [[04-RESOURCES/Code/Python/_README|Python Code]]:
 > ![[04-RESOURCES/Code/Python/_README#Notes]]
 
+> [!CODE]- [[04-RESOURCES/Code/R/_README|R Code]]:
+> ![[04-RESOURCES/Code/R/_README#Index]]
+
+> -[!CODE]- [[04-RESOURCES/Code/React/_README|React Code]]:
+> ![[04-RESOURCES/Code/React/_README#Index]]
+
+> [!CODE]- [[04-RESOURCES/Code/Registry/_README|Registry Code]]:
+> ![[04-RESOURCES/Code/Registry/_README#Index]]
+
+> [!CODE]- [[04-RESOURCES/Code/SQL/_README|SQL Code]]:
+> ![[04-RESOURCES/Code/SQL/_README#Index]]
+
+> [!CODE]- [[04-RESOURCES/Code/Terraform/_README|Terraform Code]]:
+> ![[04-RESOURCES/Code/Terraform/_README#Index]]
 
 
 
-- [[04-RESOURCES/Code/R/_README|R Code]]
-- [[04-RESOURCES/Code/React/_README|React Code]]
-- [[04-RESOURCES/Code/Registry/_README|Registry Code]]
-- [[04-RESOURCES/Code/SQL/_README|SQL Code]]
-- [[04-RESOURCES/Code/Terraform/_README|Terraform Code]]
 - [[04-RESOURCES/Code/TypeScript/_README|TypeScript Code]]
 - [[04-RESOURCES/Code/VBA/_README|VBA Code]]
 
