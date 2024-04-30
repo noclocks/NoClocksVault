@@ -23,5 +23,5 @@ The audit typically covers areas such as the organization's website, social medi
 
 In addition, a website audit checklist can be used to perform a comprehensive analysis of a website's overall performance and effectiveness, including technical aspects, user experience, content, and search engine optimization [[Checklist - Website Audit]]. 
 
-Lastly, "The Startup CTOs Handbook" provides insights into tracking, managing, or paying down tech debt, hiring, attracting, cultivating, and retaining top talent, creating an objective, fair, and transparent performance review system, building, managing, and sustaining a healthy and generative company culture, and enduring slow decision-making or endless circular arguments among technical staff about how to architect and build your system [[04-RESOURCES/Books/The Startup CTOs Handbook]].
+Lastly, "The Startup CTOs Handbook" provides insights into tracking, managing, or paying down tech debt, hiring, attracting, cultivating, and retaining top talent, creating an objective, fair, and transparent performance review system, building, managing, and sustaining a healthy and generative company culture, and enduring slow decision-making or endless circular arguments among technical staff about how to architect and build your system [[Book - The Startup CTOs Handbook]].
 - - - - -
