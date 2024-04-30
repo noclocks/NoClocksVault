@@ -44,9 +44,14 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```
 
-## Languages & Frameworks
+## Index
 
-- [[04-RESOURCES/Code/AppsScript/_README|AppsScript Code]]
+### Languages & Frameworks
+
+> [!CODE]- [[04-RESOURCES/Code/AppsScript/_README|AppsScript Code]]:
+> ![[04-RESOURCES/Code/AppsScript/_README#Index]]
+
+
 - [[04-RESOURCES/Code/Bash/_README|Bash Code]]
 - [[04-RESOURCES/Code/Cmd/_README|Command Line Code]]
 - [[04-RESOURCES/Code/CSS/_README|CSS Code]]
@@ -55,20 +60,15 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[04-RESOURCES/Code/PowerQuery/_README|PowerQuery Code]]
 - [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
 - [[04-RESOURCES/Code/Python/_README|Python Code]]
-- [[04-RESOURCES/Code/React/_README|React Code]]
 - [[04-RESOURCES/Code/R/_README|R Code]]
-- [[04-RESOURCES/Code/SQL/_README|SQL Code]]
+- [[04-RESOURCES/Code/React/_README|React Code]]
 - [[04-RESOURCES/Code/Registry/_README|Registry Code]]
+- [[04-RESOURCES/Code/SQL/_README|SQL Code]]
 - [[04-RESOURCES/Code/Terraform/_README|Terraform Code]]
+- [[04-RESOURCES/Code/TypeScript/_README|TypeScript Code]]
 - [[04-RESOURCES/Code/VBA/_README|VBA Code]]
 
-```dataview
-LIST FROM "04-RESOURCES/Code" AND #Type/Readme AND #Type/Code
-```
 
-```dataview
-TABLE 
-```
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code` folder, excluding this note.*
