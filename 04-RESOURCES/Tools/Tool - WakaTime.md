@@ -35,6 +35,9 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - **
 
+![](https://i.imgur.com/IZvQHpx.png)
+
+
 ***
 
 ## Appendix
