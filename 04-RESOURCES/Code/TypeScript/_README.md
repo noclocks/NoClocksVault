@@ -37,7 +37,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note serves as an index for all notes under the `04-RESOURCES/Code/TypeScript` directory.
 
-## Notes
+## Index
 
 > [!NOTE]
 > *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length`**  individual notes in the `04-RESOURCES/Code/TypeScript` folder, including this note.*

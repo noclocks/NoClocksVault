@@ -65,13 +65,21 @@ debugInConsole: false # Print debug info in Obsidian console
 > ![[04-RESOURCES/Code/HTML/_README#Index]]
 
 > [!CODE]- [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]:
-> ![[04-RESOURCES/Code/JavaScript/_README#Notes]]
+> ![[04-RESOURCES/Code/JavaScript/_README#Index]]
+
+
+> [!CODE]- [[04-RESOURCES/Code/PowerQuery/_README|PowerQuery M Code]]:
+> ![[04-RESOURCES/Code/PowerQuery/_README#Index]]
+
+> [!CODE]- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]:
+> ![[04-RESOURCES/Code/PowerShell/_README#Index]]
+
+> [!CODE]- [[04-RESOURCES/Code/Python/_README|Python Code]]:
+> ![[04-RESOURCES/Code/Python/_README#Notes]]
 
 
 
-- [[04-RESOURCES/Code/PowerQuery/_README|PowerQuery Code]]
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
-- [[04-RESOURCES/Code/Python/_README|Python Code]]
+
 - [[04-RESOURCES/Code/R/_README|R Code]]
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[04-RESOURCES/Code/Registry/_README|Registry Code]]
