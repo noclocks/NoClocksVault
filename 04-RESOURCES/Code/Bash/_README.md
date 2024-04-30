@@ -59,6 +59,10 @@ SORT file.name asc
 
 *Note created on [[2024-04-15]] and last modified on [[2024-04-15]].*
 
+### See Also
+
+- [[04-RESOURCES/Code/_README|Code]]
+
 ### Backlinks
 
 ```dataview

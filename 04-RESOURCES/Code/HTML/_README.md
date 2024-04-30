@@ -71,6 +71,10 @@ LIST FROM "04-RESOURCES/Code/HTML" AND -"CHANGELOG" AND -"04-RESOURCES/Code/HTML
 
 *Note created on [[2024-04-12]] and last modified on [[2024-04-12]].*
 
+### See Also
+
+- [[04-RESOURCES/Code/_README|Code]]
+
 ### Backlinks
 
 ```dataview

@@ -78,7 +78,6 @@ SORT file.name asc
 
 - [[Microsoft Windows]]
 
-- [[]]
 - [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
 - [[04-RESOURCES/Code/Bash/_README|Bash Code]]
 
@@ -96,12 +95,20 @@ SORT file.name asc
 - [[Tool - Windows Terminal|Windows Terminal]]
 - [[Cheatsheet - Windows CMD|Windows CMD Commands]]
 
+***
 
+## Appendix
+
+*Note created on [[2024-04-10]] and last modified on [[2024-04-30]].*
+
+### See Also
+
+- [[04-RESOURCES/Code/_README|Code]]
 
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/CMD/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/Cmd/_README"
 ```
 
 ***

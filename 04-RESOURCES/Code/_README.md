@@ -118,7 +118,9 @@ WHERE file.name != this.file.name
 
 - [[MOC - Development|Development Map of Content]]
 - [[MOC - R|R Map of Content]]
-- [[MOC - ]]
+- [[MOC - React|React Map of Content]]
+- [[MOC - Python|Python Map of Content]]
+- [[MOC - Technology|Technology Map of Content]]
 
 ### Backlinks
 
