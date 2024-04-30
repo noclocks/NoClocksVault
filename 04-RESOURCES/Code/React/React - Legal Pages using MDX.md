@@ -104,8 +104,6 @@ export default Footer;
 > metaDescription: Your privacy matters. We handle your information with the utmost care and respect. From the data we collect to how it's used to empower your experience, transparency is our guiding principle. We're committed to protecting your privacy and ensuring you have full control over your information. Because your trust is the foundation of every project we embark on together.
 > ---
 >
-> # Privacy Policy
->
 > BY VISITING [HTTPS://NOCLOCKS.DEV](https://noclocks.dev), YOU ARE CONSENTING TO OUR PRIVACY POLICY.
 >
 > ## OVERVIEW
