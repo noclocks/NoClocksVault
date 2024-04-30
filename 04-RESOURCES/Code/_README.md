@@ -41,6 +41,10 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Languages
 
 ```dataview
+LIST FROM #Type/Readme AND #
+```
+
+```dataview
 TABLE 
 ```
 
