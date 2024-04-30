@@ -41,7 +41,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Languages
 
 ```dataview
-LIST FROM #Type/Readme AND #
+LIST FROM "04-RESOURCES/Code" AND #Type/Readme AND #Type/Code
 ```
 
 ```dataview
