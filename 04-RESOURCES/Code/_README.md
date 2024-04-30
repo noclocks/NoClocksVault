@@ -58,7 +58,9 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[04-RESOURCES/Code/R/_README|R Code]]
 - [[04-RESOURCES/Code/SQL/_README|SQL Code]]
-- [[Registry]]
+- [[04-RESOURCES/Code/Registry/_README|Registry Code]]
+- [[04-RESOURCES/Code/Terraform/_README|Terraform Code]]
+- [[04-RESOURCES/Code/VBA/_README|VBA Code]]
 
 ```dataview
 LIST FROM "04-RESOURCES/Code" AND #Type/Readme AND #Type/Code

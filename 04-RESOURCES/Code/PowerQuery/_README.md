@@ -8,14 +8,15 @@ tags:
   - Topic/Meta
   - Topic/Dev
   - Topic/Dev/Windows
-  - Topic/Dev/Windows/Registry
+  - Topic/Dev/Office
+  - Topic/Dev/PowerQuery
+  - Topic/Dev/Excel
   - Status/Ongoing
 aliases:
-  - Registry Code
-  - Registry Code Readme
-  - Windows Registry
-  - Windows Registry Code
-  - Windows Registration Code
+  - PowerQuery Code
+  - PowerQuery Code Readme
+  - PowerQuery M Code
+- PowerQuery
 publish: true
 permalink:
 description:
@@ -25,7 +26,7 @@ cssclasses:
 ---
 
 
-# Windows Registry Code
+# PowerQuery Code
 
 ```table-of-contents
 title: ## Contents 
@@ -39,16 +40,16 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `04-RESOURCES/Code/Registry` directory.
+> This note serves as an index for all notes under the `04-RESOURCES/Code/PowerQuery` directory.
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/Registry` folder, excluding this note.*
+> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `04-RESOURCES/Code/PowerQuery` folder, excluding this note.*
 
 ```dataview
 TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
-FROM "04-RESOURCES/Code/Registry" AND -"04-RESOURCES/Code/Registry/_README"
+FROM "04-RESOURCES/Code/PowerQuery" AND -"04-RESOURCES/Code/PowerQuery/_README"
 WHERE file.name != this.file.name
 SORT file.name asc
 ```
@@ -62,7 +63,7 @@ SORT file.name asc
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/Registry/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerQuery/_README"
 ```
 
 ***
