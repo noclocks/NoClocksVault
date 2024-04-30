@@ -82,13 +82,57 @@ Component providers may also accept callbacks for state changes. These functions
 These state setters serve various purposes, such as updating another state, executing side effects, or implementing features like `onChange`, `onValuesChange`, `onToggle`, `onOpenChange`, and so on.
 
 ```typescript
-
+<SelectProvider
+  setValue={(value) => {
+    console.log(value);
+  }}
+>
 ```
 
+### Controlled State
 
+You can take full control of the state by passing the exact property, without prefixes, as a prop to the provider component. In this case, the state will be considered controlled and the component will not update the state internally. It will only call the state setter. You can use this to implement a controlled component using `React.useState`:
 
-## Details
+```typescript
+const [value, setValue] = React.useState("Banana");
 
+<SelectProvider value={value} setValue={setValue}>
+```
+
+You can also receive controlled props, such as `value` and `onChange`, from a parent component and pass them directly to the provider component:
+
+```typescript
+<SelectProvider
+  value={props.value}
+  setValue={props.onChange}
+  defaultValue={props.defaultValue}
+>
+```
+
+## Passing a Store
+
+You can use both component providers and [component stores](https://github.com/ariakit/ariakit/blob/main/guide/component-stores) together if you need fine-grained control over the state. In this case, you can pass the store as a prop to the provider component:
+
+```js
+const select = useSelectStore({ defaultValue: "Banana" });
+const value = select.useState("value");
+
+<SelectProvider store={select}>
+```
+
+## Using React Context
+
+If you're inside a React component that's wrapped within an Ariakit component provider, you can benefit from Ariakit context hooks to access the nearest component store in the tree:
+
+```js
+// A MenuButton that also behaves as a MenuItem when it's in a submenu
+function MenuButton(props) {
+  const menu = useMenuContext();
+  const render = menu?.parent ? <Ariakit.MenuItem /> : undefined;
+
+  return <Ariakit.MenuButton {...props} render={render} />;
+}
+```
 
 
 ## See Also
