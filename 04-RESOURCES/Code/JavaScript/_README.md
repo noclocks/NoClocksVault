@@ -53,6 +53,10 @@ LIST FROM "04-RESOURCES/Code/JavaScript" AND -"CHANGELOG" AND -"04-RESOURCES/Cod
 
 *Note created on [[2024-04-12]] and last modified on [[2024-04-12]].*
 
+### See Also
+
+- [[04-RESOURCES/Code/_README|Code]]
+
 ### Backlinks
 
 ```dataview

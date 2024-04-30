@@ -49,6 +49,10 @@ LIST FROM "04-RESOURCES/Code/Python" AND -"CHANGELOG" AND -"04-RESOURCES/Code/Py
 
 *Note created on [[2024-04-01]] and last modified on [[2024-04-01]].*
 
+### See Also
+
+- [[04-RESOURCES/Code/_README|Code]]
+
 ### Backlinks
 
 ```dataview
