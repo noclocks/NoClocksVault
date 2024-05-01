@@ -36,25 +36,24 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This code will display the number of active connections o
+> This code will display the number of active connections on a [[Tool - Microsoft SQL Server|SQL Server]] Database.
 
 ## Code
 
 ```sql
-
+/* NUMBER OF OPEN CONNECTIONS */
+SELECT DB_NAME(dbid) as "Database", COUNT(dbid) as "Number Of Open Connections",
+loginame as LoginName
+FROM sys.sysprocesses
+WHERE dbid > 0
+GROUP BY dbid, loginame
 ```
-
-## Details
-
-> [!NOTE] About
-> This note is about ...
 
 ## See Also
 
 - [[MOC - Technology|Technology Map of Content]]
 - [[MOC - Development|Development Map of Content]]
 - [[MOC - Databases|Databases Map of Content]]
-- [[Tool - PostgreSQL|PostgreSQL]]
 - [[Tool - Microsoft SQL Server|Microsoft SQL Server]]
 - [[04-RESOURCES/Code/SQL/_README|SQL Code]]
 
