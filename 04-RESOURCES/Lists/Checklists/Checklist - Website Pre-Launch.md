@@ -45,7 +45,27 @@ graph LR
 - [ ] Functional Testing
 - [ ] Content Review
 
-###
+#### Functional Testing
+
+- [ ] Test website across various browsers and devices for compatibility:
+	- [ ] Browsers:
+		- [ ] Google Chrome
+		- [ ] Microsoft Edge
+		- [ ] Mozilla Firefox
+		- [ ] Apple Safari
+	- [ ] Devices:
+		- [ ] Desktop
+		- [ ] Tablet
+		- [ ] iOS
+		- [ ] Android
+- [ ] Validate HTML and CSS
+- [ ] Check all links and buttons for functionality
+- [ ] Conduct User Testing for Usability Feedback
+- [ ] Perform Load Testing for Traffic Handling
+
+#### Content Review
+
+- [ ] Proofread all text for spellingand 
 
 ## Conclusion
 
