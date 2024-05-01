@@ -64,7 +64,15 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Session Cookie]]
 - [[Signing Algorithm]]
 - [[Single Sign-On (SSO)]]
-- [[Web Service Federation ]]
+- [[Web Service Federation (WS-Fed)]]
+- [[Proof Key for Code Exchange (PKCE)]]
+- [[Authorization Flow]]
+- [[Authentication Server]]
+- [[Definition - Callback|Callback]]
+- [[Client ID]]
+- [[Client Secret]]
+- [[Fine-Grained Authorization (FGA)]]
+- [[]]
 
 ### Backlinks
 
