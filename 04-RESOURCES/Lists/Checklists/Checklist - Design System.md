@@ -137,11 +137,40 @@ State Management:
 
 ## UX/UI Practices 
 
-#### Design and Layout
+### Design and Layout
 
 - [ ] Choose consistent color scheme
 	- [ ] Use primary color
 	- [ ] Use secondary colors for accents
+	- [ ] Choose background color
+- [ ] Select Appropriate Fonts
+	- [ ] Choose Primary Font
+	- [ ] Choose Font for Headings
+	- [ ] Specify Font Sizes for Various Elements
+- [ ] Design Responsive Layout
+	- [ ] Optimize for Desktop
+	- [ ] Optimize for Tablet
+	- [ ] Optimize for Mobile
+- [ ] Create Visual Hierarchy
+	- [ ] Prioritize Important Elements
+	- [ ] Use Contrast and Whitespace Effectively
+
+### Navigation and User Flow
+
+- [ ] Design clear and intuitive navigation
+    - Determine primary navigation items
+    - Determine secondary navigation items
+    - Use clear and descriptive labels
+-  Create a user flow diagram #userflow
+    
+    - Identify key user tasks
+    - Determine the sequence of steps for each task
+    - Ensure smooth transitions between steps
+-  Implement breadcrumbs for easy navigation #breadcrumbs
+    
+    - Show the current page in the breadcrumb
+    - Allow users to navigate back to previous pages
+
 
 
 ## Conclusion
