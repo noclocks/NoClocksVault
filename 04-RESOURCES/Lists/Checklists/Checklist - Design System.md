@@ -42,7 +42,33 @@ graph LR
 
 ### Visual Guidelines
 
-- [ ] 
+#### Color Scheme
+
+- [ ] Define Primary Colors
+- [ ] Define Secondary Colors
+- [ ] Ensure Color Contrast For Accessibility
+- [ ] Provide Color Usage Guidelines
+
+#### Typography
+
+- [ ] Select Typefaces and Font Sizes
+- [ ] Define Line Heights and Spacing
+- [ ] Create Text Style Guidelines
+
+#### Iconography
+
+- [ ] Design or choose Consistent Icons
+- [ ] Provide Guidelines for Icon Usage
+- [ ] Ensure Scalability of Icons
+
+### Component Library
+
+#### Basic Elements
+
+- [ ] Buttons:
+- [ ] Links:
+- [ ] Inputs:
+
 
 ## Conclusion
 
