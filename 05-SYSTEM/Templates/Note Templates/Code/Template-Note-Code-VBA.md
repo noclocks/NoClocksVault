@@ -25,6 +25,8 @@
 - [[MOC - Technology|Technology Map of Content]]
 - [[MOC - Development|Development Map of Content]]
 - [[04-RESOURCES/Code/VBA/_README|VBA Code Snippets]]
-
+- [[04-RESOURCES/Code/PowerQuery/_README|PowerQuery M Code]]
+- [[Tool - Microsoft Excel|Microsoft Excel]]
+- [[Tool - Microsoft Office|]]
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
