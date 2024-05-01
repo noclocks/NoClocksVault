@@ -42,5 +42,7 @@
   "obsidian-pandoc",
   "obsidian-annotator",
   "obsidian-epub-plugin",
-  "epub-importer"
+  "epub-importer",
+  "mermaid-tools",
+  "mermaid-themes"
 ]

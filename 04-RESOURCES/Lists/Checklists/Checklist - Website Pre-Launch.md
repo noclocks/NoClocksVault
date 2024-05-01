@@ -41,7 +41,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Diagram
 
 ```mermaid
-flowchart TB
+flowchart LR
     Checklist("Website Pre-Launch Checklist")
 
     Checklist --> TestingAndValidation
