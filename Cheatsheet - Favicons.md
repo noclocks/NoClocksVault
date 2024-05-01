@@ -35,6 +35,57 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > A painfully obsessive cheat sheet to favicon sizes/types.
 
+## HTML
+
+### Basics
+
+- For the main favicon itself, it's best for cross-browser compatibility not to use any HTML.
+- Just name the file `favicon.ico` and place it in the root of your domain.[1](https://github.com/audreyfeldroy/favicon-cheat-sheet#fn1)[2](https://github.com/audreyfeldroy/favicon-cheat-sheet#fn2)
+- This works in every desktop browser/version all the way back to IE6
+
+### Optional but Encouraged
+
+You probably also want the following:
+
+1. Touch icon for iOS 2.0+ and Android 2.1+:
+    
+    > ```html
+    > <link rel="apple-touch-icon-precomposed" href="path/to/favicon-180.png">
+    > ```
+    
+2. IE 10 Metro tile icon (Metro equivalent of apple-touch-icon):
+    
+    > ```html
+    > <meta name="msapplication-TileColor" content="#FFFFFF">
+    > <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
+    > ```
+    
+    Replace #FFFFFF with your desired tile color.
+    
+3. IE 11 Tile for Windows 8.1 Start Screen
+    
+    > ```html
+    > <meta name="application-name" content="Name">
+    > <meta name="msapplication-tooltip" content="Tooltip">
+    > <meta name="msapplication-config" content="/path/to/ieconfig.xml">
+    > ```
+    > 
+    > ieconfig.xml
+    > 
+    > ```xml
+    > <?xml version="1.0" encoding="utf-8"?>
+    >     <browserconfig>
+    >       <msapplication>
+    >         <tile>
+    >           <square70x70logo src="/path/to/smalltile.png"/>
+    >           <square150x150logo src="/path/to/mediumtile.png"/>
+    >           <wide310x150logo src="/path/to/widetile.png"/>
+    >           <square310x310logo src="/path/to/largetile.png"/>
+    >           <TileColor>#FFFFFF</TileColor>
+    >         </tile>
+    >       </msapplication>
+    >     </browserconfig>
+    > ```
 
 
 
