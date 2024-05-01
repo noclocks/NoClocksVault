@@ -7,6 +7,7 @@ tags:
   - Topic/Dev
   - Topic/Dev/Cloud
   - Topic/Dev/AI
+  - Topic/Dev/Python
   - Status/WIP
 aliases:
   - Upsonic
@@ -21,9 +22,10 @@ cssclasses:
 
 # Upsonic
 
-
-![Uploading file...ddko2]()
-
+> [!SOURCE] Sources:
+> - *[Upsonic](https://github.com/Upsonic)*
+> - *[Home - Upsonic](https://docs.upsonic.co/home)*
+> - *[Upsonic/Tiger: Neuralink for your AI Agents - LangChain - Autogen - CrewAI](https://github.com/Upsonic/Tiger)*
 
 ```table-of-contents
 title: ## Contents 
@@ -36,8 +38,12 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!SOURCE] Sources:
-> - **
+> [!ABOUT] About:
+> **Upsonic** is a tool for *self-drive autonomous*
+
+## Architecture
+
+![](https://i.imgur.com/TNZ3kAP.png)
 
 ***
 
