@@ -26,6 +26,7 @@ cssclasses:
 > - *[Upsonic](https://github.com/Upsonic)*
 > - *[Home - Upsonic](https://docs.upsonic.co/home)*
 > - *[Upsonic/Tiger: Neuralink for your AI Agents - LangChain - Autogen - CrewAI](https://github.com/Upsonic/Tiger)*
+> - *[Neuralink — Pioneering Brain Computer Interfaces](https://neuralink.com/)*
 
 ```table-of-contents
 title: ## Contents 
@@ -39,7 +40,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!ABOUT] About:
-> **Upsonic** is a tool for *self-drive autonomous*
+> **Upsonic** is a suite of *self-driven, [[Definition - Autonomous|autonomous]] [[MOC - Python|Python]] libraries.*
+
+
 
 ## Architecture
 

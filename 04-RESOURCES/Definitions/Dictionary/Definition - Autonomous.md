@@ -9,6 +9,7 @@ tags:
   - Status/Complete
 aliases:
   - "Autonomous"
+  - "autonomous"
   - "Autonomous Definition"
 publish: true
 permalink:
