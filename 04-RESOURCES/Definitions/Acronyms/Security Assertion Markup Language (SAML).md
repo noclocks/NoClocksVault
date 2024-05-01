@@ -5,12 +5,11 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Acronym
   - Topic/Dev
-  - Topic/Dev/Cloud
-  - Topic/Dev/API
+  - Topic/Security
   - Status/WIP
 aliases:
-  - IAM
-  - Identity and Access Management
+  - SAML
+  - Security Assertion Markup Language
 publish: true
 permalink:
 description:
@@ -18,7 +17,7 @@ image:
 cssclasses:
 ---
 
-# Identity and Access Management (IAM)
+# Security Assertion Markup Language (SAML)
 
 > [!SOURCE] Sources:
 > - **
@@ -45,31 +44,10 @@ debugInConsole: false # Print debug info in Obsidian console
 
 *Note created on [[2024-05-01]] and last modified on [[2024-05-01]].*
 
-### See Also
-
-- [[JSON Web Token (JWT)]]
-- [[ID Token]]
-- [[API Token]]
-- [[Authentication vs. Authorization]]
-- [[Guide - Google Cloud Authentication and Authorization]]
-- [[Identity Provider (IdP)]]
-- [[Multi-Factor Authentication (MFA)]]
-- [[OAuth]]
-- [[OpenID]]
-- [[Refresh Token]]
-- [[Token Rotation]]
-- [[Tool - OpenSSL|OpenSSL]]
-- [[Secure Sockets Layer (SSL)]]
-- [[Security Assertion Markup Language (SAML)]]
-- [[Session Cookie]]
-- [[Signing Algorithm]]
-- [[Single Sign-On (SSO)]]
-- [[Web Service Federation ]]
-
 ### Backlinks
 
 ```dataview
-LIST FROM [[Identity and Access Management (IAM)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/Identity and Access Management (IAM)"
+LIST FROM [[Security Assertion Markup Language (SAML)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/Security Assertion Markup Language (SAML)"
 ```
 
 ***
