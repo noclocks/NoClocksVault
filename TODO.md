@@ -1,0 +1,3 @@
+- [ ] Create *Code Note Template for [[04-RESOURCES/Code/VBA/_README|VBA]]*
+- [ ] Optimize *Template System*
+- [ ] 
