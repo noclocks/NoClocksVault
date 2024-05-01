@@ -47,32 +47,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ### See Also
 
-- [[JSON Web Token (JWT)]]
-- [[ID Token]]
-- [[API Token]]
-- [[Authentication vs. Authorization]]
-- [[Guide - Google Cloud Authentication and Authorization]]
-- [[Identity Provider (IdP)]]
-- [[Multi-Factor Authentication (MFA)]]
-- [[OAuth]]
-- [[OpenID]]
-- [[Refresh Token]]
-- [[Token Rotation]]
-- [[Tool - OpenSSL|OpenSSL]]
-- [[Secure Sockets Layer (SSL)]]
-- [[Security Assertion Markup Language (SAML)]]
-- [[Session Cookie]]
-- [[Signing Algorithm]]
-- [[Single Sign-On (SSO)]]
-- [[Web Service Federation (WS-Fed)]]
-- [[Proof Key for Code Exchange (PKCE)]]
-- [[Authorization Flow]]
-- [[Authentication Server]]
-- [[Definition - Callback|Callback]]
-- [[Client ID]]
-- [[Client Secret]]
-- [[Fine-Grained Authorization (FGA)]]
-- [[]]
+
 
 ### Backlinks
 
