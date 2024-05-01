@@ -37,7 +37,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - *[Learn about authentication and authorization  |  Google Workspace  |  Google for Developers](https://developers.google.com/workspace/guides/auth-overview)*
 
-[[Authentication and authorization]] are mechanisms used to verify identity and access to resources, respectively. This document identifies key terms that you should know before implementing authentication and authorization in your app.
+[[Authentication vs. Authorization|Authentication and Authorization]] are mechanisms used to verify [[identity and access]] to resources, respectively. This document identifies key terms that you should know before implementing authentication and authorization in your app.
 
 _Authentication_ identifies _who_ is making the request. _Authorization_ identifies _what_ resources the requestor can access and what level of access that they have. Authentication is a prerequisite for authorization. You can't determine what resources to access without first establishing the identity of the requestor. For a more detailed definition, see the [Important terminology section](https://developers.google.com/workspace/guides/auth-overview#important_terminology).
 

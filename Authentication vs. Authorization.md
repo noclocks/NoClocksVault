@@ -12,6 +12,7 @@ tags:
   - Status/WIP
 aliases:
   - Authentication vs. Authorization
+  - Authentication and Authorization
 publish: true
 permalink:
 description:
