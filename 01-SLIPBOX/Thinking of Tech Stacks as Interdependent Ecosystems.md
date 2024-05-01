@@ -30,21 +30,11 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
+## Overview
 
+> [!TIP] Your tech stack is an interdependent ecosystem
 
 Your tech stack needs TLC. A good stack means tools communicate, collaborative and drive progress, just like real teams. Here's how.
-
-![stackradar logo](https://assets-global.website-files.com/62b53a2ec8704a764f2140f2/65c0794578c33935f5a8260e_logo.svg)
-
-Stackradar
-
-[
-
-Share this article
-
-![share icon](https://assets-global.website-files.com/62b53a2ec8704a764f2140f2/65c441a405827f3b3ae7ed88_share.svg)](https://www.stackradar.co/resources/your-tech-stack-is-an-interdependent-ecosystem#)
-
-[![bookmarked](https://assets-global.website-files.com/62b53a2ec8704a764f2140f2/65d6f5d03ac3667157926c5e_is-favourite.svg)](https://www.stackradar.co/resources/your-tech-stack-is-an-interdependent-ecosystem#)
 
 ![](https://assets-global.website-files.com/63525cfd75ad4b289f410ca9/6631cf01c2c9965b75b7bc6d_the%20ts.webp)
 
@@ -56,7 +46,7 @@ This is where systems thinking comes into play. By adopting a systems thinking a
 
 ‍
 
-##### Understanding the Foundations of Systems Thinking
+## Understanding the Foundations of Systems Thinking
 
 Systems thinking is a holistic approach to problem-solving that considers the interconnections and interdependencies of various components within a system. When applied to building a tech stack, systems thinking involves analyzing the relationships between different technologies, tools, and platforms to create a single integrated and cohesive system. It goes beyond individual tools and focuses on the overall functioning and synergy of the tech stack itself.
 
@@ -78,7 +68,7 @@ Using this mindset in building a tech stack can be a critical success factor for
 
 ‍
 
-##### How to Design a Powerful Tech Stack
+## How to Design a Powerful Tech Stack
 
 When applied to tech stacking, systems thinking encourages companies to consider the broader implications of their technology choices and design. Instead of focusing solely on individual tools or platforms, businesses should evaluate how these components interact and integrate with each other to form a cohesive and efficient tech stack.
 
@@ -86,7 +76,7 @@ So with systems thinking in mind, how can you design and build a tech stack that
 
 ‍
 
-###### Step 1: Assess your business needs & objectives
+### Step 1: Assess your business needs & objectives
 
 The first step in building an effective tech stack is to assess the specific needs and objectives of your business. This involves understanding your business and its ‘powerhouses’ (what your business does well, what’s unique about it) and bottlenecks (what’s standing in the way of scale and innovation), and determining the specific functions and features you need your tech stack to provide you. By aligning your tech stack with your objectives, you can ensure that it serves as a strategic enabler for your business.
 
@@ -103,7 +93,7 @@ During this assessment phase, it’s crucial to involve stakeholders from differ
 
 ‍
 
-###### Step 2: Conducting Thorough Research
+### Step 2: Conducting Thorough Research
 
 With your objectives and requirements defined, the next step is to conduct a thorough research to identify the tech products and digital tools that align with your needs.
 
@@ -120,7 +110,7 @@ This involves evaluating various options, comparing features and functionalities
 
 ‍
 
-###### Step 3: Mapping Out Your Stack's Architecture
+### Step 3: Mapping Out Your Stack's Architecture
 
 Once you’ve identified the tools that meet your requirements, it’s time to design the architecture of your tech stack. You need to think about what each tool can do for you in terms of solving your current problems, and forming the foundation for your future growth. Start small, consider each element of your business, each capability of your products, services and people, and ensure to document your tech architecture to keep track for when it needs to be adjusted to meet your evolving needs.
 
@@ -139,7 +129,7 @@ Additionally, consider adopting a modular approach to your tech stack. Modular t
 
 ‍
 
-###### Step 4: Implementing and Testing Your Tech Stack
+### Step 4: Implementing and Testing Your Tech Stack
 
 With the architecture of your tech stack defined, it’s time to implement and test the various components. Start by integrating the tools and platforms according to your planned architecture. Ensure that the data flows smoothly and that the functions work as expected. Conduct thorough testing to identify and resolve any issues or bugs.  
   
@@ -152,7 +142,7 @@ With the architecture of your tech stack defined, it’s time to implement and t
 
 ‍
 
-###### Step 5: Ongoing Evaluation and Optimization
+### Step 5: Ongoing Evaluation and Optimization
 
 Building an effective tech stack is not a one-time task; it requires continuous evaluation and improvement. Just as systems evolve and adapt, so should your tech stack. Regularly assess the performance of each component, gather feedback from end-users, and stay updated on emerging technologies and trends.
 
