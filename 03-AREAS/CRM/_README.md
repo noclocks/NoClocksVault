@@ -37,9 +37,34 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Structures:
 
+- Email Address:
+	- Primary
+	- Secondary
+	- Valid
+	- Domain
+- Phone Number:
+	- Country Code
+	- Area Code
+	- Phone Number
+- Address
+	- Address Line 1
+	- Address Line 2
+	- City
+	- State
+	- Zip
+	- Country
+- Industry
+- Technology
+- Title
+- Contact Type
+
+
 Types:
 
 - Text
+- Password
+- Email
+- Phone
 - Number
 - Currency
 - List
