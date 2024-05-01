@@ -41,7 +41,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Diagram
 
 ```mermaid
-flowchart LR
+flowchart TB
     Checklist("Website Pre-Launch Checklist")
 
     Checklist --> TestingAndValidation
@@ -124,7 +124,7 @@ flowchart LR
         IndustryRegulations("Verify compliance with industry-specific regulations if applicable")
         Licensing("Confirm proper licensing and attribution for third-party content")
         PrivacyLaws --> PrivacyPolicies --> CookiesPermissions --> IndustryRegulations --> Licensing
-    end  
+    end
 ```
 
 ## Checklist
