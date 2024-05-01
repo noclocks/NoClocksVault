@@ -41,8 +41,90 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Diagram
 
 ```mermaid
-graph LR
-  
+flowchart TB
+    Checklist("Website Pre-Launch Checklist")
+
+    Checklist --> TestingAndValidation
+    TestingAndValidation["Testing and Validation"] --> FunctionalTesting
+    TestingAndValidation --> ContentReview
+
+    subgraph FunctionalTesting["Functional Testing"]
+        direction TB
+        FT_details("Test website across various browsers and devices for compatibility")
+        FT_details --> Browsers
+        FT_details --> Devices
+        Browsers --> Chrome("Google Chrome")
+        Browsers --> Edge("Microsoft Edge")
+        Browsers --> Firefox("Mozilla Firefox")
+        Browsers --> Safari("Apple Safari")
+        Devices --> Desktop
+        Devices --> Tablet
+        Devices --> iOS
+        Devices --> Android
+        ValidateHTMLCSS("Validate HTML and CSS")
+        CheckLinksButtons("Check all links and buttons for functionality")
+        UserTesting("Conduct User Testing for Usability Feedback")
+        LoadTesting("Perform Load Testing for Traffic Handling")
+        ValidateHTMLCSS --> CheckLinksButtons --> UserTesting --> LoadTesting
+    end
+
+    subgraph ContentReview["Content Review"]
+        direction TB
+        Proofread("Proofread all text for spelling and grammatical errors")
+        VerifyAccuracy("Verify Accuracy of all content, including contact information")
+        ImageQuality("Check image quality and alignment")
+        Copyright("Confirm proper attributions and copyright compliance")
+        ReviewMeta("Review meta descriptions and title tags")
+        Proofread --> VerifyAccuracy --> ImageQuality --> Copyright --> ReviewMeta
+    end
+
+    TestingAndValidation --> Optimization
+    Optimization["Optimization and Performance"] --> SpeedPerformance
+    Optimization --> SEOAnalytics
+
+    subgraph SpeedPerformance["Speed and Performance"]
+        direction TB
+        OptimizeMedia("Optimize images and media files")
+        ImplementCaching("Implement caching for better performance")
+        MinifyCSSJS("Minify CSS and JavaScript files")
+        ServerResponse("Ensure proper server response times")
+        CDN("Set up a Content Delivery Network (CDN) if applicable")
+        OptimizeMedia --> ImplementCaching --> MinifyCSSJS --> ServerResponse --> CDN
+    end
+
+    subgraph SEOAnalytics["SEO and Analytics"]
+        direction TB
+        SEOPractices("Ensure SEO best practices like proper URL structure")
+        GoogleAnalytics("Verify that Google Analytics or other tracking tools are set up")
+        SiteMap("Confirm that the site map is submitted to search engines")
+        StructuredData("Implement structured data if applicable")
+        OptimizeSEO("Review and optimize on-page SEO elements like headings and alt tags")
+        SEOPractices --> GoogleAnalytics --> SiteMap --> StructuredData --> OptimizeSEO
+    end
+
+    TestingAndValidation --> Security
+    Security["Security and Compliance"] --> SecurityMeasures
+    Security --> LegalCompliance
+
+    subgraph SecurityMeasures["Security Measures"]
+        direction TB
+        SSL("Set up an SSL certificate for HTTPS")
+        SecurityProtocols("Implement strong security protocols for admin access")
+        MonitorActivities("Monitor for suspicious activities")
+        UpdateSecurity("Regularly update security plugins and patches")
+        BackupPlan("Establish a backup and recovery plan")
+        SSL --> SecurityProtocols --> MonitorActivities --> UpdateSecurity --> BackupPlan
+    end
+
+    subgraph LegalCompliance["Legal Compliance"]
+        direction TB
+        PrivacyLaws("Ensure compliance with privacy laws (e.g., GDPR, CCPA)")
+        PrivacyPolicies("Create accessible privacy policies and terms of service")
+        CookiesPermissions("Obtain necessary permissions for cookies and user data")
+        IndustryRegulations("Verify compliance with industry-specific regulations if applicable")
+        Licensing("Confirm proper licensing and attribution for third-party content")
+        PrivacyLaws --> PrivacyPolicies --> CookiesPermissions --> IndustryRegulations --> Licensing
+    end  
 ```
 
 ## Checklist

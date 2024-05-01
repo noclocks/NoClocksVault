@@ -4,12 +4,8 @@
     "supercharged-links-gen",
     "embed",
     "readme",
-    "clean-embeds",
-    "home",
     "tables",
     "tool",
-    "command-palette",
-    "mermaid",
     "hide-embed-header"
   ],
   "cssTheme": "GitHub Theme",
