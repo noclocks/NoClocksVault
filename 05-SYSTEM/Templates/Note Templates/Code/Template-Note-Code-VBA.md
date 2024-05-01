@@ -12,7 +12,7 @@
 
 ## Code Snippet
 
-```bash
+```vb
 
 ```
 
