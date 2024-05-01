@@ -117,6 +117,31 @@ State Management:
 
 ### Analytics and Maintenance
 
+#### Performance Metrics
+    
+- [ ]  Monitor load times and efficiency
+- [ ]  Analyze user interaction with components
+- [ ]  Optimize based on findings
+ 
+#### Testing and Quality Assurance
+
+- [ ]  Conduct regular usability tests
+- [ ]  Implement automated testing for components
+- [ ]  Address issues and bugs promptly
+
+#### Continuous Improvement
+
+- [ ]  Regularly review the design system
+- [ ]  Update components and guidelines as needed
+- [ ]  Encourage ongoing learning and growth
+
+## UX/UI Practices 
+
+#### Design and Layout
+
+- [ ] Choose consistent color scheme
+	- [ ] Use primary color
+	- [ ] Use secondary colors for accents
 
 
 ## Conclusion
