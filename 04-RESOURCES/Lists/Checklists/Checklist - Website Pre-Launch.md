@@ -31,6 +31,13 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - *[Website Pre-Launch Checklist | Taskade](https://www.taskade.com/templates/design/website-pre-launch-checklist)*
 
+1. Ensure that all links and pages are working correctly.
+2. Optimize your website for search engines by using relevant keywords.
+3. Check the website’s speed and optimize its performance.
+4. Review and proofread all content on the website.
+5. Ensure that the website is accessible to users with disabilities.
+6. Test the website on different devices and browsers to ensure compatibility.
+
 ## Diagram
 
 ```mermaid
@@ -83,6 +90,21 @@ graph LR
 
 ### Optimization and Performance
 
+#### Speed and Performance
+
+- [ ]  Optimize images and media files
+- [ ]  Implement caching for better performance
+- [ ]  Minify CSS and JavaScript files
+- [ ]  Ensure proper server response times
+- [ ]  Set up a Content Delivery Network (CDN) if applicable
+
+#### SEO and Analytics
+    
+- [ ]  Ensure SEO best practices like proper URL structure
+- [ ]  Verify that Google Analytics or other tracking tools are set up
+- [ ]  Confirm that the site map is submitted to search engines
+- [ ]  Implement structured data if applicable
+- [ ]  Review and optimize on-page SEO elements like headings and alt tags
 
 
 ## Conclusion
