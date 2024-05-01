@@ -76,13 +76,19 @@ Types:
 
 ## Entities
 
-- **Lead**: a "Lead" is a record of a person who might convert into a customer or client, but they do not have an established relationship with our organization yet.
+### CRM Entities
+
 - **Contact**: a "Contact" is a record of a person with an established relationship with No Clocks; whether its a customer, prospect, affiliate, or partner. Contacts have "Accounts" associated with them.
+- **Company**:
+- **Lead**: a "Lead" is a record of a person who might convert into a customer or client, but they do not have an established relationship with our organization yet.
 - **Account**: B2B Accounts for prospects and customers
 - **Opportunity**: Represents a pending deal or activity that has the potential to generate revenue.
 - **Campaign**
 - **Case**
 
+### Sales Entities
+
+- **
 
 ## Notes
 
