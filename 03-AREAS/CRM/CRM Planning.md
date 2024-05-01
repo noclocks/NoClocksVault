@@ -43,4 +43,11 @@ Full List of Ideas:
 
 ### Could Have
 
-- **Offerings, Proposals**: 
+- **Offerings, Proposals**: - More detailed breakdowns of potential sales or service contracts.
+- **Account**: To manage detailed account information and financial transactions.
+- **Campaign**: For marketing efforts and analysis.
+
+### Unsure
+
+- **Images, Brand Assets**: Useful for marketing but not essential for a minimal viable product.
+- **Statement of Work, Roadmap**: Important for project management but can be integrated later.
