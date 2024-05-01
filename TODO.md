@@ -1,3 +1,6 @@
 - [ ] Create *Code Note Template for [[04-RESOURCES/Code/VBA/_README|VBA]]*
+	- [ ] Create `05-SYSTEM/Templates/Note Templates/Code/Template-Note-Code-VBA`
+	- [ ] Create `05-SYSTEM/Templates/Fragments/Frontmatter/Template-Fragment-Frontmatter-Code-VBA`
+	- [ ] Create `05-SYSTEM/Templates/Fragments/Title/Template-Fragment`
 - [ ] Optimize *Template System*
 - [ ] 
