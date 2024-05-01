@@ -76,10 +76,26 @@ Types:
 
 ## Entities
 
+- **Users**
+- **Roles**
+
 - **Contacts**
-	- **
+	- **People**
+	- **Companies**
+	- **Services**
+
 - **Clients**
-- 
+- **Products**
+- **Services**
+- **Interactions**
+	- **Call**
+	- **Email**
+	- **Social Media**
+	- **Meeting**
+	- **Note**
+	- **Mail**
+	- **SMS**
+	- **Task**
 
 ### CRM Entities
 
