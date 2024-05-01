@@ -65,10 +65,37 @@ graph LR
 
 #### Basic Elements
 
+Core Shared Components:
+
 - [ ] Buttons:
 - [ ] Links:
 - [ ] Inputs:
 
+State Management:
+
+- [ ] Define States
+	- [ ] Hover
+	- [ ] Click
+	- [ ] Disabled
+
+- [ ] Ensure Responsiveness Across Devices
+
+#### Complex (Composite) Components
+
+- [ ] Design Dropdowns
+- [ ] Design Modals
+- [ ] Design Page Layouts
+- [ ] Design Tabs
+- [ ] Provide Usage and Interaction Guidelines
+- [ ] Include Variations for Different Contexts
+
+#### Grid and Layout
+
+- [ ] Define Grid System and Breakpoints
+- [ ] Create Layout Templates and Patterns
+- [ ] Ensure Adaptability Across Screens
+
+### Documentation and Us
 
 ## Conclusion
 
