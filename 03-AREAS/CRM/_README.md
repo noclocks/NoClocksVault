@@ -18,7 +18,7 @@ cssclasses:
 ---
 
 
-# Customer Relationship Management System
+# Customer Relationship Management (CRM) System
 
 ```table-of-contents
 title: ## Contents 
@@ -32,7 +32,12 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `03-AREAS/CRM` directory.
+
+## Entities
+
+- **Lead**: a "Lead" is a record of a person who might convert into a customer or client, but they do not have an established relationship with our organization yet.
+- **Contact**: a "Contact" is a record of a person with an established relationship with No Clocks; whether its a customer, prospect, affiliate, or partner. Contacts have "Accounts" associated with
+
 
 ## Notes
 
@@ -60,4 +65,4 @@ LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/CRM/_README"
 
 ***
 
-(c) [No Clocks, LLC](https://github.com/nocl
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024
