@@ -3,11 +3,11 @@ creation_date: 2024-05-01
 modification_date: 2024-05-01
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/CRM/Client
+  - Type/CRM/Contact
   - Topic/Business
   - Status/Ongoing
 aliases:
-  - Client XYZ
+  - John Doe
 publish: true
 permalink:
 description:
@@ -16,4 +16,10 @@ cssclasses:
 ---
 
 > [!META]- Metadata:
-> 
+> Name:: John Doe
+> Company:: [[Client XYZ]]
+> Email:: john.doe@client.xyz
+> Title:: Manager
+> Phone:: +1 (678) 123-4567
+
+
