@@ -86,15 +86,10 @@ Types:
 
 ## Notes
 
-> [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`**  individual notes in the `03-AREAS/CRM` folder, excluding this note.*
-
-```dataview
-TABLE without ID file.link as "Note Title", file.mday as "Last Modified"
-FROM "03-AREAS/CRM" AND -"03-AREAS/CRM/_README"
-WHERE file.name != this.file.name
-SORT file.name asc
-```
+- How to record states (i.e. "Texas" vs. "TX")
+- How to record phone numbers (i.e. 1234567890 vs +1 (123) 456-7890)
+- How to specify job titles (i.e. CEO vs. Chief Executive Officer)
+- 
 
 ***
 
