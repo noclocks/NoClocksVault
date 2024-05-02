@@ -56,14 +56,23 @@ Some email providers support BIMI with a `TXT` record that refers to a [[Scalabl
 
 For a [[PEM]] file:
 
-```plaintex
+```plaintext
 v=BIMI1;l=;a=https://domain.com/brand/certificate.pem
 ```
 
 For a [[SVG]] file:
 
-``plain
+```plaintext
+v=BIMI1;l=https://domain.com/brand/bimi-logo.svg
+```
 
+For the **Host**, use `default._bimi_.` followed by the domain name.
+
+```plaintext
+default._bimi_.noclocks.dev.
+```
+
+For [[TTL]] set to `1h`.
 
 
 ## Resources
