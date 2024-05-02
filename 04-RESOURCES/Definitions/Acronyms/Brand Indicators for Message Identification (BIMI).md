@@ -43,10 +43,15 @@ debugInConsole: false # Print debug info in Obsidian console
 
 BIMI adds your brand logo to outgoing email messages.
 
-It is configured via a `BIMI` `TXT` [[DNS]]
+It is configured via a `BIMI` `TXT` [[Domain Name Server or System (DNS)|DNS]] Record.
+
+Some email providers support BIMI with a `TXT` record that refers to a [[Scalable Vector Graphics (SVG)]] image file only. However, to display BIMI logos in [[Tool - Gmail|Gmail]], you must use a `TXT` record that refers to a [[Privacy Enhanced Mail (PEM)]] file. The [[PEM]] file includes your logo.
 
 ## Setup DNS Records
 
+1. Create BIMI DNS TXT Record:
+
+> [!IMPORTANT] Important
 
 
 ## Resources
