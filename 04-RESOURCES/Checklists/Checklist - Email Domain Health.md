@@ -9,8 +9,8 @@ tags:
   - Topic/Dev/DNS
   - Status/WIP
 aliases:
-  - Email Domain Health
-  - Email Domain Health Checklist
+  - Email Deliverability Health
+  - Email Deliverability Health Checklist
 publish: true
 permalink:
 description:
@@ -18,7 +18,7 @@ image:
 cssclasses:
 ---
 
-# Email Domain Health Checklist
+# Email Deliverability Health Checklist
 
 ```table-of-contents
 title: ## Contents 
@@ -47,10 +47,18 @@ graph LR
 - [ ] **[[SPF]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[DMARC]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[BIMI]]** [[Domain Name Server or System (DNS)|DNS]] Record
+- [ ] [[DKIM]]
 - [ ] **[[VMC]]** Certificate
 - [ ] **[[BIMI]]** Compliance
 
-### 
+## Tools
+
+- [[MX Lookup]]
+- [[Email Blocklist Checker]]
+- [[Email Domain Health Checker]]
+- [[Email Spam Tester]]
+- [[Email Subject Line Preview]]
+
 
 ## Conclusion
 
