@@ -47,9 +47,18 @@ graph LR
 - [ ] **[[SPF]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[DMARC]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[BIMI]]** [[Domain Name Server or System (DNS)|DNS]] Record
-- [ ] [[DKIM]]
+- [ ] **[[DKIM]]** [[Domain Name Server or System (DNS)|DNS]] Records
 - [ ] **[[VMC]]** Certificate
 - [ ] **[[BIMI]]** Compliance
+
+### MX Records
+
+- [ ] `TXT` Record with the value pointing to the [[SMTP]] domain (i.e. `smtp.google.com`)
+- [ ] [[BIMI]] Compliant
+
+### SPF Records
+
+- [ ] `TXT` Record with the value pointing to the [[SPF]]
 
 ## Tools
 
