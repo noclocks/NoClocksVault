@@ -67,6 +67,28 @@ graph LR
 - [ ] [[DMARC]] policy set to `p=quarantine` or `p=reject` and not `p=none`
 - [ ] [[BIMI]] Compliance
 
+### BIMI Records
+
+> [!TIP] [[BIMI]] ()
+
+- [ ] `TXT` Record with [[BIMI]] details
+
+### VMC Certificate
+
+- [ ] Certificate Exists
+- [ ] Brand Visibility
+- [ ] Email Authentication
+
+### Other
+
+- [ ] Email Aliases
+- [ ] Email Routing
+- [ ] Google Workspace
+- [ ] Gmail
+- [ ] Outlook
+- [ ] Stripe
+- [ ] Mailgun
+- [ ] Mailchimp
 
 ## Tools
 
