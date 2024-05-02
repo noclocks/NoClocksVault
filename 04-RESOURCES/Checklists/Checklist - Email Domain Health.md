@@ -43,7 +43,14 @@ graph LR
 
 ## Checklist
 
-### Step 1
+- [ ] **[[MX]]** [[Domain Name Server or System (DNS)|DNS]] Record
+- [ ] **[[SPF]]** [[Domain Name Server or System (DNS)|DNS]] Record
+- [ ] **[[DMARC]]** [[Domain Name Server or System (DNS)|DNS]] Record
+- [ ] **[[BIMI]]** [[Domain Name Server or System (DNS)|DNS]] Record
+- [ ] **[[VMC]]** Certificate
+- [ ] **[[BIMI]]** Compliance
+
+### 
 
 ## Conclusion
 
