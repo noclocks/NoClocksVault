@@ -51,7 +51,19 @@ Some email providers support BIMI with a `TXT` record that refers to a [[Scalabl
 
 1. Create BIMI DNS TXT Record:
 
-> [!IMPORTANT] Important
+> [!IMPORTANT] Important:
+> In BIMI syntax, the number **1**, the uppercase letter **i (I)**, and the lowercase letter **L (l)** all appear similar. Be aware of this when creating the [[Domain Name Server or System (DNS)|DNS]] `TXT` record.
+
+For a [[PEM]] file:
+
+```plaintex
+v=BIMI1;l=;a=https://domain.com/brand/certificate.pem
+```
+
+For a [[SVG]] file:
+
+``plain
+
 
 
 ## Resources
