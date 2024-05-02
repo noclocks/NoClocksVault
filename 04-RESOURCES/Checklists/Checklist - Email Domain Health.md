@@ -58,7 +58,15 @@ graph LR
 
 ### SPF Records
 
-- [ ] `TXT` Record with the value pointing to the [[SPF]]
+- [ ] `TXT` Record with the value pointing to the [[SPF]] (i.e. `v=spf1 include:_spf.google.com ~all`)
+- [ ] [[BIMI]] Compliance
+
+### DMARC Records
+
+- [ ] `TXT` Record with the [[DMARC]] Policy (i.e. `v=DMARC1; p=quarantine; rua=mailto:...;ruf=mailto:...;fo=1`)
+- [ ] [[DMARC]] policy set to `p=quarantine` or `p=reject` and not `p=none`
+- [ ] [[BIMI]] Compliance
+
 
 ## Tools
 
