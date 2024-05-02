@@ -69,9 +69,9 @@ graph LR
 
 ### BIMI Records
 
-> [!TIP] [[BIMI]] ()
+> [!TIP] [[Brand Indicators for Message Identification (BIMI)]] is an email authentication protocol that allows companies to display their brand logo in the email inbox of their recipients. [[BIMI]] is designed to increase brand recognition, email deliverability, and email security.
 
-- [ ] `TXT` Record with [[BIMI]] details
+- [ ] Validate that a [[BIMI]] [[Domain Name Server or System (DNS)|DNS]] `TXT` Record exists and ensure that it is correctly configured. Check the record against the standard and provide a report
 
 ### VMC Certificate
 
