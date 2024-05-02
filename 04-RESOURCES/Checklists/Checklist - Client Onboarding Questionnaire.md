@@ -19,7 +19,7 @@ cssclasses:
 # Client Onboarding Questionnaire Checklist
 
 > [!NOTE]
-> *This [[04-RESOURCES/Lists/Checklists/_README|Checklist]] serves the purpose of providing a common suite of questions to ask when evaluating a potential new client to determine if they will be a good fit for No Clocks.*
+> *This [[04-RESOURCES/Checklists/_README|Checklist]] serves the purpose of providing a common suite of questions to ask when evaluating a potential new client to determine if they will be a good fit for No Clocks.*
 
 ```table-of-contents
 title: Contents

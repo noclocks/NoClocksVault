@@ -18,7 +18,7 @@ cssclasses:
 
 # Project Planning Questsions Checklist
 > [!NOTE]
-> *This [[04-RESOURCES/Lists/Checklists/_README|Checklist]] serves the purpose of providing a common suite of questions to ask
+> *This [[04-RESOURCES/Checklists/_README|Checklist]] serves the purpose of providing a common suite of questions to ask
 > when evaluating and generating a new project plan at No Clocks.*
 
 Taken from **Making Things Happen** by Scott Berkun, Published by O'Reilly Media, Inc., 2008.
