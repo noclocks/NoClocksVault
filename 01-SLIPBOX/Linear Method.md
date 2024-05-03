@@ -71,11 +71,26 @@ We leave it up to individual team members to manage their time and decide what i
 
 We don't expect to complete cycles 100% or plan perfectly. We expect new bugs to come up as well as unexpected or opportunistic work, too, which means issues will get moved around and the scope line will creep up. That's a tradeoff we're okay with. We're aggressive about reporting bugs or issues and try to fix bugs immediately, since it reduces technical debt, keeps product quality high, and reduces time spent answering customer support questions.
 
+### [Changelog](https://linear.app/docs/linear-method#changelog)
+
+We release work continuously and summarize it weekly in a changelog.
+
+The public [changelog](https://linear.app/changelog) keeps us accountable to shipping a core feature or improvement each week without creating unrealistic or unhelpful pressure to push out features before they're ready. It's also a great way to celebrate work and share it with our community. This creates healthy balance and accountability since we don't usually set project deadlines and cycles aren't tied to releases. We share more about writing changelogs [here](https://medium.com/linear-app/startups-write-changelogs-c6a1d2ff4820).
+
+Those are the most important things to know about the Linear method and how we work. Dive deeper into the Linear method on our [website](https://linear.app/method).
+
 ***
 
 ## Appendix
 
 *Note created on [[2024-05-03]] and last modified on [[2024-05-03]].*
+
+### See Also
+
+- [[Productivity Stack]]
+- [[MOC - Productivity|Productivity Map of Content]]
+- [[Tool - Linear|Linear]]
+- [[Linear Concepts]]
 
 ### Backlinks
 
