@@ -44,22 +44,30 @@ debugInConsole: false # Print debug info in Obsidian console
 ```registry
 Windows Registry Editor Version 5.00
 
+; Microsoft Windows Explorer DriveIcons Registry File
+
+; Root
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons]
 
+; D Drive: Data Drive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\D]
 
+; E Drive: System Drive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\E]
 
+; U Drive: Ubuntu Mapped Network Drive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\U]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\U\DefaultIcon]
 @="\"C:\\Icons\\ubuntu.ico\""
 
+; X Drive: Windows DevDrive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\X]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\X\DefaultIcon]
 @="\"C:\\Icons\\dev.ico\""
 
+; Z Drive: 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\Z]
 ```
 
