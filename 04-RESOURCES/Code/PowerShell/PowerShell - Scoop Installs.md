@@ -57,6 +57,29 @@ $ScoopApps = @(
   'fzf'
   'gcc'
   'geekuninstaller'
+  'gitui'
+  'lazygit'
+  'lf'
+  'make'
+  'mpv'
+  'neovim'
+  'obsidian'
+  'python'
+  'q-dir'
+  'ripgrep'
+  'screentogif'
+  'snipaste'
+  'stylua'
+  'sumatrapdf'
+)
+
+# Fonts
+$Fonts = @(
+  'Cascadia-Code'
+  'CascadiaCode-NF'
+  'FiraCode'
+  'FiraCode-NF'
+  'Monaspace-NF'
 )
 
 ```
