@@ -9,7 +9,7 @@ tags:
   - Topic/Dev/Windows
   - Status/WIP
 aliases:
-  - <% (tp.file.title).replace("Registry - ", "") %> Code
+  - <% (tp.file.title).replace("Registry - ", "") %> Registry Code
 publish: true
 permalink:
 description:
