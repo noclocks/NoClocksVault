@@ -48,7 +48,10 @@ if (!Get-Command scoop) {
 }
 
 # Install Scoop Recommended Apps
-scoop install aria2
+scoop install 7zip aria2 dark
+
+# Install scoop-completion
+scoop intall scoop-completion
 
 # Defender Exclusions
 sudo Add-MpPreference -ExclusionPath "$Env:PROGRAMDATA\scoop"
@@ -65,7 +68,9 @@ $ScoopBuckets = @(
   'extras'
   'nerd-fonts'
   'nirsoft'
-  ''
+  'r-bucket'
+  'supabase'
+  'topclean'
 )
 
 # Apps
@@ -77,7 +82,6 @@ $ScoopApps = @(
   'bat'
   'bind'
   'cacert'
-  'dark'
   'ddu'
   'devmanview'
   'dos2unix'
@@ -120,10 +124,27 @@ $ScoopApps = @(
   'qpdf'
   'restic'
   'ripgrep'
+  'shellcheck'
   'screentogif'
+  'spotify-tui'
+  'sqlite'
+  'stateful'
+  'supabase'
+  'syncthing'
   'snipaste'
   'stylua'
   'sumatrapdf'
+  'tinynvidiaupdatechecker'
+  'tldr'
+  'topclean'
+  'touch'
+  'topgrade'
+  'unzip'
+  'winfetch'
+  'wttop'
+  'yori'
+  'youtube-dl'
+  'yq'
 )
 
 # Fonts
