@@ -10,7 +10,7 @@ tags:
   - Topic/Dev/PowerShell
   - Status/WIP
 aliases:
-  - PowerShell PowerShell - Create Desktop Shortcut Code
+  - PowerShell PowerShell - Default psm1 Module Template Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# Create Desktop Shortcut PowerShell Code
+# Default psm1 Module Template PowerShell Code
 
 ```table-of-contents
 title: ## Contents 
@@ -38,12 +38,12 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```powershell
-$TargetFile = "$Env:SYSTEMROOT\System32\notepad.exe"
-$ShortcutFile = "$Env:Public\Desktop\Notepad.lnk"
-$Wsh = New-Object -ComObject WScript.Shell
-$Shortcut = $Wsh.CreateShortcut($ShortcutFile)
-$Shortcut.TargetPath = $TargetFile
-$Shortcut.Save()
+# MyModule.psm1
+
+$PublicDir
+$PrivateDir
+
+$Public = Get-ChildItem -Path 
 ```
 
 ## Details
@@ -65,7 +65,7 @@ $Shortcut.Save()
 ### Backlinks
 
 ```dataview
-LIST FROM [[PowerShell - Create Desktop Shortcut]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Create Desktop Shortcut"
+LIST FROM [[PowerShell - Default psm1 Module Template]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Default psm1 Module Template"
 ```
 
 ***
