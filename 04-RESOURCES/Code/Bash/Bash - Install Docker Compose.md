@@ -36,12 +36,18 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[budibase/hosting/scripts/linux/install-docker-compose.sh at master · Budibase/budibase](https://github.com/Budibase/budibase/blob/master/hosting/scripts/linux/install-docker-compose.sh)*
 
 ## Code Snippet
 
 ```bash
+#!/usr/env bash
 
+version 
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
 ## Details
