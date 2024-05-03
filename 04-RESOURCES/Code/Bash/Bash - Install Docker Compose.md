@@ -38,24 +38,43 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - *[Install Docker Engine on Ubuntu | Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)*
 > - *https://get.docker.com/*
+> - *[Install latest version of Docker Compose](https://gist.github.com/deviantony/2b5078fe1675a5fedabf1de3d1f2652a)*
 > - *[budibase/hosting/scripts/linux/install-docker-compose.sh at master · Budibase/budibase](https://github.com/Budibase/budibase/blob/master/hosting/scripts/linux/install-docker-compose.sh)*
 
 ## Code Snippet
 
 ```bash
-#!/usr/env bash
+#!/usr/bin/env bash
 
-version 
+# apt update
+sudo apt-get update
 
-sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+# apt install dependencies
+sudo apt-get install -y ca-certificates curl
+
+# install keyrings
+sudo install -m 0755 -d /etc/apt/keyrings
+
+# add docker official gpg key
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# add repository to apt sources
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# apt update
+sudo apt-get update
+
+# apt install docker
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# verify docker installation
+sudo docker --version
 ```
 
-## Details
-
-> [!NOTE] About
-> This note is about ...
 
 ## See Also
 
@@ -64,6 +83,9 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 - [[Tool - Zsh|Zsh]]
 - [[MOC - Development|Development Map of Content]]
 - [[Tool - WSL|Windows Sub-System for Linux (WSL)]]
+- [[Tool - Docker|Docker]], [[Tool - Docker Compose|Docker Compose]], [[Tool - DockerHub|DockerHub]]
+- [[Dockerized Projects]]
+- [[Docker Init Command]]
 
 ***
 
