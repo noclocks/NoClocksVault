@@ -38,10 +38,29 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!TIP]
 > - The registry path is located at: `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons`
-> - Keys for each drive are nested under that path with an additional sub-key (folder) named `DefaultIcon` 
+> - Keys for each drive are nested under that path with an additional sub-key (folder) named `DefaultIcon`
+> - Within the `DriveIcons\<DriveLetter>\DefaultIcon\` key the `(Default)` key value is defined as a *quoted absolute path to the `ICO` icon file on the hard drive.*
 
 ```registry
+Windows Registry Editor Version 5.00
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\D]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\E]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\U]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\U\DefaultIcon]
+@="\"C:\\Icons\\ubuntu.ico\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\X]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\X\DefaultIcon]
+@="\"C:\\Icons\\dev.ico\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\Z]
 ```
 
 ## Details
