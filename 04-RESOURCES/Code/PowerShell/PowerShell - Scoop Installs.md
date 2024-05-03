@@ -10,7 +10,7 @@ tags:
   - Topic/Dev/PowerShell
   - Status/WIP
 aliases:
-  - PowerShell PowerShell - Set Proxy Code
+  - PowerShell PowerShell - Scoop Installs Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# Set Proxy PowerShell Code
+# Scoop Installs PowerShell Code
 
 ```table-of-contents
 title: ## Contents 
@@ -38,7 +38,27 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```powershell
-[Net.WebRequest]::DefaultWebProxy = New-Object Net.WebProxy "http://127.0.0.1:7890"
+# Execution Policy
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+
+# Install Scoop
+if (!Get-Command scoop) {
+  irm get-scoop.sh | iex
+}
+
+# Apps
+$ScoopApps = @(
+  '7zip'
+  'bat'
+  'cmake'
+  'everything'
+  'fd'
+  'ffmpeg'
+  'fzf'
+  'gcc'
+  'geekuninstaller'
+)
+
 ```
 
 ## Details
@@ -60,7 +80,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ### Backlinks
 
 ```dataview
-LIST FROM [[PowerShell - Set Proxy]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Set Proxy"
+LIST FROM [[PowerShell - Scoop Installs]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Scoop Installs"
 ```
 
 ***
