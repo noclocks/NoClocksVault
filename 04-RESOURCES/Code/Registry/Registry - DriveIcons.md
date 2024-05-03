@@ -36,6 +36,10 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippet
 
+> [!TIP]
+> - The registry path is located at: `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons`
+> - Keys for each drive are nested under that path with an additional sub-key (folder) named `DefaultIcon` 
+
 ```registry
 
 ```
