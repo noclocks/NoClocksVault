@@ -47,7 +47,23 @@ if (!Get-Command scoop) {
   Invoke-Expression $Inst
 }
 
-# Defender Exclu
+# Defender Exclusions
+sudo Add-MpPreference -ExclusionPath "$Env:PROGRAMDATA\scoop"
+sudo Add-MpPreference -ExclusionPath "$Env:USERPROFILE\scoop"
+
+# LongPath Support
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+
+# Checks
+scoop checkup
+
+# Buckets
+$ScoopBuckets = @(
+  'extras'
+  'nerd-fonts'
+  'nirsoft'
+  ''
+)
 
 # Apps
 $ScoopApps = @(
