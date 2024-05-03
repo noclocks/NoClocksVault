@@ -10,7 +10,7 @@ tags:
   - Topic/Dev/PowerShell
   - Status/WIP
 aliases:
-  - PowerShell PowerShell - Windows Updates Code
+  - PowerShell PowerShell - Create Desktop Shortcut Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# Windows Updates PowerShell Code
+# Create Desktop Shortcut PowerShell Code
 
 ```table-of-contents
 title: ## Contents 
@@ -38,30 +38,8 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```powershell
-#Requires -RunAsAdministrator
-
-# Transcript
-$TranscriptFile = "$((Get-Date).ToString('yyyy-MM-dd-HHmmss'))-Scoop.log"
-$TranscriptPath = Join-Path "$Env:TEMP\Scoop\$TranscriptFile"
-Start-Transcript -Path $TranscriptPath -ErrorAction Ignore | Out-Null
-
-# Execution Policy
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser
-
-# PSWindowsUpdate
-if (!(Get-PSResource -Name PSWindowsUpdate)) {
-  Write-Verbose "Installing Module: PSWindowsUpdate..."
-  Install-PSResource -Name PSWindowsUpdate -Scope CurrentUser -Force
-  Import-Module PSWindowsUpdate
-}
-
-# Install Updates
-Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -IgnoreReboot -ForceInstall
-
-# Restart
-Write-Hose "Restarting Machine in 20 seconds..."
-Start-Sleep -Seconds 20
-Restart-Computer -Force
+$TargetFile = "$Env:SYSTEMROOT\System32\notepad.exe"
+$ShortcutFile = "$Env:Public\Desktop\Note"
 ```
 
 ## Details
@@ -83,7 +61,7 @@ Restart-Computer -Force
 ### Backlinks
 
 ```dataview
-LIST FROM [[PowerShell - Windows Updates]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Windows Updates"
+LIST FROM [[PowerShell - Create Desktop Shortcut]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Create Desktop Shortcut"
 ```
 
 ***
