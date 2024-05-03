@@ -49,7 +49,14 @@ Start-Transcript -Path $TranscriptPath -ErrorAction Ignore | Out-Null
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 
 # PSWindowsUpdate
-if (!Get-Module -)
+if (!(Get-PSResource -Name PSWindowsUpdate)) {
+  Write-Verbose "Installing Module: PSWindowsUpdate..."
+  Install-PSResource -Name PSWindowsUpdate -Scope CurrentUser -Force
+  Import-Module PSWindowsUpdate
+}
+
+# Install Updates
+
 
 ```
 
