@@ -21,9 +21,12 @@
 ## See Also
 
 - [[04-RESOURCES/Code/Registry/_README|Windows Registry Code Snippets]]
-- [[Linux]], [[Tool - Ubuntu|Ubuntu]], [[Tool - Kali Linux|Kali Linux]]
-- [[Tool - Zsh|Zsh]]
+- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
+- [[04-RESOURCES/Code/Cmd/_README|Command Line Code]]
+- [[Microsoft Windows]]
 - [[MOC - Development|Development Map of Content]]
-- [[Tool - WSL|Windows Sub-System for Linux (WSL)]]
+- [[MOC - Technology|Technology Map of Content]]
+- [[MOC - Computer Science|Computer Science Map of Content]]
+
 
 <% tp.file.include("[[Template-Fragment-Backmatter]]") %>
