@@ -49,12 +49,6 @@ Windows Registry Editor Version 5.00
 ; Root
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons]
 
-; D Drive: Data Drive
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\D]
-
-; E Drive: System Drive
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\E]
-
 ; U Drive: Ubuntu Mapped Network Drive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\U]
 
@@ -66,9 +60,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\X\DefaultIcon]
 @="\"C:\\Icons\\dev.ico\""
-
-; Z Drive: 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\Z]
 ```
 
 ## Details
