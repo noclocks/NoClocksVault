@@ -36,6 +36,8 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
+> - *[Install Docker Engine on Ubuntu | Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)*
+> - *https://get.docker.com/*
 > - *[budibase/hosting/scripts/linux/install-docker-compose.sh at master · Budibase/budibase](https://github.com/Budibase/budibase/blob/master/hosting/scripts/linux/install-docker-compose.sh)*
 
 ## Code Snippet
