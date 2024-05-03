@@ -40,10 +40,20 @@ debugInConsole: false # Print debug info in Obsidian console
 ```powershell
 # MyModule.psm1
 
-$PublicDir
-$PrivateDir
+$PublicDir = Join-Path $PSScriptRoot "Public"
+$PrivateDir = Join-Path $PSScriptRoot "Private"
+$Public = Get-ChildItem -Path "$PublicDir\*.ps1"
+$Private = Get-ChildItem -Path "$PrivateDir\*.ps1"
 
-$Public = Get-ChildItem -Path 
+@($Public + $Private) | ForEach-Object {
+  try {
+    . $_.FullName
+  } catch {
+    Write-Error -Message "Failed to import function $($_.FullName): $_"
+  }
+}
+
+Export-ModuleMember -Function $Public.BaseName
 ```
 
 ## Details
