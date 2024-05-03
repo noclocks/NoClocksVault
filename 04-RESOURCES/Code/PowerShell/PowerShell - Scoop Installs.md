@@ -39,9 +39,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```powershell
 # Transcript
-$TransScriptFile = "$((Get-Date).ToString('yyyy-MM-dd-HHmmss'))-Scoop.log"
-$TransScriptPath = Join-Path "$Env:TEMP\Scoop\$TransScriptFile"
-Start-Transs
+$TranscriptFile = "$((Get-Date).ToString('yyyy-MM-dd-HHmmss'))-Scoop.log"
+$TranscriptPath = Join-Path "$Env:TEMP\Scoop\$TranscriptFile"
+Start-Transcript -Path $TranscriptPath -ErrorAction Ignore | Out-Null
 
 # Execution Policy
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
