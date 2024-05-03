@@ -43,8 +43,11 @@ Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 
 # Install Scoop
 if (!Get-Command scoop) {
-  irm get-scoop.sh | iex
+  $Inst = New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+  Invoke-Expression $Inst
 }
+
+# Defender Exclu
 
 # Apps
 $ScoopApps = @(
