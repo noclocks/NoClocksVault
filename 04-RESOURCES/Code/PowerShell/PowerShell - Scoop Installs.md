@@ -47,6 +47,9 @@ if (!Get-Command scoop) {
   Invoke-Expression $Inst
 }
 
+# Install Scoop Recommended Apps
+scoop install aria2
+
 # Defender Exclusions
 sudo Add-MpPreference -ExclusionPath "$Env:PROGRAMDATA\scoop"
 sudo Add-MpPreference -ExclusionPath "$Env:USERPROFILE\scoop"
@@ -67,13 +70,27 @@ $ScoopBuckets = @(
 
 # Apps
 $ScoopApps = @(
+  '1password-cli'
   '7zip'
+  'act'
+  'actionlint'
   'bat'
-  'cmake'
-  'everything'
+  'bind'
+  'cacert'
+  'dark'
+  'ddu'
+  'devmanview'
+  'dos2unix'
+  'dotter'
+  'driverview'
+  'edex-ui'
+  'editorconfig'
   'fd'
   'ffmpeg'
+  'flyway'
+  'fontforge'
   'fzf'
+  'ghostsc'
   'gcc'
   'geekuninstaller'
   'gitui'
