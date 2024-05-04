@@ -34,6 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 > [!SOURCE] Sources:
 > - *[let ChatGPT write a sensible commit message using an adaptable Python script](https://gist.github.com/Konfekt/d9640c390deea4beafcf74e29410b8a6)*
+> - *[tom-doerr/chatgpt\_commit\_message\_hook: Enhance your git workflow using AI-generated commit messages from ChatGPT. Seamless integration for a well-documented commit log.](https://github.com/tom-doerr/chatgpt_commit_message_hook/)*
 
 ## Code
 
