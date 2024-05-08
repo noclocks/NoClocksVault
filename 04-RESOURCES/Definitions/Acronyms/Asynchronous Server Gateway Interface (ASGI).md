@@ -21,6 +21,7 @@ cssclasses:
 
 > [!SOURCE] Sources:
 > - *[ASGI Documentation — ASGI 3.0 documentation](https://asgi.readthedocs.io/en/latest/)*
+> - *[django/asgiref: ASGI specification and utilities](https://github.com/django/asgiref)*
 
 ```table-of-contents
 title: ## Contents 
@@ -34,7 +35,11 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!NOTE] About
-> This note is about ...
+> **ASGI** (*Asynchronous Server Gateway Interface*) is a successor to [[Web Server Gateway Interface (WSGI)]], intended to provide a standard interface between async-capable Python web servers, frameworks, and applications.
+
+
+
+Where WSGI provided a standard for synchronous Python apps, ASGI provides one for both asynchronous and synchronous apps, with a WSGI backwards-compatibility implementation and multiple servers and application frameworks.
 
 ## Resources
 
