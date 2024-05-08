@@ -10,7 +10,7 @@ tags:
   - Topic/Dev/PowerShell
   - Status/WIP
 aliases:
-  - PowerShell PowerShell - Get IP Address from Domain Name Code
+  - PowerShell PowerShell DNSServer Module Code
 publish: true
 permalink:
 description:
@@ -19,7 +19,7 @@ cssclasses:
   - code
 ---
 
-# Get IP Address from Domain Name PowerShell Code
+# PowerShell DNSServer Module PowerShell Code
 
 ```table-of-contents
 title: ## Contents 
@@ -38,22 +38,18 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Code Snippet
 
 ```powershell
-[System.Net.Dns]::GetHostAddresses('noclocks.dev').IPAddressToString
-```
 
-to return the host name (CName) and aliases of an IP:
-
-```powershell
-[System.Net.Dns]::GetHostByAddress('172.12.34.56')
 ```
 
 ## Details
+
+> [!NOTE] About
+> This note is about ...
 
 ## See Also
 
 - [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
 - [[MOC - PowerShell|PowerShell Map of Content]]
-- [[PowerShell - Get Email DNS Records]]
 
 ***
 
@@ -64,7 +60,7 @@ to return the host name (CName) and aliases of an IP:
 ### Backlinks
 
 ```dataview
-LIST FROM [[PowerShell - Get IP Address from Domain Name]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell - Get IP Address from Domain Name"
+LIST FROM [[PowerShell DNSServer Module]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/PowerShell DNSServer Module"
 ```
 
 ***
