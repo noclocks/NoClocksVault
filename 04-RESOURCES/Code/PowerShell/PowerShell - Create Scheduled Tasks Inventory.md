@@ -94,8 +94,21 @@ else {
 
 ## Details
 
-> [!NOTE] About
-> This note is about ...
+This PowerShell script is designed to retrieve and analyze scheduled tasks from all Windows Server machines in an Active Directory (AD) environment. The results are then saved to a CSV file.
+
+The script starts by defining the location of the CSV file where the results will be stored. It then enters a loop where it retrieves each server in the AD that runs a Windows Server operating system.
+
+For each server, the script attempts to retrieve the list of scheduled tasks. If it can't retrieve the list (for example, due to a network error or insufficient permissions), it issues a warning and skips to the next server.
+
+For each scheduled task, the script attempts to read the task's XML definition. If it can't read the definition, it issues a warning and skips to the next task.
+
+The script then checks various properties of the task to determine if it meets certain criteria. Specifically, it checks if the task is enabled, if it's not run by certain system or well-known accounts, and if it's not triggered by a user logon. These checks are designed to filter out tasks that are likely to be system tasks or tasks that don't pose a security risk.
+
+If a task meets all the criteria, the script creates a custom object with the server name, task name, and the user account that the task runs as. This object is added to a list of all tasks that meet the criteria.
+
+After all servers and tasks have been processed, the script checks if it found any tasks that meet the criteria. If it did, it sorts the list by server and task name, exports it to the CSV file, and informs you that it saved the results. If it didn't find any tasks, it issues a warning.
+
+This script is a useful tool for auditing scheduled tasks in an AD environment. It can help you identify tasks that run as non-system accounts, which could pose a security risk if they're not properly managed.
 
 ## See Also
 
