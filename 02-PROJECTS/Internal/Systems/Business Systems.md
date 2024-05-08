@@ -37,6 +37,19 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Systems
 
+- Financial Management System
+- Developer Management System
+- Client Management System
+- Customer Development System
+- Product Development System
+- Service Implementation System
+- Operations Management System
+- 
+- Information Management System
+	- Knowledge Management System
+	- Documentation Management System
+- 
+
 - Meetings and Agendas
 - Accounting
 - Taxes
@@ -51,7 +64,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - Operations
 - Development
 - HR
-- 
+
 
 
 ***
