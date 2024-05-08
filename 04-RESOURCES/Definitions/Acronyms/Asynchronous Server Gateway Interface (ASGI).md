@@ -115,9 +115,16 @@ These are the specifications for ASGI. The root specification outlines how appli
     - [Rationale (Informative)](https://asgi.readthedocs.io/en/latest/specs/tls.html#rationale-informative)
     - [Copyright](https://asgi.readthedocs.io/en/latest/specs/tls.html#copyright)
 
-## Implementations
+## Implementations and Frameworks
 
-- [[Tool - Uvicorn]]
+- [[Tool - Uvicorn|Uvicorn]]
+- [[Tool - NGINX Unit|NGINX Unit]]
+- [[Tool - Python Connexion|Connexion]]
+- [[Tool - Python Django|Django]] (Channels)
+- [[Tool - Python FastAPI|FastAPI]]
+- [[Tool - Starlette|Starlette]]
+
+
 
 ***
 
