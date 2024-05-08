@@ -38,7 +38,23 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Systems
 
 - **Website**
-- **P
+- **Pricing**
+- **Operations**
+- **Fulfillment**
+- **Collections**
+- **Training**
+- **Customer Service**
+- **Accounting**
+- **Payroll**
+- **Information Systems**
+- **E-Commerce**
+- **Authentication**
+- **Client Management**
+- **Shipping**
+- **Invoicing**
+- **Receipts**
+- **Email**
+- **Version Control**
 
 - Financial Management System
 - Developer Management System
