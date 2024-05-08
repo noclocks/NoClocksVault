@@ -37,9 +37,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > **ASGI** (*Asynchronous Server Gateway Interface*) is a successor to [[Web Server Gateway Interface (WSGI)]], intended to provide a standard interface between async-capable Python web servers, frameworks, and applications.
 
-
-
-Where WSGI provided a standard for synchronous Python apps, ASGI provides one for both asynchronous and synchronous apps, with a WSGI backwards-compatibility implementation and multiple servers and application frameworks.
+Where [[Web Server Gateway Interface (WSGI)|WSGI]] provided a standard for synchronous [[MOC - Python|Python]] apps, ASGI provides one for both asynchronous and synchronous apps, with a [[Web Server Gateway Interface (WSGI)|WSGI]] backwards-compatibility implementation and multiple servers and application frameworks.
 
 ## Resources
 

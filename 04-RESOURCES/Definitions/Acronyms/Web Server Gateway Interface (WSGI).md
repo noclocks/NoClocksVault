@@ -21,6 +21,8 @@ cssclasses:
 
 > [!SOURCE] Sources:
 > - *[What is WSGI? — WSGI.org](https://wsgi.readthedocs.io/en/latest/what.html)*
+> - *[Learn about WSGI — WSGI.org](https://wsgi.readthedocs.io/en/latest/learn.html)*
+> - *[Frameworks that run on WSGI — WSGI.org](https://wsgi.readthedocs.io/en/latest/frameworks.html)*
 
 ```table-of-contents
 title: ## Contents 
@@ -40,7 +42,15 @@ WSGI is a [[MOC - Python|Python]] standard described in detail in [**PEP 3333**
 
 For more, see [Learn about WSGI](https://wsgi.readthedocs.io/en/latest/learn.html).
 
-## Resources
+## Frameworks
+
+Frameworks that run on WSGI:
+
+- [[Tool - Python Django|Django]]
+- [[Tool - Python Flask|Flask]]
+- [[Tool - Python Falcon|Falcon]]
+- [[Tool - Python Pyramid|Pyramid]]
+- [[Tool - web2py|web2py]]
 
 ***
 
