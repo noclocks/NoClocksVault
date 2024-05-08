@@ -43,12 +43,12 @@ debugInConsole: false # Print debug info in Obsidian console
 - Customer Development System
 - Product Development System
 - Service Implementation System
+- Service Management System
 - Operations Management System
-- 
 - Information Management System
 	- Knowledge Management System
 	- Documentation Management System
-- 
+- Improvement Management System 
 
 - Meetings and Agendas
 - Accounting
