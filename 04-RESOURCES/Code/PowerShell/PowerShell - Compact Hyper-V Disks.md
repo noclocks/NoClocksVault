@@ -37,6 +37,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Code Snippet
 
+> [!WARNING]
+> The script/function name was renamed to `Compress-VHDX` to be inline with the [[PowerShell Approved Verbs]].
+
 - [`Compress-VHDX`](https://github.com/HarmVeenstra/Powershellisfun/blob/main/Compact%20Hyper-V%20VHDX%20files/Compact-VHDX.ps1)
 
 ```powershell
@@ -154,21 +157,32 @@ function Compress-VHDX {
 
 ## Details
 
-> [!WARNING]
-> The script/function name was renamed to `Compress-VHDX` to be inline with the [[PowerShell Approved Verbs]].
+This PowerShell script defines a function [`Compress-VHDX`](command:_github.copilot.openSymbolFromReferences?%5B%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22Untitled-2%22%2C%22_sep%22%3A1%2C%22path%22%3A%22Untitled-2%22%2C%22scheme%22%3A%22untitled%22%7D%2C%7B%22line%22%3A1%2C%22character%22%3A9%7D%5D "Untitled-2") that is used to compress VHDX (Virtual Hard Disk) files of Hyper-V virtual machines (VMs). The function requires administrator privileges to run, as indicated by the `#Requires -RunAsAdministrator` directive.
 
+The function accepts an optional parameter [`$VMName`](command:_github.copilot.openSymbolFromReferences?%5B%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22Untitled-2%22%2C%22_sep%22%3A1%2C%22path%22%3A%22Untitled-2%22%2C%22scheme%22%3A%22untitled%22%7D%2C%7B%22line%22%3A3%2C%22character%22%3A151%7D%5D "Untitled-2"), which is an array of strings representing the names of the VMs from which space of the VHDX files should be recovered.
 
+The function first checks if the Hyper-V module is installed. If not, it installs the module using the `Enable-WindowsOptionalFeature` cmdlet.
 
-## See Also
+Next, it validates the provided VM names. If a VM name is provided and it does not correspond to an existing VM, the function issues a warning and aborts. If a VM is currently running, the function also issues a warning and aborts, as the VM needs to be shut down before its VHDX files can be compressed.
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
-- [[MOC - PowerShell|PowerShell Map of Content]]
+The function then gathers all VHDX files from the specified VMs (or all VMs if no VM name is provided) that do not have a parent/snapshot. If no such VHDX files are found, the function issues a warning and aborts.
+
+For each gathered VHDX file, the function records its current size and then attempts to compress it. The compression process involves mounting the VHDX file, optimizing it using the `Optimize-VHD` cmdlet, and then dismounting it. If any of these steps fail, the function issues a warning and aborts.
+
+Finally, the function generates a report on the new sizes of the VHDX files and the amount of space recovered from each file. If no dynamic disks were found to recover space from, the function issues a warning and aborts. Otherwise, it returns the report formatted as a table.
 
 ***
 
 ## Appendix
 
 *Note created on [[2024-05-08]] and last modified on [[2024-05-08]].*
+
+### See Also
+
+- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
+- [[MOC - PowerShell|PowerShell Map of Content]]
+- [[Tool - Hyper-V|Hyper-V]]
+- [[Cheatsheet - Windows CMD|Windows CMD]]
 
 ### Backlinks
 
