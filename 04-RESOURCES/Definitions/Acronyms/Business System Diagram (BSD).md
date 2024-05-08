@@ -70,7 +70,10 @@ A 4 x 6 poster should be visible on the wall of every C-Suite executive’s offi
 - [[No Clocks Business Plan Draft|No Clocks Business Plan]]
 - [[Business Systems]]
 - [[03-AREAS/Strategy/_README|Business Strategy]]
-- [[Business]]
+- [[No Clocks Google My Business Profile]]
+- [[Book - Small Business Management in the 21st Century]]
+- [[Checklist - Business Plan]]
+- [[No Clocks Business Systems Canvas.canvas|No Clocks Business Systems Canvas]]
 
 ### Backlinks
 
