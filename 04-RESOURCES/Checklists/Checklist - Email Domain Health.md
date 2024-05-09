@@ -32,7 +32,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - **
+> - *[How do I avoid Gmail's spam folder? - Resend](https://resend.com/docs/knowledge-base/how-do-i-avoid-gmails-spam-folder)*
 
 ## Diagram
 
@@ -43,13 +43,21 @@ graph LR
 
 ## Checklist
 
+- [ ] Authenticate Email
+	- [ ] Setup  **[[Sender Policy Framework (SPF)|SPF]]** [[Domain Name Server or System (DNS)|DNS]] Record
+	- [ ] Setup **[[Domain Keys Identified Mail (DKIM)|DKIM]]** [[Domain Name Server or System (DNS)|DNS]] Record
+	- [ ] Setup [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
+	- [ ] (Optional) Setup [[Brand Indicators for Message Identification (BIMI)|BIMI]]
+
+
 - [ ] **[[MX]]** [[Domain Name Server or System (DNS)|DNS]] Record
-- [ ] **[[SPF]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[DMARC]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[BIMI]]** [[Domain Name Server or System (DNS)|DNS]] Record
 - [ ] **[[DKIM]]** [[Domain Name Server or System (DNS)|DNS]] Records
 - [ ] **[[VMC]]** Certificate
 - [ ] **[[BIMI]]** Compliance
+
+### SPF DKI
 
 ### MX Records
 
