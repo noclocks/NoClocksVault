@@ -100,6 +100,39 @@ This record is specifying a few parameters:
 
 If you want to receive the DMARC reports to an address on a different domain, you need to specify in the `rua` of the sending domain but also add a record in the recipient domain giving access to receive the reports.
 
+Let’s say you are sending with **blue.com** but want to send the reports to **red.com**:
+
+|Name|Type|Value|
+|---|---|---|
+|blue.com._report._dmarc.red.com|TXT|“v=DMARC1”|
+
+###### Reference
+
+|Parameter|Purpose|Example|
+|---|---|---|
+|`v`|Protocol version|`v=DMARC1`|
+|`pct`|Percentage of messages subjected to filtering|`pct=20`|
+|`ruf`|Reporting URI for forensic reports|`ruf=mailto:authfail@example.com`|
+|`rua`|Reporting URI of aggregate reports|`rua=mailto:aggrep@example.com`|
+|`p`|Policy for organizational domain|`p=quarantine`|
+|`sp`|Policy for subdomains of the OD|`sp=reject`|
+|`adkim`|Alignment mode for DKIM|`adkim=s`|
+|`aspf`|Alignment mode for SPF|`aspf=r`|
+
+#### Setup [[Brand Indicators for Message Identification (BIMI)|BIMI]]
+
+Setting up BIMI to become a verified sender and show your logo from the inbox.
+
+BIMI (or [Brand Indicators for Message Identification](https://bimigroup.org/)) is a relatively new standard that allows you to specify a logo (and sometimes a checkmark) to be displayed next to your email in the inbox. This is a great way to increase brand recognition and trust as well as improve engagement.
+
+##### Pre-Requisites
+
+- [ ] Obtain a registered trademark for your logo
+- [ ] Have already setup [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
+
+##### 1. Configure [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
+
+
 
 
 ### MX Records
