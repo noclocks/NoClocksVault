@@ -67,7 +67,22 @@ Action Items:
 
 #### Setup [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
 
-- [ ] Add a Flexib
+- [ ] Add a Flexible `DMARC` Record:
+
+| Name | Type | Value |
+| ---- | ---- | ----- |
+| `_dmarc.noclocks.dev`     | `TXT`     | `v=DMARC1;p=none;pct=100;rua=mailto:dmarcreports@noclocks.dev`      |
+
+This record is specifying a few parameters:
+
+```plaintext
+"v=DMARC1; p=none; pct=90; rua=mailto:dmarcreports@noclocks.dev"
+```
+
+- `v` - Version: - This is the version of DMARC
+- `p` - Policy: This is telling the inbox how to process messages that fail DMARC. Options are `none`, `quarantine`, `reject` . It’s a best practice to use at least quarantine or reject, but you should only do it once you know your messages are delivering and fully passing DMARC.
+- `pct` - Percentage: This specifies the percentage of failed messages that the DMARC policy should be applied to. This can be set to a lower number once you move to a quarantine or reject policy to gradually roll out.
+- `rua` - Reporting URI of Aggregate: This should be a **valid address** that can receive messages. This can be a different domain than the one you are setting the DMARC policy on, but see step 2 for instructions.
 
 
 ### MX Records
