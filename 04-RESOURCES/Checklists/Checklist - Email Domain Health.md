@@ -132,7 +132,30 @@ BIMI (or [Brand Indicators for Message Identification](https://bimigroup.org/))
 
 ##### 1. Configure [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
 
+Just like [[SPF]] and [[DKIM]] are required for [[DMARC]]. [[DMARC]] is required for [[BIMI]]. This gives the assurance that your emails are properly authenticated and no one else could spoof your domain and send with your logo.
 
+Your DMARC settings much meet a certain strictness to be ready for BIMI.
+
+|Parameter|Purpose|Required Value|
+|---|---|---|
+|`p`|Policy|`p=quarantine` or `p=reject`|
+|`pct`|Percentage|`pct=100`|
+
+Here is an example of an adequate DMARC record:
+
+```plaintext
+"v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarcreports@example.com"
+```
+
+Your emails must also be actively passing [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]] checks. You can check this by looking at the reports sent to you via the `rua` address. Most reports will be an [[Extensible Markup Language (XML)|XML]] format which can be uploaded to a DMARC XML converter like [dmarcian](https://us.dmarcian.com/xml-to-human-converter/).
+
+## 
+
+[​
+
+](https://resend.com/docs/dashboard/domains/bimi#2-obtain-a-vmc)
+
+2. Obtain a VMC
 
 
 ### MX Records
