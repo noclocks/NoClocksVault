@@ -57,7 +57,18 @@ graph LR
 - [ ] **[[VMC]]** Certificate
 - [ ] **[[BIMI]]** Compliance
 
-### SPF DKI
+### Authenticate Email
+
+[[Sender Policy Framework (SPF)]] and [[Domain Keys Identified Mail (DKIM)]] are baseline requirements for all sending of email. [[Domain Based Message Authentication Reporting and Conformance (DMARC)]] and [[Brand Indicators for Message Identification (BIMI)]] are additional authentication methods that build trust and further improve inbox placement.
+
+Action Items:
+
+- [ ] Setup [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]] for Domain
+
+#### Setup [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
+
+- [ ] Add a Flexib
+
 
 ### MX Records
 
