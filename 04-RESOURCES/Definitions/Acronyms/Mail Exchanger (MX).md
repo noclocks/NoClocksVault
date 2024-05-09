@@ -37,13 +37,17 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Email services will require you setup an **MX** record to establish a return-path for bounce/complaint reports from inbox providers.
 
-## Resources
-
 ***
 
 ## Appendix
 
 *Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
+
+### See Also
+
+- [[Checklist - Email Domain Health|Email Deliverability Health]]
+- [[Sender Policy Framework (SPF)]]
+- [[]]
 
 ### Backlinks
 
