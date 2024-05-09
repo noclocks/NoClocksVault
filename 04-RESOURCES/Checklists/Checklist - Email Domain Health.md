@@ -67,6 +67,8 @@ Action Items:
 
 #### Setup [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
 
+##### 1. Add Flexible DMARC Record
+
 - [ ] Add a Flexible `DMARC` Record:
 
 | Name | Type | Value |
@@ -83,6 +85,21 @@ This record is specifying a few parameters:
 - `p` - Policy: This is telling the inbox how to process messages that fail DMARC. Options are `none`, `quarantine`, `reject` . It’s a best practice to use at least quarantine or reject, but you should only do it once you know your messages are delivering and fully passing DMARC.
 - `pct` - Percentage: This specifies the percentage of failed messages that the DMARC policy should be applied to. This can be set to a lower number once you move to a quarantine or reject policy to gradually roll out.
 - `rua` - Reporting URI of Aggregate: This should be a **valid address** that can receive messages. This can be a different domain than the one you are setting the DMARC policy on, but see step 2 for instructions.
+
+##### 2. Test to Confirm Delivery and Passing
+
+- [ ] Send test emails and make sure they are delivering.
+- [ ] Inspect the email headers to find `dmarc=pass` .
+
+##### 3. Upgrade DMARC Policy
+
+- [ ] Once you feel comfortable with how DMARC is behaving across all your sending, you should upgrade your Policy to `quarantine` .
+- [ ] You can use the `pct` here to do a gradual rollout.
+
+##### 4. Send Report to a Different Domain (Optional)
+
+If you want to receive the DMARC reports to an address on a different domain, you need to specify in the `rua` of the sending domain but also add a record in the recipient domain giving access to receive the reports.
+
 
 
 ### MX Records
