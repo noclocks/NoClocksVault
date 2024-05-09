@@ -132,7 +132,7 @@ BIMI (or [Brand Indicators for Message Identification](https://bimigroup.org/))
 
 ##### 1. Configure [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]
 
-Just like [[SPF]] and [[DKIM]] are required for [[DMARC]]. [[DMARC]] is required for [[BIMI]]. This gives the assurance that your emails are properly authenticated and no one else could spoof your domain and send with your logo.
+Just like [[Sender Policy Framework (SPF)|SPF]] and [[Domain Keys Identified Mail (DKIM)|DKIM]] are required for [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]]. [[Domain Based Message Authentication Reporting and Conformance (DMARC)|DMARC]] is required for [[Brand Indicators for Message Identification (BIMI)|BIMI]]. This gives the assurance that your emails are properly authenticated and no one else could spoof your domain and send with your logo.
 
 Your DMARC settings much meet a certain strictness to be ready for BIMI.
 
