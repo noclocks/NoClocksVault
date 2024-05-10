@@ -15,7 +15,7 @@ tags:
   - Topic/Dev/React
   - Status/WIP
 aliases:
-  - HTML Metadata React Code
+  - Metadata Files React Code
 publish: true
 permalink:
 description:
@@ -24,10 +24,10 @@ cssclasses:
   - code
 ---
 
-# HTML Metadata React Code
+# Metadata Files React Code
 
 > [!SOURCE] Sources:
-> - *[<meta> – React](https://react.dev/reference/react-dom/components/meta)*
+> - *[File Conventions: Metadata Files | Next.js (nextjs.org)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)*
 
 ```table-of-contents
 title: ## Contents 
@@ -43,43 +43,31 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!NOTE] About
 > This note is about ...
 
+- Favicons
+- Icons
+- Apple-Icons
+- Open-Graph and Twitter Images
+- Sitemap.xml
+- Robots.txt
+- Manifest.json
 
-## Code Snippet
+## Images
+
+The ``
+
+## Code Snippets
 
 - `src/components/Example.tsx`
 
 ```typescript
-export const metadata: Metadata = {
-	
-}
+
 ```
 
 ## Details
 
 
 
-***
-
-## Appendix
-
-*Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
-
-### See Also
-
-- [[HTML - Meta Element]]
-- [[React - Metadata Files]]
-- [[React - Optimizing Fonts]]
-- [[React - Sourcing and Calling Scripts]]
-- [[React - Dynamic Metadata]]
-- [[React - Analytics]]
-- [[React - Static Asset Management]]
-- [[React - Robots.txt]]
-- [[React - Sitemap.xml]]
-- [[React - Manifest.json]]
-- [[React - Open Graph Images]]
-- [[React - JSON-LD]]
-- [[React - File Metadata]]
-
+## See Also
 
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[Tool - React.js|React]] (Tool)
@@ -92,10 +80,17 @@ export const metadata: Metadata = {
 - [[Cascading Style Sheets (CSS)]]
 - [[Tool - JS - Next.js|Next.js]]
 
+
+***
+
+## Appendix
+
+*Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
+
 ### Backlinks
 
 ```dataview
-LIST FROM [[React - HTML Metadata]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/React/React - HTML Metadata"
+LIST FROM [[React - Metadata Files]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/React/React - Metadata Files"
 ```
 
 ***
