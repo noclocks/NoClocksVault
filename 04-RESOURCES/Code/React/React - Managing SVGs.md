@@ -54,7 +54,8 @@ Initially, the approach was to use a simple `<img>` [[Hyper Text Markup Language
 const ImageSvg = () => <img src="logo.svg" />
 ```
 
-
+> [!PROS]
+> This method is recommended exclusively for handling large [[Scalable Vector Graphics (SVG)]] files.
 
 
 
