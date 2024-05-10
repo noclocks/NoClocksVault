@@ -24,7 +24,7 @@ cssclasses:
   - code
 ---
 
-# Metadata Files React Code
+# React Metadata Files
 
 > [!SOURCE] Sources:
 > - *[File Conventions: Metadata Files | Next.js (nextjs.org)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)*
@@ -51,9 +51,67 @@ debugInConsole: false # Print debug info in Obsidian console
 - Robots.txt
 - Manifest.json
 
-## Images
+## Images (Favicons, Icons, etc.)
 
-The ``
+The `favicon`, `icon`, and `apple-icon` file conventions allow one to set icons for the application.
+
+They are useful for adding app icons that appear in places like web browser tabs, phone home screens, and search engine results.
+
+There are two ways to set app icons:
+
+- [Using image files (.ico, .jpg, .png)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#image-files-ico-jpg-png)
+- [Using code to generate an icon (.js, .ts, .tsx)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#generate-icons-using-code-js-ts-tsx)
+
+### Image Files
+
+Use an image file to set an app icon by placing a `favicon`, `icon`, or `apple-icon` image file within your `/app` directory. The `favicon` image can only be located in the top level of `app/`.
+
+Next.js will evaluate the file and automatically add the appropriate tags to your app's `<head>` element.
+
+|File convention|Supported file types|Valid locations|
+|---|---|---|
+|[`favicon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#favicon)|`.ico`|`app/`|
+|[`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon)|`.ico`, `.jpg`, `.jpeg`, `.png`, `.svg`|`app/**/*`|
+|[`apple-icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#apple-icon)|`.jpg`, `.jpeg`, `.png`|`app/**/*`|
+
+#### Favicon
+
+Add a `favicon.ico` image file to the root `/app` route segment.
+
+```html
+<!-- <head> output -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+```
+
+### [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon)
+
+Add an `icon.(ico|jpg|jpeg|png|svg)` image file.
+
+<head> output
+
+```
+<link  rel="icon"  href="/icon?<generated>"  type="image/<generated>"  sizes="<generated>"/>
+```
+
+### [`apple-icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#apple-icon)
+
+Add an `apple-icon.(jpg|jpeg|png)` image file.
+
+<head> output
+
+```
+<link  rel="apple-touch-icon"  href="/apple-icon?<generated>"  type="image/<generated>"  sizes="<generated>"/>
+```
+
+> **Good to know**
+> 
+> - You can set multiple icons by adding a number suffix to the file name. For example, `icon1.png`, `icon2.png`, etc. Numbered files will sort lexically.
+> - Favicons can only be set in the root `/app` segment. If you need more granularity, you can use [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon).
+> - The appropriate `<link>` tags and attributes such as `rel`, `href`, `type`, and `sizes` are determined by the icon type and metadata of the evaluated file.
+>     - For example, a 32 by 32px `.png` file will have `type="image/png"` and `sizes="32x32"` attributes.
+> - `sizes="any"` is added to `favicon.ico` output to [avoid a browser bug](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) where an `.ico` icon is favored over `.svg`.
+
+
 
 ## Code Snippets
 
