@@ -15,7 +15,7 @@ tags:
   - Topic/Dev/React
   - Status/WIP
 aliases:
-  - HTML Metadata React Code
+  - Manifest.json React Code
 publish: true
 permalink:
 description:
@@ -24,10 +24,10 @@ cssclasses:
   - code
 ---
 
-# HTML Metadata React Code
+# Manifest.json React Code
 
 > [!SOURCE] Sources:
-> - *[<meta> – React](https://react.dev/reference/react-dom/components/meta)*
+> - **
 
 ```table-of-contents
 title: ## Contents 
@@ -40,46 +40,30 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!NOTE] About
-> This note is about ...
-
+Add or generate a `manifest.(json|webmanifest)` file that matches the [Web Manifest Specification](https://developer.mozilla.org/docs/Web/Manifest) in the **root** of `app` directory to provide information about your web application for the browser.
 
 ## Code Snippet
 
 - `src/components/Example.tsx`
 
-```typescript
-export const metadata: Metadata = {
-	
+```json
+// manifest.json or manifest.webmanifest
+{
+  "name": "My Application",
+  "short_name": "App",
+  "description": "An application built with React",
+  "start_url": "/"
+  // ...
 }
 ```
+
+
 
 ## Details
 
 
 
-***
-
-## Appendix
-
-*Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
-
-### See Also
-
-- [[HTML - Meta Element]]
-- [[React - Metadata Files for Images]]
-- [[React - Optimizing Fonts]]
-- [[React - Sourcing and Calling Scripts]]
-- [[React - Dynamic Metadata]]
-- [[React - Analytics]]
-- [[React - Static Asset Management]]
-- [[React - Robots.txt]]
-- [[React - Sitemap.xml]]
-- [[React - Manifest.json]]
-- [[React - Open Graph Images]]
-- [[React - JSON-LD]]
-- [[React - File Metadata]]
-
+## See Also
 
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[Tool - React.js|React]] (Tool)
@@ -92,10 +76,17 @@ export const metadata: Metadata = {
 - [[Cascading Style Sheets (CSS)]]
 - [[Tool - JS - Next.js|Next.js]]
 
+
+***
+
+## Appendix
+
+*Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
+
 ### Backlinks
 
 ```dataview
-LIST FROM [[React - HTML Metadata]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/React/React - HTML Metadata"
+LIST FROM [[React - Manifest.json]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/React/React - Manifest.json"
 ```
 
 ***

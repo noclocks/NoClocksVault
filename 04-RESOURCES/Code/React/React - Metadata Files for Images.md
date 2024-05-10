@@ -24,7 +24,7 @@ cssclasses:
   - code
 ---
 
-# React Metadata Files
+# React Metadata Files for Images
 
 > [!SOURCE] Sources:
 > - *[File Conventions: Metadata Files | Next.js (nextjs.org)](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)*
@@ -173,7 +173,7 @@ export default function Icon() {
 
 The default export function receives the following props:
 
-#### params (optional)
+### Params (optional)
 
 An object containing the [dynamic route parameters](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) object from the root segment down to the segment `icon` or `apple-icon` is colocated in.
 
@@ -231,6 +231,8 @@ export const contentType = 'image/png' export default function Icon() {}
 `icon` and `apple-icon` are specialized [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) that can use the same [route segment configuration](https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config) options as Pages and Layouts.
 
 ## See Also
+
+- [[React - Manifest.json]]
 
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[Tool - React.js|React]] (Tool)
