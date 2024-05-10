@@ -66,7 +66,7 @@ export const metadata: Metadata = {
 
 ### See Also
 
-- [[HTML - Meta Tags]]
+- [[HTML - Meta Element]]
 - [[React - Optimizing Images]]
 - [[React - Optimizing Fonts]]
 - [[React - Sourcing and Calling Scripts]]
