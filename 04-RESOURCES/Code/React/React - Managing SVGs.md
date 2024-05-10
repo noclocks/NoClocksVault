@@ -46,7 +46,15 @@ debugInConsole: false # Print debug info in Obsidian console
 ![](https://i.imgur.com/3KGUeRE.png)
 
 
-## 
+## Initial Approach
+
+Initially, the approach was to use a simple `<img>` [[Hyper Text Markup Language (HTML)|HTML]] tag:
+
+```typescript
+const ImageSvg = () => <img src="logo.svg" />
+```
+
+
 
 
 
