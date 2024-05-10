@@ -58,7 +58,15 @@ export const metadata: Metadata = {
 
 
 
-## See Also
+***
+
+## Appendix
+
+*Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
+
+### See Also
+
+- [[JavaScript Scripts]]
 
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[Tool - React.js|React]] (Tool)
@@ -70,13 +78,6 @@ export const metadata: Metadata = {
 - [[Hyper Text Markup Language (HTML)]]
 - [[Cascading Style Sheets (CSS)]]
 - [[Tool - JS - Next.js|Next.js]]
-
-
-***
-
-## Appendix
-
-*Note created on [[2024-05-09]] and last modified on [[2024-05-09]].*
 
 ### Backlinks
 
