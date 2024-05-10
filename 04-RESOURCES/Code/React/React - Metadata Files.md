@@ -83,28 +83,24 @@ Add a `favicon.ico` image file to the root `/app` route segment.
 <link rel="icon" href="/favicon.ico" sizes="any" />
 ```
 
-### [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon)
+### App Icons
 
 Add an `icon.(ico|jpg|jpeg|png|svg)` image file.
 
-<head> output
-
-```
+```html
 <link  rel="icon"  href="/icon?<generated>"  type="image/<generated>"  sizes="<generated>"/>
 ```
 
-### [`apple-icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#apple-icon)
+### Apple Icons
 
 Add an `apple-icon.(jpg|jpeg|png)` image file.
 
-<head> output
-
-```
-<link  rel="apple-touch-icon"  href="/apple-icon?<generated>"  type="image/<generated>"  sizes="<generated>"/>
+```html
+<link rel="apple-touch-icon"  href="/apple-icon?<generated>"  type="image/<generated>"  sizes="<generated>"/>
 ```
 
-> **Good to know**
-> 
+
+> [!TIP] **Good to know**
 > - You can set multiple icons by adding a number suffix to the file name. For example, `icon1.png`, `icon2.png`, etc. Numbered files will sort lexically.
 > - Favicons can only be set in the root `/app` segment. If you need more granularity, you can use [`icon`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#icon).
 > - The appropriate `<link>` tags and attributes such as `rel`, `href`, `type`, and `sizes` are determined by the icon type and metadata of the evaluated file.
@@ -113,13 +109,63 @@ Add an `apple-icon.(jpg|jpeg|png)` image file.
 
 
 
-## Code Snippets
+## Generate Icons using Code
 
-- `src/components/Example.tsx`
+In addition to using [literal image files](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#image-files-ico-jpg-png), you can programmatically **generate** icons using code.
+
+Generate an app icon by creating an `icon` or `apple-icon` route that default exports a function.
+
+|File convention|Supported file types|
+|---|---|
+|`icon`|`.js`, `.ts`, `.tsx`|
+|`apple-icon`|`.js`, `.ts`, `.tsx`|
 
 ```typescript
-
+import { ImageResponse } from 'next/og'
+ 
+// Image metadata
+export const size = {
+  width: 32,
+  height: 32,
+}
+export const contentType = 'image/png'
+ 
+// Image generation
+export default function Icon() {
+  return new ImageResponse(
+    (
+      // ImageResponse JSX element
+      <div
+        style={{
+          fontSize: 24,
+          background: 'black',
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'white',
+        }}
+      >
+        A
+      </div>
+    ),
+    // ImageResponse options
+    {
+      // For convenience, we can re-use the exported icons size metadata
+      // config to also set the ImageResponse's width and height.
+      ...size,
+    }
+  )
+}
 ```
+
+```html
+<link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" />
+```
+
+> [!TIP] **Good to Know**:
+> 
 
 ## Details
 
