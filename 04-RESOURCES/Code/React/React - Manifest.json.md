@@ -42,7 +42,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 Add or generate a `manifest.(json|webmanifest)` file that matches the [Web Manifest Specification](https://developer.mozilla.org/docs/Web/Manifest) in the **root** of `app` directory to provide information about your web application for the browser.
 
-## Code Snippet
+## Code Snippets
+
+### Simple JSON
 
 - `src/components/Example.tsx`
 
@@ -57,9 +59,38 @@ Add or generate a `manifest.(json|webmanifest)` file that matches the [Web Ma
 }
 ```
 
+### Generate Manifest
 
+Add a `manifest.js` or `manifest.ts` file that returns a [`Manifest` object](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest#manifest-object).
 
-## Details
+```typescript
+// src/app/manifest.ts
+
+import { MetadataRoute } from 'next'
+ 
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'App',
+    short_name: 'App',
+    description: 'App',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#fff',
+    theme_color: '#fff',
+    icons: [
+      {
+        src: '/favicon.ico',
+        sizes: 'any',
+        type: 'image/x-icon',
+      },
+    ],
+  }
+}
+```
+
+## The Manifest Object
+
+The manifest object contains an extensive list of options that may be updated due to new web standards. For information on all the current options, refer to the `MetadataRoute.Manifest` type in your code editor if using [TypeScript](https://nextjs.org/docs/app/building-your-application/configuring/typescript#typescript-plugin) or see the [MDN](https://developer.mozilla.org/docs/Web/Manifest) docs.
 
 
 
