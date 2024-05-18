@@ -17,7 +17,33 @@ image:
 cssclasses:
 ---
 
-# Pricing
+
+# Pricing Strategy
+
+> [!SOURCE] Sources
+> - *[A Web Designer’s Guide to Pricing Strategies (shopify.com)](https://www.shopify.com/partners/blog/113020358-a-web-designer-s-guide-to-pricing-strategies)*
+
+```table-of-contents
+title: ## Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Overview
+
+> [!NOTE] About
+> *How you choose to price your design or development work can significantly impact the financial success of your business. Charge too little and you won’t cover your operating costs. Charge too much and you’ll never land a client. If you find yourself in either of these situations, your dream of running your own creative business will quickly come to an end.*
+
+## Time Based Pricing
+
+Time-based pricing is probably the most commonly used pricing strategy in the creative industry. This is most likely because this style of pricing is extremely simple to wrap your head around. Once you’ve defined the scope of work, you’ll estimate the total amount of hours you believe it will take to complete the project. From there, you’ll multiply the estimated hours by your hourly rate to reach your final project cost. This cost is the amount you’ll share with your client when [negotiating final budgets](https://www.shopify.com/partners/blog/project-budget).
+
+<center><strong>Time-based pricing formula</strong><br><p>Hourly Rate x Hours Used = Line Item Fee</p><p>Σ(All Line Item Fees) = Project Fee</p></center>
+
+Time-based pricing gets a little more complex if you’re working in an agency or with subcontractors. In an agency setting you’ll have multiple individuals contributing to a project — designers, developers, copywriters, account managers, and so on. Each contributor will have a designated hourly rate that varies based on their experience, skill, and respective discipline. You’ll need to work with your contributors to individually track their time spent on the project, which will be multiplied by their rates. If you work with subcontractors, you’ll need to add their fees into your project estimate along with a premium that ensures you still make a little extra on top of what you’re paying them.
 
 ## Base Pricing Strategy for Website Projects
 
@@ -121,3 +147,23 @@ cssclasses:
   - \$100/Month for SEO Monitoring & Optimization
   - \$100/Month for Analytics Monitoring & Optimization
 
+***
+
+## Appendix
+
+*Note created on [[2024-04-02]] and last modified on [[2024-05-17]].*
+
+### See Also
+
+- [[MOC - Web Development|Web Development]]
+- [[03-AREAS/Finance/_README|Finance]]
+
+### Backlinks
+
+```dataview
+LIST FROM [[Pricing Strategy]] AND -"CHANGELOG" AND -"03-AREAS/Finance/Pricing Strategy"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024

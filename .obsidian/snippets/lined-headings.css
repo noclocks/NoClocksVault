@@ -1,0 +1,14 @@
+h1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+h1:before,
+h1:after {
+  content: '';
+  background: gray;
+  height: .1em;
+  margin: .2em;
+  flex: 1;
+}

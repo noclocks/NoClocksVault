@@ -3,9 +3,11 @@ creation_date: 2024-04-25
 modification_date: 2024-04-25
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Note
+  - Topic/Dev/React
+  - Topic/Dev/CSS
+  - Topic/Dev/Design
+  - Topic/Dev/Web
 aliases:
   - Styling Components in React
 publish: true
@@ -39,6 +41,13 @@ These styling strategies include:
 2. **[CSS Modules](https://www.smashingmagazine.com/2020/05/styling-components-react/#css-modules)**: A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.
 3. **[`styled-components`](https://www.smashingmagazine.com/2020/05/styling-components-react/#styled-components)**: styled-components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called **CSS-in-JS**.
 4. **[JSS](https://www.smashingmagazine.com/2020/05/styling-components-react/#jss)**: JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node.
+
+Or more simply put:
+
+- **Inline Styles**
+- **CSS File Imports**
+- **CSS Pre-Processors**
+- **CSS in JavaScript**
 
 ## CSS & SASS Stylesheets
 
@@ -402,6 +411,12 @@ I hope you enjoyed working through this tutorial. You could always read more on 
 - [[04-RESOURCES/Code/React/_README|React Code]]
 - [[Cascading Style Sheets (CSS)]]
 - [[04-RESOURCES/Code/JavaScript/_README|JavaScript Code]]
+- [[MOC - Development|Development Map of Content]]
+- [[Web Design Core Layouts]]
+- [[04-RESOURCES/Code/TypeScript/_README|TypeScript]]
+- [[React Component Library Styling and Frameworks]]
+- [[Naming Conventions for React Styling]]
+
 
 ### Backlinks
 

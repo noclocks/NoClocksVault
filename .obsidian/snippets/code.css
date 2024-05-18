@@ -118,3 +118,128 @@ body .markdown-preview-view :not(pre):not(.external-link)>code {
 .markdown-preview-view pre>code {
   color: var(--text);
 }
+
+/* Code Note CSS Styles */
+
+/* Code Blocks */
+
+/* Languages
+Template:
+body pre[class~='language-<lang>']::before {
+  content: "<lang>";
+}
+*/
+body pre[class^="language-"]::before {
+  font-family: var(--font-default);
+  color: var(--text-muted);
+  font-size: var(--font-smaller);
+  font-weight: var(--font-semibold);
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+}
+
+body pre[class~='language-c']::before {
+  content: "C";
+}
+
+body pre[class~='language-cs']::before {
+  content: "C#";
+}
+
+body pre[class~='language-cpp']::before {
+  content: "C++";
+}
+
+body pre[class~='language-java']::before {
+  content: "JAVA";
+}
+
+body pre[class~='language-py']::before,
+body pre[class~='language-python']::before {
+  content: "PYTHON";
+}
+
+body pre[class~='language-javascript']::before,
+body pre[class~='language-js']::before {
+  content: "JS";
+}
+
+body pre[class~='language-html']::before {
+  content: "HTML";
+}
+
+body pre[class~='language-css']::before {
+  content: "CSS";
+}
+
+body pre[class~='language-xml']::before {
+  content: "XML";
+}
+
+body pre[class~='language-php']::before {
+  content: "PHP";
+}
+
+body pre[class~='language-shell']::before,
+body pre[class~='language-bash']::before {
+  content: "SHELL";
+}
+
+body pre[class~='language-flow']::before {
+  content: "FLOW";
+}
+
+body pre[class~='language-sequence']::before {
+  content: "SEQUENCE";
+}
+
+body pre[class~='language-sql']::before {
+  content: "SQL";
+}
+
+body pre[class~='language-yml']::before,
+body pre[class~='language-yaml']::before {
+  content: "YAML";
+}
+
+body pre[class~='language-ini']::before {
+  content: "INI";
+}
+
+body pre[class~='language-git']::before {
+  content: "GIT";
+}
+
+body pre[class~='language-txt']::before {
+  content: "TXT";
+}
+
+body pre[class~='language-r']::before {
+  content: "R";
+}
+
+body pre[class~='language-toml']::before {
+  content: "TOML";
+}
+
+body pre[class~='language-m']::before,
+body pre[class~='language-powerquery']::before {
+  content: "PowerQuery (M)";
+}
+
+body pre[class~='language-powershell']::before {
+  content: "PowerShell";
+}
+
+body pre[class~='language-registry']::before {
+  content: "Registry";
+}
+
+.markdown-rendered button.copy-code-button {
+  background-color: var(--background-secondary-alt);
+}
+
+.markdown-rendered button.copy-code-button:hover {
+  color: var(--text-accent);
+}

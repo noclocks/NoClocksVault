@@ -39,7 +39,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-The [[Microsoft Windows|Windows]] [[Command Line]], or the [[Windows Command Prompt]], is the [[Command Line Interface (CLI)]] on [[Microsoft Windows]] machines, analogous to the Terminal in [Unix](https://www.stationx.net/unix-commands-cheat-sheet/)/[Linux](https://www.stationx.net/linux-command-line-cheat-sheet/). 
+The [[Tool - Microsoft Windows|Windows]] [[Command Line]], or the [[Windows Command Prompt]], is the [[Command Line Interface (CLI)]] on [[Tool - Microsoft Windows]] machines, analogous to the Terminal in [Unix](https://www.stationx.net/unix-commands-cheat-sheet/)/[Linux](https://www.stationx.net/linux-command-line-cheat-sheet/). 
 
 It emulates many command-line abilities in Microsoft’s deprecated text-only operating system [[MS-DOS]] (but [it’s not MS-DOS](https://superuser.com/questions/451432/are-the-command-prompt-and-ms-dos-the-same-thing)).
 

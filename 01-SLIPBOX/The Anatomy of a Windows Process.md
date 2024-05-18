@@ -49,7 +49,7 @@ A single process has one or more execution blocks (or execution routines, execut
 
 It can also be understood that several threads included in a program are grouped together and called a "process".
 
-When a new process (program) is executed on a [[Microsoft Windows]] operating system:
+When a new process (program) is executed on a [[Tool - Microsoft Windows]] operating system:
 
 1. Windows creates a structure named `EPROCESS` in the kernel memory space to manage it
 2. The `ETHREAD` structure is created together as many threads as the process uses

@@ -12,6 +12,7 @@ tags:
   - Status/Ongoing
 aliases:
   - JavaScript Code
+  - JavaScript
   - JavaScript Code Readme
 publish: true
 permalink:

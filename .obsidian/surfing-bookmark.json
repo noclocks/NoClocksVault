@@ -1,0 +1,36 @@
+{
+  "bookmarks": [
+    {
+      "id": "1224553354",
+      "name": "Get started with Bootstrap · Bootstrap v5.3",
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+      "description": "",
+      "category": [
+        ""
+      ],
+      "tags": "",
+      "created": 1715986529590,
+      "modified": 1715986529590
+    },
+    {
+      "id": "2014068036",
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "A awesome note-taking tool",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1672840861051,
+      "modified": 1672840861052
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    }
+  ]
+}

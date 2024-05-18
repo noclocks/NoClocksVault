@@ -72,7 +72,7 @@ Windows Registry Editor Version 5.00
 - [[04-RESOURCES/Code/Registry/_README|Windows Registry Code Snippets]]
 - [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
 - [[04-RESOURCES/Code/Cmd/_README|Command Line Code]]
-- [[Microsoft Windows]]
+- [[Tool - Microsoft Windows]]
 - [[MOC - Development|Development Map of Content]]
 - [[MOC - Technology|Technology Map of Content]]
 - [[MOC - Computer Science|Computer Science Map of Content]]

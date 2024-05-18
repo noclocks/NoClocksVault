@@ -1,0 +1,21 @@
+.collapsible-item-collapse {
+  padding: 2px 15px 2px 15px;
+  left: 1.5px;
+}
+
+div.collapsible-item-inner {
+  position: relative;
+  padding-left: 15px;
+
+}
+
+.outline .collapsible-item-children {
+  margin-left: 20px;
+  border-left: 1px solid rgba(118, 158, 165, 0.2);
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.outline .collapsible-item-children:hover {
+  border-left-color: rgba(118, 158, 165, 0.4);
+}

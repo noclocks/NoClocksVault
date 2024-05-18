@@ -34,7 +34,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > [!SOURCE] Sources:
 > - **
 
-For those with performance problems in [[Microsoft Windows]] these can often be resolved by doing basic housekeeping and troubleshooting steps.  The following steps will check over your install quality and fix most problems.
+For those with performance problems in [[Tool - Microsoft Windows]] these can often be resolved by doing basic housekeeping and troubleshooting steps.  The following steps will check over your install quality and fix most problems.
 
 You can take your time to perform these steps over days but try to complete them all to know for sure the quality and condition of your install.  If you need any help just ask in the Comments section below.
 

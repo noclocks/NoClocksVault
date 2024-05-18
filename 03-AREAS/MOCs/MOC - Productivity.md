@@ -7,8 +7,8 @@ tags:
   - Topic/NA
   - Status/Ongoing
 aliases:
-  - MOC - Productivity
   - Productivity Map of Content
+  - Productivity
 publish: true
 permalink:
 description:

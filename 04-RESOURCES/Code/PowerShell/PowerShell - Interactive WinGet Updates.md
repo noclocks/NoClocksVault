@@ -37,7 +37,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > - *[WingetTools/docs/Get-WGUpgrade.md at main · jdhitsolutions/WingetTools](https://github.com/jdhitsolutions/WingetTools/blob/main/docs/Get-WGUpgrade.md)*
 > - **
 
-This note showcases using the [[PowerShell]] Module [[Tool - PowerShell WingetTools|WingetTools]] by [[jdhitsolutions]] to implement an interactive way to display upgradeable [[Tool - WinGet|WinGet]] packages on a [[Microsoft Windows|Windows]] machine, select the packages to update/upgrade, and invoke the updates.
+This note showcases using the [[PowerShell]] Module [[Tool - PowerShell WingetTools|WingetTools]] by [[jdhitsolutions]] to implement an interactive way to display upgradeable [[Tool - WinGet|WinGet]] packages on a [[Tool - Microsoft Windows|Windows]] machine, select the packages to update/upgrade, and invoke the updates.
 
 ## Code Snippets
 
