@@ -1,6 +1,0 @@
-05-SYSTEM/**
-
-# Directories on developer machines
-venv
-.venv
-node_modules/

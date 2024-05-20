@@ -1,1 +1,0 @@
-(c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

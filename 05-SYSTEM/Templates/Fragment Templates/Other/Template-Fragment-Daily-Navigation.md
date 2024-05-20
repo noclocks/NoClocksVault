@@ -1,1 +1,0 @@
-<< [[<% tp.date.yesterday() %>]] | [[<% tp.date.tomorrow() %>]] >>

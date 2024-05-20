@@ -1,1 +1,0 @@
-# <% (tp.file.title).replace("VBA - ", "") %> VBA Code

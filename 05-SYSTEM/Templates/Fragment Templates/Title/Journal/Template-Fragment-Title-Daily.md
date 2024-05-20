@@ -1,1 +1,0 @@
-# [[<% tp.file.title %>|<% moment(tp.file.title).format("dddd, MMMM DD, YYYY") %>]]
