@@ -33,5 +33,12 @@
   "mermaid-themes",
   "obsidian-google-lookup",
   "surfing",
-  "obsidian-plugin-update-tracker"
+  "obsidian-plugin-update-tracker",
+  "google-calendar",
+  "obsidian-linter",
+  "heatmap-calendar",
+  "auto-note-mover",
+  "note-refactor-obsidian",
+  "obsidian-icons-plugin",
+  "smart-random-note"
 ]

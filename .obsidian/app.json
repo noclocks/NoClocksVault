@@ -1,5 +1,25 @@
 {
   "promptDelete": false,
   "livePreview": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "showFrontmatter": false,
+  "foldIndent": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-INBOX",
+  "vimMode": false,
+  "showLineNumber": false,
+  "showWordCount": true,
+  "userIgnoreFilters": [
+    "node_modules",
+    ".git",
+    ".vscode",
+    ".github",
+    ".cache",
+    "temp",
+    "tmp",
+    "05-SYSTEM/Templates",
+    "src"
+  ],
+  "showInlineTitle": false
 }

@@ -1,0 +1,4 @@
+["NoClocksVault"]
+  path = "D:\\obsidian\\NoClocksVault"
+  exclude_paths = [".git", ".github", ".vscode", "src", ".obsidian"]
+  insert_location = "BOTTOM"

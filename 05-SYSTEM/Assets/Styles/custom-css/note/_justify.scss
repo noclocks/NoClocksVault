@@ -1,0 +1,9 @@
+/*Justify text*/
+.justify,
+.justified {
+    & .markdown-preview-section,
+    & .cm-s-obsidian,
+    &.markdown-preview-view,
+    &.cm-s-obsidian 
+    { text-align: justify; }
+}

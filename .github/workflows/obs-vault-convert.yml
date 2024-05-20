@@ -1,0 +1,67 @@
+name: Convert Obsidian Vault
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Rename _READMEs
+        run: |
+          find . -name '*_README.md' -execdir mv -i {} README.md ";"
+          # find . -name "_README.md" -exec bash -c 'mv "$1" "${1/_README.md/README.md}"' -- {} \;
+
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+
+      - name: Setup Cargo Cache
+        uses: actions/cache@v3
+        continue-on-error: false
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+            ${{ runner.os }}-
+            ${{ runner.os }}
+
+      - name: Install obsidian-export
+        run: |
+          cargo install --locked obsidian-export || true
+
+      - name: Run obsidian-export
+        run: |
+          mkdir tmp
+          obsidian-export . tmp --frontmatter never
+          cp tmp/* . -f -r
+          rm -r tmp
+
+      - name: Commit and Push Changelog
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          set +e
+          git add CHANGELOG.md
+          git commit -m "[chore]: update changelog"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git "main"

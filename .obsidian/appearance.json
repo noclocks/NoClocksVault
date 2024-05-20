@@ -1,13 +1,10 @@
 {
-  "accentColor": "",
+  "accentColor": "#66f55c",
   "enabledCssSnippets": [
-    "supercharged-links-gen",
-    "embed",
-    "readme",
-    "tables",
-    "tool",
-    "hide-embed-header"
+    "callouts"
   ],
   "cssTheme": "Dark Moss",
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": "16px",
+  "monospaceFontFamily": "CaskaydiaMono Nerd Font Mono"
 }
