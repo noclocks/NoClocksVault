@@ -31,5 +31,9 @@
   "mermaid-themes",
   "obsidian-google-lookup",
   "surfing",
-  "obsidian-plugin-update-tracker"
+  "obsidian-plugin-update-tracker",
+  "obsidian-list-callouts",
+  "callout-integrator",
+  "file-tree-generator",
+  "callout-suggestions"
 ]
