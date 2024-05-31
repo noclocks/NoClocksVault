@@ -1,3 +1,6 @@
+# Ignore prior conflict files
+conflict-*.md
+
 # Ignore Todoist Token
 .obsidian/todoist-token
 

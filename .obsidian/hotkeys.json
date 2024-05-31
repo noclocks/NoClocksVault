@@ -23,30 +23,6 @@
       "key": "M"
     }
   ],
-  "obsidian-thoughtpartner-plugin:extend-text": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "J"
-    }
-  ],
-  "obsidian-thoughtpartner-plugin:open-view": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "P"
-    }
-  ],
-  "obsidian-thoughtpartner-plugin:summarise": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
   "templater-obsidian:05-SYSTEM/Templates/Fragment Templates/Other/Template-Fragment-TOC.md": [
     {
       "modifiers": [
