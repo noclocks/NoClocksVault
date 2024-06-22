@@ -3,11 +3,11 @@ creation_date: 2024-04-30
 modification_date: 2024-04-30
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
-  - Type/NA
-  - Topic/NA
-  - Status/NA
+  - Type/Note
+  - Topic/Dev
+  - Status/WIP
 aliases:
-  - GitHub Actions Trick - Create Link to Current Workflow Run
+  - Create Link to GitHub Actions Current Workflow Run
 publish: true
 permalink:
 description:
