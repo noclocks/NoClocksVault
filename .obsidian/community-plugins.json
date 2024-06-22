@@ -41,12 +41,12 @@
   "cmdr",
   "header-adjuster",
   "plugins-annotations",
-  "explain-selection-with-ai",
   "medium-importer",
   "janitor",
   "obsidian-vault-statistics-plugin",
   "graph-analysis",
   "obsidian42-strange-new-worlds",
-  "obsidian-mindmap-nextgen",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-pandoc",
+  "ai-templater"
 ]

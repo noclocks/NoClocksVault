@@ -1,0 +1,1 @@
+<% tp.ai.chat("How old is the moon?") %>
