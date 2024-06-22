@@ -8,15 +8,15 @@
 
 ## Video
 
-<% tp.file.include("[[Template-Fragment-Callout-VideoEmbed]]") %>
+<% tp.file.include("[[Template-Fragment-VideoEmbed]]") %>
 
 ## Summary
 
-
+> add summary
 
 ## Transcript
 
-
+> add transcript
 
 ## Resources
 

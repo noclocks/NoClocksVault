@@ -1,2 +1,2 @@
-> [!VIDEOSOURCE] S
-> This note is about ...
+> [!VIDEOSOURCE] **Sources:**
+> - **
