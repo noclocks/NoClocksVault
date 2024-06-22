@@ -19,9 +19,17 @@ req-id: jsonplaceholder-get-todos-1
 ```req
 url: https://gmhcommunities.entrata.com/api/v1/status
 method: post
-body: {"data":{"auth":{"type":"basic"},"requestId":[15],"method":{"name":["getStatus"],"version":["r1"],"params":{}}},"type":["json"],"content_type":["application/json"],"params":{"auto_unbox":[true],"digits":[22],"null":["null"]}}
+body: {"auth": { "type" : "basic" }, "requestId" : 15, "method": { "name": "getStatus", "version":"r1" }}
 headers: {"Content-Type":["application/json; charset=UTF-8"],"Accept":["*/*"],"Accept-Language":["en-US,en;q=0.9"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Origin":["https://gmhcommunities.entrata.com"],"Pragma":["no-cache"],"Referer":["https://gmhcommunities.entrata.com/"],"Authorization":["Basic Z21oX2NvbW11bml0aWVzX3JlcG9ydGluZ18yNDE2QGdtaGNvbW11bml0aWVzOk52eigyWWZARzc="]}
-req-id: entrata-status
+req-id: entrata-status-1
+```
+
+```req
+url: https://gmhcommunities.entrata.com/api/v1/properties
+method: post
+body: {"auth": { "type" : "basic" }, "requestId" : 15, "method": { "name": "getProperties", "version":"r1" }}
+headers: {"Content-Type":["application/json; charset=UTF-8"],"Accept":["*/*"],"Accept-Language":["en-US,en;q=0.9"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Origin":["https://gmhcommunities.entrata.com"],"Pragma":["no-cache"],"Referer":["https://gmhcommunities.entrata.com/"],"Authorization":["Basic Z21oX2NvbW11bml0aWVzX3JlcG9ydGluZ18yNDE2QGdtaGNvbW11bml0aWVzOk52eigyWWZARzc="]}
+req-id: entrata-status-1
 ```
 
 <div>
