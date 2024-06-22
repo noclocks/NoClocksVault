@@ -49,5 +49,6 @@
   "obsidian-pandoc",
   "ai-templater",
   "obsidian-linter",
-  "fileorganizer2000"
+  "fileorganizer2000",
+  "api-request"
 ]
