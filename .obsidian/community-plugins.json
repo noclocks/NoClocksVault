@@ -22,7 +22,6 @@
   "obsidian-file-info-plugin",
   "automatic-table-of-contents",
   "nldates-obsidian",
-  "callout-manager",
   "obsidian-local-rest-api",
   "convert-url-to-iframe",
   "settings-search",
@@ -37,5 +36,11 @@
   "obsidian-list-callouts",
   "callout-integrator",
   "file-tree-generator",
-  "callout-suggestions"
+  "callout-suggestions",
+  "callout-manager",
+  "cmdr",
+  "header-adjuster",
+  "plugins-annotations",
+  "explain-selection-with-ai",
+  "medium-importer"
 ]
