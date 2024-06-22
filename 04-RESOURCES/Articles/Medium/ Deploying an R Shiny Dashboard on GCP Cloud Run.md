@@ -1,6 +1,36 @@
+---
+creation_date: 2024-06-22
+modification_date: 2024-06-22
+author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+tags:
+  - Type/Article/Medium
+  - Topic/Dev/R
+  - Status/Complete
+aliases:
+  - Deploying and R Shiny Dashboard on GCP Cloud Run
+publish: true
+permalink:
+description:
+image:
+cssclasses:
+---
+
 # Deploying an R Shiny Dashboard on GCP Cloud Run
 
-![img_1.jpg](https://miro.medium.com/1*Ph1_gWLNM6DePD4VdcMTrA.jpeg)
+> [!SOURCE] Sources:
+> - *[Deploying an R Shiny Dashboard on GCP Cloud Run | by Poorna Chathuranjana | Medium](https://medium.com/@hdpoorna/deploying-an-r-shiny-dashboard-on-gcp-cloud-run-c1c32a076783)*
+
+```table-of-contents
+title: ## Contents 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 1 # Include headings from the specified level
+maxLevel: 4 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+
+## Introduction
 
 If you are into statistical data analysis and forecasting, you are probably already familiar with [R programming language](https://www.r-project.org/). Then, you must know that [R shiny dashboards](https://rstudio.github.io/shinydashboard/) can be used to visualize data easily, without worrying much about the user interface (UI). You can use [Google Cloud Platform (GCP)](https://cloud.google.com/) to host R shiny dashboard apps, since [GCP Cloud Run](https://cloud.google.com/run/docs/overview/what-is-cloud-run) started [supporting WebSockets](https://cloud.google.com/run/docs/release-notes#June_22_2021). We will be creating a container image with the app using [docker](https://www.docker.com/).
 
@@ -331,3 +361,23 @@ Click "**Create**". After a little while, the service "**shiny-dashboard-test**"
 - [https://www.youtube.com/watch?v=uu97P0IWsO0](https://www.youtube.com/watch?v=uu97P0IWsO0)
 
 - [https://towardsdatascience.com/dockerizing-and-deploying-a-shiny-dashboard-on-google-cloud-a990ceb3c33a](https://towardsdatascience.com/dockerizing-and-deploying-a-shiny-dashboard-on-google-cloud-a990ceb3c33a)
+
+***
+
+## Appendix
+
+*Note created on [[2024-06-22]] and last modified on [[2024-06-22]].*
+
+### See Also
+
+- 
+
+### Backlinks
+
+```dataview
+LIST FROM [[ Deploying an R Shiny Dashboard on GCP Cloud Run]] AND -"CHANGELOG" AND -"04-RESOURCES/Articles/Medium/ Deploying an R Shiny Dashboard on GCP Cloud Run"
+```
+
+***
+
+(c) [No Clocks, LLC](https://github.com/noclocks) | 2024

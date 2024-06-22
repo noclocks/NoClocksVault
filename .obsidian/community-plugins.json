@@ -42,5 +42,6 @@
   "header-adjuster",
   "plugins-annotations",
   "explain-selection-with-ai",
-  "medium-importer"
+  "medium-importer",
+  "janitor"
 ]
