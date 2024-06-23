@@ -1,4 +1,5 @@
-- 2024-06-23 at 18h39 · [[R - Shiny DT Table Inline Buttons]]
+- 2024-06-23 at 18h49 · [[R - Shiny DT Table Module]]
+- 2024-06-23 at 18h43 · [[R - Shiny DT Table Inline Buttons]]
 - 2024-06-23 at 18h38 · [[R - Shiny Highcharter Helpers]]
 - 2024-06-23 at 18h32 · [[R - Detach all Attached Packages]]
 - 2024-06-23 at 18h32 · [[R - Coalesce Join]]
@@ -47,4 +48,3 @@
 - 2024-06-23 at 17h59 · [[R - Shiny Persistent Database Connection]]
 - 2024-06-23 at 17h59 · [[R - Shiny CRUD Table Modules]]
 - 2024-06-23 at 17h59 · [[R - Send Email via Resend]]
-- 2024-06-23 at 17h58 · [[R - Shiny App as Package]]
