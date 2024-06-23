@@ -1,3 +1,5 @@
+- 2024-06-23 at 17h19 · [[List - R Database Packages]]
+- 2024-06-23 at 17h18 · [[Tool - R]]
 - 2024-06-22 at 20h28 · [[Brand CSS Properties]]
 - 2024-06-22 at 20h26 · [[_README]]
 - 2024-06-22 at 20h26 · [[Business Technology Audit]]
@@ -46,5 +48,3 @@
 - 2024-06-06 at 08h30 · [[Python - GitHub API]]
 - 2024-06-06 at 08h24 · [[2024-06-06]]
 - 2024-06-04 at 16h12 · [[SQL - PostgreSQL - List Column Details from a Table]]
-- 2024-06-04 at 16h12 · [[Untitled]]
-- 2024-06-04 at 16h11 · [[SQL - PostgreSQL - Handle New User via Function and Trigger]]

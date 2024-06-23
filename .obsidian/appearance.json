@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#4ce3e6",
   "enabledCssSnippets": [
     "supercharged-links-gen",
     "embed",
@@ -8,6 +8,6 @@
     "tool",
     "hide-embed-header"
   ],
-  "cssTheme": "Dark Moss",
+  "cssTheme": "Things",
   "interfaceFontFamily": "Inter"
 }
