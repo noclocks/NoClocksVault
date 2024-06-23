@@ -35,16 +35,17 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Packages
 
-- [[Tool - R openxlsx|openxlsx]]
-- [[Tool - R readxl|readxl]]
-- [[Tool - R writexl|writexl]]
-- [[Tool - R tidyxl|tidyxl]]
-- [[Tool - R cellranger|cellranger]]
+- [[Tool - R openxlsx|openxlsx]]: Read and manage Excel workbook data
+- [[Tool - R readxl|readxl]]: Read and manage Excel workbook data
+- [[Tool - R writexl|writexl]]: Write to excel
+- [[Tool - R tidyxl|tidyxl]]: Read untidy excel files
+- [[Tool - R cellranger|cellranger]]:
+- [[Tool - R unpivotr|unpivotr]]:
 - [[Tool - R XLConnect|XLConnect]]
 - [[Tool - R readxlsb|readxlsb]]
 - [[Tool - R flexlsx|flexlsx]]
 - [[Tool - R joinXL|joinXL]]
-- [[Tool - R knitxl]]: Gene
+- [[Tool - R knitxl]]: Knits (generates) excel spreadsheets from an [[R Markdown]] file
 - [[Tool - R tablexlsx|tablexlsx]]
 - [[Tool - R rio|rio]]
 - [[Tool - R janitor|janitor]]
@@ -55,6 +56,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - [[Tool - R ExcelFunctionsR|ExcelFunctionsR]]
 - [[Tool - R xlcharts|xlcharts]]
 
+and other general purpose data analysis and processing libraries such as [[Tool - R Tidyverse|Tidyvers]] ([[Tool - R dplyr|dplyr]], [[Tool - R tidyr|tidyr]], [[Tool - R purrr|purrr]], etc.)
 
 ## Code Examples
 
