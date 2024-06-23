@@ -69,9 +69,13 @@ Import-Module dbatools
 Install-DbsMultiTool
 ```
 
-2. Install via the [[Tool - Ansible|Ansible]]
+2. Install via the [[Tool - Ansible|Ansible]] collection [lowlydba.sqlserver](https://docs.ansible.com/ansible/latest/collections/lowlydba/sqlserver/index.html)
 
-<details><summary>View SQL Code</summary>
+3. Manually add script as a stored procedure to SQL Server Database via `T-SQL`
+
+### Source Code
+
+<details><summary>View SQL Code:</summary>
 <p>
 
 ```sql

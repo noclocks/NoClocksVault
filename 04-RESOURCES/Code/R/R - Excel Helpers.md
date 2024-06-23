@@ -60,8 +60,31 @@ and other general purpose data analysis and processing libraries such as [[Tool 
 
 ## Code Examples
 
-```R
+### General Purpose Excel Reader
 
+- `read_xl`:
+
+```R
+read_xl <- function(
+  xl_file,
+  xl_sheet,
+  num_rows,
+  ...
+) {
+
+  tryCatch({
+    readxl::read_excel(
+      xl_file,
+      sheet = xl_sheet,
+      n_max = if (num_rows > 0) { num_rows } else { Inf },
+      col_names = FALSE,
+      col_types = 'text',
+      .name_repair = 'minimal'
+  }, error = function(e) {
+    rlang::abort("Error reading excel file: {xl_file}: {e}")
+  })
+  
+}
 ```
 
 ## Details
