@@ -50,6 +50,6 @@ Common types of tools, include, but are not limited to:
 - **[[Search Engine Optimization (SEO)]]**
 - [[Data Analytics]] and [[Business Intelligence (BI)]]
 - [[Advertising]] Management
-- [[03-AREAS/Marketing/Social Media/_README|Social Media]] Management
+- [[03-AREAS/Social Media/_README|Social Media]] Management
 - [[Chatbot]] Automation
 - 

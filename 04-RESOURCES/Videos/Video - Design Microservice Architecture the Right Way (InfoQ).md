@@ -163,7 +163,7 @@ Here are the key points discussed:
 
 ## Appendix
 
-*Note created on [[2024-06-22]] and last modified on [[2024-06-22]].*
+*Note created on [[03-AREAS/Journal/2024-06-22]] and last modified on [[03-AREAS/Journal/2024-06-22]].*
 
 ### See Also
 
