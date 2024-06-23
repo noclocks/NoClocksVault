@@ -81,9 +81,27 @@ insert_logo <- function(
 
 ### Repeat Break Points (`<br>`)
 
-### Icon Text
+### Icon Text (`icon_text`)
 
-### Fluid c
+### Fluid Column (`flucol`)
+
+### Bundle Assets (`budle_assets`)
+
+### Use Favicon (`use_favicon`)
+
+### Build Favicon (`build_favicon`)
+
+### Use Meta Tags (`use_metatags`)
+
+### Add External Resources (`add_external_resources`)
+
+### Contact Dropdown Menu and Menu Items
+
+### Refresh Link
+
+### Help Link
+
+### Logout Link
 
 
 
