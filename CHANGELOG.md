@@ -1,3 +1,4 @@
+- 2024-06-22 at 20h28 · [[Brand CSS Properties]]
 - 2024-06-22 at 20h26 · [[_README]]
 - 2024-06-22 at 20h26 · [[Business Technology Audit]]
 - 2024-06-22 at 20h25 · [[Video - Frontend Platform Engineering (InfoQ)]]
@@ -47,4 +48,3 @@
 - 2024-06-04 at 16h12 · [[SQL - PostgreSQL - List Column Details from a Table]]
 - 2024-06-04 at 16h12 · [[Untitled]]
 - 2024-06-04 at 16h11 · [[SQL - PostgreSQL - Handle New User via Function and Trigger]]
-- 2024-06-04 at 16h10 · [[SQL - PostgreSQL - Auto-Update Time Stamps]]
