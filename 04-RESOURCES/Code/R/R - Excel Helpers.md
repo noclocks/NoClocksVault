@@ -33,7 +33,30 @@ debugInConsole: false # Print debug info in Obsidian console
 > - **
 > - *[Excel Tool to R-Shiny App (kotamine.github.io)](https://kotamine.github.io/excel_shiny/tips-from-excel-tool-to-shiny.html)*
 
-## Code
+## Packages
+
+- [[Tool - R openxlsx|openxlsx]]
+- [[Tool - R readxl|readxl]]
+- [[Tool - R writexl|writexl]]
+- [[Tool - R tidyxl|tidyxl]]
+- [[Tool - R cellranger|cellranger]]
+- [[Tool - R XLConnect|XLConnect]]
+- [[Tool - R readxlsb|readxlsb]]
+- [[Tool - R flexlsx|flexlsx]]
+- [[Tool - R joinXL|joinXL]]
+- [[Tool - R knitxl]]: Gene
+- [[Tool - R tablexlsx|tablexlsx]]
+- [[Tool - R rio|rio]]
+- [[Tool - R janitor|janitor]]
+- [[Tool - R excelR|excelR]]
+- [[Tool - R excel.link|excel.link]]
+- [[Tool - R exceldata|exceldata]]
+- [[Tool - R xlsx|xlsx]]
+- [[Tool - R ExcelFunctionsR|ExcelFunctionsR]]
+- [[Tool - R xlcharts|xlcharts]]
+
+
+## Code Examples
 
 ```R
 
