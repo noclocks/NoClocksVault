@@ -1,3 +1,4 @@
+- 2024-06-25 at 15h11 · [[2024-06-25]]
 - 2024-06-23 at 18h56 · [[R - Shiny DT Table Download Buttons]]
 - 2024-06-23 at 18h56 · [[R - Shiny DT Table Module]]
 - 2024-06-23 at 18h43 · [[R - Shiny DT Table Inline Buttons]]
@@ -47,4 +48,3 @@
 - 2024-06-23 at 17h59 · [[R - Shiny Pivot Table]]
 - 2024-06-23 at 17h59 · [[R - Shiny Persistent Database Connection]]
 - 2024-06-23 at 17h59 · [[R - Shiny CRUD Table Modules]]
-- 2024-06-23 at 17h59 · [[R - Send Email via Resend]]
