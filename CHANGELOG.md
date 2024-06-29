@@ -1,3 +1,5 @@
+- 2024-06-29 at 15h16 · [[PowerShell - Managing Microsoft Services]]
+- 2024-06-29 at 15h10 · [[2024-06-29]]
 - 2024-06-25 at 15h11 · [[2024-06-25]]
 - 2024-06-23 at 18h56 · [[R - Shiny DT Table Download Buttons]]
 - 2024-06-23 at 18h56 · [[R - Shiny DT Table Module]]
@@ -46,5 +48,3 @@
 - 2024-06-23 at 18h00 · [[R - Shiny Theming]]
 - 2024-06-23 at 17h59 · [[R - Shiny Contacts Header Dropdown]]
 - 2024-06-23 at 17h59 · [[R - Shiny Pivot Table]]
-- 2024-06-23 at 17h59 · [[R - Shiny Persistent Database Connection]]
-- 2024-06-23 at 17h59 · [[R - Shiny CRUD Table Modules]]
