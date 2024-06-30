@@ -1,4 +1,5 @@
-- 2024-06-30 at 12h55 · [[Cheatsheet - Authentication]]
+- 2024-06-30 at 13h05 · [[Bash - Print Values of `$PATH`]]
+- 2024-06-30 at 12h59 · [[Cheatsheet - Authentication]]
 - 2024-06-30 at 12h52 · [[TODO]]
 - 2024-06-30 at 12h35 · [[2024-06-25]]
 - 2024-06-29 at 15h16 · [[PowerShell - Managing Microsoft Services]]
@@ -47,4 +48,3 @@
 - 2024-06-23 at 18h00 · [[R - Manage Package and System Dependencies]]
 - 2024-06-23 at 18h00 · [[R - Shiny Custom Healthcheck]]
 - 2024-06-23 at 18h00 · [[R - Shiny Custom htmlwidget Bindings]]
-- 2024-06-23 at 18h00 · [[R - Shiny Theming]]

@@ -55,12 +55,12 @@ Usernames are easy-to-remember identifiers chosen by the user and used for ident
 
 Users should be permitted to use their email address as a username, provided the email is verified during signup. Additionally, they should have the option to choose a username other than an email address. For information on validating email addresses, please visit the [input validation cheatsheet email discussion](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html#email-address-validation).
 
-### Authentication Solution and Sensitive Accounts[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-solution-and-sensitive-accounts "Permanent link")
+### Authentication Solution and Sensitive Accounts
 
 -   Do **NOT** allow login with sensitive accounts (i.e. accounts that can be used internally within the solution such as to a back-end / middle-ware / DB) to any front-end user interface
 -   Do **NOT** use the same authentication solution (e.g. IDP / AD) used internally for unsecured access (e.g. public access / DMZ)
 
-### Implement Proper Password Strength Controls[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls "Permanent link")
+### Implement Proper Password Strength Controls
 
 A key concern when using passwords for authentication is password strength. A "strong" password policy makes it difficult or even improbable for one to guess the password through either manual or automated means. The following characteristics define a strong password:
 
@@ -74,20 +74,20 @@ A key concern when using passwords for authentication is password strength. A "s
     -   [zxcvbn-ts library](https://github.com/zxcvbn-ts/zxcvbn) can be used for this purpose.
     -   [Pwned Passwords](https://haveibeenpwned.com/Passwords) is a service where passwords can be checked against previously breached passwords. You can host it yourself or use the [API](https://haveibeenpwned.com/API/v3#PwnedPasswords).
 
-#### For more detailed information check[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#for-more-detailed-information-check "Permanent link")
+#### For more detailed information check
 
 -   [ASVS v4.0 Password Security Requirements](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x11-V2-Authentication.md#v21-password-security-requirements)
 -   [Passwords Evolved: Authentication Guidance for the Modern Era](https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/)
 
-### Implement Secure Password Recovery Mechanism[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-secure-password-recovery-mechanism "Permanent link")
+### Implement Secure Password Recovery Mechanism
 
 It is common for an application to have a mechanism that provides a means for a user to gain access to their account in the event they forget their password. Please see [Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html) for details on this feature.
 
-### Store Passwords in a Secure Fashion[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#store-passwords-in-a-secure-fashion "Permanent link")
+### Store Passwords in a Secure Fashion
 
 It is critical for an application to store a password using the right cryptographic technique. Please see [Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) for details on this feature.
 
-### Compare Password Hashes Using Safe Functions[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#compare-password-hashes-using-safe-functions "Permanent link")
+### Compare Password Hashes Using Safe Functions
 
 Where possible, the user-supplied password should be compared to the stored password hash using a secure password comparison function provided by the language or framework, such as the [password\_verify()](https://www.php.net/manual/en/function.password-verify.php) function in PHP. Where this is not possible, ensure that the comparison function:
 
@@ -95,30 +95,36 @@ Where possible, the user-supplied password should be compared to the stored pass
 -   Explicitly sets the type of both variables, to protect against type confusion attacks such as [Magic Hashes](https://www.whitehatsec.com/blog/magic-hashes/) in PHP.
 -   Returns in constant time, to protect against timing attacks.
 
-### Change Password Feature[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#change-password-feature "Permanent link")
+### Change Password Feature
 
 When developing a change password feature, ensure to have:
 
 -   User is authenticated with active session.
 -   Current password verification. This is to ensure that it's the legitimate user who is changing the password. The abuse case is this: a legitimate user is using a public computer to log in. This user forgets to log out. Then another person is using this public computer. If we don't verify the current password, this other person may be able to change the password.
 
-### Transmit Passwords Only Over TLS or Other Strong Transport[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#transmit-passwords-only-over-tls-or-other-strong-transport "Permanent link")
+### Transmit Passwords Only Over TLS or Other Strong Transport
 
 See: [Transport Layer Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html)
 
 The login page and all subsequent authenticated pages must be exclusively accessed over TLS or other strong transport. Failure to utilize TLS or other strong transport for the login page allows an attacker to modify the login form action, causing the user's credentials to be posted to an arbitrary location. Failure to utilize TLS or other strong transport for authenticated pages after login enables an attacker to view the unencrypted session ID and compromise the user's authenticated session.
 
-### Require Re-authentication for Sensitive Features[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#require-re-authentication-for-sensitive-features "Permanent link")
+### Require Re-authentication for Sensitive Features
 
 In order to mitigate CSRF and session hijacking, it's important to require the current credentials for an account before updating sensitive account information such as the user's password or email address -- or before sensitive transactions, such as shipping a purchase to a new address. Without this countermeasure, an attacker may be able to execute sensitive transactions through a CSRF or XSS attack without needing to know the user's current credentials. Additionally, an attacker may get temporary physical access to a user's browser or steal their session ID to take over the user's session.
 
-### Consider Strong Transaction Authentication[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#consider-strong-transaction-authentication "Permanent link")
+### Consider Strong Transaction Authentication
 
 Some applications should use a second factor to check whether a user may perform sensitive operations. For more information, see the [Transaction Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html).
 
-#### TLS Client Authentication[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#tls-client-authentication "Permanent link")
+#### TLS Client Authentication
 
-TLS Client Authentication, also known as two-way TLS authentication, consists of both, browser and server, sending their respective TLS certificates during the TLS handshake process. Just as you can validate the authenticity of a server by using the certificate and asking a verifiably-valid Certificate Authority (CA) if the certificate is valid, the server can authenticate the user by receiving a certificate from the client and validating against a third-party CA or its own CA. To do this, the server must provide the user with a certificate generated specifically for him, assigning values to the subject so that these can be used to determine what user the certificate should validate. The user installs the certificate on a browser and now uses it for the website.
+> [!SEEALSO] See Also:
+> - [[Transport Layer Security (TLS)]]
+> - [[Certificate Authority (CA)]]
+> - 
+
+
+[[Transport Layer Security (TLS)]] Client Authentication, also known as two-way TLS authentication, consists of both, browser and server, sending their respective TLS certificates during the TLS handshake process. Just as you can validate the authenticity of a server by using the certificate and asking a verifiably-valid [[Certificate Authority (CA)]] if the certificate is valid, the server can authenticate the user by receiving a certificate from the client and validating against a third-party CA or its own CA. To do this, the server must provide the user with a certificate generated specifically for him, assigning values to the subject so that these can be used to determine what user the certificate should validate. The user installs the certificate on a browser and now uses it for the website.
 
 It is a good idea to do this when:
 
@@ -133,11 +139,11 @@ Additionally, if the client is behind an enterprise proxy that performs SSL/TLS 
 
 For more information, see: [Client-authenticated TLS handshake](https://en.wikipedia.org/wiki/Transport_Layer_Security#Client-authenticated_TLS_handshake)
 
-### Authentication and Error Messages[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-and-error-messages "Permanent link")
+### Authentication and Error Messages
 
 Incorrectly implemented error messages in the case of authentication functionality can be used for the purposes of user ID and password enumeration. An application should respond (both HTTP and HTML) in a generic manner.
 
-#### Authentication Responses[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses "Permanent link")
+#### Authentication Responses
 
 Using any of the authentication mechanisms (login, password reset, or password recovery), an application must respond with a generic error message regardless of whether:
 
@@ -156,7 +162,7 @@ Example using pseudo-code for a login feature:
 -   First implementation using the "quick exit" approach
 
 ```
-<span></span><code>IF USER_EXISTS(username) THEN
+IF USER_EXISTS(username) THEN
     password_hash=HASH(password)
     IS_VALID=LOOKUP_CREDENTIALS_IN_STORE(username, password_hash)
     IF NOT IS_VALID THEN
@@ -165,7 +171,6 @@ Example using pseudo-code for a login feature:
 ELSE
    RETURN Error("Invalid Username or Password!")
 ENDIF
-</code>
 ```
 
 It can be clearly seen that if the user doesn't exist, the application will directly throw an error. Otherwise, when the user exists and the password doesn't, it is apparent that there will be more processing before the application errors out. In return, the response time will be different for the same error, allowing the attacker to differentiate between a wrong username and a wrong password.
@@ -173,12 +178,11 @@ It can be clearly seen that if the user doesn't exist, the application will dire
 -   Second implementation without relying on the "quick exit" approach:
 
 ```
-<span></span><code>password_hash=HASH(password)
+password_hash=HASH(password)
 IS_VALID=LOOKUP_CREDENTIALS_IN_STORE(username, password_hash)
 IF NOT IS_VALID THEN
    RETURN Error("Invalid Username or Password!")
 ENDIF
-</code>
 ```
 
 This code will go through the same process no matter what the user or the password is, allowing the application to return in approximately the same response time.
@@ -187,9 +191,9 @@ The problem with returning a generic error message for the user is a User Experi
 
 Regarding the user enumeration itself, protection against [brute-force attacks](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#protect-against-automated-attacks) is also effective because it prevents an attacker from applying the enumeration at scale. Usage of [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) can be applied to a feature for which a _generic error message_ cannot be returned because the _user experience_ must be preserved.
 
-##### Incorrect and correct response examples[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#incorrect-and-correct-response-examples "Permanent link")
+##### Incorrect and correct response examples
 
-###### Login[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login "Permanent link")
+###### Login
 
 Incorrect response examples:
 
@@ -202,7 +206,7 @@ Correct response example:
 
 -   "Login failed; Invalid user ID or password."
 
-###### Password recovery[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#password-recovery "Permanent link")
+###### Password recovery
 
 Incorrect response examples:
 
@@ -213,7 +217,7 @@ Correct response example:
 
 -   "If that email address is in our database, we will send you an email to reset your password."
 
-###### Account creation[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-creation "Permanent link")
+###### Account creation
 
 Incorrect response examples:
 
@@ -224,13 +228,13 @@ Correct response example:
 
 -   "A link to activate your account has been emailed to the address provided."
 
-##### Error Codes and URLs[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#error-codes-and-urls "Permanent link")
+##### Error Codes and URLs
 
 The application may return a different [HTTP Error code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) depending on the authentication attempt response. It may respond with a 200 for a positive result and a 403 for a negative result. Even though a generic error page is shown to a user, the HTTP response code may differ which can leak information about whether the account is valid or not.
 
 Error disclosure can also be used as a discrepancy factor, consult the [error handling cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html) regarding the global handling of different errors in an application.
 
-### Protect Against Automated Attacks[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#protect-against-automated-attacks "Permanent link")
+### Protect Against Automated Attacks
 
 There are a number of different types of automated attacks that attackers can use to try and compromise user accounts. The most common types are listed below:
 
@@ -238,19 +242,19 @@ Different protection mechanisms can be implemented to protect against these atta
 
 The following sections will focus primarily on preventing brute-force attacks, although these controls can also be effective against other types of attacks. For further guidance on defending against credential stuffing and password spraying, see the [Credential Stuffing Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html).
 
-#### Multi-Factor Authentication[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#multi-factor-authentication "Permanent link")
+#### Multi-Factor Authentication
 
 Multi-factor authentication (MFA) is by far the best defense against the majority of password-related attacks, including brute-force attacks, with analysis by Microsoft suggesting that it would have stopped [99.9% of account compromises](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Your-Pa-word-doesn-t-matter/ba-p/731984). As such, it should be implemented wherever possible; however, depending on the audience of the application, it may not be practical or feasible to enforce the use of MFA.
 
 The [Multifactor Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) contains further guidance on implementing MFA.
 
-#### Login Throttling[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login-throttling "Permanent link")
+#### Login Throttling
 
 Login Throttling is a protocol used to prevent an attacker from making too many attempts at guessing a password through normal interactive means, it includes:
 
 -   Maximum number of attempts.
 
-##### Account Lockout[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-lockout "Permanent link")
+##### Account Lockout
 
 The most common protection against these attacks is to implement account lockout, which prevents any more login attempts for a period after a certain number of failed logins.
 
@@ -266,17 +270,17 @@ Rather than implementing a fixed lockout duration (e.g., ten minutes), some appl
 
 When designing an account lockout system, care must be taken to prevent it from being used to cause a denial of service by locking out other users' accounts. One way this could be performed is to allow the user of the forgotten password functionality to log in, even if the account is locked out.
 
-#### CAPTCHA[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#captcha "Permanent link")
+#### CAPTCHA
 
 The use of an effective CAPTCHA can help to prevent automated login attempts against accounts. However, many CAPTCHA implementations have weaknesses that allow them to be solved using automated techniques or can be outsourced to services that can solve them. As such, the use of CAPTCHA should be viewed as a defense-in-depth control to make brute-force attacks more time-consuming and expensive, rather than as a preventative.
 
 It may be more user-friendly to only require a CAPTCHA be solved after a small number of failed login attempts, rather than requiring it from the very first login.
 
-#### Security Questions and Memorable Words[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#security-questions-and-memorable-words "Permanent link")
+#### Security Questions and Memorable Words
 
 The addition of a security question or memorable word can also help protect against automated attacks, especially when the user is asked to enter a number of randomly chosen characters from the word. It should be noted that this does **not** constitute multi-factor authentication, as both factors are the same (something you know). Furthermore, security questions are often weak and have predictable answers, so they must be carefully chosen. The [Choosing and Using Security Questions cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html) contains further guidance on this.
 
-## Logging and Monitoring[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#logging-and-monitoring "Permanent link")
+## Logging and Monitoring
 
 Enable logging and monitoring of authentication functions to detect attacks/failures on a real-time basis
 
@@ -284,11 +288,11 @@ Enable logging and monitoring of authentication functions to detect attacks/fail
 -   Ensure that all password failures are logged and reviewed
 -   Ensure that all account lockouts are logged and reviewed
 
-## Use of authentication protocols that require no password[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#use-of-authentication-protocols-that-require-no-password "Permanent link")
+## Use of authentication protocols that require no password
 
 While authentication through a combination of username, password, and multi-factor authentication is considered generally secure, there are use cases where it isn't considered the best option or even safe. Examples of this are third-party applications that desire to connect to the web application, either from a mobile device, another website, desktop, or other situations. When this happens, it is NOT considered safe to allow the third-party application to store the user/password combo, since then it extends the attack surface into their hands, where it isn't in your control. For this and other use cases, there are several authentication protocols that can protect you from exposing your users' data to attackers.
 
-### OAuth[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#oauth "Permanent link")
+### OAuth
 
 Open Authorization (OAuth) is a protocol that allows an application to authenticate against a server as a user, without requiring passwords or any third-party server that acts as an identity provider. It uses a token generated by the server and provides how the authorization flows most occur, so that a client, such as a mobile application, can tell the server what user is using the service.
 
@@ -296,7 +300,7 @@ The recommendation is to use and implement OAuth 1.0a or OAuth 2.0 since the ver
 
 OAuth 2.0 relies on HTTPS for security and is currently used and implemented by APIs from companies such as Facebook, Google, Twitter, and Microsoft. OAuth 1.0a is more difficult to use because it requires the use of cryptographic libraries for digital signatures. However, since OAuth 1.0a does not rely on HTTPS for security, it can be more suited for higher-risk transactions.
 
-### OpenId[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#openid "Permanent link")
+### OpenId
 
 OpenId is an HTTP-based protocol that uses identity providers to validate that a user is who they say they are. It is a very simple protocol that allows a service-provider-initiated way for single sign-on (SSO). This allows the user to re-use a single identity given to a trusted OpenId identity provider and be the same user on multiple websites, without the need to provide any website with the password, except for the OpenId identity provider.
 
@@ -304,7 +308,7 @@ Due to its simplicity and that it provides protection of passwords, OpenId has b
 
 For non-enterprise environments, OpenId is considered a secure and often better choice, as long as the identity provider is of trust.
 
-### SAML[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#saml "Permanent link")
+### SAML
 
 Security Assertion Markup Language (SAML) is often considered to compete with OpenId. The most recommended version is 2.0 since it is very feature-complete and provides strong security. Like OpenId, SAML uses identity providers, but unlike OpenId, it is XML-based and provides more flexibility. SAML is based on browser redirects which send XML data. Furthermore, SAML isn't only initiated by a service provider; it can also be initiated from the identity provider. This allows the user to navigate through different portals while still being authenticated without having to do anything, making the process transparent.
 
@@ -314,7 +318,7 @@ In the past few years, applications like SAP ERP and SharePoint (SharePoint by u
 
 **See also: [SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)**
 
-### FIDO[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#fido "Permanent link")
+### FIDO
 
 The Fast Identity Online (FIDO) Alliance has created two protocols to facilitate online authentication: the Universal Authentication Framework (UAF) protocol and the Universal Second Factor (U2F) protocol. While UAF focuses on passwordless authentication, U2F allows the addition of a second factor to existing password-based authentication. Both protocols are based on a public key cryptography challenge-response model.
 
@@ -322,7 +326,7 @@ UAF takes advantage of existing security technologies present on devices for aut
 
 U2F augments password-based authentication using a hardware token (typically USB) that stores cryptographic authentication keys and uses them for signing. The user can use the same token as a second factor for multiple applications. U2F works with web applications. It provides **protection against phishing** by using the URL of the website to look up the stored authentication key.
 
-## Password Managers[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#password-managers "Permanent link")
+## Password Managers
 
 Password managers are programs, browser plugins, or web services that automate the management of a large quantity of different credentials. Most password managers have functionality to allow users to easily use them on websites, either: (a) by pasting the passwords into the login form -- or -- (b) by simulating the user typing them in.
 
@@ -335,13 +339,13 @@ Web applications should not make the job of password managers more difficult tha
 -   Allow users to paste into the username, password, and MFA fields.
 -   Allow users to navigate between the username and password field with a single press of the `Tab` key.
 
-## Changing A User's Registered Email Address[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#changing-a-users-registered-email-address "Permanent link")
+## Changing A User's Registered Email Address
 
 User email addresses often change. The following process is recommended to handle such situations in a system:
 
 _Note: The process is less stringent with [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html), as proof-of-identity is stronger than relying solely on a password._
 
-### Recommended Process If the User HAS [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) Enabled[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#recommended-process-if-the-user-has-multifactor-authentication-enabled "Permanent link")
+### Recommended Process If the User HAS 
 
 1.  Confirm the validity of the user's authentication cookie/token. If not valid, display a login screen.
 2.  Describe the process for changing the registered email address to the user.
@@ -358,7 +362,7 @@ _Note: The process is less stringent with [Multifactor Authentication](https://c
 8.  Handle responses from the links accordingly.
     
 
-### Recommended Process If the User DOES NOT HAVE Multifactor Authentication Enabled[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#recommended-process-if-the-user-does-not-have-multifactor-authentication-enabled "Permanent link")
+### Recommended Process If the User DOES NOT HAVE Multifactor Authentication Enabled
 
 1.  Confirm the validity of the user's authentication cookie/token. If not valid, display a login screen.
 2.  Describe the process for changing the registered email address to the user.
@@ -375,7 +379,7 @@ _Note: The process is less stringent with [Multifactor Authentication](https://c
 8.  Handle responses from the links accordingly.
     
 
-### Notes on the Above Processes[¶](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#notes-on-the-above-processes "Permanent link")
+### Notes on the Above Processes
 
 -   It's worth noting that Google adopts a different approach with accounts secured only by a password -- [where the current email address receives a notification-only email](https://support.google.com/accounts/answer/55393?hl=en). This method carries risks and requires user vigilance.
     
