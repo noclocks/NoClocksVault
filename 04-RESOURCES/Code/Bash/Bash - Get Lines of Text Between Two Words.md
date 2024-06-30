@@ -13,7 +13,7 @@ tags:
   - Topic/Dev/Windows
   - Status/WIP
 aliases:
-  - Bash Print Values of `$PATH` Code
+  - Bash Get Lines of Text Between Two Words Code
 publish: true
 permalink:
 description:
@@ -22,7 +22,7 @@ cssclasses:
   - code
 ---
 
-# Bash Print Values of `$PATH` Code
+# Bash Get Lines of Text Between Two Words Code
 
 ```table-of-contents
 title: ## Contents 
@@ -36,24 +36,30 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - *[Print value of \`$PATH\` in readable format | Today I Learned](https://til.bhupesh.me/shell/print-value-of-path-readable-format)*
+> - *[Print lines between 2 words | Today I Learned](https://til.bhupesh.me/shell/print-lines-between-two-words)*
 
-## Code Snippet
+You may arrive in a situation where you may want to "extract" out text between two words. For example to view the latest changelog (where `x.x.x` is the latest version) in a [CHANGELOG.md](https://github.com/Bhupesh-V/dotman/blob/master/CHANGELOG.md) file.
+
+## Code
+
+### Using `sed`
+
+> `sed -e '1d;$d'` removes the first & last line.
 
 ```bash
-echo "${PATH//:/$'\n'}"
+sed -n -e '/x.x.x/,/0.1.0/ p' CHANGELOG.md | sed -e '1d;$d'
 ```
 
-for [[Tool - Zsh|Zsh]]:
+### Using `awk`
 
 ```bash
-# for zsh omit the $ char
-echo "${PATH//:/'\n'}"
+awk '/x.x.x/,/0.1.0/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
 ```
 
-## Notes
-- Substitute all occurrences of `:` in `$PATH` with a newline (`\n)
-- The `$...` way of quoting a string allows usage of special characters such as tab safely
+> `awk 'NR>2 {print last} {last=$0}'` removes the first & last line.
+
+> [!NOTE]
+> `NR` means which Line number is being processed
 
 ## Details
 
@@ -81,7 +87,7 @@ echo "${PATH//:/'\n'}"
 ### Backlinks
 
 ```dataview
-LIST FROM [[Bash - Print Values of `$PATH`]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/Bash/Bash - Print Values of `$PATH`"
+LIST FROM [[Bash - Get Lines of Text Between Two Words]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words"
 ```
 
 ***
