@@ -1,3 +1,4 @@
+- 2024-07-01 at 14h39 · [[2024-07-01]]
 - 2024-06-30 at 13h08 · [[Bash - Get Lines of Text Between Two Words]]
 - 2024-06-30 at 13h06 · [[Bash - Print Values of `$PATH`]]
 - 2024-06-30 at 12h59 · [[Cheatsheet - Authentication]]
@@ -47,4 +48,3 @@
 - 2024-06-23 at 18h01 · [[R - Parallel purr with furrr]]
 - 2024-06-23 at 18h00 · [[R - Create Dockerfile]]
 - 2024-06-23 at 18h00 · [[R - Manage Package and System Dependencies]]
-- 2024-06-23 at 18h00 · [[R - Shiny Custom Healthcheck]]
