@@ -20,7 +20,6 @@
   "templater-obsidian",
   "obsidian-imgur-plugin",
   "obsidian-file-info-plugin",
-  "automatic-table-of-contents",
   "nldates-obsidian",
   "obsidian-local-rest-api",
   "convert-url-to-iframe",
@@ -50,5 +49,10 @@
   "ai-templater",
   "obsidian-linter",
   "fileorganizer2000",
-  "api-request"
+  "api-request",
+  "find-unlinked-files",
+  "multi-column-markdown",
+  "google-calendar",
+  "obsidian-full-calendar",
+  "automatic-table-of-contents"
 ]
