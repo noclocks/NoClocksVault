@@ -31,8 +31,15 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## Overview
 
-> [!NOTE] About
+> [!INFO] Purpose:
 > This note serves as an index for all notes under the `04-RESOURCES/Code/HTML` directory.
+
+> [!TIP] About:
+> [[Hyper Text Markup Language (HTML)]] is the backbone of the web, defining the structure and content of web pages.
+
+## HTML Code
+
+
 
 - [[HTML - Contact Links]]
 - [[HTML - Collapsible Content Blocks]]
