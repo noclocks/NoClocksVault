@@ -38,7 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 > - *[almond.css/src/general/extension.images.scss at master · alvaromontoro/almond.css (github.com)](https://github.com/alvaromontoro/almond.css/blob/master/src/general/extension.images.scss)*
 > - *[Almond.CSS Demo (alvaromontoro.github.io)](https://alvaromontoro.github.io/almond.css/demo/)*
 
-This [[Cascading Style Sheets (CSS)|CSS]] / [[Tool - SCSS|SCSS]] trick comes from a [[Cascading Style Sheets (CSS)|CSS]] library I found called [almond.css](https://github.com/alvaromontoro/almond.css).
+This [[Cascading Style Sheets (CSS)|CSS]] / [[Tool - SASS|SCSS]] trick comes from a [[Cascading Style Sheets (CSS)|CSS]] library I found called [almond.css](https://github.com/alvaromontoro/almond.css).
 
 ## Code Snippets
 
