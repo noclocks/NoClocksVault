@@ -54,5 +54,7 @@
   "multi-column-markdown",
   "google-calendar",
   "obsidian-full-calendar",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "click-up-sync",
+  "vscode-editor"
 ]
