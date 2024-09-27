@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/NA
   - Topic/NA
-  - Status/NA
+  - Status/WIP
 aliases:
   - Simple Python FastAPI Project Structure
 publish: true

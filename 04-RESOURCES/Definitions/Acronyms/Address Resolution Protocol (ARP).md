@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/NA
   - Topic/NA
-  - Status/NA
+  - Status/WIP
 aliases:
   - Address Resolution Protocol (ARP)
 publish: true

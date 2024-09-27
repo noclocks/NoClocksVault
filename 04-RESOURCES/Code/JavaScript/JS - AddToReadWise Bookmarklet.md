@@ -8,7 +8,7 @@ tags:
   - Type/Bookmarklet
   - Topic/Dev
   - Topic/Dev/JavaScript
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Status/WIP
 aliases:
   - JavaScript AddToReadWise Bookmarklet Code

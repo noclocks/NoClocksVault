@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/NA
   - Topic/NA
-  - Status/NA
+  - Status/WIP
 aliases:
   - Advanced Encryption Standard (AES)
 publish: true

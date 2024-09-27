@@ -60,7 +60,7 @@ You probably also want the following:
     > <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
     > ```
     
-    Replace #FFFFFF with your desired tile color.
+    Replace `#FFFFFF` with your desired tile color.
     
 3. IE 11 Tile for Windows 8.1 Start Screen
     

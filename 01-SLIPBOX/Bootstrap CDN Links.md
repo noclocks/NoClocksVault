@@ -6,7 +6,7 @@ tags:
   - Type/Note
   - Type/Code
   - Topic/Dev
-  - Topic/Dev/WebDev
+  - Topic/Dev/Web
   - Status/Complete
 aliases:
   - Bootstrap CDN

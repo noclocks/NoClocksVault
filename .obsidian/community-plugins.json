@@ -56,5 +56,8 @@
   "obsidian-full-calendar",
   "automatic-table-of-contents",
   "click-up-sync",
-  "vscode-editor"
+  "vscode-editor",
+  "obsidian-link-converter",
+  "image-converter",
+  "nexus-ai-chat-importer"
 ]

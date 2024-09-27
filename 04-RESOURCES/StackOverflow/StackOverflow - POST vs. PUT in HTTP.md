@@ -6,7 +6,7 @@ tags:
   - Type/Source
   - Type/Source/StackOverflow
   - Topic/Dev
-  - Topic/Dev/APIs
+  - Topic/Dev/API
   - Status/Complete
 aliases:
   - POST vs PUT in HTTP

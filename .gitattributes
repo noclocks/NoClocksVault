@@ -1,3 +1,12 @@
+
+# -----------------------------------------------
+# .gitattributes
+# -----------------------------------------------
+
+# Set the default behavior, in case people don't have core.autocrlf set
+# auto detects text files and performs LF normalization
+* text=auto eol=lf
+
 # linguist - ignore HTML, JS, and Rich Text Format
 *.html  linguist-vendored
 *.js    linguist-vendored

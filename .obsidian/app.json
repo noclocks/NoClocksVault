@@ -1,5 +1,8 @@
 {
   "promptDelete": false,
   "livePreview": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true
 }

@@ -4,7 +4,11 @@ modification_date: 2024-05-10
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Acronym
-  - Topic/NA
+  - Topic/Dev
+  - Topic/Security
+  - Topic/Dev/API
+  - Topic/Dev/JavaScript
+  - Topic/Dev/Auth
   - Status/WIP
 aliases:
   - JSON Web Token (JWT)
@@ -20,7 +24,8 @@ cssclasses:
 # JSON Web Token (JWT)
 
 > [!SOURCE] Sources:
-> - **
+> - *[JSON Web Tokens - jwt.io](https://jwt.io/)*
+> - *[JSON Web Token (JWT) Debugging Tool (Next-Gen)](https://jwt.is/)*
 
 ```table-of-contents
 title: ## Contents 

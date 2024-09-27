@@ -7,7 +7,7 @@ tags:
   - Type/Code
   - Topic/Meta
   - Topic/Dev
-  - Topic/Visual Basic
+  - Topic/Dev/VB
   - Status/Ongoing
 aliases:
   - Visual Basic Code

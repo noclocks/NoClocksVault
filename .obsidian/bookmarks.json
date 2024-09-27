@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1727400106109,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1727400090546,
+          "path": "00-INBOX/About Authentication.md",
+          "title": "About Authentication"
+        }
+      ],
+      "title": "Auth"
+    },
+    {
+      "type": "group",
+      "ctime": 1727400118888,
+      "items": [],
+      "title": "No Clocks"
+    },
+    {
+      "type": "group",
+      "ctime": 1727400124546,
+      "items": [],
+      "title": "R"
+    },
+    {
+      "type": "group",
+      "ctime": 1727400129463,
+      "items": [],
+      "title": "React"
+    },
+    {
+      "type": "group",
+      "ctime": 1727400136101,
+      "items": [],
+      "title": "Python"
+    },
+    {
+      "type": "group",
+      "ctime": 1727400139288,
+      "items": [],
+      "title": "Data"
+    },
+    {
+      "type": "group",
+      "ctime": 1727400143711,
+      "items": [],
+      "title": "CSS"
+    }
+  ]
+}

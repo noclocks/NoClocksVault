@@ -1,4 +1,4 @@
-<% tp.file.include("[[Template-Fragment-Frontmatter]]") %>
+<% tp.file.include("[[05-SYSTEM/Templates/Fragment Templates/Frontmatter/Template-Fragment-Frontmatter]]") %>
 
 <% tp.file.include("[[Template-Fragment-Title]]") %>
 

@@ -4,7 +4,7 @@ modification_date: 2024-04-13
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Note
-  - Topic/Dev/WSL
+  - Topic/Dev/Windows/WSL
   - Topic/Dev/Network
   - Topic/Dev
   - Status/WIP
