@@ -62,7 +62,7 @@ SORT file.name asc
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/_README" AND -"05-SYSTEM/" AND -"99-ARCHIVES/"
 ```
 
 ***

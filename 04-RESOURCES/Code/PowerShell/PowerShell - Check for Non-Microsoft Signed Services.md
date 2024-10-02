@@ -33,7 +33,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Overview
 
 > [!SOURCE] Sources:
-> - *[Powershellisfun/Check for non-Microsoft Signed Windows Services/Get-Non\_Microsoft\_Signed\_Services.ps1 at main · HarmVeenstra/Powershellisfun](https://github.com/HarmVeenstra/Powershellisfun/blob/main/Check%20for%20non-Microsoft%20Signed%20Windows%20Services/Get-Non_Microsoft_Signed_Services.ps1)*
+> - *[Get-Non_Microsoft_Signed_Services.ps1 · HarmVeenstra/Powershellisfun](https://github.com/HarmVeenstra/Powershellisfun/blob/main/Check%20for%20non-Microsoft%20Signed%20Windows%20Services/Get-Non_Microsoft_Signed_Services.ps1)*
 
 ## Code Snippet
 
